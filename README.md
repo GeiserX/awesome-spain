@@ -8,8 +8,7 @@
 
 ## Contenido
 
-- [Participación Ciudadana](#participación-ciudadana)
-- [Televisión y Streaming](#televisión-y-streaming)
+- [Televisión, Radio y Podcasts](#televisión-radio-y-podcasts)
 - [Facturación Electrónica](#facturación-electrónica)
 - [Pasarelas de Pago](#pasarelas-de-pago)
 - [ERP y Contabilidad](#erp-y-contabilidad)
@@ -20,22 +19,25 @@
 - [Meteorología](#meteorología)
 - [Transporte y Movilidad](#transporte-y-movilidad)
 - [Cartografía y Catastro](#cartografía-y-catastro)
-- [Inmobiliaria](#inmobiliaria)
+- [Inmobiliaria y Mercados](#inmobiliaria-y-mercados)
 - [Validación de Documentos](#validación-de-documentos)
+- [Lengua Española y Diccionarios](#lengua-española-y-diccionarios)
 - [Procesamiento de Lenguaje Natural](#procesamiento-de-lenguaje-natural)
 - [Combustible y Estaciones de Servicio](#combustible-y-estaciones-de-servicio)
 - [Formatos Bancarios](#formatos-bancarios)
+- [Supermercados](#supermercados)
+- [Alarmas y Seguridad del Hogar](#alarmas-y-seguridad-del-hogar)
+- [Logística y Mensajería](#logística-y-mensajería)
+- [Deportes](#deportes)
+- [DGT y Vehículos](#dgt-y-vehículos)
+- [Agricultura](#agricultura)
+- [Smart Cities e IoT](#smart-cities-e-iot)
 - [Salud y Medicamentos](#salud-y-medicamentos)
 - [Extranjería y Visados](#extranjería-y-visados)
+- [Participación Ciudadana](#participación-ciudadana)
 - [Servidores MCP](#servidores-mcp)
 
-## Participación Ciudadana
-
-- [Decidim](https://github.com/decidim/decidim) - Framework de democracia participativa creado por el Ajuntament de Barcelona, utilizado por instituciones de todo el mundo.
-- [CONSUL Democracy](https://github.com/consuldemocracy/consuldemocracy) - Software de gobierno abierto y participación ciudadana creado por el Ayuntamiento de Madrid, desplegado en más de 35 países.
-- [Decidim Barcelona](https://github.com/AjuntamentdeBarcelona/decidim-barcelona) - Instancia Decidim del Ayuntamiento de Barcelona.
-
-## Televisión y Streaming
+## Televisión, Radio y Podcasts
 
 - [TDTChannels](https://github.com/LaQuay/TDTChannels) - Listado actualizado de canales de televisión TDT en abierto, 100% legal y gratuito.
 - [TDTChannels-APP](https://github.com/LaQuay/TDTChannels-APP) - Aplicación Android open source para reproducir canales de TDTChannels.
@@ -53,6 +55,14 @@
 - [Tvheadend_Movistar-Spain](https://github.com/manuelrn/Tvheadend_Movistar-Spain) - Configuración de Tvheadend para Movistar+.
 - [TDTSpain2VLC](https://github.com/David-Lor/TDTSpain2VLC) - Convierte listas de canales TDT a playlist XSPF para VLC.
 - [plugin.video.rtve](https://github.com/mcr222/plugin.video.rtve) - Plugin de vídeo RTVE para Kodi.
+
+### Radio y Podcasts
+
+- [node-ivoox](https://github.com/EdgarVaguencia/node-ivoox) - API no oficial de iVoox (plataforma de podcasts española) para Node.js.
+- [dirtyrss](https://github.com/ciberado/dirtyrss) - Genera feeds RSS para programas de iVoox o Twitch.
+- [Ivoox-Downloader](https://github.com/daaguirr/Ivoox-Downloader) - Script para descargar listas o audiolibros de iVoox.
+- [ivooxhunter](https://github.com/WhizzoCode/ivooxhunter) - Descargador de iVoox para terminal.
+- [Castena](https://github.com/AlbertoUAH/Castena) - Chatbot LLM para interactuar con podcasts en español.
 
 ## Facturación Electrónica
 
@@ -216,11 +226,19 @@ Integraciones con Redsys/Sermepa, la pasarela de pagos dominante en España.
 ## Energía y Electricidad
 
 - [homeassistant-edata](https://github.com/uvejota/homeassistant-edata) - Integración Home Assistant para proveedores de datos energéticos españoles (Datadis, e-distribución).
+- [pvpc-hourly-pricing-card](https://github.com/danimart1991/pvpc-hourly-pricing-card) - Tarjeta Lovelace para mostrar el precio horario de la electricidad en España (PVPC).
+- [python-oligo](https://github.com/hectorespert/python-oligo) - Cliente Python no oficial para i-DE (Iberdrola distribución).
+- [ha-octopus-spain](https://github.com/MiguelAngelLV/ha-octopus-spain) - Componente Home Assistant para facturas y Solar Wallet de Octopus Energy Spain.
 - [aiopvpc](https://github.com/azogue/aiopvpc) - Librería asíncrona Python para descargar precios horarios de electricidad (PVPC) desde esios.ree.es.
 - [PVPC-ESIOS](https://github.com/bilbaomakers/PVPC-ESIOS) - Script para obtener información de tarifas PVPC de ESIOS (Red Eléctrica de España).
+- [ha-pvpc-custom](https://github.com/azogue/ha-pvpc-custom) - Integración personalizada de Home Assistant para precios horarios PVPC.
+- [edistribucion](https://github.com/trocotronic/edistribucion) - API Python no oficial para e-distribución (Endesa), lectura de contadores inteligentes.
+- [ide_api](https://github.com/ad-ha/ide_api) - Monitor de energía i-DE (Iberdrola) para Home Assistant.
 - [precio-luz](https://github.com/Webierta/precio-luz) - App con información detallada por horas del precio de la electricidad en España.
+- [zoilomora/iberdrola](https://github.com/zoilomora/iberdrola) - Integración con la API de Iberdrola.
 - [esios_gas](https://github.com/MiguelAngelLV/esios_gas) - Sensor de compensación de gas para el componente PVPC de Home Assistant.
 - [datadis](https://github.com/MrMarble/datadis) - Cliente Python para la API de Datadis (datos de consumo eléctrico de distribuidoras españolas).
+- [precios-tur-homeassistant](https://github.com/psincraian/precios-tur-homeassistant) - Integración Home Assistant para precios del gas TUR (Tarifa de Último Recurso).
 
 ## Meteorología
 
@@ -232,6 +250,8 @@ Integraciones con Redsys/Sermepa, la pasarela de pagos dominante en España.
 - [calima](https://github.com/vrruiz/calima) - Web y API para la serie histórica de datos meteorológicos de AEMET.
 - [AEMET-OpenData](https://github.com/Noltari/AEMET-OpenData) - Cliente Python para la API REST de AEMET OpenData.
 - [AEMET-Python](https://github.com/aariste/AEMET-Python) - Librería Python para consultar datos de la AEMET.
+- [homeassistant-meteogalicia](https://github.com/Danieldiazi/homeassistant-meteogalicia) - Integración de Home Assistant para MeteoGalicia, la agencia meteorológica de Galicia.
+- [moderntides](https://github.com/ALArvi019/moderntides) - Integración Home Assistant para mareas en tiempo real de estaciones marítimas españolas.
 
 ## Transporte y Movilidad
 
@@ -246,6 +266,20 @@ Integraciones con Redsys/Sermepa, la pasarela de pagos dominante en España.
 - [renfe-api](https://github.com/atabel/renfe-api) - Scraper y servidor Node.js para servicios de Cercanías Renfe.
 - [pyemtmad](https://github.com/rmed/pyemtmad) - Wrapper Python para la API de EMT Madrid.
 - [CapitanRenfe](https://github.com/riera90/CapitanRenfe) - Bot que informa si un tren de Renfe se ha retrasado.
+
+### Bicicletas Públicas
+
+- [bicing-api](https://github.com/lechatquidanse/bicing-api) - API REST para estadísticas y localizaciones de estaciones de Bicing (Barcelona).
+- [MADBike (iOS)](https://github.com/alexruperez/MADBike) - App iOS de código abierto para el servicio BiciMAD (Madrid).
+- [bicimad-api](https://github.com/cicloon/bicimad-api) - API no oficial de BiciMAD.
+- [bicimad-data-analysis](https://github.com/rameerez/bicimad-data-analysis) - Análisis de datos y predicciones ML de uso de BiciMAD.
+- [MADBike (Android)](https://github.com/Mun0n/MADBike) - App Android de código abierto para BiciMAD.
+
+### Metro y Cercanías
+
+- [MetroVlcSchedule](https://github.com/legomolina/MetroVlcSchedule) - API pública para MetroValencia.
+- [fgv-reloaded](https://github.com/albertodiazsaez/fgv-reloaded) - Reimplementación en Flutter de la app oficial de MetroValencia usando APIs de FGV.
+- [CoreEMT](https://github.com/fitomad/CoreEMT) - Paquete Swift para la API de EMT Madrid (autobuses, BiciMAD, parking).
 
 ## Cartografía y Catastro
 
@@ -266,12 +300,22 @@ Integraciones con Redsys/Sermepa, la pasarela de pagos dominante en España.
 - [pycartociudad](https://github.com/PyLadiesMadrid/pycartociudad) - Paquete Python para consultar la API de CartoCiudad.
 - [trece](https://github.com/ernestofgonzalez/trece) - CLI para descargar datos geoespaciales y de direcciones oficiales de España.
 
-## Inmobiliaria
+## Inmobiliaria y Mercados
 
+### Portales Inmobiliarios
+
+- [dedomeno](https://github.com/ginopalazzo/dedomeno) - Scraper Python de Idealista para datos inmobiliarios españoles.
+- [idealisto](https://github.com/hmeleiro/idealisto) - Scraper del portal inmobiliario Idealista.com.
 - [idealista-api](https://github.com/yagueto/idealista-api) - Cliente Python para la API de Idealista.
 - [python-idealista](https://github.com/astrojuanlu/python-idealista) - Librería Python 3 para la API de Idealista.
 - [idealista-scraper](https://github.com/rubnvp/idealista-scraper) - Scraper para idealista.com.
 - [fotocasa-scraper](https://github.com/rociobenitez/fotocasa-scraper) - Scraper para extraer datos de viviendas de Fotocasa.
+- [euribor](https://github.com/datasets/euribor) - Tasas Euribor por año y granularidad en datos abiertos.
+- [euribor_rates](https://github.com/jesmak/euribor_rates) - Integración Home Assistant para tipos Euribor.
+
+### Wallapop
+
+- [wallapop-go](https://github.com/Neufal777/wallapop-go) - Cliente de la API de Wallapop en Golang.
 - [wallapop-scraper](https://github.com/Tatuck/wallapop-scraper) - Analiza productos infravalorados en Wallapop usando su API y Gemini.
 - [wallapop_scraper](https://github.com/LopCuns/wallapop_scraper) - Scraper de Wallapop en Python.
 
@@ -293,6 +337,14 @@ Validadores de documentos de identidad españoles (DNI, NIE, NIF, CIF).
 - [valnif](https://github.com/alexladerman/valnif) - Validación de NIF en JavaScript basada en la librería Java oficial de la AEAT.
 - [aeat-validador-nif](https://github.com/mybooking-es/aeat-validador-nif) - Validador de NIF usando el servicio web VNifV2 de la AEAT.
 
+## Lengua Española y Diccionarios
+
+- [RAE-API (PHP)](https://github.com/mgp25/RAE-API) - API del Diccionario de la Real Academia Española en PHP.
+- [RAE-API (Node.js)](https://github.com/account0123/RAE-API) - API del Diccionario de la RAE portada a Node.js.
+- [go-rae](https://github.com/rae-api-com/go-rae) - SDK en Go para la API JSON no oficial de la RAE.
+- [rae-mcp](https://github.com/rae-api-com/rae-mcp) - Servidor MCP para conectar modelos de IA con la RAE.
+- [rae-tui](https://github.com/rae-api-com/rae-tui) - Utilidad de terminal para interactuar con la API de la RAE.
+
 ## Procesamiento de Lenguaje Natural
 
 - [pysentimiento](https://github.com/pysentimiento/pysentimiento) - Toolkit multilingüe Python para análisis de sentimiento y NLP social con modelos especializados en español.
@@ -303,6 +355,15 @@ Validadores de documentos de identidad españoles (DNI, NIE, NIF, CIF).
 - [conjugation](https://github.com/voldmar/conjugation) - Biblioteca Python para conjugación de verbos en español.
 - [deepspeech-spanish-model](https://github.com/nahuelproietto/deepspeech-spanish-model) - Modelo DeepSpeech entrenado con corpus español M-AILABS.
 
+### Lenguas Cooficiales
+
+- [lm-catalan](https://github.com/projecte-aina/lm-catalan) - Modelos de lenguaje oficial en catalán del proyecto AINA (BSC + Generalitat).
+- [tts-api (AINA)](https://github.com/projecte-aina/tts-api) - API RESTful de síntesis de voz en catalán.
+- [spaCy catalan](https://github.com/projecte-aina/spacy) - spaCy pre-producción para catalán.
+- [CLUB](https://github.com/projecte-aina/club) - Catalan Language Understanding Benchmark para evaluar modelos NLP.
+- [SimpleNLG-GL](https://github.com/citiususc/SimpleNLG-GL) - API Java de generación de lenguaje natural en gallego (trilingüe EN/ES/GL).
+- [XIADA](https://github.com/crpih/xiada) - Etiquetador y lematizador para la lengua gallega.
+
 ## Combustible y Estaciones de Servicio
 
 - [Pumperly](https://github.com/GeiserX/Pumperly) - Planificador de rutas open source con precios de combustible y carga EV en tiempo real para 31 países europeos, self-hostable.
@@ -311,6 +372,8 @@ Validadores de documentos de identidad españoles (DNI, NIE, NIF, CIF).
 - [spain-gas](https://github.com/Flerex/spain-gas) - Cliente PHP para obtener información de gasolineras y precios del Geoportal del Gobierno.
 - [combustible_bot](https://github.com/ormeno/combustible_bot) - Bot de Telegram que informa del precio del combustible en las gasolineras más próximas.
 - [precio-gasolina](https://github.com/soker90/precio-gasolina) - Envía a Telegram el precio de la gasolina de una gasolinera cuando cambia.
+- [ha-gas-station-spain](https://github.com/MiguelAngelLV/ha-gas-station-spain) - Componente Home Assistant para precios de gasolineras de España en tiempo real.
+- [Carbu_com](https://github.com/myTselection/Carbu_com) - Integración HACS para precios reales de combustible (gasolina, diésel, GLP) en España y otros países.
 
 ## Formatos Bancarios
 
@@ -325,6 +388,71 @@ Cuadernos AEB (Asociación Española de la Banca) y formatos SEPA con soporte es
 - [N43](https://github.com/mdiago/N43) - Lectura de archivos de movimientos bancarios según normas AEB serie 43 en C#.
 - [Delphi-SEPA-XML-ES](https://github.com/cocosistemas/Delphi-SEPA-XML-ES) - Ficheros normas 19.14 y 34.14 (XML bancario español) en Delphi.
 - [sepakit](https://github.com/APSL/sepakit) - Convierte ficheros AEB 19.14 de adeudo directo TXT a SEPA XML en Python.
+- [norma43](https://github.com/linkingpaths/norma43) - Parser para ficheros Norma 43, estándar de la banca española para movimientos de cuenta.
+- [vscode-norma43](https://github.com/embatio/vscode-norma43) - Formateador y resaltador de ficheros Norma43 para VS Code.
+- [caixabank-homebank](https://github.com/namelivia/caixabank-homebank) - CLI para transformar ficheros XLS de CaixaBank en ficheros QIF para Homebank.
+
+## Supermercados
+
+- [mercadona-scrapper](https://github.com/nicolaspascual/mercadona-scrapper) - Scraper de la web de Mercadona que descarga todos los productos en CSV.
+- [mercadata](https://github.com/izanamador/mercadata) - Análisis de datos de tickets de Mercadona.
+- [josantonius/php-mercadona-importer](https://github.com/josantonius/php-mercadona-importer) - CLI en PHP para importar productos de Mercadona usando su API.
+- [merca-api](https://github.com/javichur/merca-api) - Aplicación para leer categorías y productos de la API pública de Mercadona.
+- [Supermarket-Price-Scraper](https://github.com/joseluam97/Supermarket-Price-Scraper) - Extracción de precios de Mercadona, Carrefour y DIA con generación de Excel.
+- [mercaapi](https://github.com/m0wer/mercaapi) - API no oficial de Mercadona con información nutricional e historial de precios.
+- [mercadona-cli](https://github.com/exwyezed/mercadona-cli) - CLI no oficial para tienda.mercadona.es.
+- [mercapy](https://github.com/jtayped/mercapy) - Interfaz Python de Mercadona para seguir precios y cantidades.
+
+## Alarmas y Seguridad del Hogar
+
+- [securitas-direct-new-api](https://github.com/guerrerotook/securitas-direct-new-api) - API de Securitas Direct integrable en Home Assistant.
+- [securitasdirect](https://github.com/segalion/securitasdirect) - Integración Home Assistant con Securitas Direct (Verisure EU) y CLI.
+- [pysecuritas](https://github.com/Cebeerre/pysecuritas) - Cliente Python para la API móvil de Securitas Direct.
+- [SecuritasDirectAPI](https://github.com/Cebeerre/SecuritasDirectAPI) - Especificación y documentación de la API de Securitas Direct.
+- [homebridge-securitas-direct](https://github.com/ptz0n/homebridge-securitas-direct) - Plugin de Homebridge para Securitas Direct.
+- [pyprosegur](https://github.com/dgomes/pyprosegur) - Librería Python para alarmas Smart Prosegur.
+- [ha_prosegur](https://github.com/dgomes/ha_prosegur) - Integración Home Assistant para alarmas Prosegur.
+
+## Logística y Mensajería
+
+- [glovo-api-php](https://github.com/vmari/glovo-api-php) - Cliente PHP no oficial para la Glovo Business API.
+- [glovo-api-python](https://github.com/softbutterfly/glovo-api-python) - Glovo Business API para Python.
+- [php-glovo-api](https://github.com/joanlopez/php-glovo-api) - Librería PHP para comunicación con la API de Glovo.
+- [python-correos-express](https://github.com/maguayo/python-correos-express) - Librería Python para realizar envíos con Correos Express.
+- [php-correosexpress-api](https://github.com/klareNNNs/php-correosexpress-api) - Librería PHP para la API de Correos Express.
+- [NacexBundle](https://github.com/javaguirre/NacexBundle) - Bundle Symfony implementando la API SOAP de Nacex.
+
+## Deportes
+
+- [openfootball/espana](https://github.com/openfootball/espana) - Datos abiertos de fútbol para España: La Liga, Segunda División y más.
+- [FootballMatchesDataSet](https://github.com/RicardoMoya/FootballMatchesDataSet) - Dataset para predicción de resultados de fútbol en formato quiniela (1X2).
+- [marca-fantasy-api-scraper-updated](https://github.com/alxgarci/marca-fantasy-api-scraper-updated) - Scraper del API de LaLiga Fantasy de Relevo.
+- [footballcsv/espana](https://github.com/footballcsv/espana) - Datos de fútbol para España en formato CSV: Primera y Segunda División.
+- [marca-fantasy-scraper](https://github.com/diegoparrilla/marca-fantasy-scraper) - Scraper del API de LaLiga Fantasy de Marca.
+- [laliga-data](https://github.com/sdelquin/laliga-data) - Scraping de datos de la web oficial de La Liga española.
+
+## DGT y Vehículos
+
+- [DGT_cita_previa](https://github.com/jabellcu/DGT_cita_previa) - Script para reservar cita previa en la DGT (Dirección General de Tráfico).
+- [Alexa-Skill-Test-Autoescuela](https://github.com/javichur/Alexa-Skill-Test-Autoescuela) - Skill de Alexa para practicar tests de autoescuela (preparación examen DGT).
+- [DGT-appointment](https://github.com/ajorquera/DGT-appointment) - Herramienta para facilitar la reserva de citas de tráfico en la DGT.
+- [dgt-matriculaciones](https://github.com/literato1987/dgt-matriculaciones) - Dashboard de matriculaciones eléctricas de la DGT (2017-presente).
+
+## Agricultura
+
+- [sigpac-client](https://github.com/dan96ct/sigpac-client) - Librería JavaScript para la API del SIGPAC (Sistema de Información Geográfica de Parcelas Agrícolas).
+- [qgis-sigpac](https://github.com/geomatico/qgis-sigpac) - Plugin QGIS para descargar parcelas del SIGPAC.
+- [sigpac-tools](https://github.com/KhaosResearch/sigpac-tools) - Librería Python para acceder a datos de la API del SIGPAC.
+
+## Smart Cities e IoT
+
+- [smartcitizen-kit-10](https://github.com/fablabbcn/smartcitizen-kit-10) - Firmware del Smart Citizen Kit, sensor urbano ciudadano de FabLab Barcelona.
+- [sentilo](https://github.com/sentilo/sentilo) - Plataforma IoT de sensores urbanos nacida en Barcelona, usada en ciudades españolas.
+- [smartcitizen-kit-2x](https://github.com/fablabbcn/smartcitizen-kit-2x) - Hardware y firmware del Smart Citizen Kit 2.x.
+- [Mapea4](https://github.com/sigcorporativo-ja/Mapea4) - Framework JavaScript de visualización de mapas de la Junta de Andalucía.
+- [signador](https://github.com/ConsorciAOC/signador) - Servicio de firma digital del Consorci AOC para administraciones públicas catalanas.
+- [api-sitna](https://github.com/sitna/api-sitna) - API JavaScript del SITNA (Sistema de Información Territorial de Navarra) para datos georreferenciados.
+- [bustia-etica-bcn](https://github.com/AjuntamentdeBarcelona/bustia-etica-bcn) - Buzón ético digital del Ajuntament de Barcelona.
 
 ## Salud y Medicamentos
 
@@ -338,6 +466,14 @@ Cuadernos AEB (Asociación Española de la Banca) y formatos SEPA con soporte es
 - [spanish-long-term-visa-docker](https://github.com/nebojsa-prodana/spanish-long-term-visa-docker) - Entorno Docker con AutoFirma y Firefox para tramitar la tarjeta de residencia de larga duración.
 - [cita-previa-checker](https://github.com/nyanja/cita-previa-checker) - Comprobador de disponibilidad de citas de extranjería.
 
+## Participación Ciudadana
+
+- [Decidim](https://github.com/decidim/decidim) - Plataforma de democracia participativa digital nacida en Barcelona, usada por más de 400 instituciones.
+- [CONSUL Democracy](https://github.com/consuldemocracy/consuldemocracy) - Plataforma de participación ciudadana creada por el Ayuntamiento de Madrid, usada en 35+ países.
+- [decidim-barcelona](https://github.com/AjuntamentdeBarcelona/decidim-barcelona) - Instancia Decidim del Ajuntament de Barcelona para participación ciudadana.
+- [decide](https://github.com/AyuntamientoMadrid/decide) - Portal de participación ciudadana del Ayuntamiento de Madrid (antecesor de CONSUL).
+- [participa](https://github.com/podemos-info/participa) - Plataforma de participación ciudadana de Podemos basada en Decidim.
+
 ## Servidores MCP
 
 Servidores Model Context Protocol para datos y servicios españoles.
@@ -346,6 +482,9 @@ Servidores Model Context Protocol para datos y servicios españoles.
 - [MCP-Facturascripts](https://github.com/cristotodev/MCP-Facturascripts) - Servidor MCP para interactuar con FacturaScripts vía IA.
 - [spanish-public-info-radar-mcp](https://github.com/mjgmario/spanish-public-info-radar-mcp) - Servidor MCP para subvenciones (BDNS), legislación (BOE/BORME), estadísticas (INE) y datos.gob.es.
 - [catastro_mcp_server](https://github.com/carlosGalisteo/catastro_mcp_server) - Servidor MCP para los servicios web de la Sede Electrónica del Catastro.
+- [mercadona-mcp](https://github.com/yagoangelim/mercadona-mcp) - Servidor MCP para consultar productos y precios de Mercadona.
+- [renfe_mcp_server](https://github.com/javiersorucol/renfe_mcp_server) - Servidor MCP para consultar horarios y billetes de Renfe.
+- [rae-mcp](https://github.com/rae-api-com/rae-mcp) - Servidor MCP para conectar modelos de IA con el diccionario de la RAE.
 
 ## Contribuir
 
@@ -354,3 +493,7 @@ Las contribuciones son bienvenidas. Lee las [directrices de contribución](contr
 ## Nota
 
 Esta lista se centra en software open source que da **soporte específico a España** o que incluye funcionalidades relevantes para usuarios en España. No se incluye software genérico solo por estar creado por desarrolladores españoles.
+
+## Descargo de responsabilidad
+
+No se aceptan proyectos relacionados con pornografía, contenido NSFW, loterías o apuestas, religión, política partidista ni cualquier otro tema controvertido. Esta lista pretende ser un recurso técnico neutral y útil para la comunidad de desarrolladores.
