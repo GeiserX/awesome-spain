@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
+  <defs>
+    <clipPath id="rounded">
+      <rect width="800" height="200" rx="16" ry="16"/>
+    </clipPath>
+    <linearGradient id="overlay" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#000" stop-opacity="0.5"/>
+      <stop offset="50%" stop-color="#000" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.5"/>
+    </linearGradient>
+  </defs>
+  <g clip-path="url(#rounded)">
+    <rect width="800" height="50" fill="#AA151B"/>
+    <rect y="50" width="800" height="100" fill="#F1BF00"/>
+    <rect y="150" width="800" height="50" fill="#AA151B"/>
+    <rect width="800" height="200" fill="url(#overlay)"/>
+    <text x="400" y="108" text-anchor="middle" font-family="'Segoe UI', system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="58" fill="#fff" font-weight="800" letter-spacing="4">Awesome Spain</text>
+    <text x="400" y="148" text-anchor="middle" font-family="'Segoe UI', system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="17" fill="rgba(255,255,255,0.88)" font-weight="400" letter-spacing="1">Software open source para España</text>
+  </g>
+</svg>
