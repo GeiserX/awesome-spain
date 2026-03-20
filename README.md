@@ -27,14 +27,19 @@
 - [Formatos Bancarios](#formatos-bancarios)
 - [Supermercados](#supermercados)
 - [Alarmas y Seguridad del Hogar](#alarmas-y-seguridad-del-hogar)
+- [Telecomunicaciones](#telecomunicaciones)
 - [Logística y Mensajería](#logística-y-mensajería)
 - [Deportes](#deportes)
+- [Cine y Entretenimiento](#cine-y-entretenimiento)
+- [Música y Flamenco](#música-y-flamenco)
 - [DGT y Vehículos](#dgt-y-vehículos)
 - [Agricultura](#agricultura)
 - [Smart Cities e IoT](#smart-cities-e-iot)
 - [Salud y Medicamentos](#salud-y-medicamentos)
+- [Educación y Oposiciones](#educación-y-oposiciones)
 - [Extranjería y Visados](#extranjería-y-visados)
 - [Participación Ciudadana](#participación-ciudadana)
+- [Comunidades Autónomas y Administración Local](#comunidades-autónomas-y-administración-local)
 - [Servidores MCP](#servidores-mcp)
 
 ## Televisión, Radio y Podcasts
@@ -55,6 +60,8 @@
 - [Tvheadend_Movistar-Spain](https://github.com/manuelrn/Tvheadend_Movistar-Spain) - Configuración de Tvheadend para Movistar+.
 - [TDTSpain2VLC](https://github.com/David-Lor/TDTSpain2VLC) - Convierte listas de canales TDT a playlist XSPF para VLC.
 - [plugin.video.rtve](https://github.com/mcr222/plugin.video.rtve) - Plugin de vídeo RTVE para Kodi.
+- [plugin.video.filmin](https://github.com/pablouser1/plugin.video.filmin) - Plugin de Kodi para reproducir contenido de Filmin (plataforma española de cine).
+- [tvhstar](https://github.com/LuisPalacios/tvhstar) - Descarga periódica del EPG de Movistar TV para Tvheadend.
 
 ### Radio y Podcasts
 
@@ -140,7 +147,6 @@ Integraciones con Redsys/Sermepa, la pasarela de pagos dominante en España.
 
 - [FacturaScripts](https://github.com/NeoRazorX/facturascripts) - ERP open source español con facturación, contabilidad y Plan General Contable.
 - [l10n-spain](https://github.com/OCA/l10n-spain) - Localización de Odoo para España de la OCA: contabilidad, modelos AEAT, SII, PGC y más de 50 módulos.
-- [GOBL](https://github.com/invopop/gobl) - Formato universal de documentos fiscales y comerciales en Go con soporte nativo para España, desarrollado por Invopop (Madrid).
 - [FacturaScripts 2015](https://github.com/NeoRazorX/facturascripts_2015) - Versión anterior de FacturaScripts con facturación y contabilidad libre.
 - [docker-facturascripts](https://github.com/FacturaScripts/docker-facturascripts) - Imagen Docker oficial de FacturaScripts.
 - [Quaderno.js](https://github.com/quaderno/quaderno.js) - Librería JS de Quaderno (SaaS español de compliance fiscal) para suscripciones Stripe, cálculo de impuestos y facturas.
@@ -164,6 +170,7 @@ Integraciones con Redsys/Sermepa, la pasarela de pagos dominante en España.
 - [eVisor](https://github.com/ctt-gob-es/eVisor) - Generación de informes de verificación visual de firma electrónica.
 - [portafirmas-android](https://github.com/ctt-gob-es/portafirmas-android) - App Android del portafirmas de la SEAP para firma de expedientes.
 - [autograph](https://github.com/azogue/autograph) - Script macOS para firma electrónica en batch usando el CLI de AutoFirma con certificado FNMT.
+- [dnieprov](https://github.com/lfern/dnieprov) - Driver Java y librería JCA Provider para el DNI electrónico (DNIe).
 
 ### Administración Electrónica
 
@@ -195,13 +202,17 @@ Integraciones con Redsys/Sermepa, la pasarela de pagos dominante en España.
 - [infoelectoral](https://github.com/JaimeObregon/infoelectoral) - Intérprete de microdatos electorales del Ministerio del Interior.
 - [infoelectoral (R)](https://github.com/rOpenSpain/infoelectoral) - Paquete R para descargar y analizar resultados electorales oficiales a nivel de mesa electoral.
 - [canary](https://github.com/hadronomy/canary) - Asistente legal IA para derecho español con parsing de documentos del BOE y embeddings vectoriales.
+- [justicio](https://github.com/bukosabino/justicio) - Asistente del BOE usando Retrieval Augmented Generation (RAG).
+- [BOE_API](https://github.com/BOE-API/BOE_API) - API del Boletín Oficial del Estado.
+- [iuris](https://github.com/onticsoluciones/iuris) - Herramienta de auditoría web para verificar cumplimiento de RGPD, LOPD y LSSI.
+- [CENDOJ Scraping API](https://github.com/Gasparms9/Project5-Cendoj-Scrapping-API) - Scraping y API del Centro de Documentación Judicial (CENDOJ).
+- [subastas-boe](https://github.com/eduaero/BOE) - Scraper de subastas judiciales del portal de subastas del BOE.
 
 ## Datos Abiertos y Estadísticas
 
 - [spanishoddata](https://github.com/rOpenSpain/spanishoddata) - Acceso en R a datos nacionales de movilidad origen-destino derivados de telefonía móvil.
 - [datadista datasets](https://github.com/datadista/datasets) - Datos de los reportajes y proyectos de periodismo de investigación de DATADISTA.
 - [datos.gob.es](https://github.com/ctt-gob-es/datos.gob.es) - Código fuente oficial del Catálogo Nacional de Datos Abiertos (CKAN + Drupal).
-- [mapSpain](https://github.com/rOpenSpain/mapSpain) - Paquete R con los límites administrativos de España: CCAA, provincias y municipios.
 - [INEbaseR](https://github.com/rOpenSpain/INEbaseR) - Paquete R para obtener y analizar datos abiertos del INE (Instituto Nacional de Estadística).
 - [opendataes](https://github.com/rOpenSpain/opendataes) - Paquete R para acceder a datos de datos.gob.es de forma programática.
 - [tidyBdE](https://github.com/rOpenSpain/tidyBdE) - Paquete R para recuperar datos del Banco de España.
@@ -216,6 +227,11 @@ Integraciones con Redsys/Sermepa, la pasarela de pagos dominante en España.
 - [municipios-provincias-comunidades-INE-spain](https://github.com/didacrios/municipios-provincias-comunidades-INE-spain) - Dump SQL con la relación entre municipios, provincias y CCAA del INE.
 - [airqualityES](https://github.com/rOpenSpain/airqualityES) - Mediciones de calidad del aire en España 2001-2018.
 - [FakesStorage](https://github.com/alcorpas10/FakesStorage) - Dataset español para detección de fake news.
+- [es-atlas](https://github.com/martgnz/es-atlas) - TopoJSON preconstruido del Instituto Geográfico Nacional de España.
+- [ccaa-provincias-municipios](https://github.com/oscarnovasf/ccaa-provincias-municipios) - Tablas MySQL para vincular CCAA con provincias y municipios de España.
+- [opencis](https://github.com/hmeleiro/opencis) - Paquete R para importar datos del Centro de Investigaciones Sociológicas (CIS).
+- [spanish-names-surnames](https://github.com/jvalhondo/spanish-names-surnames) - Dataset de nombres y apellidos españoles.
+- [codigos_postales_spain](https://github.com/franciscojuan1974/codigos_postales_spain) - Base de datos SQL de más de 11.000 códigos postales de España con coordenadas.
 
 ### Radar COVID
 
@@ -239,6 +255,15 @@ Integraciones con Redsys/Sermepa, la pasarela de pagos dominante en España.
 - [esios_gas](https://github.com/MiguelAngelLV/esios_gas) - Sensor de compensación de gas para el componente PVPC de Home Assistant.
 - [datadis](https://github.com/MrMarble/datadis) - Cliente Python para la API de Datadis (datos de consumo eléctrico de distribuidoras españolas).
 - [precios-tur-homeassistant](https://github.com/psincraian/precios-tur-homeassistant) - Integración Home Assistant para precios del gas TUR (Tarifa de Último Recurso).
+- [ha-ideenergy](https://github.com/ldotlopez/ha-ideenergy) - Integración de i-DE Energy (Iberdrola distribuidora) para Home Assistant.
+- [hass_omie](https://github.com/luuuis/hass_omie) - Integración Home Assistant para OMIE, el operador del mercado mayorista eléctrico ibérico.
+- [ha-balance-neto](https://github.com/MiguelAngelLV/ha-balance-neto) - Cálculo del balance neto horario para instalaciones fotovoltaicas en Home Assistant.
+- [OMIEData](https://github.com/acruzgarcia/OMIEData) - Paquete Python para importar datos del Operador del Mercado Ibérico de Energía (OMIE).
+- [repsolluzygas](https://github.com/bzzoiro/repsolluzygas) - Sensor Home Assistant para costes de Repsol Luz y Gas.
+- [som-energia-hass](https://github.com/hectorespert/som-energia-hass) - Integración de la cooperativa energética Som Energia para Home Assistant.
+- [pvpc_energy](https://github.com/yinyang17/pvpc_energy) - Importa consumo y coste eléctrico desde UFD/REE y calcula facturas desde la CNMC.
+- [libCNMC](https://github.com/gisce/libCNMC) - Librería para generar informes de la CNMC del sector eléctrico.
+- [esiosapy](https://github.com/M4RC0Sx/esiosapy) - Librería Python no oficial para la API de ESIOS (Red Eléctrica).
 
 ## Meteorología
 
@@ -274,6 +299,14 @@ Integraciones con Redsys/Sermepa, la pasarela de pagos dominante en España.
 - [bicimad-api](https://github.com/cicloon/bicimad-api) - API no oficial de BiciMAD.
 - [bicimad-data-analysis](https://github.com/rameerez/bicimad-data-analysis) - Análisis de datos y predicciones ML de uso de BiciMAD.
 - [MADBike (Android)](https://github.com/Mun0n/MADBike) - App Android de código abierto para BiciMAD.
+- [bicing-deckgl](https://github.com/imartinezl/bicing-deckgl) - Visualización de viajes en bicicleta de Bicing Barcelona con Deck.gl.
+- [bicing-prediction-api](https://github.com/lechatquidanse/bicing-prediction-api) - API de predicción de disponibilidad de bicicletas Bicing en Barcelona.
+- [bicimap](https://github.com/javierarce/bicimap) - Mapa no oficial de estaciones BiciMAD y Bicing.
+- [ValenBisi](https://github.com/systemallica/ValenBisi) - App Android para el servicio Valenbisi de Valencia.
+
+### Aeropuertos
+
+- [AENA_Info_Vuelos](https://github.com/InnocenceAllen/AENA_Info_Vuelos) - Scraper de información de vuelos de AENA (Aeropuertos Españoles y Navegación Aérea).
 
 ### Metro y Cercanías
 
@@ -318,6 +351,17 @@ Integraciones con Redsys/Sermepa, la pasarela de pagos dominante en España.
 - [wallapop-go](https://github.com/Neufal777/wallapop-go) - Cliente de la API de Wallapop en Golang.
 - [wallapop-scraper](https://github.com/Tatuck/wallapop-scraper) - Analiza productos infravalorados en Wallapop usando su API y Gemini.
 - [wallapop_scraper](https://github.com/LopCuns/wallapop_scraper) - Scraper de Wallapop en Python.
+- [wallbot](https://github.com/z0r3f/wallbot) - Bot de búsqueda de Wallapop.
+- [wallaviso](https://github.com/tanrax/wallaviso) - Programa tus búsquedas en Wallapop y recibe un feed RSS.
+- [Wallamonitor](https://github.com/danielhuici/Wallamonitor) - Monitor periódico de artículos nuevos en Wallapop con notificaciones por Telegram.
+- [wallapopy](https://github.com/toniprada/wallapopy) - Cliente Python para la API de Wallapop.
+- [wallapop-alert](https://github.com/tanrax/wallapop-alert) - Notificador de productos nuevos en Wallapop.
+- [wallapop_secret](https://github.com/rmonvfer/wallapop_secret) - Generador de X-Signature para la API de Wallapop.
+
+### Milanuncios
+
+- [milanuncios (3clypse)](https://github.com/3clypse/milanuncios) - Herramienta para Milanuncios.
+- [milanuncios (mondeja)](https://github.com/mondeja/milanuncios) - Web scraper y renovador de anuncios de milanuncios.com en Python.
 
 ## Validación de Documentos
 
@@ -336,13 +380,13 @@ Validadores de documentos de identidad españoles (DNI, NIE, NIF, CIF).
 - [dni_nie_validator](https://github.com/AnnaPS/dni_nie_validator) - Validador DNI/NIE en Dart (Flutter).
 - [valnif](https://github.com/alexladerman/valnif) - Validación de NIF en JavaScript basada en la librería Java oficial de la AEAT.
 - [aeat-validador-nif](https://github.com/mybooking-es/aeat-validador-nif) - Validador de NIF usando el servicio web VNifV2 de la AEAT.
+- [spanish-car-plate](https://github.com/singuerinc/spanish-car-plate) - Validación de matrículas de coches españoles: formato moderno, antiguo, especiales y por provincia.
 
 ## Lengua Española y Diccionarios
 
 - [RAE-API (PHP)](https://github.com/mgp25/RAE-API) - API del Diccionario de la Real Academia Española en PHP.
 - [RAE-API (Node.js)](https://github.com/account0123/RAE-API) - API del Diccionario de la RAE portada a Node.js.
 - [go-rae](https://github.com/rae-api-com/go-rae) - SDK en Go para la API JSON no oficial de la RAE.
-- [rae-mcp](https://github.com/rae-api-com/rae-mcp) - Servidor MCP para conectar modelos de IA con la RAE.
 - [rae-tui](https://github.com/rae-api-com/rae-tui) - Utilidad de terminal para interactuar con la API de la RAE.
 
 ## Procesamiento de Lenguaje Natural
@@ -413,6 +457,21 @@ Cuadernos AEB (Asociación Española de la Banca) y formatos SEPA con soporte es
 - [pyprosegur](https://github.com/dgomes/pyprosegur) - Librería Python para alarmas Smart Prosegur.
 - [ha_prosegur](https://github.com/dgomes/ha_prosegur) - Integración Home Assistant para alarmas Prosegur.
 
+## Telecomunicaciones
+
+### Telefónica y Movistar
+
+- [mistica-web](https://github.com/Telefonica/mistica-web) - Librería React del sistema de diseño Mistica de Telefónica (skins Movistar, O2, Vivo).
+- [askey_RTF3505VW_hacking](https://github.com/daniel-dona/askey_RTF3505VW_hacking) - Documentación de hacking por UART del router Askey RTF3505VW de Movistar España.
+- [webview-bridge](https://github.com/Telefonica/webview-bridge) - Puente JavaScript de Novum para apps nativas de Movistar/O2/Vivo.
+- [MitraStar_GPT-2541GNAC_HA](https://github.com/joseska/MitraStar_GPT-2541GNAC_HA) - Device tracker del router MitraStar GPT-2541GNAC (Movistar) para Home Assistant.
+- [LiveboxFibraExtractor](https://github.com/segura2010/LiveboxFibraExtractor) - Herramienta Java para extraer credenciales SIP del router Livebox Fibra de Orange/Jazztel España.
+- [ha-pepephone](https://github.com/ldotlopez/ha-pepephone) - Integración Home Assistant para consultar datos de la cuenta Pepephone.
+
+### Agua
+
+- [homeassistant_canal_isabel_II](https://github.com/miguelangel-nubla/homeassistant_canal_isabel_II) - Integración de Canal de Isabel Segunda (contadores de agua en Madrid) para Home Assistant.
+
 ## Logística y Mensajería
 
 - [glovo-api-php](https://github.com/vmari/glovo-api-php) - Cliente PHP no oficial para la Glovo Business API.
@@ -421,6 +480,8 @@ Cuadernos AEB (Asociación Española de la Banca) y formatos SEPA con soporte es
 - [python-correos-express](https://github.com/maguayo/python-correos-express) - Librería Python para realizar envíos con Correos Express.
 - [php-correosexpress-api](https://github.com/klareNNNs/php-correosexpress-api) - Librería PHP para la API de Correos Express.
 - [NacexBundle](https://github.com/javaguirre/NacexBundle) - Bundle Symfony implementando la API SOAP de Nacex.
+- [correos-tracking-api](https://github.com/vgvr0/correos-tracking-api) - API REST y bot Telegram para seguimiento automatizado de envíos de Correos España.
+- [homeassistant-correos_spain](https://github.com/rikman122/homeassistant-correos_spain) - Integración de seguimiento de paquetes de Correos para Home Assistant.
 
 ## Deportes
 
@@ -430,6 +491,25 @@ Cuadernos AEB (Asociación Española de la Banca) y formatos SEPA con soporte es
 - [footballcsv/espana](https://github.com/footballcsv/espana) - Datos de fútbol para España en formato CSV: Primera y Segunda División.
 - [marca-fantasy-scraper](https://github.com/diegoparrilla/marca-fantasy-scraper) - Scraper del API de LaLiga Fantasy de Marca.
 - [laliga-data](https://github.com/sdelquin/laliga-data) - Scraping de datos de la web oficial de La Liga española.
+
+## Cine y Entretenimiento
+
+### FilmAffinity
+
+- [api-filmaffinity](https://github.com/carlosramosa/api-filmaffinity) - API REST no oficial de FilmAffinity en castellano.
+- [filmaffinity-api (xsga)](https://github.com/xsga/filmaffinity-api) - API pública no oficial de FilmAffinity para consultar información de películas.
+- [python_filmaffinity](https://github.com/sergiormb/python_filmaffinity) - Scraping Python sencillo para FilmAffinity.
+- [fa-scraper](https://github.com/mx-psi/fa-scraper) - Scraper de FilmAffinity compatible con Letterboxd.
+- [filmaffinity2CSV](https://github.com/gism/filmaffinity2CSV) - Exporta películas votadas de FilmAffinity a CSV y las publica en IMDB.
+- [faffinity-bot](https://github.com/svex99/faffinity-bot) - Bot de Telegram para obtener información de filmaffinity.com.
+
+## Música y Flamenco
+
+- [PyCante](https://github.com/NadineKroher/PyCante) - Transcripción automática de cante flamenco a nivel de nota.
+- [kronognuguitarra](https://github.com/alvarogonzalezferrer/kronognuguitarra) - Buscador de acordes y escalas para guitarra flamenca y más de 60 instrumentos de cuerda.
+- [aCompas](https://github.com/ElJere/aCompas) - Metrónomo flamenco web con Web Audio API y animación visual de compases.
+- [Generative-Flamenco](https://github.com/oratioandco/Generative-Flamenco) - Experimento de música generativa flamenca con Processing y Ableton Live.
+- [lola](https://github.com/alesanmed/lola) - Clasificación de audio flamenco por palos (bulerías, alegrías, sevillanas) con deep learning.
 
 ## DGT y Vehículos
 
@@ -459,12 +539,22 @@ Cuadernos AEB (Asociación Española de la Banca) y formatos SEPA con soporte es
 - [aempsconn](https://github.com/fqlenos/aempsconn) - Biblioteca para interactuar con la API REST CIMA de la AEMPS (Agencia Española de Medicamentos).
 - [aemps-sdk](https://github.com/apenab/aemps-sdk) - SDK en TypeScript para la API REST CIMA de la AEMPS: datos de medicamentos españoles.
 
+## Educación y Oposiciones
+
+- [ANECAtools](https://github.com/Pakillo/ANECAtools) - Paquete R para automatizar el proceso de acreditación ANECA (PEP/ACADEMIA).
+- [EstudiaTAI-app](https://github.com/Naritsumi/EstudiaTAI-app) - App Android de tests para oposiciones TAI (Técnicos Auxiliares de Informática de la AGE).
+- [utilidadesdetests](https://github.com/preparatic/utilidadesdetests) - Generador de tests ponderados para PreparaTIC con preguntas de convocatorias oficiales.
+- [virgulayapp-curriculos](https://github.com/d3stroya/virgulayapp-curriculos) - Currículos LOMLOE de todas las CCAA en formato JSON (Infantil, Primaria, ESO, Bachillerato).
+
 ## Extranjería y Visados
 
 - [monitor-CitaPrevia-Extranjeria](https://github.com/jhon-murillo/monitor-CitaPrevia-Extranjeria) - Monitor de citas disponibles en Extranjería (renovación NIE, autorizaciones).
 - [cita-previa-extranjeria-monitor](https://github.com/kpliuta/cita-previa-extranjeria-monitor) - Web scraper para monitorizar citas en la oficina de extranjería española.
 - [spanish-long-term-visa-docker](https://github.com/nebojsa-prodana/spanish-long-term-visa-docker) - Entorno Docker con AutoFirma y Firefox para tramitar la tarjeta de residencia de larga duración.
 - [cita-previa-checker](https://github.com/nyanja/cita-previa-checker) - Comprobador de disponibilidad de citas de extranjería.
+- [NIEBot](https://github.com/AFFT-520/NIEBot) - Herramienta para obtener citas previas de inmigración (NIE, TIE, huellas) en Barcelona.
+- [cita-checker](https://github.com/TiagoCortinhal/cita-checker) - Automatización para comprobar disponibilidad de citas previas en administraciones españolas.
+- [cita-previa-tie](https://github.com/sviridoff/cita-previa-tie) - Autocompleta formularios de cita previa de la Policía Nacional para TIE.
 
 ## Participación Ciudadana
 
@@ -473,6 +563,102 @@ Cuadernos AEB (Asociación Española de la Banca) y formatos SEPA con soporte es
 - [decidim-barcelona](https://github.com/AjuntamentdeBarcelona/decidim-barcelona) - Instancia Decidim del Ajuntament de Barcelona para participación ciudadana.
 - [decide](https://github.com/AyuntamientoMadrid/decide) - Portal de participación ciudadana del Ayuntamiento de Madrid (antecesor de CONSUL).
 - [participa](https://github.com/podemos-info/participa) - Plataforma de participación ciudadana de Podemos basada en Decidim.
+
+## Comunidades Autónomas y Administración Local
+
+Software open source de comunidades autónomas, ayuntamientos y diputaciones.
+
+### Cataluña
+
+- [Visual (Idescat)](https://github.com/idescat/visual) - Librería JavaScript de visualización de datos del Institut d'Estadística de Catalunya.
+- [Projecte AINA - datapipe](https://github.com/projecte-aina/datapipe) - Pipeline ETL de audio del proyecto AINA (BSC + Generalitat) para generar datasets desde YouTube.
+- [eNotum](https://github.com/ConsorciAOC/eNotum) - Servicio de notificaciones electrónicas del Consorci AOC para administraciones catalanas.
+- [PCI](https://github.com/ConsorciAOC/PCI) - Plataforma de Col·laboració Interadministrativa del Consorci AOC.
+- [Representa](https://github.com/ConsorciAOC/representa_documentacio) - Servicio de representación y apoderamiento digital del Consorci AOC.
+- [ICGC Comparador](https://github.com/gencat/ICGC-comparador-gificador) - Visor de evolución del territorio del Institut Cartogràfic i Geològic de Catalunya.
+- [decidim-module-idcat_mobil](https://github.com/gencat/decidim-module-idcat_mobil) - Módulo Decidim de autenticación con IdCat Mòbil (OAuth 2.0) de la Generalitat.
+- [Participa Gencat](https://github.com/gencat/participa) - Portal participa.gencat.cat basado en Decidim.
+- [Salut Sistema Disseny](https://github.com/gencat/salut-sistema-disseny) - Sistema de diseño del departamento de Salut de la Generalitat de Catalunya.
+- [idescat-java](https://github.com/lant/idescat-java) - Implementación en Java de la API del Idescat.
+
+### País Vasco
+
+- [UDA RUP](https://github.com/UDA-EJIE/udaRUP) - Componentes de referencia del framework UDA del EJIE (Gobierno Vasco).
+- [UDA Lib](https://github.com/UDA-EJIE/udaLib) - Librería de utilidades del framework UDA del EJIE.
+- [UDA Plugin](https://github.com/UDA-EJIE/udaPlugin) - Plugin de generación de código del framework UDA del EJIE.
+- [irekia](https://github.com/eillarra/irekia) - Cliente Python para la API REST de Open Data Euskadi.
+- [Eustat API](https://github.com/eustat/API-Eustat) - Documentación y tutoriales de la API del Instituto Vasco de Estadística (Eustat).
+
+### Andalucía
+
+- [mapea-plugins](https://github.com/sigcorporativo-ja/mapea-plugins) - Plugins del framework Mapea4 de la Junta de Andalucía.
+- [hispavoces](https://github.com/guadalinex-archive/hispavoces) - Voces sintéticas en castellano compatibles con Guadalinex y Festival (Junta de Andalucía).
+- [Guadalinex](https://github.com/guadalinex-archive/guadalinex-v8) - Distribución Linux de referencia de la Junta de Andalucía basada en Ubuntu.
+
+### Galicia
+
+- [VigoBusAPI](https://github.com/David-Lor/VigoBusAPI) - API REST con información de paradas y buses del transporte público de Vigo.
+- [Linguakit](https://github.com/citiususc/Linguakit) - Toolkit multilingüe de NLP del CiTIUS (USC) con soporte para gallego.
+- [XVM](https://github.com/IET-Xunta/XVM) - Xeovisor Mínimo: visor de mapas de la Xunta de Galicia.
+
+### Comunidad Valenciana
+
+- [LliureX Store](https://github.com/lliurex/lliurex-store) - Tienda de software de LliureX, la distribución Linux educativa de la Generalitat Valenciana.
+- [LliureX OneDrive](https://github.com/lliurex/lliurex-onedrive) - Interfaz gráfica para OneDrive en LliureX.
+- [LliureX Zero Server Wizard](https://github.com/lliurex/zero-server-wizard) - Asistente de configuración de servidores para centros educativos LliureX.
+
+### Comunidad de Madrid
+
+- [Transparencia Madrid](https://github.com/AyuntamientoMadrid/transparencia) - Portal de transparencia del Ayuntamiento de Madrid.
+- [Agendas Madrid](https://github.com/AyuntamientoMadrid/agendas) - Portal de agendas de los concejales del Ayuntamiento de Madrid.
+- [Gobierto](https://github.com/PopulateTools/gobierto) - Plataforma de gobierno abierto open source para administraciones locales.
+- [Gobierto Budgets Data](https://github.com/PopulateTools/gobierto-budgets-data) - Datos de presupuestos municipales españoles y herramientas de importación.
+- [ine-places](https://github.com/PopulateTools/ine-places) - Gema Ruby para trabajar con regiones, provincias y municipios del INE.
+
+### Canarias
+
+- [istacpy](https://github.com/eDatos/istacpy) - Paquete Python para acceder al catálogo de datos abiertos del ISTAC (Instituto Canario de Estadística).
+- [istacr](https://github.com/eDatos/istacr) - Paquete R para la API del ISTAC a través de la infraestructura eDatos.
+- [istacqgis](https://github.com/eDatos/istacqgis) - Plugin QGIS para datos abiertos del ISTAC.
+- [FRONTUR forecast](https://github.com/ISTAC/FRONTUR_forecast) - Predicción de movimientos turísticos en la frontera de Canarias (FRONTUR) en R.
+
+### Aragón
+
+- [Presupuesto Aragón](https://github.com/aragonopendata/presupuesto) - Aplicación de visualización de presupuestos del Gobierno de Aragón.
+- [Transparenzia](https://github.com/aragonopendata/transparenzia) - Portal de Transparencia del Gobierno de Aragón.
+- [GA_OD_Core](https://github.com/aragonopendata/GA_OD_Core) - API para obtener datos de vistas del portal de datos abiertos de Aragón.
+- [local-data-aragopedia](https://github.com/aragonopendata/local-data-aragopedia) - Datos estadísticos del Instituto Aragonés de Estadística para Aragón Open Data.
+
+### Islas Baleares
+
+- [Helium](https://github.com/GovernIB/helium) - Gestor de expedientes administrativos del Govern de les Illes Balears.
+- [PortaFIB](https://github.com/GovernIB/portafib) - Portafirmas digital del Govern de les Illes Balears.
+- [EnviaFIB](https://github.com/GovernIB/enviafib) - Servicio de envío de documentos a PortaFIB para firma digital.
+- [Carpeta Ciutadana](https://github.com/GovernIB/carpeta) - Carpeta ciudadana digital del Govern de les Illes Balears.
+- [Registre](https://github.com/GovernIB/registre) - Aplicación web de registro de anotaciones de entrada y salida.
+- [SISTRA](https://github.com/GovernIB/sistra) - Sistema de Tramitación Administrativa de les Illes Balears.
+- [GenApp](https://github.com/GovernIB/genapp) - Generador de aplicaciones del Govern de les Illes Balears.
+- [PINBAL](https://github.com/GovernIB/pinbal) - Plataforma de Interoperabilidad de les Illes Balears.
+
+### La Rioja
+
+- [IDERioja Cartografía Colaborativa](https://github.com/iderioja/cartografia_colaborativa) - Cartografía abierta a la colaboración ciudadana (CrowdMapping) del Gobierno de La Rioja.
+- [Base de Datos Geográfica La Rioja](https://github.com/iderioja/base_datos_geografica) - Base de datos geográfica del Gobierno de La Rioja en formato GeoJSON.
+- [API IDERioja](https://github.com/iderioja/doc_api_iderioja) - Documentación de la API de mapas de IDERioja.
+
+### Región de Murcia
+
+- [Guías CARM](https://github.com/carm-es/guias) - Guías para el desarrollo de aplicaciones en la Comunidad Autónoma de la Región de Murcia.
+- [InSiDE CARM](https://github.com/carm-es/inside) - Instalación de InSiDE (Infraestructura y Sistemas de Documentación Electrónica) de la CARM.
+- [CSV Storage CARM](https://github.com/carm-es/csvstorage) - Versión distribuible de CSV Storage para almacenamiento de documentos electrónicos.
+
+### Ayuntamientos y Diputaciones
+
+- [baRcelona](https://github.com/xavivg91/baRcelona) - Paquete R para extraer datos del portal Open Data BCN.
+- [ckanext-odatabcn](https://github.com/AjuntamentdeBarcelona/ckanext-odatabcn) - Extensión CKAN del portal de datos abiertos de Barcelona.
+- [ckanext-federagobes](https://github.com/AjuntamentdeBarcelona/ckanext-federagobes) - Extensión CKAN para federar datos con datos.gob.es desde portales municipales.
+- [Diputació BCN Open Data](https://github.com/DiputacioBarcelona/app-municipis) - Aplicación de datos abiertos de la Diputació de Barcelona.
+- [VLCTechHub API](https://github.com/VLCTechHub/VLCTechHub-api) - API REST de la comunidad tecnológica de Valencia.
 
 ## Servidores MCP
 
@@ -485,6 +671,10 @@ Servidores Model Context Protocol para datos y servicios españoles.
 - [mercadona-mcp](https://github.com/yagoangelim/mercadona-mcp) - Servidor MCP para consultar productos y precios de Mercadona.
 - [renfe_mcp_server](https://github.com/javiersorucol/renfe_mcp_server) - Servidor MCP para consultar horarios y billetes de Renfe.
 - [rae-mcp](https://github.com/rae-api-com/rae-mcp) - Servidor MCP para conectar modelos de IA con el diccionario de la RAE.
+- [MCP-BOE](https://github.com/ComputingVictor/MCP-BOE) - Servidor MCP para el BOE: legislación consolidada, sumarios diarios y tablas oficiales.
+- [boe-mcp](https://github.com/AnCode666/boe-mcp) - Servidor MCP para consultar leyes españolas usando la API del BOE.
+- [spanish-law-mcp](https://github.com/Ansvar-Systems/spanish-law-mcp) - Servidor MCP con base de datos de legislación española: LOPDGDD, ENS, LSSI, NIS2.
+- [cendoj-mcp-server](https://github.com/victormonedero3-hue/cendoj-mcp-server) - Servidor MCP del CENDOJ para búsqueda de jurisprudencia española.
 
 ## Contribuir
 
