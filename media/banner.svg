@@ -7,18 +7,26 @@
       <stop offset="0%" stop-color="#0a0a0f"/>
       <stop offset="100%" stop-color="#14141f"/>
     </linearGradient>
-    <linearGradient id="accent1" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#AA151B" stop-opacity="0.9"/>
-      <stop offset="100%" stop-color="#d4272e" stop-opacity="0.4"/>
-    </linearGradient>
-    <linearGradient id="accent2" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#F1BF00" stop-opacity="0.7"/>
-      <stop offset="100%" stop-color="#f5d442" stop-opacity="0.2"/>
-    </linearGradient>
     <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#F1BF00" stop-opacity="0.08"/>
       <stop offset="50%" stop-color="#AA151B" stop-opacity="0.05"/>
       <stop offset="100%" stop-color="#F1BF00" stop-opacity="0.0"/>
+    </linearGradient>
+    <linearGradient id="flag-left" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#AA151B"/>
+      <stop offset="25%" stop-color="#AA151B"/>
+      <stop offset="25%" stop-color="#F1BF00"/>
+      <stop offset="75%" stop-color="#F1BF00"/>
+      <stop offset="75%" stop-color="#AA151B"/>
+      <stop offset="100%" stop-color="#AA151B"/>
+    </linearGradient>
+    <linearGradient id="flag-right" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#AA151B"/>
+      <stop offset="25%" stop-color="#AA151B"/>
+      <stop offset="25%" stop-color="#F1BF00"/>
+      <stop offset="75%" stop-color="#F1BF00"/>
+      <stop offset="75%" stop-color="#AA151B"/>
+      <stop offset="100%" stop-color="#AA151B"/>
     </linearGradient>
     <filter id="blur1">
       <feGaussianBlur stdDeviation="40"/>
@@ -26,6 +34,20 @@
     <filter id="blur2">
       <feGaussianBlur stdDeviation="30"/>
     </filter>
+    <mask id="fade-left">
+      <linearGradient id="fl" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#fff"/>
+        <stop offset="100%" stop-color="#000"/>
+      </linearGradient>
+      <rect width="90" height="200" fill="url(#fl)"/>
+    </mask>
+    <mask id="fade-right">
+      <linearGradient id="fr" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#000"/>
+        <stop offset="100%" stop-color="#fff"/>
+      </linearGradient>
+      <rect x="710" width="90" height="200" fill="url(#fr)"/>
+    </mask>
   </defs>
   <g clip-path="url(#rounded)">
     <!-- Dark base -->
@@ -47,10 +69,24 @@
       <line x1="0" y1="120" x2="800" y2="120"/><line x1="0" y1="160" x2="800" y2="160"/>
     </g>
 
+    <!-- Spanish flag strips on left side, fading into dark -->
+    <g mask="url(#fade-left)" opacity="0.55">
+      <rect x="0" y="0" width="90" height="50" fill="#AA151B"/>
+      <rect x="0" y="50" width="90" height="100" fill="#F1BF00"/>
+      <rect x="0" y="150" width="90" height="50" fill="#AA151B"/>
+    </g>
+
+    <!-- Spanish flag strips on right side, fading into dark -->
+    <g mask="url(#fade-right)" opacity="0.55">
+      <rect x="710" y="0" width="90" height="50" fill="#AA151B"/>
+      <rect x="710" y="50" width="90" height="100" fill="#F1BF00"/>
+      <rect x="710" y="150" width="90" height="50" fill="#AA151B"/>
+    </g>
+
     <!-- Blurred color orbs -->
-    <ellipse cx="120" cy="160" rx="180" ry="120" fill="#AA151B" opacity="0.25" filter="url(#blur1)"/>
-    <ellipse cx="680" cy="40" rx="200" ry="130" fill="#F1BF00" opacity="0.15" filter="url(#blur1)"/>
-    <ellipse cx="500" cy="180" rx="120" ry="80" fill="#AA151B" opacity="0.1" filter="url(#blur2)"/>
+    <ellipse cx="120" cy="160" rx="180" ry="120" fill="#AA151B" opacity="0.2" filter="url(#blur1)"/>
+    <ellipse cx="680" cy="40" rx="200" ry="130" fill="#F1BF00" opacity="0.12" filter="url(#blur1)"/>
+    <ellipse cx="500" cy="180" rx="120" ry="80" fill="#AA151B" opacity="0.08" filter="url(#blur2)"/>
 
     <!-- Diagonal accent lines -->
     <line x1="580" y1="0" x2="800" y2="130" stroke="#F1BF00" stroke-width="1" opacity="0.12"/>
@@ -73,8 +109,8 @@
     <!-- Accent bar under title -->
     <rect x="320" y="104" width="160" height="2" rx="1" fill="#F1BF00" opacity="0.5"/>
 
-    <!-- Subtitle -->
-    <text x="400" y="134" text-anchor="middle" font-family="'SF Pro Display', 'Inter', system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="rgba(255,255,255,0.55)" font-weight="300" letter-spacing="3.5">SOFTWARE OPEN SOURCE PARA ESPANA</text>
+    <!-- Subtitle with proper España -->
+    <text x="400" y="134" text-anchor="middle" font-family="'SF Pro Display', 'Inter', system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="rgba(255,255,255,0.55)" font-weight="300" letter-spacing="3.5">SOFTWARE OPEN SOURCE PARA ESPAÑA</text>
 
     <!-- Top border accent -->
     <rect width="800" height="2" fill="#AA151B" opacity="0.6"/>
