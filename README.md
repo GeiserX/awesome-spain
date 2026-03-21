@@ -487,6 +487,7 @@ Cuadernos AEB (Asociación Española de la Banca) y formatos de intercambio banc
 ### Agua
 
 - [homeassistant_canal_isabel_II](https://github.com/miguelangel-nubla/homeassistant_canal_isabel_II) - Integración de Canal de Isabel Segunda (contadores de agua en Madrid) para Home Assistant.
+- [AcuaNet](https://github.com/DvzZDev/AcuaNet) - Plataforma con niveles de embalses en España y condiciones meteorológicas en tiempo real con datos del MITECO.
 
 ## Logística y Mensajería
 
