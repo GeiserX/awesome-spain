@@ -264,6 +264,7 @@ Integraciones con Redsys/Sermepa, la pasarela de pagos dominante en España.
 - [pvpc_energy](https://github.com/yinyang17/pvpc_energy) - Importa consumo y coste eléctrico desde UFD/REE y calcula facturas desde la CNMC.
 - [libCNMC](https://github.com/gisce/libCNMC) - Librería para generar informes de la CNMC del sector eléctrico.
 - [esiosapy](https://github.com/M4RC0Sx/esiosapy) - Librería Python no oficial para la API de ESIOS (Red Eléctrica).
+- [ista-calista](https://github.com/herruzo99/ista-calista) - Integración con Home Assistant (y librería python) para monitorizar el consumo de calefacción y agua caliente del proveedor de lecturas Ista.
 
 ## Meteorología
 
