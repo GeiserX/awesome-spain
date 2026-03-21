@@ -536,7 +536,6 @@ Cuadernos AEB (Asociación Española de la Banca) y formatos de intercambio banc
 - [Decidim](https://github.com/decidim/decidim) - Plataforma de democracia participativa digital nacida en Barcelona, usada por más de 400 instituciones.
 - [CONSUL Democracy](https://github.com/consuldemocracy/consuldemocracy) - Plataforma de participación ciudadana creada por el Ayuntamiento de Madrid, usada en 35+ países.
 - [decidim-barcelona](https://github.com/AjuntamentdeBarcelona/decidim-barcelona) - Instancia Decidim del Ajuntament de Barcelona para participación ciudadana.
-- [decide](https://github.com/AyuntamientoMadrid/decide) - Portal de participación ciudadana del Ayuntamiento de Madrid (antecesor de CONSUL).
 - [participa](https://github.com/podemos-info/participa) - Plataforma de participación ciudadana de Podemos basada en Decidim.
 
 ## Comunidades Autónomas y Administración Local
