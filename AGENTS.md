@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-Lista curada de software open source que da **soporte específico a España, sus comunidades autónomas y provincias**. Todo el contenido debe estar en español. El nombre del repositorio se mantiene en inglés (`awesome-spain`).
+Selección de software open source que da **soporte específico a España, sus comunidades autónomas y provincias**. Todo el contenido debe estar en español. El nombre del repositorio se mantiene en inglés (`awesome-spain`).
 
 ## Criterios de inclusión
 

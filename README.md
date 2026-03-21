@@ -3,7 +3,7 @@
   <br><br>
   <a href="https://awesome.re"><img src="https://awesome.re/badge-flat.svg" alt="Awesome"></a>
   <br><br>
-  <p>Una lista curada de software open source que da soporte específico a España, sus comunidades autónomas y provincias.</p>
+  <p>Una selección de software open source que da soporte específico a España, sus comunidades autónomas y provincias.</p>
 </div>
 
 ## Contenido
@@ -222,7 +222,7 @@ Integraciones con Redsys/Sermepa, la pasarela de pagos dominante en España.
 - [tidyBdE](https://github.com/rOpenSpain/tidyBdE) - Paquete R para recuperar datos del Banco de España.
 - [MicroDatosEs](https://github.com/rOpenSpain/MicroDatosEs) - Paquete R para leer y procesar microdatos de estadísticas oficiales españolas.
 - [datosgobes](https://github.com/jvaleroliet/datosgobes) - Librería Python para gestionar datos del portal datos.gob.es.
-- [spain-open-data](https://github.com/ginopalazzo/spain-open-data) - Listado curado de recursos de datos abiertos españoles.
+- [spain-open-data](https://github.com/ginopalazzo/spain-open-data) - Recopilación de recursos de datos abiertos españoles.
 - [Siane](https://github.com/rOpenSpain/Siane) - Paquete R para representar datos estadísticos en mapas oficiales españoles.
 - [tidycenso](https://github.com/rOpenSpain/tidycenso) - Biblioteca R para acceder a la API del Censo español 2021.
 - [covid-vaccination-spain](https://github.com/civio/covid-vaccination-spain) - Datos de vacunación COVID en España por Civio.
@@ -236,6 +236,7 @@ Integraciones con Redsys/Sermepa, la pasarela de pagos dominante en España.
 - [spanish-names-surnames](https://github.com/jvalhondo/spanish-names-surnames) - Dataset de nombres y apellidos españoles.
 - [codigos_postales_spain](https://github.com/franciscojuan1974/codigos_postales_spain) - Base de datos SQL de más de 11.000 códigos postales de España con coordenadas.
 - [ds-codigos-postales-ine-es](https://github.com/inigoflores/ds-codigos-postales-ine-es) - Relación entre códigos postales y municipios según el INE.
+- [secciones-nacionalidades](https://github.com/GeiserX/secciones-nacionalidades) - Aplicación web Shiny para explorar datos demográficos de nacionalidades por sección censal del INE.
 - [egov](https://github.com/palmerabollo/egov) - API abierto de acceso a datos públicos españoles.
 - [spanish-cities](https://github.com/ByMykel/spanish-cities) - Librería Python con datos de autonomías, provincias y ciudades de España con códigos, nombres, banderas y escudos.
 
@@ -300,6 +301,9 @@ Integraciones con Redsys/Sermepa, la pasarela de pagos dominante en España.
 - [pyemtmad](https://github.com/rmed/pyemtmad) - Wrapper Python para la API de EMT Madrid.
 - [EMTValencia-API](https://github.com/ElEd0/EMTValencia-API) - API no oficial para tiempos de espera de autobuses EMT Valencia.
 - [CapitanRenfe](https://github.com/riera90/CapitanRenfe) - Bot que informa si un tren de Renfe se ha retrasado.
+- [sevibus-android](https://github.com/Sloy/sevibus-android) - App Android de código abierto para el transporte público de Sevilla (TUSSAM).
+- [aucorsa](https://github.com/jesusrp98/aucorsa) - Wrapper en Dart para la API de AUCORSA (autobuses urbanos de Córdoba).
+- [bus.gal-api](https://github.com/peprolinbot/bus.gal-api) - Librería Python para la API de bus.gal, el portal de transporte público interurbano de Galicia.
 
 ### Bicicletas Públicas
 
@@ -342,6 +346,7 @@ Integraciones con Redsys/Sermepa, la pasarela de pagos dominante en España.
 - [API-CNIG](https://github.com/IGN-CNIG/API-CNIG) - API del Centro Nacional de Información Geográfica para visualizadores cartográficos web.
 - [pycartociudad](https://github.com/PyLadiesMadrid/pycartociudad) - Paquete Python para consultar la API de CartoCiudad.
 - [trece](https://github.com/ernestofgonzalez/trece) - CLI para descargar datos geoespaciales y de direcciones oficiales de España.
+- [leaflet-providersESP](https://github.com/dieghernan/leaflet-providersESP) - Plugin Leaflet con proveedores de teselas y capas WMS de España (IGN, Catastro, CC.AA.).
 
 ## Inmobiliaria y Mercados
 
@@ -458,6 +463,7 @@ Cuadernos AEB (Asociación Española de la Banca) y formatos de intercambio banc
 - [MitraStar_GPT-2541GNAC_HA](https://github.com/joseska/MitraStar_GPT-2541GNAC_HA) - Device tracker del router MitraStar GPT-2541GNAC (Movistar) para Home Assistant.
 - [LiveboxFibraExtractor](https://github.com/segura2010/LiveboxFibraExtractor) - Herramienta Java para extraer credenciales SIP del router Livebox Fibra de Orange/Jazztel España.
 - [ha-pepephone](https://github.com/ldotlopez/ha-pepephone) - Integración Home Assistant para consultar datos de la cuenta Pepephone.
+- [lista-telefonos-spam](https://github.com/mv12star/lista-telefonos-spam) - Lista colaborativa de números de teléfono de spam en España.
 
 ### Agua
 
