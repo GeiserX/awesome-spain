@@ -43,6 +43,16 @@ Lista curada de software open source que da **soporte específico a España, sus
 - Máximo una línea por entrada.
 - Usar awesome-lint para validar: `npx awesome-lint`.
 
+## Verificación antes de añadir
+
+Antes de incluir un repositorio, comprobar:
+
+- **Existe y es público**: el enlace GitHub funciona y el repo no es privado.
+- **No está archivado ni en solo lectura**: si está archivado, va a `DELETED.md` (sección "Archivados").
+- **Actividad razonable**: al menos un commit en los últimos 3 años, salvo proyectos estables/completos que no necesitan actualizaciones.
+- **No es un duplicado**: cruzar con `README.md` y `DELETED.md` para evitar repeticiones.
+- **Calidad mínima**: tiene documentación básica (README) y no es un repositorio vacío o de pruebas.
+
 ## Pull requests y contribuciones
 
 - Las PRs deben usar la plantilla en `.github/PULL_REQUEST_TEMPLATE.md`.
@@ -53,6 +63,7 @@ Lista curada de software open source que da **soporte específico a España, sus
 ## Estructura
 
 - Secciones con `##`, subsecciones con `###`.
+- Las secciones suelen tener al menos 3 entradas, pero se admiten secciones con 1-2 entradas en casos excepcionales si el nicho es suficientemente relevante para España.
 - Tabla de contenido al inicio entre comentarios `<!--lint disable/enable awesome-list-item-->`.
 - Al final: sección Contribuir, Nota y Descargo de responsabilidad.
 

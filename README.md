@@ -40,6 +40,7 @@
 - [Salud y Medicamentos](#salud-y-medicamentos)
 - [Educación y Oposiciones](#educación-y-oposiciones)
 - [Extranjería y Visados](#extranjería-y-visados)
+- [Empleo y Trabajo Remoto](#empleo-y-trabajo-remoto)
 - [Participación Ciudadana](#participación-ciudadana)
 - [Comunidades Autónomas y Administración Local](#comunidades-autónomas-y-administración-local)
 - [Servidores MCP](#servidores-mcp)
@@ -65,6 +66,7 @@
 - [TDTSpain2VLC](https://github.com/David-Lor/TDTSpain2VLC) - Convierte listas de canales TDT a playlist XSPF para VLC.
 - [plugin.video.rtve](https://github.com/mcr222/plugin.video.rtve) - Plugin de vídeo RTVE para Kodi.
 - [plugin.video.filmin](https://github.com/pablouser1/plugin.video.filmin) - Plugin de Kodi para reproducir contenido de Filmin (plataforma española de cine).
+- [plugin.video.orange.spain](https://github.com/Paco8/plugin.video.orange.spain) - Addon de Orange TV Spain para Kodi.
 - [tvhstar](https://github.com/LuisPalacios/tvhstar) - Descarga periódica del EPG de Movistar TV para Tvheadend.
 
 ### Radio y Podcasts
@@ -207,6 +209,8 @@ Integraciones con Redsys/Sermepa, la pasarela de pagos dominante en España.
 - [CENDOJ Scraping API](https://github.com/Gasparms9/Project5-Cendoj-Scrapping-API) - Scraping y API del Centro de Documentación Judicial (CENDOJ).
 - [subastas-boe](https://github.com/eduaero/BOE) - Scraper de subastas judiciales del portal de subastas del BOE.
 - [observatoriospublicos.es](https://github.com/JaimeObregon/observatoriospublicos.es) - Observatorio de los observatorios públicos de España.
+- [licitaciones-espana](https://github.com/BquantFinance/licitaciones-espana) - Scraper y datos de licitaciones públicas y contratos del sector público en España.
+- [leyes](https://github.com/hpalacio/leyes) - La Constitución Española y sus reformas versionadas con git.
 
 ## Datos Abiertos y Estadísticas
 
@@ -231,6 +235,9 @@ Integraciones con Redsys/Sermepa, la pasarela de pagos dominante en España.
 - [opencis](https://github.com/hmeleiro/opencis) - Paquete R para importar datos del Centro de Investigaciones Sociológicas (CIS).
 - [spanish-names-surnames](https://github.com/jvalhondo/spanish-names-surnames) - Dataset de nombres y apellidos españoles.
 - [codigos_postales_spain](https://github.com/franciscojuan1974/codigos_postales_spain) - Base de datos SQL de más de 11.000 códigos postales de España con coordenadas.
+- [ds-codigos-postales-ine-es](https://github.com/inigoflores/ds-codigos-postales-ine-es) - Relación entre códigos postales y municipios según el INE.
+- [egov](https://github.com/palmerabollo/egov) - API abierto de acceso a datos públicos españoles.
+- [spanish-cities](https://github.com/ByMykel/spanish-cities) - Librería Python con datos de autonomías, provincias y ciudades de España con códigos, nombres, banderas y escudos.
 
 ### Radar COVID
 
@@ -264,6 +271,7 @@ Integraciones con Redsys/Sermepa, la pasarela de pagos dominante en España.
 - [libCNMC](https://github.com/gisce/libCNMC) - Librería para generar informes de la CNMC del sector eléctrico.
 - [esiosapy](https://github.com/M4RC0Sx/esiosapy) - Librería Python no oficial para la API de ESIOS (Red Eléctrica).
 - [ista-calista](https://github.com/herruzo99/ista-calista) - Integración con Home Assistant (y librería python) para monitorizar el consumo de calefacción y agua caliente del proveedor de lecturas Ista.
+- [HA-PVPC-Updated](https://github.com/oscarrgarciia/HA-PVPC-Updated) - Integración personalizada de Home Assistant para precios PVPC con tarifas 2.0TD y generación.
 
 ## Meteorología
 
@@ -290,6 +298,7 @@ Integraciones con Redsys/Sermepa, la pasarela de pagos dominante en España.
 - [ave-round-tripper](https://github.com/angelbarrera92/ave-round-tripper) - Encuentra viajes de ida y vuelta más baratos en AVE con notificaciones de cambio de precio.
 - [renfe-api](https://github.com/atabel/renfe-api) - Scraper y servidor Node.js para servicios de Cercanías Renfe.
 - [pyemtmad](https://github.com/rmed/pyemtmad) - Wrapper Python para la API de EMT Madrid.
+- [EMTValencia-API](https://github.com/ElEd0/EMTValencia-API) - API no oficial para tiempos de espera de autobuses EMT Valencia.
 - [CapitanRenfe](https://github.com/riera90/CapitanRenfe) - Bot que informa si un tren de Renfe se ha retrasado.
 
 ### Bicicletas Públicas
@@ -536,6 +545,11 @@ Cuadernos AEB (Asociación Española de la Banca) y formatos de intercambio banc
 - [cita-checker](https://github.com/TiagoCortinhal/cita-checker) - Automatización para comprobar disponibilidad de citas previas en administraciones españolas.
 - [cita-previa-tie](https://github.com/sviridoff/cita-previa-tie) - Autocompleta formularios de cita previa de la Policía Nacional para TIE.
 
+## Empleo y Trabajo Remoto
+
+- [remotes](https://github.com/remote-es/remotes) - Listado de empresas que ofrecen trabajo remoto con contrato español.
+- [mac](https://github.com/getmanfred/mac) - Manfred Awesomic CV: formato abierto de currículum de la plataforma de empleo tech Manfred.
+
 ## Participación Ciudadana
 
 - [Decidim](https://github.com/decidim/decidim) - Plataforma de democracia participativa digital nacida en Barcelona, usada por más de 400 instituciones.
@@ -602,6 +616,7 @@ Software open source de comunidades autónomas, ayuntamientos y diputaciones.
 - [Transparenzia](https://github.com/aragonopendata/transparenzia) - Portal de Transparencia del Gobierno de Aragón.
 - [GA_OD_Core](https://github.com/aragonopendata/GA_OD_Core) - API para obtener datos de vistas del portal de datos abiertos de Aragón.
 - [local-data-aragopedia](https://github.com/aragonopendata/local-data-aragopedia) - Datos estadísticos del Instituto Aragonés de Estadística para Aragón Open Data.
+- [bislai](https://github.com/bislai/bislai) - Plataforma de accesibilidad política para el Ayuntamiento de Zaragoza.
 
 ### Islas Baleares
 
