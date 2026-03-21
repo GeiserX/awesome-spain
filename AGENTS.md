@@ -42,6 +42,7 @@ Selección de software open source que da **soporte específico a España, sus c
 - La descripción **no debe empezar con el nombre del proyecto**.
 - Máximo una línea por entrada.
 - Usar awesome-lint para validar: `npx awesome-lint`.
+- Evitar el anglicismo «curar/curado» (de *curated*). Según la FundéuRAE, las alternativas preferidas son «selección», «recopilación» o «responsable de contenidos». Ver: https://www.fundeu.es/recomendacion/responsable-de-contenidos-mejor-que-content-curator/
 
 ## Verificación antes de añadir
 

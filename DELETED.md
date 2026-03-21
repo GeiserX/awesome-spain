@@ -21,6 +21,8 @@ Proyectos que estuvieron en la lista pero fueron retirados por alguna de las raz
 - [fa-scraper](https://github.com/mx-psi/fa-scraper) - Scraper de FilmAffinity compatible con Letterboxd.
 - [caixabank-homebank](https://github.com/namelivia/caixabank-homebank) - CLI para convertir extractos de CaixaBank a formato QIF.
 - [laliga-data](https://github.com/sdelquin/laliga-data) - Scraping de datos de la web oficial de La Liga.
+- [GitHubRankingsSpain](https://github.com/iblancasa/GitHubRankingsSpain) - Rankings de usuarios más activos de GitHub en España.
+- [twitter-instituciones](https://github.com/JaimeObregon/twitter-instituciones) - Archivo de tuits de instituciones españolas.
 - [wallapop-alert](https://github.com/tanrax/wallapop-alert) - Notificador de productos nuevos en Wallapop.
 - [wallaviso](https://github.com/tanrax/wallaviso) - Programa tus búsquedas en Wallapop y recibe un feed RSS.
 - [BOE_API](https://github.com/BOE-API/BOE_API) - API del Boletín Oficial del Estado.

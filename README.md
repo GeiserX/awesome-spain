@@ -37,6 +37,7 @@
 - [DGT y Vehículos](#dgt-y-vehículos)
 - [Agricultura](#agricultura)
 - [Smart Cities e IoT](#smart-cities-e-iot)
+- [Blockchain e Identidad Digital](#blockchain-e-identidad-digital)
 - [Salud y Medicamentos](#salud-y-medicamentos)
 - [Educación y Oposiciones](#educación-y-oposiciones)
 - [Extranjería y Visados](#extranjería-y-visados)
@@ -93,6 +94,8 @@ Sistema de facturación certificada de la AEAT (Ley Antifraude 2021).
 - [verifactu-rb](https://github.com/mybooking-es/verifactu-rb) - Implementación de VeriFactu en Ruby.
 - [verifactu (Dolibarr)](https://github.com/garacil/verifactu) - Módulo VeriFactu para el ERP Dolibarr.
 - [verifactu-delphi-demo](https://github.com/seccion31/verifactu-delphi-demo) - Demo de alta y anulación de factura VeriFactu en Delphi.
+- [verifactu-php (NemonInvocash)](https://github.com/NemonInvocash/verifactu-php) - Librería PHP y ejemplos para integrar la API de VeriFactu de la AEAT.
+- [autoverifactu](https://github.com/codeccoop/autoverifactu) - Módulo VeriFactu para el ERP Dolibarr.
 
 ### Facturae
 
@@ -146,6 +149,8 @@ Integraciones con Redsys/Sermepa, la pasarela de pagos dominante en España.
 - [redsys-php](https://github.com/creagia/redsys-php) - Integración Redsys en PHP puro de Creagia.
 - [django-payments-redsys](https://github.com/ajostergaard/django-payments-redsys) - Backend Redsys para django-payments.
 - [python-redsys](https://github.com/ddiazpinto/python-redsys) - Cliente Python para pagos Redsys.
+- [easyredsys](https://github.com/majulvez/easyredsys) - Librería Java para facilitar la integración con la pasarela de pagos Redsys.
+- [sermepa (CommerceRedsys)](https://github.com/CommerceRedsys/sermepa) - Clase PHP para pasarelas de pago de bancos españoles que usan Sermepa/Redsys.
 
 ## ERP y Contabilidad
 
@@ -153,6 +158,8 @@ Integraciones con Redsys/Sermepa, la pasarela de pagos dominante en España.
 - [l10n-spain](https://github.com/OCA/l10n-spain) - Localización de Odoo para España de la OCA: contabilidad, modelos AEAT, SII, PGC y más de 50 módulos.
 - [FacturaScripts 2015](https://github.com/NeoRazorX/facturascripts_2015) - Versión anterior de FacturaScripts con facturación y contabilidad libre.
 - [docker-facturascripts](https://github.com/FacturaScripts/docker-facturascripts) - Imagen Docker oficial de FacturaScripts.
+- [LibreTPV](https://github.com/sramos/LibreTPV) - TPV (punto de venta) web para tiendas con gestión de stock, caja e informes fiscales españoles.
+
 ## Firma Electrónica y Administración Pública
 
 ### AutoFirma y @firma
@@ -182,6 +189,7 @@ Integraciones con Redsys/Sermepa, la pasarela de pagos dominante en España.
 - [clave](https://github.com/ctt-gob-es/clave) - Cl@ve: plataforma oficial de identificación del sector público.
 - [valet](https://github.com/ctt-gob-es/valet) - Validación de certificados mediante TSLs europeas.
 - [ips](https://github.com/ctt-gob-es/ips) - Inscripción en Pruebas Selectivas (oposiciones).
+- [laravel-policia-hotel](https://github.com/leifermendez/laravel-policia-hotel) - Registro de viajeros en el sistema Webpol/E-Hotel de la Policía Nacional para establecimientos hoteleros.
 
 ## Transparencia y Legal Tech
 
@@ -237,6 +245,7 @@ Integraciones con Redsys/Sermepa, la pasarela de pagos dominante en España.
 - [codigos_postales_spain](https://github.com/franciscojuan1974/codigos_postales_spain) - Base de datos SQL de más de 11.000 códigos postales de España con coordenadas.
 - [ds-codigos-postales-ine-es](https://github.com/inigoflores/ds-codigos-postales-ine-es) - Relación entre códigos postales y municipios según el INE.
 - [secciones-nacionalidades](https://github.com/GeiserX/secciones-nacionalidades) - Aplicación web Shiny para explorar datos demográficos de nacionalidades por sección censal del INE.
+- [Laboratorio de Datos](https://github.com/Admindatosgobes/Laboratorio-de-Datos) - Recursos y ejercicios prácticos del portal datos.gob.es para la reutilización de datos abiertos con visualizaciones y ciencia de datos.
 - [egov](https://github.com/palmerabollo/egov) - API abierto de acceso a datos públicos españoles.
 - [spanish-cities](https://github.com/ByMykel/spanish-cities) - Librería Python con datos de autonomías, provincias y ciudades de España con códigos, nombres, banderas y escudos.
 
@@ -273,6 +282,8 @@ Integraciones con Redsys/Sermepa, la pasarela de pagos dominante en España.
 - [esiosapy](https://github.com/M4RC0Sx/esiosapy) - Librería Python no oficial para la API de ESIOS (Red Eléctrica).
 - [ista-calista](https://github.com/herruzo99/ista-calista) - Integración con Home Assistant (y librería python) para monitorizar el consumo de calefacción y agua caliente del proveedor de lecturas Ista.
 - [HA-PVPC-Updated](https://github.com/oscarrgarciia/HA-PVPC-Updated) - Integración personalizada de Home Assistant para precios PVPC con tarifas 2.0TD y generación.
+- [ha-tarifa-20td](https://github.com/MiguelAngelLV/ha-tarifa-20td) - Componente Home Assistant para usuarios con tarifa eléctrica 2.0 TD (discriminación horaria).
+- [python-edata](https://github.com/uvejota/python-edata) - Herramienta Python para descarga y procesamiento de datos de consumo eléctrico español desde Datadis y REData.
 
 ## Meteorología
 
@@ -359,9 +370,11 @@ Integraciones con Redsys/Sermepa, la pasarela de pagos dominante en España.
 - [idealista-scraper](https://github.com/rubnvp/idealista-scraper) - Scraper para idealista.com.
 - [fotocasa-scraper](https://github.com/rociobenitez/fotocasa-scraper) - Scraper para extraer datos de viviendas de Fotocasa.
 - [idealista18](https://github.com/paezha/idealista18) - Dataset abierto con anuncios inmobiliarios de Idealista para tres grandes ciudades españolas.
+- [idealista-notifier](https://github.com/martin0995/idealista-notifier) - Bot de Telegram que rastrea Idealista en busca de nuevos pisos.
 ### Wallapop
 
 - [wallapop-go](https://github.com/Neufal777/wallapop-go) - Cliente de la API de Wallapop en Golang.
+- [Wallapop-Scrapper](https://github.com/CuB1z/Wallapop-Scrapper) - Scraper de Wallapop con integración de bot de Telegram.
 - [wallapop-scraper](https://github.com/Tatuck/wallapop-scraper) - Analiza productos infravalorados en Wallapop usando su API y Gemini.
 - [wallapop_scraper](https://github.com/LopCuns/wallapop_scraper) - Scraper de Wallapop en Python.
 - [wallbot](https://github.com/z0r3f/wallbot) - Bot de búsqueda de Wallapop.
@@ -446,6 +459,7 @@ Cuadernos AEB (Asociación Española de la Banca) y formatos de intercambio banc
 - [mercaapi](https://github.com/m0wer/mercaapi) - API no oficial de Mercadona con información nutricional e historial de precios.
 - [mercadona-cli](https://github.com/exwyezed/mercadona-cli) - CLI no oficial para tienda.mercadona.es.
 - [mercapy](https://github.com/jtayped/mercapy) - Interfaz Python de Mercadona para seguir precios y cantidades.
+- [supermarket-mercadona-scraper](https://github.com/vgvr0/supermarket-mercadona-scraper) - Herramienta que extrae y organiza datos de productos de Mercadona para comparación de precios.
 
 ## Alarmas y Seguridad del Hogar
 
@@ -464,6 +478,7 @@ Cuadernos AEB (Asociación Española de la Banca) y formatos de intercambio banc
 - [LiveboxFibraExtractor](https://github.com/segura2010/LiveboxFibraExtractor) - Herramienta Java para extraer credenciales SIP del router Livebox Fibra de Orange/Jazztel España.
 - [ha-pepephone](https://github.com/ldotlopez/ha-pepephone) - Integración Home Assistant para consultar datos de la cuenta Pepephone.
 - [lista-telefonos-spam](https://github.com/mv12star/lista-telefonos-spam) - Lista colaborativa de números de teléfono de spam en España.
+- [router-movistar](https://github.com/Eitol/router-movistar) - Librería Python para gestionar el router de Movistar.
 
 ### Agua
 
@@ -528,10 +543,18 @@ Cuadernos AEB (Asociación Española de la Banca) y formatos de intercambio banc
 - [api-sitna](https://github.com/sitna/api-sitna) - API JavaScript del SITNA (Sistema de Información Territorial de Navarra) para datos georreferenciados.
 - [bustia-etica-bcn](https://github.com/AjuntamentdeBarcelona/bustia-etica-bcn) - Buzón ético digital del Ajuntament de Barcelona.
 
+## Blockchain e Identidad Digital
+
+Alastria: consorcio español de Blockchain (BBVA, Santander, Telefónica, Repsol, Iberdrola y más de 70 entidades).
+
+- [alastria-identity](https://github.com/alastria/alastria-identity) - Modelo de identidad autosoberana y smart contracts de la red Blockchain Alastria.
+- [alastria-node-besu](https://github.com/alastria/alastria-node-besu) - Instalación de nodos en la red Alastria Red-B con Hyperledger Besu.
+
 ## Salud y Medicamentos
 
 - [aempsconn](https://github.com/fqlenos/aempsconn) - Biblioteca para interactuar con la API REST CIMA de la AEMPS (Agencia Española de Medicamentos).
 - [aemps-sdk](https://github.com/apenab/aemps-sdk) - SDK en TypeScript para la API REST CIMA de la AEMPS: datos de medicamentos españoles.
+- [PillPal](https://github.com/D4vidDf/PillPal) - App Android de gestión de medicación con recordatorios que usa la API CIMA de la AEMPS.
 
 ## Educación y Oposiciones
 
@@ -555,6 +578,8 @@ Cuadernos AEB (Asociación Española de la Banca) y formatos de intercambio banc
 
 - [remotes](https://github.com/remote-es/remotes) - Listado de empresas que ofrecen trabajo remoto con contrato español.
 - [mac](https://github.com/getmanfred/mac) - Manfred Awesomic CV: formato abierto de currículum de la plataforma de empleo tech Manfred.
+- [infojobs-hackathon](https://github.com/midudev/infojobs-hackathon) - Proyecto con OpenAI y la API de InfoJobs para búsqueda de empleo asistida por IA.
+- [infojobs-hackaton](https://github.com/ericrisco/infojobs-hackaton) - Bot de Telegram para búsqueda de empleo usando la API de InfoJobs y OpenAI.
 
 ## Participación Ciudadana
 
