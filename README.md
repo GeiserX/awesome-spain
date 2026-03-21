@@ -226,6 +226,7 @@ Integraciones con Redsys/Sermepa, la pasarela de pagos dominante en España.
 - [datadista datasets](https://github.com/datadista/datasets) - Datos de los reportajes y proyectos de periodismo de investigación de DATADISTA.
 - [datos.gob.es](https://github.com/ctt-gob-es/datos.gob.es) - Código fuente oficial del Catálogo Nacional de Datos Abiertos (CKAN + Drupal).
 - [INEbaseR](https://github.com/rOpenSpain/INEbaseR) - Paquete R para obtener y analizar datos abiertos del INE (Instituto Nacional de Estadística).
+- [dine](https://github.com/davidgasquez/dine) - Librería y CLI para explorar y exportar datos del Instituto Nacional de Estadística.
 - [opendataes](https://github.com/rOpenSpain/opendataes) - Paquete R para acceder a datos de datos.gob.es de forma programática.
 - [tidyBdE](https://github.com/rOpenSpain/tidyBdE) - Paquete R para recuperar datos del Banco de España.
 - [MicroDatosEs](https://github.com/rOpenSpain/MicroDatosEs) - Paquete R para leer y procesar microdatos de estadísticas oficiales españolas.
