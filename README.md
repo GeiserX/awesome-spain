@@ -615,6 +615,8 @@ Software open source de comunidades autónomas, ayuntamientos y diputaciones.
 - [mapea-plugins](https://github.com/sigcorporativo-ja/mapea-plugins) - Plugins del framework Mapea4 de la Junta de Andalucía.
 - [hispavoces](https://github.com/guadalinex-archive/hispavoces) - Voces sintéticas en castellano compatibles con Guadalinex y Festival (Junta de Andalucía).
 - [Guadalinex](https://github.com/guadalinex-archive/guadalinex-v8) - Distribución Linux de referencia de la Junta de Andalucía basada en Ubuntu.
+- [EducaAndOS Plus](https://github.com/aosucas499/guadalinex) - ISO, aplicaciones, drivers y scripts comunitarios para EducaAndOS/Guadalinex en centros educativos andaluces.
+- [andaluh-py](https://github.com/andalugeeks/andaluh-py) - Transliteración del español a propuestas ortográficas en andaluz (EPA) en Python.
 
 ### Galicia
 
@@ -678,6 +680,7 @@ Software open source de comunidades autónomas, ayuntamientos y diputaciones.
 - [Guías CARM](https://github.com/carm-es/guias) - Guías para el desarrollo de aplicaciones en la Comunidad Autónoma de la Región de Murcia.
 - [InSiDE CARM](https://github.com/carm-es/inside) - Instalación de InSiDE (Infraestructura y Sistemas de Documentación Electrónica) de la CARM.
 - [CSV Storage CARM](https://github.com/carm-es/csvstorage) - Versión distribuible de CSV Storage para almacenamiento de documentos electrónicos.
+- [playasmurcia](https://github.com/jmlweb/playasmurcia) - Catálogo de playas de la Región de Murcia con datos abiertos de la CARM.
 
 ### Ayuntamientos y Diputaciones
 
