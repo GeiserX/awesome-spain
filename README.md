@@ -648,6 +648,7 @@ Software open source de comunidades autónomas, ayuntamientos y diputaciones.
 - [istacr](https://github.com/eDatos/istacr) - Paquete R para la API del ISTAC a través de la infraestructura eDatos.
 - [istacqgis](https://github.com/eDatos/istacqgis) - Plugin QGIS para datos abiertos del ISTAC.
 - [FRONTUR forecast](https://github.com/ISTAC/FRONTUR_forecast) - Predicción de movimientos turísticos en la frontera de Canarias (FRONTUR) en R.
+- [tech-companies-canarias](https://github.com/DanielRamosAcosta/tech-companies-canarias) - Listado de empresas tecnológicas en las Islas Canarias.
 
 ### Aragón
 
