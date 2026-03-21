@@ -227,6 +227,8 @@ Integraciones con Redsys/Sermepa, la pasarela de pagos dominante en España.
 - [datos.gob.es](https://github.com/ctt-gob-es/datos.gob.es) - Código fuente oficial del Catálogo Nacional de Datos Abiertos (CKAN + Drupal).
 - [INEbaseR](https://github.com/rOpenSpain/INEbaseR) - Paquete R para obtener y analizar datos abiertos del INE (Instituto Nacional de Estadística).
 - [dine](https://github.com/davidgasquez/dine) - Librería y CLI para explorar y exportar datos del Instituto Nacional de Estadística.
+- [censosine21](https://github.com/sigdeletras/censosine21) - Librería Python para la API del Censo de Población y Viviendas 2021 del INE.
+- [pyaxis](https://github.com/icane/pyaxis) - Conversor de ficheros PC-Axis a Pandas del Instituto Cántabro de Estadística (ICANE).
 - [opendataes](https://github.com/rOpenSpain/opendataes) - Paquete R para acceder a datos de datos.gob.es de forma programática.
 - [tidyBdE](https://github.com/rOpenSpain/tidyBdE) - Paquete R para recuperar datos del Banco de España.
 - [MicroDatosEs](https://github.com/rOpenSpain/MicroDatosEs) - Paquete R para leer y procesar microdatos de estadísticas oficiales españolas.
@@ -705,6 +707,7 @@ Servidores Model Context Protocol para datos y servicios españoles.
 - [spanish-law-mcp](https://github.com/Ansvar-Systems/spanish-law-mcp) - Servidor MCP con base de datos de legislación española: LOPDGDD, ENS, LSSI, NIS2.
 - [cendoj-mcp-server](https://github.com/victormonedero3-hue/cendoj-mcp-server) - Servidor MCP del CENDOJ para búsqueda de jurisprudencia española.
 - [mcp-madrid-public-transport](https://github.com/dieguezz/mcp-madrid-public-transport) - Servidor MCP con tiempos de llegada en tiempo real del transporte público de Madrid.
+- [ine-mcp](https://github.com/AnCode666/ine-mcp) - Servidor MCP para consultar datos del Instituto Nacional de Estadística.
 
 ## Contribuir
 
