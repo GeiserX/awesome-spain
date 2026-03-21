@@ -681,6 +681,7 @@ Servidores Model Context Protocol para datos y servicios españoles.
 - [cendoj-mcp-server](https://github.com/victormonedero3-hue/cendoj-mcp-server) - Servidor MCP del CENDOJ para búsqueda de jurisprudencia española.
 - [mcp-madrid-public-transport](https://github.com/dieguezz/mcp-madrid-public-transport) - Servidor MCP con tiempos de llegada en tiempo real del transporte público de Madrid.
 - [ine-mcp](https://github.com/AnCode666/ine-mcp) - Servidor MCP para consultar datos del Instituto Nacional de Estadística.
+- [aemet-mcp](https://github.com/AnCode666/aemet-mcp) - Servidor MCP para consultar datos climáticos de la AEMET.
 
 ## Contribuir
 
