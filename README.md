@@ -136,7 +136,6 @@ Integraciones con Redsys/Sermepa, la pasarela de pagos dominante en España.
 - [redsys-TPV](https://github.com/eusonlito/redsys-TPV) - Controlador PHP para pasarelas de pago TPV Redsys/Sermepa/Servired.
 - [redsys-easy](https://github.com/javiertury/redsys-easy) - Interfaz Node.js para la pasarela de pagos Redsys.
 - [node-redsys-api](https://github.com/santiperez/node-redsys-api) - Implementación Node.js del API de Redsys con HMAC SHA256.
-- [django-sermepa](https://github.com/bcurtu/django-sermepa) - TPV virtual Redsys/Sermepa para Django con pagos, pagos recurrentes y devoluciones.
 - [Devopensource_Redsys](https://github.com/DevopensourceTeam/Devopensource_Redsys) - Método de pago Redsys para Magento 2 compatible con SHA-256.
 - [django-virtual-pos](https://github.com/intelligenia/django-virtual-pos) - Módulo Django que abstrae TPV virtuales incluyendo Redsys y PayPal.
 - [sermepa-omnipay](https://github.com/jsampedro77/sermepa-omnipay) - Gateway Sermepa (Redsys) para Omnipay.
@@ -248,7 +247,7 @@ Integraciones con Redsys/Sermepa, la pasarela de pagos dominante en España.
 - [ha-pvpc-custom](https://github.com/azogue/ha-pvpc-custom) - Integración personalizada de Home Assistant para precios horarios PVPC.
 - [edistribucion](https://github.com/trocotronic/edistribucion) - API Python no oficial para e-distribución (Endesa), lectura de contadores inteligentes.
 - [ide_api](https://github.com/ad-ha/ide_api) - Monitor de energía i-DE (Iberdrola) para Home Assistant.
-- [precio-luz](https://github.com/Webierta/precio-luz) - App con información detallada por horas del precio de la electricidad en España.
+- [Open Luz](https://github.com/Webierta/open_luz) - App con información detallada por horas del precio de la electricidad en España.
 - [zoilomora/iberdrola](https://github.com/zoilomora/iberdrola) - Integración con la API de Iberdrola.
 - [esios_gas](https://github.com/MiguelAngelLV/esios_gas) - Sensor de compensación de gas para el componente PVPC de Home Assistant.
 - [datadis](https://github.com/MrMarble/datadis) - Cliente Python para la API de Datadis (datos de consumo eléctrico de distribuidoras españolas).
