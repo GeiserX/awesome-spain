@@ -3,10 +3,12 @@
   <br><br>
   <a href="https://awesome.re"><img src="https://awesome.re/badge-flat.svg" alt="Awesome"></a>
   <br><br>
-  <p>Una lista curada de software open source que da soporte específico a España.</p>
+  <p>Una lista curada de software open source que da soporte específico a España, sus comunidades autónomas y provincias.</p>
 </div>
 
 ## Contenido
+
+<!--lint disable awesome-list-item-->
 
 - [Televisión, Radio y Podcasts](#televisión-radio-y-podcasts)
 - [Facturación Electrónica](#facturación-electrónica)
@@ -42,6 +44,8 @@
 - [Comunidades Autónomas y Administración Local](#comunidades-autónomas-y-administración-local)
 - [Servidores MCP](#servidores-mcp)
 
+<!--lint enable awesome-list-item-->
+
 ## Televisión, Radio y Podcasts
 
 - [TDTChannels](https://github.com/LaQuay/TDTChannels) - Listado actualizado de canales de televisión TDT en abierto, 100% legal y gratuito.
@@ -69,8 +73,6 @@
 - [dirtyrss](https://github.com/ciberado/dirtyrss) - Genera feeds RSS para programas de iVoox o Twitch.
 - [Ivoox-Downloader](https://github.com/daaguirr/Ivoox-Downloader) - Script para descargar listas o audiolibros de iVoox.
 - [ivooxhunter](https://github.com/WhizzoCode/ivooxhunter) - Descargador de iVoox para terminal.
-- [Castena](https://github.com/AlbertoUAH/Castena) - Chatbot LLM para interactuar con podcasts en español.
-
 ## Facturación Electrónica
 
 ### VeriFactu
@@ -149,8 +151,6 @@ Integraciones con Redsys/Sermepa, la pasarela de pagos dominante en España.
 - [l10n-spain](https://github.com/OCA/l10n-spain) - Localización de Odoo para España de la OCA: contabilidad, modelos AEAT, SII, PGC y más de 50 módulos.
 - [FacturaScripts 2015](https://github.com/NeoRazorX/facturascripts_2015) - Versión anterior de FacturaScripts con facturación y contabilidad libre.
 - [docker-facturascripts](https://github.com/FacturaScripts/docker-facturascripts) - Imagen Docker oficial de FacturaScripts.
-- [Quaderno.js](https://github.com/quaderno/quaderno.js) - Librería JS de Quaderno (SaaS español de compliance fiscal) para suscripciones Stripe, cálculo de impuestos y facturas.
-
 ## Firma Electrónica y Administración Pública
 
 ### AutoFirma y @firma
@@ -159,7 +159,7 @@ Integraciones con Redsys/Sermepa, la pasarela de pagos dominante en España.
 - [autofirma-nix](https://github.com/nix-community/autofirma-nix) - Módulos Nix completos para interactuar con la administración pública española (AutoFirma, configuradorFNMT, DNIe).
 - [jmulticard](https://github.com/ctt-gob-es/jmulticard) - Capa abstracta Java para acceso a tarjetas inteligentes (DNIe, FNMT, CERES).
 - [FirmaXadesNet45](https://github.com/ctt-gob-es/FirmaXadesNet45) - Librería C# para generación de firmas XAdES.
-- [fire](https://github.com/ctt-gob-es/fire) - FIRe: sistema de firma integral del Gobierno de España.
+- [fire](https://github.com/ctt-gob-es/fire) - Sistema de firma integral (FIRe) del Gobierno de España.
 - [FirmaXadesNet](https://github.com/ctt-gob-es/FirmaXadesNet) - Librería C# para firmas XAdES (versión anterior).
 - [integra](https://github.com/ctt-gob-es/integra) - Librerías Integr@ para integración con la plataforma @firma.
 - [FirmaCadesNet](https://github.com/ctt-gob-es/FirmaCadesNet) - Librería C# para firmas CAdES.
@@ -194,7 +194,6 @@ Integraciones con Redsys/Sermepa, la pasarela de pagos dominante en España.
 - [metanavarra](https://github.com/JaimeObregon/metanavarra) - Transparencia aplicada al metaverso del Gobierno de Navarra.
 - [scraper-pge](https://github.com/civio/scraper-pge) - Parser de los Presupuestos Generales del Estado.
 - [presupuesto](https://github.com/civio/presupuesto) - Aplicación de visualización de presupuestos públicos adaptable a cualquier administración.
-- [onodo](https://github.com/civio/onodo) - Herramienta de análisis de redes para todos.
 - [osbex](https://github.com/cripsisxyz/osbex) - Open Source BORME Explorer: plataforma de explotación de datos del BORME.
 - [contractacio.cat](https://github.com/JaimeObregon/contractacio.cat) - Propuestas de mejora a los portales de transparencia de contratación pública en Cataluña.
 - [BOE](https://github.com/rOpenSpain/BOE) - Paquete R para recuperar e interactuar con datos del BOE.
@@ -226,7 +225,6 @@ Integraciones con Redsys/Sermepa, la pasarela de pagos dominante en España.
 - [municipios](https://github.com/antonrodin/municipios) - Base de datos MySQL con municipios, provincias y comunidades autónomas con coordenadas.
 - [municipios-provincias-comunidades-INE-spain](https://github.com/didacrios/municipios-provincias-comunidades-INE-spain) - Dump SQL con la relación entre municipios, provincias y CCAA del INE.
 - [airqualityES](https://github.com/rOpenSpain/airqualityES) - Mediciones de calidad del aire en España 2001-2018.
-- [FakesStorage](https://github.com/alcorpas10/FakesStorage) - Dataset español para detección de fake news.
 - [es-atlas](https://github.com/martgnz/es-atlas) - TopoJSON preconstruido del Instituto Geográfico Nacional de España.
 - [ccaa-provincias-municipios](https://github.com/oscarnovasf/ccaa-provincias-municipios) - Tablas MySQL para vincular CCAA con provincias y municipios de España.
 - [opencis](https://github.com/hmeleiro/opencis) - Paquete R para importar datos del Centro de Investigaciones Sociológicas (CIS).
@@ -313,6 +311,7 @@ Integraciones con Redsys/Sermepa, la pasarela de pagos dominante en España.
 
 - [MetroVlcSchedule](https://github.com/legomolina/MetroVlcSchedule) - API pública para MetroValencia.
 - [fgv-reloaded](https://github.com/albertodiazsaez/fgv-reloaded) - Reimplementación en Flutter de la app oficial de MetroValencia usando APIs de FGV.
+- [rodalies-cli](https://github.com/gerardcl/rodalies-cli) - CLI en Python para consultar horarios de Rodalies de Catalunya (Cercanías).
 - [CoreEMT](https://github.com/fitomad/CoreEMT) - Paquete Swift para la API de EMT Madrid (autobuses, BiciMAD, parking).
 
 ## Cartografía y Catastro
@@ -344,9 +343,6 @@ Integraciones con Redsys/Sermepa, la pasarela de pagos dominante en España.
 - [python-idealista](https://github.com/astrojuanlu/python-idealista) - Librería Python 3 para la API de Idealista.
 - [idealista-scraper](https://github.com/rubnvp/idealista-scraper) - Scraper para idealista.com.
 - [fotocasa-scraper](https://github.com/rociobenitez/fotocasa-scraper) - Scraper para extraer datos de viviendas de Fotocasa.
-- [euribor](https://github.com/datasets/euribor) - Tasas Euribor por año y granularidad en datos abiertos.
-- [euribor_rates](https://github.com/jesmak/euribor_rates) - Integración Home Assistant para tipos Euribor.
-
 ### Wallapop
 
 - [wallapop-go](https://github.com/Neufal777/wallapop-go) - Cliente de la API de Wallapop en Golang.
@@ -392,14 +388,6 @@ Validadores de documentos de identidad españoles (DNI, NIE, NIF, CIF).
 
 ## Procesamiento de Lenguaje Natural
 
-- [pysentimiento](https://github.com/pysentimiento/pysentimiento) - Toolkit multilingüe Python para análisis de sentimiento y NLP social con modelos especializados en español.
-- [spanish-word-embeddings](https://github.com/dccuchile/spanish-word-embeddings) - Word embeddings de referencia en español calculados con diferentes métodos y corpora.
-- [awesome-spanish-nlp](https://github.com/dav009/awesome-spanish-nlp) - Lista curada de recursos lingüísticos para NLP y computación lingüística en español.
-- [spanish_nlp](https://github.com/jorgeortizfuentes/spanish_nlp) - Biblioteca Python para NLP en español: clasificación y preprocesamiento.
-- [Conjugar](https://github.com/vermont42/Conjugar) - App iOS para aprender conjugaciones de verbos en español.
-- [conjugation](https://github.com/voldmar/conjugation) - Biblioteca Python para conjugación de verbos en español.
-- [deepspeech-spanish-model](https://github.com/nahuelproietto/deepspeech-spanish-model) - Modelo DeepSpeech entrenado con corpus español M-AILABS.
-
 ### Lenguas Cooficiales
 
 - [lm-catalan](https://github.com/projecte-aina/lm-catalan) - Modelos de lenguaje oficial en catalán del proyecto AINA (BSC + Generalitat).
@@ -422,20 +410,15 @@ Validadores de documentos de identidad españoles (DNI, NIE, NIF, CIF).
 
 ## Formatos Bancarios
 
-Cuadernos AEB (Asociación Española de la Banca) y formatos SEPA con soporte español.
+Cuadernos AEB (Asociación Española de la Banca) y formatos de intercambio bancario español.
 
-- [php-sepa-xml](https://github.com/php-sepa-xml/php-sepa-xml) - Generador de ficheros SEPA en PHP, ampliamente usado en España para transferencias y adeudos directos.
-- [sepa_king](https://github.com/salesking/sepa_king) - Gema Ruby para crear ficheros SEPA XML.
-- [sepa.js](https://github.com/kewisch/sepa.js) - Crea y valida transacciones SEPA XML en JavaScript.
-- [Sephpa](https://github.com/AbcAeffchen/Sephpa) - Clase PHP para crear ficheros SEPA XML de transferencias y adeudos directos.
-- [sepa-direct-debit](https://github.com/congressus/sepa-direct-debit) - Crea ficheros SEPA XML de adeudo directo en Python.
 - [cuadernos-AEB](https://github.com/jofemodo/cuadernos-AEB) - Implementación PHP de cuadernos AEB 19 y 43 de la banca española.
 - [N43](https://github.com/mdiago/N43) - Lectura de archivos de movimientos bancarios según normas AEB serie 43 en C#.
 - [Delphi-SEPA-XML-ES](https://github.com/cocosistemas/Delphi-SEPA-XML-ES) - Ficheros normas 19.14 y 34.14 (XML bancario español) en Delphi.
 - [sepakit](https://github.com/APSL/sepakit) - Convierte ficheros AEB 19.14 de adeudo directo TXT a SEPA XML en Python.
 - [norma43](https://github.com/linkingpaths/norma43) - Parser para ficheros Norma 43, estándar de la banca española para movimientos de cuenta.
 - [vscode-norma43](https://github.com/embatio/vscode-norma43) - Formateador y resaltador de ficheros Norma43 para VS Code.
-- [caixabank-homebank](https://github.com/namelivia/caixabank-homebank) - CLI para transformar ficheros XLS de CaixaBank en ficheros QIF para Homebank.
+- [caixabank-homebank](https://github.com/namelivia/caixabank-homebank) - CLI para convertir extractos de CaixaBank a formato QIF para Homebank.
 
 ## Supermercados
 
@@ -460,11 +443,7 @@ Cuadernos AEB (Asociación Española de la Banca) y formatos SEPA con soporte es
 
 ## Telecomunicaciones
 
-### Telefónica y Movistar
-
-- [mistica-web](https://github.com/Telefonica/mistica-web) - Librería React del sistema de diseño Mistica de Telefónica (skins Movistar, O2, Vivo).
 - [askey_RTF3505VW_hacking](https://github.com/daniel-dona/askey_RTF3505VW_hacking) - Documentación de hacking por UART del router Askey RTF3505VW de Movistar España.
-- [webview-bridge](https://github.com/Telefonica/webview-bridge) - Puente JavaScript de Novum para apps nativas de Movistar/O2/Vivo.
 - [MitraStar_GPT-2541GNAC_HA](https://github.com/joseska/MitraStar_GPT-2541GNAC_HA) - Device tracker del router MitraStar GPT-2541GNAC (Movistar) para Home Assistant.
 - [LiveboxFibraExtractor](https://github.com/segura2010/LiveboxFibraExtractor) - Herramienta Java para extraer credenciales SIP del router Livebox Fibra de Orange/Jazztel España.
 - [ha-pepephone](https://github.com/ldotlopez/ha-pepephone) - Integración Home Assistant para consultar datos de la cuenta Pepephone.
@@ -475,9 +454,6 @@ Cuadernos AEB (Asociación Española de la Banca) y formatos SEPA con soporte es
 
 ## Logística y Mensajería
 
-- [glovo-api-php](https://github.com/vmari/glovo-api-php) - Cliente PHP no oficial para la Glovo Business API.
-- [glovo-api-python](https://github.com/softbutterfly/glovo-api-python) - Glovo Business API para Python.
-- [php-glovo-api](https://github.com/joanlopez/php-glovo-api) - Librería PHP para comunicación con la API de Glovo.
 - [python-correos-express](https://github.com/maguayo/python-correos-express) - Librería Python para realizar envíos con Correos Express.
 - [php-correosexpress-api](https://github.com/klareNNNs/php-correosexpress-api) - Librería PHP para la API de Correos Express.
 - [NacexBundle](https://github.com/javaguirre/NacexBundle) - Bundle Symfony implementando la API SOAP de Nacex.
@@ -527,9 +503,7 @@ Cuadernos AEB (Asociación Española de la Banca) y formatos SEPA con soporte es
 
 ## Smart Cities e IoT
 
-- [smartcitizen-kit-10](https://github.com/fablabbcn/smartcitizen-kit-10) - Firmware del Smart Citizen Kit, sensor urbano ciudadano de FabLab Barcelona.
 - [sentilo](https://github.com/sentilo/sentilo) - Plataforma IoT de sensores urbanos nacida en Barcelona, usada en ciudades españolas.
-- [smartcitizen-kit-2x](https://github.com/fablabbcn/smartcitizen-kit-2x) - Hardware y firmware del Smart Citizen Kit 2.x.
 - [Mapea4](https://github.com/sigcorporativo-ja/Mapea4) - Framework JavaScript de visualización de mapas de la Junta de Andalucía.
 - [signador](https://github.com/ConsorciAOC/signador) - Servicio de firma digital del Consorci AOC para administraciones públicas catalanas.
 - [api-sitna](https://github.com/sitna/api-sitna) - API JavaScript del SITNA (Sistema de Información Territorial de Navarra) para datos georreferenciados.
@@ -571,8 +545,6 @@ Software open source de comunidades autónomas, ayuntamientos y diputaciones.
 
 ### Cataluña
 
-- [Visual (Idescat)](https://github.com/idescat/visual) - Librería JavaScript de visualización de datos del Institut d'Estadística de Catalunya.
-- [Projecte AINA - datapipe](https://github.com/projecte-aina/datapipe) - Pipeline ETL de audio del proyecto AINA (BSC + Generalitat) para generar datasets desde YouTube.
 - [eNotum](https://github.com/ConsorciAOC/eNotum) - Servicio de notificaciones electrónicas del Consorci AOC para administraciones catalanas.
 - [PCI](https://github.com/ConsorciAOC/PCI) - Plataforma de Col·laboració Interadministrativa del Consorci AOC.
 - [Representa](https://github.com/ConsorciAOC/representa_documentacio) - Servicio de representación y apoderamiento digital del Consorci AOC.
@@ -584,9 +556,6 @@ Software open source de comunidades autónomas, ayuntamientos y diputaciones.
 
 ### País Vasco
 
-- [UDA RUP](https://github.com/UDA-EJIE/udaRUP) - Componentes de referencia del framework UDA del EJIE (Gobierno Vasco).
-- [UDA Lib](https://github.com/UDA-EJIE/udaLib) - Librería de utilidades del framework UDA del EJIE.
-- [UDA Plugin](https://github.com/UDA-EJIE/udaPlugin) - Plugin de generación de código del framework UDA del EJIE.
 - [irekia](https://github.com/eillarra/irekia) - Cliente Python para la API REST de Open Data Euskadi.
 - [Eustat API](https://github.com/eustat/API-Eustat) - Documentación y tutoriales de la API del Instituto Vasco de Estadística (Eustat).
 
@@ -638,7 +607,6 @@ Software open source de comunidades autónomas, ayuntamientos y diputaciones.
 - [Carpeta Ciutadana](https://github.com/GovernIB/carpeta) - Carpeta ciudadana digital del Govern de les Illes Balears.
 - [Registre](https://github.com/GovernIB/registre) - Aplicación web de registro de anotaciones de entrada y salida.
 - [SISTRA](https://github.com/GovernIB/sistra) - Sistema de Tramitación Administrativa de les Illes Balears.
-- [GenApp](https://github.com/GovernIB/genapp) - Generador de aplicaciones del Govern de les Illes Balears.
 - [PINBAL](https://github.com/GovernIB/pinbal) - Plataforma de Interoperabilidad de les Illes Balears.
 
 ### La Rioja
@@ -669,8 +637,6 @@ Servidores Model Context Protocol para datos y servicios españoles.
 - [MCP-Facturascripts](https://github.com/cristotodev/MCP-Facturascripts) - Servidor MCP para interactuar con FacturaScripts vía IA.
 - [spanish-public-info-radar-mcp](https://github.com/mjgmario/spanish-public-info-radar-mcp) - Servidor MCP para subvenciones (BDNS), legislación (BOE/BORME), estadísticas (INE) y datos.gob.es.
 - [catastro_mcp_server](https://github.com/carlosGalisteo/catastro_mcp_server) - Servidor MCP para los servicios web de la Sede Electrónica del Catastro.
-- [mercadona-mcp](https://github.com/yagoangelim/mercadona-mcp) - Servidor MCP para consultar productos y precios de Mercadona.
-- [renfe_mcp_server](https://github.com/javiersorucol/renfe_mcp_server) - Servidor MCP para consultar horarios y billetes de Renfe.
 - [rae-mcp](https://github.com/rae-api-com/rae-mcp) - Servidor MCP para conectar modelos de IA con el diccionario de la RAE.
 - [MCP-BOE](https://github.com/ComputingVictor/MCP-BOE) - Servidor MCP para el BOE: legislación consolidada, sumarios diarios y tablas oficiales.
 - [boe-mcp](https://github.com/AnCode666/boe-mcp) - Servidor MCP para consultar leyes españolas usando la API del BOE.
