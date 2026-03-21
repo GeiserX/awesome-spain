@@ -24,7 +24,9 @@ Proyectos que estuvieron en la lista pero fueron retirados por alguna de las raz
 - [wallapop-alert](https://github.com/tanrax/wallapop-alert) - Notificador de productos nuevos en Wallapop.
 - [wallaviso](https://github.com/tanrax/wallaviso) - Programa tus búsquedas en Wallapop y recibe un feed RSS.
 - [BOE_API](https://github.com/BOE-API/BOE_API) - API del Boletín Oficial del Estado.
+- [covid-vacuna](https://github.com/midudev/covid-vacuna) - App para ver el estado de la vacunación COVID-19 en España.
 - [covid-vaccination-spain](https://github.com/civio/covid-vaccination-spain) - Datos de vacunación COVID en España por Civio.
+- [proyecto-colibri](https://github.com/openkratio/proyecto-colibri) - Votaciones del Congreso de los Diputados de España vía API.
 - [quienmanda](https://github.com/civio/quienmanda) - Mapa de relaciones de poder en España de la Fundación Civio.
 - [subvenciones](https://github.com/JaimeObregon/subvenciones) - Volcado de la Base de Datos Nacional de Subvenciones (BDNS).
 - [libreborme](https://github.com/PabloCastellano/libreborme) - Plataforma web para consulta y análisis del BORME.

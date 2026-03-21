@@ -122,6 +122,7 @@ Sistema de facturación electrónica obligatorio en el País Vasco.
 - [AEAT](https://github.com/fawno/AEAT) - Clases PHP para los servicios web de la Agencia Tributaria.
 - [AEAT (babu-cat)](https://github.com/babu-cat/AEAT) - Librería PHP para confección y presentación de modelos de la Agencia Tributaria.
 - [rentagpt](https://github.com/mpuig/rentagpt) - Consulta documentación de la AEAT sobre la declaración de la Renta usando GPT.
+- [larenta](https://github.com/paumrch/larenta) - Guía completa del IRPF con asistente y explorador de deducciones fiscales.
 - [hacienda-gpt](https://github.com/aldoborrero/hacienda-gpt) - Asistente IA para buscar información en la web de Hacienda.
 - [Batuz](https://github.com/mdiago/Batuz) - Implementación del sistema fiscal Batuz de Bizkaia en C#.
 - [EasySII.Watcher](https://github.com/mdiago/EasySII.Watcher) - Monitor del SII de la AEAT en C#.
@@ -205,6 +206,7 @@ Integraciones con Redsys/Sermepa, la pasarela de pagos dominante en España.
 - [iuris](https://github.com/onticsoluciones/iuris) - Herramienta de auditoría web para verificar cumplimiento de RGPD, LOPD y LSSI.
 - [CENDOJ Scraping API](https://github.com/Gasparms9/Project5-Cendoj-Scrapping-API) - Scraping y API del Centro de Documentación Judicial (CENDOJ).
 - [subastas-boe](https://github.com/eduaero/BOE) - Scraper de subastas judiciales del portal de subastas del BOE.
+- [observatoriospublicos.es](https://github.com/JaimeObregon/observatoriospublicos.es) - Observatorio de los observatorios públicos de España.
 
 ## Datos Abiertos y Estadísticas
 
@@ -342,6 +344,7 @@ Integraciones con Redsys/Sermepa, la pasarela de pagos dominante en España.
 - [python-idealista](https://github.com/astrojuanlu/python-idealista) - Librería Python 3 para la API de Idealista.
 - [idealista-scraper](https://github.com/rubnvp/idealista-scraper) - Scraper para idealista.com.
 - [fotocasa-scraper](https://github.com/rociobenitez/fotocasa-scraper) - Scraper para extraer datos de viviendas de Fotocasa.
+- [idealista18](https://github.com/paezha/idealista18) - Dataset abierto con anuncios inmobiliarios de Idealista para tres grandes ciudades españolas.
 ### Wallapop
 
 - [wallapop-go](https://github.com/Neufal777/wallapop-go) - Cliente de la API de Wallapop en Golang.
@@ -493,6 +496,8 @@ Cuadernos AEB (Asociación Española de la Banca) y formatos de intercambio banc
 - [Alexa-Skill-Test-Autoescuela](https://github.com/javichur/Alexa-Skill-Test-Autoescuela) - Skill de Alexa para practicar tests de autoescuela (preparación examen DGT).
 - [DGT-appointment](https://github.com/ajorquera/DGT-appointment) - Herramienta para facilitar la reserva de citas de tráfico en la DGT.
 - [dgt-matriculaciones](https://github.com/literato1987/dgt-matriculaciones) - Dashboard de matriculaciones eléctricas de la DGT (2017-presente).
+- [dgt](https://github.com/mdelapenya/dgt) - Consulta el tipo de distintivo ambiental asociado a una matrícula en el servicio web de la DGT.
+- [anki-carnet-conducir](https://github.com/donmerendolo/anki-carnet-conducir) - Decks de Anki para practicar el examen teórico de conducción de la DGT.
 
 ## Agricultura
 
@@ -519,6 +524,7 @@ Cuadernos AEB (Asociación Española de la Banca) y formatos de intercambio banc
 - [EstudiaTAI-app](https://github.com/Naritsumi/EstudiaTAI-app) - App Android de tests para oposiciones TAI (Técnicos Auxiliares de Informática de la AGE).
 - [utilidadesdetests](https://github.com/preparatic/utilidadesdetests) - Generador de tests ponderados para PreparaTIC con preguntas de convocatorias oficiales.
 - [virgulayapp-curriculos](https://github.com/d3stroya/virgulayapp-curriculos) - Currículos LOMLOE de todas las CCAA en formato JSON (Infantil, Primaria, ESO, Bachillerato).
+- [rpttai](https://github.com/rubenleon/rpttai) - Relación de Puestos de Trabajo (RPT) de Informática en la Administración General del Estado.
 
 ## Extranjería y Visados
 
@@ -638,6 +644,7 @@ Servidores Model Context Protocol para datos y servicios españoles.
 - [rae-mcp](https://github.com/rae-api-com/rae-mcp) - Servidor MCP para conectar modelos de IA con el diccionario de la RAE.
 - [MCP-BOE](https://github.com/ComputingVictor/MCP-BOE) - Servidor MCP para el BOE: legislación consolidada, sumarios diarios y tablas oficiales.
 - [boe-mcp](https://github.com/AnCode666/boe-mcp) - Servidor MCP para consultar leyes españolas usando la API del BOE.
+- [ree-mcp](https://github.com/ESJavadex/ree-mcp) - Servidor MCP para la API de Red Eléctrica de España.
 - [spanish-law-mcp](https://github.com/Ansvar-Systems/spanish-law-mcp) - Servidor MCP con base de datos de legislación española: LOPDGDD, ENS, LSSI, NIS2.
 - [cendoj-mcp-server](https://github.com/victormonedero3-hue/cendoj-mcp-server) - Servidor MCP del CENDOJ para búsqueda de jurisprudencia española.
 
