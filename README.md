@@ -359,6 +359,7 @@ Integraciones con Redsys/Sermepa, la pasarela de pagos dominante en España.
 - [pycartociudad](https://github.com/PyLadiesMadrid/pycartociudad) - Paquete Python para consultar la API de CartoCiudad.
 - [trece](https://github.com/ernestofgonzalez/trece) - CLI para descargar datos geoespaciales y de direcciones oficiales de España.
 - [leaflet-providersESP](https://github.com/dieghernan/leaflet-providersESP) - Plugin Leaflet con proveedores de teselas y capas WMS de España (IGN, Catastro, CC.AA.).
+- [CatastRoNav](https://github.com/rOpenSpain/CatastRoNav) - Paquete R para consultar la API del Catastro de Navarra.
 
 ## Inmobiliaria y Mercados
 
@@ -634,6 +635,7 @@ Software open source de comunidades autónomas, ayuntamientos y diputaciones.
 - [Gobierto](https://github.com/PopulateTools/gobierto) - Plataforma de gobierno abierto open source para administraciones locales.
 - [Gobierto Budgets Data](https://github.com/PopulateTools/gobierto-budgets-data) - Datos de presupuestos municipales españoles y herramientas de importación.
 - [ine-places](https://github.com/PopulateTools/ine-places) - Gema Ruby para trabajar con regiones, provincias y municipios del INE.
+- [MadridTransporte](https://github.com/xBaank/MadridTransporte) - App para consultar tiempos y localizaciones del transporte público de Madrid (Metro, Bus, Cercanías) en tiempo real.
 
 ### Canarias
 
@@ -665,6 +667,11 @@ Software open source de comunidades autónomas, ayuntamientos y diputaciones.
 - [IDERioja Cartografía Colaborativa](https://github.com/iderioja/cartografia_colaborativa) - Cartografía abierta a la colaboración ciudadana (CrowdMapping) del Gobierno de La Rioja.
 - [Base de Datos Geográfica La Rioja](https://github.com/iderioja/base_datos_geografica) - Base de datos geográfica del Gobierno de La Rioja en formato GeoJSON.
 - [API IDERioja](https://github.com/iderioja/doc_api_iderioja) - Documentación de la API de mapas de IDERioja.
+- [open-data-la-rioja](https://github.com/goiblas/open-data-la-rioja) - Visualización de datos abiertos del Gobierno de La Rioja.
+
+### Castilla y León
+
+- [VallaBus](https://github.com/VallaBus/vallabus) - Seguimiento de líneas, rutas y paradas de autobús de Valladolid en tiempo real.
 
 ### Región de Murcia
 
@@ -694,6 +701,7 @@ Servidores Model Context Protocol para datos y servicios españoles.
 - [ree-mcp](https://github.com/ESJavadex/ree-mcp) - Servidor MCP para la API de Red Eléctrica de España.
 - [spanish-law-mcp](https://github.com/Ansvar-Systems/spanish-law-mcp) - Servidor MCP con base de datos de legislación española: LOPDGDD, ENS, LSSI, NIS2.
 - [cendoj-mcp-server](https://github.com/victormonedero3-hue/cendoj-mcp-server) - Servidor MCP del CENDOJ para búsqueda de jurisprudencia española.
+- [mcp-madrid-public-transport](https://github.com/dieguezz/mcp-madrid-public-transport) - Servidor MCP con tiempos de llegada en tiempo real del transporte público de Madrid.
 
 ## Contribuir
 
