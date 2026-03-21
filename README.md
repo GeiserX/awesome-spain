@@ -55,11 +55,9 @@
 - [TV-Online-TDT-Spain](https://github.com/ruvelro/TV-Online-TDT-Spain) - Lista de URLs de canales TDT de España.
 - [movistar-u7d](https://github.com/jmarcet/movistar-u7d) - Proxy de catchup de Movistar IPTV U7D a Flussonic.
 - [plugin.video.movistarplus](https://github.com/Paco8/plugin.video.movistarplus) - Addon de Movistar+ para Kodi.
-- [MovistarTV](https://github.com/AlphaCentaury/MovistarTV) - Decodificador virtual IPTV para Movistar+ (Imagenio) en Windows con VLC.
 - [PyDownTV2](https://github.com/aabilio/PyDownTV2) - Librería para obtener enlaces de descarga de vídeos de webs de televisiones españolas.
 - [tv_grab_es_movistartv](https://github.com/MovistarTV/tv_grab_es_movistartv) - Grabber XMLTV para la guía de programación de Movistar TV.
 - [movistar-home-hacks](https://github.com/zry98/movistar-home-hacks) - Reutilización del dispositivo Movistar Home como panel de Home Assistant.
-- [RTVE-API](https://github.com/UlisesGascon/RTVE-API) - Documentación no oficial y ejemplos de uso de la API de RTVE.
 - [verba](https://github.com/civio/verba) - Explora los Telediarios de RTVE desde 2014 con datos abiertos periodísticos de Civio.
 - [EpgGratis](https://github.com/MPAndrew/EpgGratis) - EPG y grabber XMLTV para Movistar+.
 - [Picon-enigma2-Movistar](https://github.com/jungla-team/Picon-enigma2-Movistar) - Picon de canales Movistar para receptores Enigma2.
@@ -102,7 +100,6 @@ Sistema de facturación certificada de la AEAT (Ley Antifraude 2021).
 Formato estándar de factura electrónica española.
 
 - [Facturae-PHP](https://github.com/josemmo/Facturae-PHP) - Genera, firma, envía y recibe facturas electrónicas FacturaE sin librerías adicionales.
-- [FacturaE](https://github.com/carlosga/FacturaE) - Firma electrónica de facturas FacturaE en C# puro.
 - [gobl.facturae](https://github.com/invopop/gobl.facturae) - Convierte documentos GOBL al formato español FacturaE en Go.
 - [FACe](https://github.com/mdiago/FACe) - Creación, firma y envío de facturas electrónicas a FACe, el portal de facturas del sector público.
 - [FaceWebServiceClient](https://github.com/xocapik/FaceWebServiceClient) - Cliente .NET para el servicio web de FACe (Punto General de Entrada de Facturas Electrónicas de la AGE).
@@ -187,21 +184,14 @@ Integraciones con Redsys/Sermepa, la pasarela de pagos dominante en España.
 - [oaw](https://github.com/ctt-gob-es/oaw) - Rastreador del Observatorio de Accesibilidad Web del Gobierno.
 - [MinervaChatBot](https://github.com/ctt-gob-es/MinervaChatBot) - Minerva: chatbot municipal de código abierto del Gobierno.
 - [clave](https://github.com/ctt-gob-es/clave) - Cl@ve: plataforma oficial de identificación del sector público.
-- [valet](https://github.com/ctt-gob-es/valet) - Validación de certificados mediante TSLs europeas.
-- [ips](https://github.com/ctt-gob-es/ips) - Inscripción en Pruebas Selectivas (oposiciones).
 - [laravel-policia-hotel](https://github.com/leifermendez/laravel-policia-hotel) - Registro de viajeros en el sistema Webpol/E-Hotel de la Policía Nacional para establecimientos hoteleros.
 
 ## Transparencia y Legal Tech
 
-- [subvenciones](https://github.com/JaimeObregon/subvenciones) - Volcado de la Base de Datos Nacional de Subvenciones (BDNS) de España.
 - [ladonacion.es](https://github.com/JaimeObregon/ladonacion.es) - Web investigativa sobre la transferencia de 65M de euros del Rey Juan Carlos I.
-- [libreborme](https://github.com/PabloCastellano/libreborme) - Plataforma web para consulta y análisis del BORME (Boletín Oficial del Registro Mercantil).
 - [retrosantander](https://github.com/JaimeObregon/retrosantander) - Experimento con el portal del Centro de Documentación de la Imagen de Santander.
-- [bormeparser](https://github.com/PabloCastellano/bormeparser) - Librería Python para parsear ficheros BORME.
 - [gobiernovasco.marketing](https://github.com/JaimeObregon/gobiernovasco.marketing) - Explora cómo se reparte el dinero público a los medios de comunicación en el País Vasco.
-- [quienmanda](https://github.com/civio/quienmanda) - Mapa de relaciones de poder en España de la Fundación Civio.
 - [civio-graphs-public](https://github.com/civio/civio-graphs-public) - Visualizaciones de datos de las investigaciones periodísticas de civio.es.
-- [metanavarra](https://github.com/JaimeObregon/metanavarra) - Transparencia aplicada al metaverso del Gobierno de Navarra.
 - [scraper-pge](https://github.com/civio/scraper-pge) - Parser de los Presupuestos Generales del Estado.
 - [presupuesto](https://github.com/civio/presupuesto) - Aplicación de visualización de presupuestos públicos adaptable a cualquier administración.
 - [osbex](https://github.com/cripsisxyz/osbex) - Open Source BORME Explorer: plataforma de explotación de datos del BORME.
@@ -212,7 +202,6 @@ Integraciones con Redsys/Sermepa, la pasarela de pagos dominante en España.
 - [infoelectoral (R)](https://github.com/rOpenSpain/infoelectoral) - Paquete R para descargar y analizar resultados electorales oficiales a nivel de mesa electoral.
 - [canary](https://github.com/hadronomy/canary) - Asistente legal IA para derecho español con parsing de documentos del BOE y embeddings vectoriales.
 - [justicio](https://github.com/bukosabino/justicio) - Asistente del BOE usando Retrieval Augmented Generation (RAG).
-- [BOE_API](https://github.com/BOE-API/BOE_API) - API del Boletín Oficial del Estado.
 - [iuris](https://github.com/onticsoluciones/iuris) - Herramienta de auditoría web para verificar cumplimiento de RGPD, LOPD y LSSI.
 - [CENDOJ Scraping API](https://github.com/Gasparms9/Project5-Cendoj-Scrapping-API) - Scraping y API del Centro de Documentación Judicial (CENDOJ).
 - [subastas-boe](https://github.com/eduaero/BOE) - Scraper de subastas judiciales del portal de subastas del BOE.
@@ -236,7 +225,6 @@ Integraciones con Redsys/Sermepa, la pasarela de pagos dominante en España.
 - [spain-open-data](https://github.com/ginopalazzo/spain-open-data) - Recopilación de recursos de datos abiertos españoles.
 - [Siane](https://github.com/rOpenSpain/Siane) - Paquete R para representar datos estadísticos en mapas oficiales españoles.
 - [tidycenso](https://github.com/rOpenSpain/tidycenso) - Biblioteca R para acceder a la API del Censo español 2021.
-- [covid-vaccination-spain](https://github.com/civio/covid-vaccination-spain) - Datos de vacunación COVID en España por Civio.
 - [COVID19_es](https://github.com/victorvicpal/COVID19_es) - Datos COVID-19 de España ampliamente referenciados.
 - [municipios](https://github.com/antonrodin/municipios) - Base de datos MySQL con municipios, provincias y comunidades autónomas con coordenadas.
 - [municipios-provincias-comunidades-INE-spain](https://github.com/didacrios/municipios-provincias-comunidades-INE-spain) - Dump SQL con la relación entre municipios, provincias y CCAA del INE.
@@ -265,13 +253,10 @@ Integraciones con Redsys/Sermepa, la pasarela de pagos dominante en España.
 - [python-oligo](https://github.com/hectorespert/python-oligo) - Cliente Python no oficial para i-DE (Iberdrola distribución).
 - [ha-octopus-spain](https://github.com/MiguelAngelLV/ha-octopus-spain) - Componente Home Assistant para facturas y Solar Wallet de Octopus Energy Spain.
 - [aiopvpc](https://github.com/azogue/aiopvpc) - Librería asíncrona Python para descargar precios horarios de electricidad (PVPC) desde esios.ree.es.
-- [PVPC-ESIOS](https://github.com/bilbaomakers/PVPC-ESIOS) - Script para obtener información de tarifas PVPC de ESIOS (Red Eléctrica de España).
 - [ha-pvpc-custom](https://github.com/azogue/ha-pvpc-custom) - Integración personalizada de Home Assistant para precios horarios PVPC.
 - [edistribucion](https://github.com/trocotronic/edistribucion) - API Python no oficial para e-distribución (Endesa), lectura de contadores inteligentes.
-- [ide_api](https://github.com/ad-ha/ide_api) - Monitor de energía i-DE (Iberdrola) para Home Assistant.
 - [Open Luz](https://github.com/Webierta/open_luz) - App con información detallada por horas del precio de la electricidad en España.
 - [zoilomora/iberdrola](https://github.com/zoilomora/iberdrola) - Integración con la API de Iberdrola.
-- [esios_gas](https://github.com/MiguelAngelLV/esios_gas) - Sensor de compensación de gas para el componente PVPC de Home Assistant.
 - [datadis](https://github.com/MrMarble/datadis) - Cliente Python para la API de Datadis (datos de consumo eléctrico de distribuidoras españolas).
 - [precios-tur-homeassistant](https://github.com/psincraian/precios-tur-homeassistant) - Integración Home Assistant para precios del gas TUR (Tarifa de Último Recurso).
 - [ha-ideenergy](https://github.com/ldotlopez/ha-ideenergy) - Integración de i-DE Energy (Iberdrola distribuidora) para Home Assistant.
@@ -337,7 +322,6 @@ Integraciones con Redsys/Sermepa, la pasarela de pagos dominante en España.
 
 ### Metro y Cercanías
 
-- [MetroVlcSchedule](https://github.com/legomolina/MetroVlcSchedule) - API pública para MetroValencia.
 - [fgv-reloaded](https://github.com/albertodiazsaez/fgv-reloaded) - Reimplementación en Flutter de la app oficial de MetroValencia usando APIs de FGV.
 - [rodalies-cli](https://github.com/gerardcl/rodalies-cli) - CLI en Python para consultar horarios de Rodalies de Catalunya (Cercanías).
 - [CoreEMT](https://github.com/fitomad/CoreEMT) - Paquete Swift para la API de EMT Madrid (autobuses, BiciMAD, parking).
@@ -382,16 +366,9 @@ Integraciones con Redsys/Sermepa, la pasarela de pagos dominante en España.
 - [wallapop-scraper](https://github.com/Tatuck/wallapop-scraper) - Analiza productos infravalorados en Wallapop usando su API y Gemini.
 - [wallapop_scraper](https://github.com/LopCuns/wallapop_scraper) - Scraper de Wallapop en Python.
 - [wallbot](https://github.com/z0r3f/wallbot) - Bot de búsqueda de Wallapop.
-- [wallaviso](https://github.com/tanrax/wallaviso) - Programa tus búsquedas en Wallapop y recibe un feed RSS.
 - [Wallamonitor](https://github.com/danielhuici/Wallamonitor) - Monitor periódico de artículos nuevos en Wallapop con notificaciones por Telegram.
 - [wallapopy](https://github.com/toniprada/wallapopy) - Cliente Python para la API de Wallapop.
-- [wallapop-alert](https://github.com/tanrax/wallapop-alert) - Notificador de productos nuevos en Wallapop.
 - [wallapop_secret](https://github.com/rmonvfer/wallapop_secret) - Generador de X-Signature para la API de Wallapop.
-
-### Milanuncios
-
-- [milanuncios (3clypse)](https://github.com/3clypse/milanuncios) - Herramienta para Milanuncios.
-- [milanuncios (mondeja)](https://github.com/mondeja/milanuncios) - Web scraper y renovador de anuncios de milanuncios.com en Python.
 
 ## Validación de Documentos
 
@@ -451,7 +428,6 @@ Cuadernos AEB (Asociación Española de la Banca) y formatos de intercambio banc
 - [sepakit](https://github.com/APSL/sepakit) - Convierte ficheros AEB 19.14 de adeudo directo TXT a SEPA XML en Python.
 - [norma43](https://github.com/linkingpaths/norma43) - Parser para ficheros Norma 43, estándar de la banca española para movimientos de cuenta.
 - [vscode-norma43](https://github.com/embatio/vscode-norma43) - Formateador y resaltador de ficheros Norma43 para VS Code.
-- [caixabank-homebank](https://github.com/namelivia/caixabank-homebank) - CLI para convertir extractos de CaixaBank a formato QIF para Homebank.
 
 ## Supermercados
 
@@ -461,7 +437,6 @@ Cuadernos AEB (Asociación Española de la Banca) y formatos de intercambio banc
 - [merca-api](https://github.com/javichur/merca-api) - Aplicación para leer categorías y productos de la API pública de Mercadona.
 - [Supermarket-Price-Scraper](https://github.com/joseluam97/Supermarket-Price-Scraper) - Extracción de precios de Mercadona, Carrefour y DIA con generación de Excel.
 - [mercaapi](https://github.com/m0wer/mercaapi) - API no oficial de Mercadona con información nutricional e historial de precios.
-- [mercadona-cli](https://github.com/exwyezed/mercadona-cli) - CLI no oficial para tienda.mercadona.es.
 - [mercapy](https://github.com/jtayped/mercapy) - Interfaz Python de Mercadona para seguir precios y cantidades.
 - [supermarket-mercadona-scraper](https://github.com/vgvr0/supermarket-mercadona-scraper) - Herramienta que extrae y organiza datos de productos de Mercadona para comparación de precios.
 
@@ -469,8 +444,6 @@ Cuadernos AEB (Asociación Española de la Banca) y formatos de intercambio banc
 
 - [securitas-direct-new-api](https://github.com/guerrerotook/securitas-direct-new-api) - API de Securitas Direct integrable en Home Assistant.
 - [securitasdirect](https://github.com/segalion/securitasdirect) - Integración Home Assistant con Securitas Direct (Verisure EU) y CLI.
-- [pysecuritas](https://github.com/Cebeerre/pysecuritas) - Cliente Python para la API móvil de Securitas Direct.
-- [SecuritasDirectAPI](https://github.com/Cebeerre/SecuritasDirectAPI) - Especificación y documentación de la API de Securitas Direct.
 - [homebridge-securitas-direct](https://github.com/ptz0n/homebridge-securitas-direct) - Plugin de Homebridge para Securitas Direct.
 - [pyprosegur](https://github.com/dgomes/pyprosegur) - Librería Python para alarmas Smart Prosegur.
 - [ha_prosegur](https://github.com/dgomes/ha_prosegur) - Integración Home Assistant para alarmas Prosegur.
@@ -504,7 +477,6 @@ Cuadernos AEB (Asociación Española de la Banca) y formatos de intercambio banc
 - [marca-fantasy-api-scraper-updated](https://github.com/alxgarci/marca-fantasy-api-scraper-updated) - Scraper del API de LaLiga Fantasy de Relevo.
 - [footballcsv/espana](https://github.com/footballcsv/espana) - Datos de fútbol para España en formato CSV: Primera y Segunda División.
 - [marca-fantasy-scraper](https://github.com/diegoparrilla/marca-fantasy-scraper) - Scraper del API de LaLiga Fantasy de Marca.
-- [laliga-data](https://github.com/sdelquin/laliga-data) - Scraping de datos de la web oficial de La Liga española.
 
 ## Cine y Entretenimiento
 
@@ -513,7 +485,6 @@ Cuadernos AEB (Asociación Española de la Banca) y formatos de intercambio banc
 - [api-filmaffinity](https://github.com/carlosramosa/api-filmaffinity) - API REST no oficial de FilmAffinity en castellano.
 - [filmaffinity-api (xsga)](https://github.com/xsga/filmaffinity-api) - API pública no oficial de FilmAffinity para consultar información de películas.
 - [python_filmaffinity](https://github.com/sergiormb/python_filmaffinity) - Scraping Python sencillo para FilmAffinity.
-- [fa-scraper](https://github.com/mx-psi/fa-scraper) - Scraper de FilmAffinity compatible con Letterboxd.
 - [filmaffinity2CSV](https://github.com/gism/filmaffinity2CSV) - Exporta películas votadas de FilmAffinity a CSV y las publica en IMDB.
 - [faffinity-bot](https://github.com/svex99/faffinity-bot) - Bot de Telegram para obtener información de filmaffinity.com.
 
