@@ -62,7 +62,6 @@
 - [EpgGratis](https://github.com/MPAndrew/EpgGratis) - EPG y grabber XMLTV para Movistar+.
 - [Picon-enigma2-Movistar](https://github.com/jungla-team/Picon-enigma2-Movistar) - Picon de canales Movistar para receptores Enigma2.
 - [Tvheadend_Movistar-Spain](https://github.com/manuelrn/Tvheadend_Movistar-Spain) - Configuración de Tvheadend para Movistar+.
-- [TDTSpain2VLC](https://github.com/David-Lor/TDTSpain2VLC) - Convierte listas de canales TDT a playlist XSPF para VLC.
 - [plugin.video.rtve](https://github.com/mcr222/plugin.video.rtve) - Plugin de vídeo RTVE para Kodi.
 - [plugin.video.filmin](https://github.com/pablouser1/plugin.video.filmin) - Plugin de Kodi para reproducir contenido de Filmin (plataforma española de cine).
 - [plugin.video.orange.spain](https://github.com/Paco8/plugin.video.orange.spain) - Addon de Orange TV Spain para Kodi.
@@ -277,7 +276,6 @@ Integraciones con Redsys/Sermepa, la pasarela de pagos dominante en España.
 
 - [python-aemet](https://github.com/pablo-moreno/python-aemet) - Librería Python para obtener datos de la AEMET (Agencia Estatal de Meteorología).
 - [climaemet](https://github.com/rOpenSpain/climaemet) - Paquete R para herramientas climáticas de datos AEMET.
-- [homeassistant-aemet-sensor](https://github.com/kalanda/homeassistant-aemet-sensor) - Integración de AEMET para Home Assistant.
 - [aemet-elt](https://github.com/jsrl/aemet-elt) - Pipeline ELT para datos meteorológicos de la AEMET.
 - [vulturno](https://github.com/vulturno/vulturno) - Evolución de temperaturas en 45 estaciones de la AEMET en España.
 - [calima](https://github.com/vrruiz/calima) - Web y API para la serie histórica de datos meteorológicos de AEMET.
@@ -595,6 +593,7 @@ Software open source de comunidades autónomas, ayuntamientos y diputaciones.
 ### Galicia
 
 - [VigoBusAPI](https://github.com/David-Lor/VigoBusAPI) - API REST con información de paradas y buses del transporte público de Vigo.
+- [VigoBus-TelegramBot](https://github.com/David-Lor/VigoBus-TelegramBot) - Bot de Telegram para consultar horarios de autobuses de Vigo por parada.
 - [Linguakit](https://github.com/citiususc/Linguakit) - Toolkit multilingüe de NLP del CiTIUS (USC) con soporte para gallego.
 - [XVM](https://github.com/IET-Xunta/XVM) - Xeovisor Mínimo: visor de mapas de la Xunta de Galicia.
 
