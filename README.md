@@ -195,6 +195,7 @@ Integraciones con Redsys/Sermepa, la pasarela de pagos dominante en España.
 - [presupuesto](https://github.com/civio/presupuesto) - Aplicación de visualización de presupuestos públicos adaptable a cualquier administración.
 - [osbex](https://github.com/cripsisxyz/osbex) - Open Source BORME Explorer: plataforma de explotación de datos del BORME.
 - [contractacio.cat](https://github.com/JaimeObregon/contractacio.cat) - Propuestas de mejora a los portales de transparencia de contratación pública en Cataluña.
+- [contractes-cat](https://github.com/gerardgimenezadsuar/contractes-cat) - Análisis de la contratación pública en Cataluña.
 - [BOE](https://github.com/rOpenSpain/BOE) - Paquete R para recuperar e interactuar con datos del BOE.
 - [boeexplorer](https://github.com/vbmedina91/boeexplorer) - Herramienta para democratizar el acceso a datos del BOE y la Plataforma de Contratación del Sector Público.
 - [infoelectoral](https://github.com/JaimeObregon/infoelectoral) - Intérprete de microdatos electorales del Ministerio del Interior.
@@ -322,6 +323,8 @@ Integraciones con Redsys/Sermepa, la pasarela de pagos dominante en España.
 
 - [fgv-reloaded](https://github.com/albertodiazsaez/fgv-reloaded) - Reimplementación en Flutter de la app oficial de MetroValencia usando APIs de FGV.
 - [rodalies-cli](https://github.com/gerardcl/rodalies-cli) - CLI en Python para consultar horarios de Rodalies de Catalunya (Cercanías).
+- [rodalies-tracker](https://github.com/wonx/rodalies-tracker) - Seguimiento en tiempo real de la posición de los trenes de Cercanías de Barcelona.
+- [fgc-trains](https://github.com/cmos486/fgc-trains) - Integración Home Assistant para horarios de FGC (Ferrocarrils de la Generalitat de Catalunya) en tiempo real.
 - [CoreEMT](https://github.com/fitomad/CoreEMT) - Paquete Swift para la API de EMT Madrid (autobuses, BiciMAD, parking).
 
 ## Cartografía y Catastro
@@ -344,6 +347,7 @@ Integraciones con Redsys/Sermepa, la pasarela de pagos dominante en España.
 - [trece](https://github.com/ernestofgonzalez/trece) - CLI para descargar datos geoespaciales y de direcciones oficiales de España.
 - [leaflet-providersESP](https://github.com/dieghernan/leaflet-providersESP) - Plugin Leaflet con proveedores de teselas y capas WMS de España (IGN, Catastro, CC.AA.).
 - [CatastRoNav](https://github.com/rOpenSpain/CatastRoNav) - Paquete R para consultar la API del Catastro de Navarra.
+- [bcn-geodata](https://github.com/martgnz/bcn-geodata) - Shapefiles oficiales de Barcelona convertidos a GeoJSON y TopoJSON.
 
 ## Inmobiliaria y Mercados
 
@@ -404,6 +408,13 @@ Validadores de documentos de identidad españoles (DNI, NIE, NIF, CIF).
 - [CLUB](https://github.com/projecte-aina/club) - Catalan Language Understanding Benchmark para evaluar modelos NLP.
 - [SimpleNLG-GL](https://github.com/citiususc/SimpleNLG-GL) - API Java de generación de lenguaje natural en gallego (trilingüe EN/ES/GL).
 - [XIADA](https://github.com/crpih/xiada) - Etiquetador y lematizador para la lengua gallega.
+- [catalan-dict-tools](https://github.com/Softcatala/catalan-dict-tools) - Herramientas de gestión de diccionarios en catalán de Softcatalà.
+- [nmt-softcatala](https://github.com/Softcatala/nmt-softcatala) - Herramientas de traducción automática neuronal en catalán de Softcatalà.
+- [translation-memory-tools](https://github.com/Softcatala/translation-memory-tools) - Herramientas para crear, mantener y usar memorias de traducción en catalán.
+- [Catalanitzador](https://github.com/Softcatala/Catalanitzador) - Programa para Windows y macOS que configura el sistema en lengua catalana.
+- [Latxa](https://github.com/hitz-zentroa/latxa) - Modelo de lenguaje abierto y suite de evaluación para euskera del centro HiTZ (UPV/EHU).
+- [aHoTTS](https://github.com/hitz-zentroa/aHoTTS) - Síntesis de voz (TTS) para euskera, gallego, catalán y castellano del centro HiTZ.
+- [language-models (Proxecto Nós)](https://github.com/proxectonos/language-models) - Modelos de lingua para o galego: LLMs, BERT, ASR y TTS del Proxecto Nós (Xunta de Galicia).
 
 ## Combustible y Estaciones de Servicio
 
@@ -459,6 +470,7 @@ Cuadernos AEB (Asociación Española de la Banca) y formatos de intercambio banc
 
 - [homeassistant_canal_isabel_II](https://github.com/miguelangel-nubla/homeassistant_canal_isabel_II) - Integración de Canal de Isabel Segunda (contadores de agua en Madrid) para Home Assistant.
 - [AcuaNet](https://github.com/DvzZDev/AcuaNet) - Plataforma con niveles de embalses en España y condiciones meteorológicas en tiempo real con datos del MITECO.
+- [hass-aigues-barcelona](https://github.com/duhow/hass-aigues-barcelona) - Integración de Aigües de Barcelona para Home Assistant: lectura de contadores de agua.
 
 ## Logística y Mensajería
 
@@ -537,6 +549,10 @@ Alastria: consorcio español de Blockchain (BBVA, Santander, Telefónica, Repsol
 - [utilidadesdetests](https://github.com/preparatic/utilidadesdetests) - Generador de tests ponderados para PreparaTIC con preguntas de convocatorias oficiales.
 - [virgulayapp-curriculos](https://github.com/d3stroya/virgulayapp-curriculos) - Currículos LOMLOE de todas las CCAA en formato JSON (Infantil, Primaria, ESO, Bachillerato).
 - [rpttai](https://github.com/rubenleon/rpttai) - Relación de Puestos de Trabajo (RPT) de Informática en la Administración General del Estado.
+- [Agora](https://github.com/projectestac/agora) - Servicio de la XTEC (Xarxa Telemàtica Educativa de Catalunya) con Moodle y portal WordPress para centros educativos.
+- [JClic](https://github.com/projectestac/jclic) - Herramienta de creación de actividades educativas interactivas del Departament d'Educació de la Generalitat de Catalunya.
+- [Odissea](https://github.com/projectestac/odissea) - Moodle de formación del profesorado del Departament d'Educació de la Generalitat de Catalunya.
+- [Selectivitapp](https://github.com/marticliment/Selectivitapp) - Exámenes y solucionarios de la Selectivitat (PAU) en Cataluña.
 
 ## Extranjería y Visados
 
@@ -596,6 +612,7 @@ Software open source de comunidades autónomas, ayuntamientos y diputaciones.
 - [VigoBus-TelegramBot](https://github.com/David-Lor/VigoBus-TelegramBot) - Bot de Telegram para consultar horarios de autobuses de Vigo por parada.
 - [Linguakit](https://github.com/citiususc/Linguakit) - Toolkit multilingüe de NLP del CiTIUS (USC) con soporte para gallego.
 - [XVM](https://github.com/IET-Xunta/XVM) - Xeovisor Mínimo: visor de mapas de la Xunta de Galicia.
+- [portal-datos-abertos](https://github.com/concello-santiago-de-compostela/portal-datos-abertos) - Código fuente del portal de datos abiertos del Concello de Santiago de Compostela.
 
 ### Comunidad Valenciana
 
@@ -637,6 +654,8 @@ Software open source de comunidades autónomas, ayuntamientos y diputaciones.
 - [Registre](https://github.com/GovernIB/registre) - Aplicación web de registro de anotaciones de entrada y salida.
 - [SISTRA](https://github.com/GovernIB/sistra) - Sistema de Tramitación Administrativa de les Illes Balears.
 - [PINBAL](https://github.com/GovernIB/pinbal) - Plataforma de Interoperabilidad de les Illes Balears.
+- [ViaMallorca](https://github.com/open-transport-mallorca/ViaMallorca) - App para seguir autobuses en toda Mallorca con horarios, rutas y más.
+- [mallorca_transit_services](https://github.com/open-transport-mallorca/mallorca_transit_services) - API pública para acceder a los servicios de transporte de Mallorca.
 
 ### La Rioja
 
@@ -681,6 +700,7 @@ Servidores Model Context Protocol para datos y servicios españoles.
 - [mcp-madrid-public-transport](https://github.com/dieguezz/mcp-madrid-public-transport) - Servidor MCP con tiempos de llegada en tiempo real del transporte público de Madrid.
 - [ine-mcp](https://github.com/AnCode666/ine-mcp) - Servidor MCP para consultar datos del Instituto Nacional de Estadística.
 - [aemet-mcp](https://github.com/AnCode666/aemet-mcp) - Servidor MCP para consultar datos climáticos de la AEMET.
+- [mcp-govern](https://github.com/xavimf87/mcp-govern) - Servidor MCP para investigar la transparencia pública de Cataluña y las subvenciones de España.
 
 ## Contribuir
 
