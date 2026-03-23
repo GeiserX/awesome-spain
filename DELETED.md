@@ -64,4 +64,5 @@ Proyectos que estuvieron en la lista pero fueron retirados por alguna de las raz
 
 ## Reemplazados
 
+- [Presupuesto Aragón](https://github.com/aragonopendata/presupuesto) → reemplazado por [civio/presupuesto](https://github.com/civio/presupuesto). Autor confirmó que civio mantiene la versión activa.
 - [precio-luz](https://github.com/Webierta/precio-luz) → reemplazado por [Open Luz](https://github.com/Webierta/open_luz)

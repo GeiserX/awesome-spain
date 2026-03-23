@@ -642,7 +642,6 @@ Software open source de comunidades autónomas, ayuntamientos y diputaciones.
 - [bislai](https://github.com/bislai/bislai) - Plataforma de accesibilidad política para el Ayuntamiento de Zaragoza.
 - [GA_OD_Core](https://github.com/aragonopendata/GA_OD_Core) - API para obtener datos de vistas del portal de datos abiertos de Aragón.
 - [local-data-aragopedia](https://github.com/aragonopendata/local-data-aragopedia) - Datos estadísticos del Instituto Aragonés de Estadística para Aragón Open Data.
-- [Presupuesto Aragón](https://github.com/aragonopendata/presupuesto) - Aplicación de visualización de presupuestos del Gobierno de Aragón.
 - [Transparenzia](https://github.com/aragonopendata/transparenzia) - Portal de Transparencia del Gobierno de Aragón.
 
 ### Islas Baleares
