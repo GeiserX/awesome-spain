@@ -339,6 +339,7 @@ Integraciones con Redsys/Sermepa, la pasarela de pagos dominante en España.
 ## Cartografía y Catastro
 
 - [API-CNIG](https://github.com/IGN-CNIG/API-CNIG) - API del Centro Nacional de Información Geográfica para visualizadores cartográficos web.
+- [API-IDEE](https://github.com/Desarrollos-IDEE/API-IDEE) - API JavaScript para crear visualizadores de mapas con datos de la Infraestructura de Datos Espaciales de España.
 - [bcn-geodata](https://github.com/martgnz/bcn-geodata) - Shapefiles oficiales de Barcelona convertidos a GeoJSON y TopoJSON.
 - [caRtociudad](https://github.com/rOpenSpain/caRtociudad) - Paquete R para consultar la API de CartoCiudad (geocodificador oficial del CNIG).
 - [Cartociudad](https://github.com/IDEESpain/Cartociudad) - Servicio REST oficial del geocodificador CartoCiudad del CNIG.
