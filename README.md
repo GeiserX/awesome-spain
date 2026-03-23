@@ -475,6 +475,7 @@ Cuadernos AEB (Asociación Española de la Banca) y formatos de intercambio banc
 - [LiveboxFibraExtractor](https://github.com/segura2010/LiveboxFibraExtractor) - Herramienta Java para extraer credenciales SIP del router Livebox Fibra de Orange/Jazztel España.
 - [MitraStar_GPT-2541GNAC_HA](https://github.com/joseska/MitraStar_GPT-2541GNAC_HA) - Device tracker del router MitraStar GPT-2541GNAC (Movistar) para Home Assistant.
 - [router-movistar](https://github.com/Eitol/router-movistar) - Librería Python para gestionar el router de Movistar.
+- [search-by-surname](https://github.com/GeiserX/search-by-surname) - Script R para búsqueda masiva de apellidos en directorios telefónicos españoles (Infobel, Páginas Blancas).
 
 ### Agua
 
