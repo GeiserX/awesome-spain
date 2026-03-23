@@ -670,10 +670,7 @@ Software open source de comunidades autónomas, ayuntamientos y diputaciones.
 
 ### Región de Murcia
 
-- [CSV Storage CARM](https://github.com/carm-es/csvstorage) - Versión distribuible de CSV Storage para almacenamiento de documentos electrónicos.
-- [Guías CARM](https://github.com/carm-es/guias) - Guías para el desarrollo de aplicaciones en la Comunidad Autónoma de la Región de Murcia.
-- [InSiDE CARM](https://github.com/carm-es/inside) - Instalación de InSiDE (Infraestructura y Sistemas de Documentación Electrónica) de la CARM.
-- [playasmurcia](https://github.com/jmlweb/playasmurcia) - Catálogo de playas de la Región de Murcia con datos abiertos de la CARM.
+> Lista dedicada: **[awesome-region-de-murcia](https://github.com/GeiserX/awesome-region-de-murcia)** — 45 proyectos open source específicos de la Región de Murcia.
 
 ### Ayuntamientos y Diputaciones
 
