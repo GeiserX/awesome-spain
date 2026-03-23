@@ -44,6 +44,7 @@ Proyectos que estuvieron en la lista pero fueron retirados por alguna de las raz
 - [django-sermepa](https://github.com/bcurtu/django-sermepa) - TPV virtual Redsys/Sermepa para Django. Incompatible con Redsys actual.
 - [TDTSpain2VLC](https://github.com/David-Lor/TDTSpain2VLC) - Convierte listas de canales TDT a playlist XSPF para VLC. Autor confirmó que no funciona y va a archivarlo.
 - [homeassistant-aemet-sensor](https://github.com/kalanda/homeassistant-aemet-sensor) - Integración de AEMET para Home Assistant. Autor confirmó que HA lo soporta nativamente y no se mantiene.
+- [homeassistant_canal_isabel_II](https://github.com/miguelangel-nubla/homeassistant_canal_isabel_II) - Integración de Canal de Isabel Segunda para Home Assistant. No funcional según usuario.
 
 ## Eliminados por no ser específicos de España
 

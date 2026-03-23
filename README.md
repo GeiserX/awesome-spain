@@ -480,7 +480,6 @@ Cuadernos AEB (Asociación Española de la Banca) y formatos de intercambio banc
 
 - [AcuaNet](https://github.com/DvzZDev/AcuaNet) - Plataforma con niveles de embalses en España y condiciones meteorológicas en tiempo real con datos del MITECO.
 - [hass-aigues-barcelona](https://github.com/duhow/hass-aigues-barcelona) - Integración de Aigües de Barcelona para Home Assistant: lectura de contadores de agua.
-- [homeassistant_canal_isabel_II](https://github.com/miguelangel-nubla/homeassistant_canal_isabel_II) - Integración de Canal de Isabel Segunda (contadores de agua en Madrid) para Home Assistant.
 
 ## Logística y Mensajería
 
