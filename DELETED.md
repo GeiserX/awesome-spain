@@ -64,5 +64,6 @@ Proyectos que estuvieron en la lista pero fueron retirados por alguna de las raz
 
 ## Reemplazados
 
+- [LliureX Store (lliurex-store)](https://github.com/lliurex/lliurex-store) → reemplazado por [rebost](https://github.com/lliurex/rebost) y [store](https://github.com/lliurex/store). Autor confirmó abandono.
 - [Presupuesto Aragón](https://github.com/aragonopendata/presupuesto) → reemplazado por [civio/presupuesto](https://github.com/civio/presupuesto). Autor confirmó que civio mantiene la versión activa.
 - [precio-luz](https://github.com/Webierta/precio-luz) → reemplazado por [Open Luz](https://github.com/Webierta/open_luz)

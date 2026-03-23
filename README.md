@@ -627,7 +627,8 @@ Software open source de comunidades autónomas, ayuntamientos y diputaciones.
 ### Comunidad Valenciana
 
 - [LliureX OneDrive](https://github.com/lliurex/lliurex-onedrive) - Interfaz gráfica para OneDrive en LliureX.
-- [LliureX Store](https://github.com/lliurex/lliurex-store) - Tienda de software de LliureX, la distribución Linux educativa de la Generalitat Valenciana.
+- [LliureX Rebost](https://github.com/lliurex/rebost) - Motor de gestión de software distro-agnóstico desarrollado por LliureX.
+- [LliureX Store](https://github.com/lliurex/store) - Interfaz gráfica para la tienda de aplicaciones de LliureX.
 - [LliureX Zero Server Wizard](https://github.com/lliurex/zero-server-wizard) - Asistente de configuración de servidores para centros educativos LliureX.
 
 ### Comunidad de Madrid
