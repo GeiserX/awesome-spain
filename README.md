@@ -670,7 +670,7 @@ Software open source de comunidades autónomas, ayuntamientos y diputaciones.
 
 ### Región de Murcia
 
-> Lista dedicada: **[awesome-region-de-murcia](https://github.com/GeiserX/awesome-region-de-murcia)** — 45 proyectos open source específicos de la Región de Murcia.
+> Lista dedicada: **[awesome-region-de-murcia](https://github.com/GeiserX/awesome-region-de-murcia)**
 
 ### Ayuntamientos y Diputaciones
 
