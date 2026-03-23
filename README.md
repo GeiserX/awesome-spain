@@ -216,6 +216,15 @@ Integraciones con Redsys/Sermepa, la pasarela de pagos dominante en España.
 - [censosine21](https://github.com/sigdeletras/censosine21) - Librería Python para la API del Censo de Población y Viviendas 2021 del INE.
 - [codigos_postales_spain](https://github.com/franciscojuan1974/codigos_postales_spain) - Base de datos SQL de más de 11.000 códigos postales de España con coordenadas.
 - [COVID19_es](https://github.com/victorvicpal/COVID19_es) - Datos COVID-19 de España ampliamente referenciados.
+- [Datania AEMET](https://github.com/datania/aemet) - Datos abiertos de AEMET exportados periódicamente a formato accesible.
+- [Datania BOE](https://github.com/datania/boe) - Herramientas para exportar y procesar datos del BOE de forma periódica.
+- [Datania censo RAIA](https://github.com/datania/censo-raia) - Censo público de animales del Registro Andaluz de Identificación Animal.
+- [Datania datos.gob.es](https://github.com/datania/datosgobes-catalog) - Herramientas para exportar el catálogo de datos.gob.es de forma periódica.
+- [Datania emisiones](https://github.com/datania/emisiones-climate-trace) - Datos sobre las emisiones de gases de efecto invernadero en España.
+- [Datania hub](https://github.com/datania/hub) - Centro logístico de Datania: orquesta datasets abiertos de España (INE, AEMET, BOE, Mercadona, IPC).
+- [Datania INE](https://github.com/datania/ine-catalog) - Herramientas para exportar metadatos y datasets del INE de forma periódica.
+- [Datania IPC](https://github.com/datania/ipc) - Datos históricos del Índice de Precios de Consumo de España.
+- [Datania Mercadona](https://github.com/datania/mercadona-catalog) - Catálogo de productos de la tienda online de Mercadona en formato JSON.
 - [datadista datasets](https://github.com/datadista/datasets) - Datos de los reportajes y proyectos de periodismo de investigación de DATADISTA.
 - [datos.gob.es](https://github.com/ctt-gob-es/datos.gob.es) - Código fuente oficial del Catálogo Nacional de Datos Abiertos (CKAN + Drupal).
 - [datosgobes](https://github.com/jvaleroliet/datosgobes) - Librería Python para gestionar datos del portal datos.gob.es.
