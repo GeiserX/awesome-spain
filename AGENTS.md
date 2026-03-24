@@ -14,7 +14,7 @@ Selección de software open source que da **soporte específico a España, sus c
 - Validadores de **documentos españoles** (DNI, NIE, NIF, CIF, matrículas, NSS, códigos postales).
 - Formatos bancarios **específicamente españoles** (cuadernos AEB, Norma 43, formatos CaixaBank, etc.).
 - Herramientas para **lenguas cooficiales de España** (catalán, gallego, euskera) cuando están financiadas o producidas por instituciones españolas (Projecte AINA/BSC, CiTIUS/USC, etc.).
-- Software **nacido en España para resolver un problema español** que luego se internacionalizó, si sigue teniendo relevancia especial en España (Decidim, CONSUL Democracy, Pumperly, etc.).
+- Software **nacido en España para resolver un problema español** que luego se internacionalizó, si sigue teniendo relevancia especial en España (Decidim, CONSUL Democracy, etc.).
 - Distribuciones Linux o software educativo de gobiernos autonómicos (Guadalinex, LliureX).
 
 ### No incluir

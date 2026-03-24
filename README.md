@@ -434,7 +434,6 @@ Validadores de documentos de identidad españoles (DNI, NIE, NIF, CIF).
 - [gasolineras-espana](https://github.com/kbsali/gasolineras-espana) - Descarga, parseo y transformación de la lista completa de precios de gasolineras españolas.
 - [ha-gas-station-spain](https://github.com/MiguelAngelLV/ha-gas-station-spain) - Componente Home Assistant para precios de gasolineras de España en tiempo real.
 - [precio-gasolina](https://github.com/soker90/precio-gasolina) - Envía a Telegram el precio de la gasolina de una gasolinera cuando cambia.
-- [Pumperly](https://github.com/GeiserX/Pumperly) - Planificador de rutas open source con precios de combustible y carga EV en tiempo real para 31 países europeos, self-hostable.
 - [spain-gas](https://github.com/Flerex/spain-gas) - Cliente PHP para obtener información de gasolineras y precios del Geoportal del Gobierno.
 
 ## Formatos Bancarios
