@@ -3,10 +3,12 @@ on:
   pull_request:
     branches: [main]
 jobs:
-  awesome-lint:
+  lint:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: GeiserX/awesome-lint-extra@main
         with:
-          fetch-depth: 0
-      - run: npx awesome-lint
+          require_badges: 'true'
+          badge_types: '["stars", "last-commit", "language", "license"]'
+          check_alphabetical: 'true'

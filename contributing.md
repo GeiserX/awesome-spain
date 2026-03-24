@@ -10,7 +10,7 @@ Gracias por tu interés en contribuir. Esta selección crece gracias a la comuni
 - El proyecto debe **dar soporte específico a España** o incluir funcionalidades relevantes para usuarios en España.
 - El proyecto debe estar **mantenido activamente** (actividad en los últimos 2 años) y no estar archivado.
 - Cada entrada debe seguir el formato: `- [Nombre](URL) - Descripción breve que empieza en mayúscula y termina con punto.`
-- Añade la entrada al **final de la categoría** correspondiente.
+- Añade la entrada en **orden alfabético** dentro de la categoría correspondiente.
 - Comprueba que no hay **duplicados** ni errores tipográficos.
 - Las descripciones deben ser **concisas y objetivas** (una frase).
 
@@ -25,10 +25,12 @@ Gracias por tu interés en contribuir. Esta selección crece gracias a la comuni
 - [Nombre](https://github.com/owner/repo) - Descripción que empieza en mayúscula y termina con punto.
 ```
 
+Las insignias (estrellas, último commit, lenguaje, licencia y etiquetas de servicio) se generan automáticamente con `scripts/transform-readme.py`. No es necesario añadirlas manualmente.
+
 - La descripción **no debe empezar con el nombre** del proyecto (awesome-lint lo rechaza).
 - Máximo una línea por entrada.
 - Las descripciones deben estar en **español**.
-- Ejecuta `npx awesome-lint` antes de enviar tu PR para verificar que no hay errores.
+- Valida con `awesome-lint-extra` antes de enviar tu PR para verificar que no hay errores.
 
 ### Pull requests
 

@@ -1,0 +1,8 @@
+{
+  "allowed_hosts": ["github.com", "gitlab.com", "codeberg.org"],
+  "require_badges": true,
+  "badge_types": ["stars", "last-commit", "language", "license"],
+  "check_alphabetical": true,
+  "check_description_format": true,
+  "check_toc": true
+}

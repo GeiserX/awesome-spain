@@ -36,13 +36,19 @@ Selección de software open source que da **soporte específico a España, sus c
 ## Formato de entradas
 
 ```markdown
+- [Nombre](https://github.com/owner/repo) [![Stars](...)](stargazers) [![Last Commit](...)](commits) [![Language](...)](repo) [![License](...)](LICENSE) [![Tag](...)](url) - Descripción que empieza en mayúscula y termina en punto.
+```
+
+Las insignias se generan automáticamente con `scripts/transform-readme.py`. Para contribuir, basta con añadir la entrada en formato simple:
+
+```markdown
 - [Nombre](https://github.com/owner/repo) - Descripción que empieza en mayúscula y termina en punto.
 ```
 
 - La descripción **no debe empezar con el nombre del proyecto**.
 - Máximo una línea por entrada.
 - Entradas **ordenadas alfabéticamente** (por nombre visible, sin distinguir mayúsculas/minúsculas) dentro de cada sección y subsección.
-- Usar awesome-lint para validar: `npx awesome-lint`.
+- Validar con awesome-lint-extra: `python3 lint.py` o mediante el workflow de CI.
 - Evitar el anglicismo «curar/curado» (de *curated*). Según la FundéuRAE, las alternativas preferidas son «selección», «recopilación» o «responsable de contenidos». Ver: https://www.fundeu.es/recomendacion/responsable-de-contenidos-mejor-que-content-curator/
 
 ## Verificación antes de añadir
