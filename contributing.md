@@ -1,6 +1,6 @@
 # Contribuir a Awesome Spain
 
-Gracias por tu interés en contribuir. Esta lista curada crece gracias a la comunidad.
+Gracias por tu interés en contribuir. Esta selección crece gracias a la comunidad.
 
 ## Directrices
 
@@ -16,7 +16,7 @@ Gracias por tu interés en contribuir. Esta lista curada crece gracias a la comu
 
 ### Crear una nueva categoría
 
-- Solo si hay al menos **3 proyectos** que la justifiquen.
+- Preferiblemente con al menos **3 proyectos** que la justifiquen.
 - Añade la nueva categoría al **índice de contenido** en el orden adecuado.
 
 ### Formato de entrada

@@ -73,16 +73,8 @@ Antes de incluir un repositorio, comprobar:
 
 No se aceptan proyectos de: pornografía, NSFW, loterías, apuestas, religión, política partidista.
 
-## Promoción
+## Difusión
 
-- Notificar a propietarios de repos incluidos abriendo un issue con título "Incluido en awesome-spain 🇪🇸" y mensaje breve en español ofreciendo retirar si prefieren.
+- Notificar a propietarios de repos incluidos abriendo un issue con título "Incluido en awesome-spain 🇪🇸" y mensaje breve en español (tuteo) ofreciendo retirar si prefieren. Solo 1 issue por organización/usuario — no spamear repos del mismo propietario.
 - Publicar en comunidades españolas de desarrollo (Meneame, Reddit r/spain, Slacks españoles) tras alcanzar masa crítica.
-- Enviar a sindresorhus/awesome después de 30 días desde la creación del repo.
-
-## Git
-
-- Identidad: `GeiserX` / `9169332+GeiserX@users.noreply.github.com`
-- Sin `Co-Authored-By` en commits.
-- Sin atribución a Claude/Anthropic en texto público.
-- Rama por defecto: `main`.
-- Siempre `unset GITHUB_TOKEN` antes de comandos `gh`.
+- Enviar PR a [sindresorhus/awesome](https://github.com/sindresorhus/awesome) después de 30 días desde la creación del repo.

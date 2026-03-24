@@ -1,6 +1,7 @@
 ## Tipo de cambio
 
 - [ ] Añadir proyecto(s)
+- [ ] Retirar proyecto(s)
 - [ ] Nueva categoría
 - [ ] Corrección (enlace roto, descripción, etc.)
 - [ ] Otro
@@ -11,19 +12,29 @@
 Para cada proyecto añadido, indica:
 - URL del repositorio
 - URL del servicio/API/institución española a la que da soporte (p.ej. aeat.es, renfe.com, catastro.meh.es)
+Elimina esta sección si no aplica.
 -->
 
 | Proyecto | Servicio/API español |
 |----------|---------------------|
 | https://github.com/... | https://... |
 
+## Proyecto(s) retirado(s)
+
+<!--
+Para cada proyecto retirado, indica:
+- URL del repositorio
+- Motivo (archivado, no funcional, reemplazado, no específico de España, etc.)
+Elimina esta sección si no aplica.
+-->
+
+| Proyecto | Motivo |
+|----------|--------|
+| https://github.com/... | ... |
+
 ## Checklist
 
-- [ ] El proyecto es **open source** con repositorio público.
-- [ ] El proyecto da **soporte específico a España**, sus comunidades autónomas o provincias (no es software genérico creado por españoles).
-- [ ] El proyecto está **mantenido** (actividad en los últimos 2 años, no archivado).
-- [ ] La entrada sigue el formato: `- [Nombre](URL) - Descripción en mayúscula y con punto final.`
-- [ ] La descripción **no empieza con el nombre** del proyecto.
-- [ ] No hay **duplicados** en la lista.
-- [ ] La entrada está al **final de la categoría** correspondiente.
 - [ ] He ejecutado `npx awesome-lint` y no hay errores.
+- [ ] No hay **duplicados** en la lista.
+- [ ] Las entradas siguen el formato: `- [Nombre](URL) - Descripción en mayúscula y con punto final.`
+- [ ] Las entradas están **ordenadas alfabéticamente** dentro de su sección.
