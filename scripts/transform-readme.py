@@ -448,7 +448,7 @@ TAG_URLS = {
     "Alastria": "https://alastria.io/",
     "GOBL": "https://gobl.org/",
     "Civio": "https://civio.es/",
-    "Datania": "https://datania.es/",
+    "Datania": "https://datania.cc/",
     "rOpenSpain": "https://ropenspain.es/",
     "Flamenco": "https://www.juntadeandalucia.es/cultura/flamenco/",
     "COVID-19": "https://www.sanidad.gob.es/",
