@@ -694,6 +694,7 @@ Software open source de comunidades autónomas, ayuntamientos y diputaciones.
 
 Servidores Model Context Protocol para datos y servicios españoles.
 
+- [aeat-mcp](https://github.com/iMark21/aeat-mcp) - Servidor MCP para consultar datos fiscales de la AEAT: tramos IRPF, tipos IVA, calendario fiscal, modelos tributarios y más. Fuentes 100% oficiales (BOE, AEAT).
 - [aemet-mcp](https://github.com/AnCode666/aemet-mcp) - Servidor MCP para consultar datos climáticos de la AEMET.
 - [boe-mcp](https://github.com/AnCode666/boe-mcp) - Servidor MCP para consultar leyes españolas usando la API del BOE.
 - [catastro_mcp_server](https://github.com/carlosGalisteo/catastro_mcp_server) - Servidor MCP para los servicios web de la Sede Electrónica del Catastro.
