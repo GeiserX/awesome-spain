@@ -34,7 +34,8 @@ Elimina esta sección si no aplica.
 
 ## Checklist
 
-- [ ] He ejecutado `npx awesome-lint` y no hay errores.
 - [ ] No hay **duplicados** en la lista.
-- [ ] Las entradas siguen el formato: `- [Nombre](URL) - Descripción en mayúscula y con punto final.`
+- [ ] Las entradas siguen el formato con badges: `- [Nombre](URL) [![Stars](...) ... - Descripción con punto final.`
 - [ ] Las entradas están **ordenadas alfabéticamente** dentro de su sección.
+
+> **Nota:** El linting se ejecuta automáticamente en CI con [awesome-lint-extra](https://github.com/GeiserX/awesome-lint-extra). No es necesario ejecutarlo manualmente.
