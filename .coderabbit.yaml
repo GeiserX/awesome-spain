@@ -14,18 +14,18 @@ reviews:
     ignore_title_keywords:
       - "WIP"
       - "DO NOT REVIEW"
-  path_filters:
-    - "!dist/**"
-    - "!**/*.min.js"
-    - "!**/*.min.css"
-    - "!**/node_modules/**"
-    - "!**/.next/**"
-    - "!**/package-lock.json"
-    - "!**/pnpm-lock.yaml"
+  path_instructions:
+    - path: "**/*.md"
+      instructions: |
+        Check that links are not broken and use HTTPS where possible.
+        Verify alphabetical ordering within sections is maintained.
+        Ensure descriptions are concise and follow the existing format.
+    - path: "scripts/**"
+      instructions: |
+        Verify scripts handle errors gracefully.
+        Check that URLs are validated before processing.
   tools:
     gitleaks:
-      enabled: true
-    hadolint:
       enabled: true
     actionlint:
       enabled: true
@@ -33,7 +33,7 @@ reviews:
       enabled: true
     markdownlint:
       enabled: true
-    eslint:
+    languagetool:
       enabled: true
     shellcheck:
       enabled: true
