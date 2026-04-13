@@ -6,9 +6,9 @@ Directrices para los mantenedores de esta lista. Esta guía es común a todas la
 
 ## Filosofía de inclusión
 
-El criterio fundamental es: **se acepta software que da soporte específico a España, no software hecho por alguien de España.**
+El criterio fundamental es: **se acepta software que da soporte específico a España, no software hecho por alguien español.**
 
-Un repositorio se incluye porque interactúa con instituciones, servicios, infraestructura, normativas o datos propios de España. No basta con que el autor sea español o resida aquí. Un framework JS genérico creado por un developer español no pertenece a esta lista. Un scraper de la API de AEMET sí.
+Un repositorio se incluye porque interactúa con instituciones, servicios, infraestructura, normativas o datos propios de España. No basta con que el autor sea español o resida aquí. Un framework genérico creado por un developer español no pertenece a esta lista. Un cliente para una API de servicios de España sí.
 
 - **Sí:** Cliente para la API de AEMET, integración de Redsys para Django, validador de DNI/NIE, facturación electrónica FacturaE.
 - **No:** Librería de visualización genérica creada por un equipo español, chatbot en español genérico, SDK de una empresa española cuya API es global e idéntica en todos los países.
@@ -18,7 +18,7 @@ Ver `AGENTS.md` para los criterios detallados, zonas grises y temas prohibidos.
 ## Revisar PRs
 
 1. Comprobar que el proyecto **da soporte específico a España** (no simplemente que el autor es español).
-2. Verificar que la PR incluye la **URL del servicio o institución española** que el proyecto soporta.
+2. Verificar que la PR incluye la **URL del servicio o institución de España** que el proyecto soporta.
 3. Comprobar formato: entrada simple, orden alfabético, descripción en español que empieza en mayúscula y termina con punto.
 4. **CI debe estar verde** antes de mergear: awesome-lint-extra (formato y orden) + lychee (enlaces).
 5. Las insignias se generan automáticamente. Los contribuidores solo envían:
@@ -45,9 +45,15 @@ Ver `AGENTS.md` para los criterios detallados, zonas grises y temas prohibidos.
    - Cuerpo: mensaje breve en español (tuteo) explicando la inclusión y ofreciendo retirarlo si lo prefiere.
    - **Un solo issue por propietario** — nunca abrir múltiples issues en repos del mismo usuario/organización.
 
-## Eliminar entradas
+## Eliminar entradas y DELETED.md
 
-Las entradas no se borran sin más. Se mueven a `DELETED.md` en la sección correspondiente:
+Cada repositorio tiene (o debe tener) un fichero `DELETED.md`. Es una pieza fundamental del mantenimiento: registra todos los proyectos que estuvieron en la lista y fueron retirados, junto con el motivo. Su propósito es:
+
+- **Evitar re-adiciones:** si alguien propone un proyecto ya retirado, se puede consultar por qué se eliminó.
+- **Preservar el historial:** deja constancia de decisiones pasadas para futuros mantenedores.
+- **Documentar razones:** cada entrada lleva contexto suficiente para entender la retirada.
+
+Las entradas nunca se borran sin más del README. Se mueven a `DELETED.md` en la sección correspondiente:
 
 | Razón | Sección en DELETED.md |
 |-------|-----------------------|
@@ -57,7 +63,7 @@ Las entradas no se borran sin más. Se mueven a `DELETED.md` en la sección corr
 | No cumple criterios de inclusión | Eliminados por no ser específicos de España |
 | Sustituido por otro proyecto | Reemplazados (enlazar sucesor) |
 
-Esto evita re-adiciones y preserva el historial.
+Si el repo aún no tiene `DELETED.md`, crearlo con las secciones anteriores la primera vez que se retire un proyecto.
 
 ## Mantenimiento periódico
 
@@ -70,6 +76,7 @@ Esto evita re-adiciones y preserva el historial.
     [ "$archived" = "true" ] && echo "ARCHIVADO: $repo"
   done
   ```
+  Mover los archivados a `DELETED.md`.
 
 ## Herramientas
 
