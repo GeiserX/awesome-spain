@@ -62,6 +62,7 @@ Proyectos que estuvieron en la lista pero fueron retirados por alguna de las raz
 - Glovo APIs: glovo-api-php, glovo-api-python, php-glovo-api (API global, no específica de España)
 - Quaderno.js (SaaS de compliance fiscal internacional)
 - datapipe/AINA (pipeline ETL de audio genérico)
+- [Pumperly](https://github.com/GeiserX/pumperly), [pumperly-ha](https://github.com/GeiserX/pumperly-ha) (cubre 36 países europeos, no específico de España → listados en [awesome-europe](https://github.com/GeiserX/awesome-europe))
 
 ## Reemplazados
 
