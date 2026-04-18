@@ -4,6 +4,7 @@ Proyectos que estuvieron en la lista pero fueron retirados por alguna de las raz
 
 ## Archivados (solo lectura)
 
+- [BuscaPaginasBlancas](https://github.com/GeiserX/BuscaPaginasBlancas) - Herramienta OSINT para extraer información de contacto de las Páginas Blancas españolas.
 - [milanuncios (3clypse)](https://github.com/3clypse/milanuncios) - Herramienta para Milanuncios.
 - [MovistarTV](https://github.com/AlphaCentaury/MovistarTV) - Decodificador virtual IPTV para Movistar+ en Windows.
 - [SecuritasDirectAPI](https://github.com/Cebeerre/SecuritasDirectAPI) - Especificación y documentación de la API de Securitas Direct.
