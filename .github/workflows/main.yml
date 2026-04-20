@@ -6,7 +6,7 @@ on:
     branches: [main]
 jobs:
   lint:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, Linux, X64, geiserback]
     steps:
       - uses: actions/checkout@v4
       - uses: GeiserX/awesome-lint-extra@main
@@ -15,7 +15,7 @@ jobs:
           badge_types: '["stars", "last-commit", "language", "license"]'
           check_alphabetical: 'true'
   links:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, Linux, X64, geiserback]
     continue-on-error: true
     steps:
       - uses: actions/checkout@v4
