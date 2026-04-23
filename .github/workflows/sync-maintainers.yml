@@ -1,0 +1,131 @@
+name: Sync Maintainers
+
+on:
+  member:
+    types: [added, removed]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Sync maintainers
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 -u - << 'PYEOF'
+          import json, os, re, subprocess, sys
+
+          owner = os.environ['GITHUB_REPOSITORY'].split('/')[0]
+          repo = os.environ['GITHUB_REPOSITORY']
+          event_name = os.environ.get('GITHUB_EVENT_NAME', '')
+
+          # Read current maintainers from CODEOWNERS
+          maintainers = set()
+          if os.path.exists('CODEOWNERS'):
+              with open('CODEOWNERS') as f:
+                  maintainers = {w.lstrip('@') for w in f.read().split() if w.startswith('@')}
+          maintainers.add(owner)
+
+          if event_name == 'member':
+              with open(os.environ['GITHUB_EVENT_PATH']) as f:
+                  event = json.load(f)
+              member = event['member']['login']
+              action = event['action']
+              print(f'Member event: {action} {member}')
+              if action == 'added':
+                  maintainers.add(member)
+              elif action == 'removed':
+                  maintainers.discard(member)
+                  maintainers.add(owner)
+          else:
+              # workflow_dispatch — try to list collaborators via API
+              try:
+                  result = subprocess.run(
+                      ['gh', 'api', f'repos/{repo}/collaborators',
+                       '--jq', '[.[] | select(.permissions.push) | .login] | .[]'],
+                      capture_output=True, text=True, check=True)
+                  if result.stdout.strip():
+                      maintainers = {l for l in result.stdout.strip().split('\n') if l}
+              except Exception as e:
+                  print(f'Could not list collaborators via API: {e}')
+                  print('Falling back to existing CODEOWNERS.')
+
+          sorted_m = sorted(maintainers, key=lambda x: (x != owner, x.lower()))
+
+          with open('README.md') as f:
+              readme = f.read()
+
+          if len(maintainers) >= 2:
+              # Write CODEOWNERS
+              with open('CODEOWNERS', 'w') as f:
+                  f.write('* ' + ' '.join(f'@{m}' for m in sorted_m) + '\n')
+
+              # Build Maintainers section
+              lines = '\n'.join(f'- [@{m}](https://github.com/{m})' for m in sorted_m)
+              section = (f'## Maintainers\n\n'
+                         f'<!--lint disable awesome-list-item-->\n\n'
+                         f'{lines}\n\n'
+                         f'<!--lint enable awesome-list-item-->')
+
+              if '## Maintainers' in readme:
+                  readme = re.sub(
+                      r'## Maintainers\n.*?(?=\n## |\Z)',
+                      section + '\n',
+                      readme, flags=re.DOTALL)
+              else:
+                  for anchor in ['## Contribuir', '## Contributing']:
+                      if anchor in readme:
+                          readme = readme.replace(anchor, section + '\n\n' + anchor)
+                          break
+
+              with open('README.md', 'w') as f:
+                  f.write(readme)
+          else:
+              # Only owner — clean up if sections/files exist
+              changed = False
+              if os.path.exists('CODEOWNERS'):
+                  os.remove('CODEOWNERS')
+                  changed = True
+              if '## Maintainers' in readme:
+                  readme = re.sub(r'\n+## Maintainers\n.*?(?=\n## |\Z)', '', readme, flags=re.DOTALL)
+                  with open('README.md', 'w') as f:
+                      f.write(readme)
+                  changed = True
+              if not changed:
+                  print('No co-maintainers found, nothing to do.')
+                  sys.exit(0)
+
+          print(f'Maintainers: {sorted_m}')
+          PYEOF
+
+      - name: Create PR if changed
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if git diff --quiet && [ -z "$(git ls-files --others --exclude-standard)" ]; then
+            echo "No changes"
+            exit 0
+          fi
+
+          BRANCH="sync-maintainers-$(date +%Y%m%d%H%M)"
+          git checkout -b "$BRANCH"
+          git add CODEOWNERS README.md 2>/dev/null; true
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Sync maintainers from collaborator changes"
+          git push -u origin "$BRANCH"
+
+          # Close any stale sync PRs
+          gh pr list --search "Sync maintainers in:title" --state open --json number --jq '.[].number' | \
+            while read pr; do gh pr close "$pr" --delete-branch 2>/dev/null; done
+
+          gh pr create \
+            --title "Sync maintainers" \
+            --body "Auto-sync CODEOWNERS and README Maintainers section after collaborator change."
