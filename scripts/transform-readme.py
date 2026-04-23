@@ -391,7 +391,7 @@ TAG_URLS = {
     "Extranjería": "https://sede.administracionespublicas.gob.es/",
     "Policía": "https://www.policia.es/",
     # Standards/platforms
-    "VeriFactu": "https://sede.agenciatributaria.gob.es/Sede/iva/suministro-inmediato-informacion/verifactu.html",
+    "VeriFactu": "https://sede.agenciatributaria.gob.es/Sede/iva/sistemas-informaticos-facturacion-verifactu.html",
     "TicketBAI": "https://www.batuz.eus/",
     "Facturae": "https://face.gob.es/",
     "SII": "https://sede.agenciatributaria.gob.es/",
@@ -698,13 +698,13 @@ DEMO_URLS.update({
     "ctt-gob-es/datos.gob.es": "https://datos.gob.es",
     "consuldemocracy/consuldemocracy": "https://consuldemocracy.org",
     "decidim/decidim": "https://decidim.org",
-    "azogue/aiopvpc": "https://pvpc.azogue.info",
+    # "azogue/aiopvpc": demo removed (site dead)
     "JaimeObregon/ladonacion.es": "https://ladonacion.es",
     "JaimeObregon/observatoriospublicos.es": "https://observatoriospublicos.es",
     "JaimeObregon/retrosantander": "https://retrosantander.com",
     # "JaimeObregon/infoelectoral": demo removed (connection refused)
     # "civio/presupuesto": demo removed (connection refused)
-    "Webierta/open_luz": "https://play.google.com/store/apps/details?id=com.webierta.open_luz",
+    # "Webierta/open_luz": demo removed (app delisted from Play Store)
     "paumrch/larenta": "https://larenta.es",
     "gencat/ICGC-comparador-gificador": "https://www.instamaps.cat/visor.html",
     "DvzZDev/AcuaNet": "https://acuanet.es",

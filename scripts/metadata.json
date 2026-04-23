@@ -885,8 +885,6 @@
 ,
 "vgvr0/supermarket-mercadona-scraper": {"default_branch":"main","description":"Supermarket-Mercadona-Scraper is an efficient and user-friendly tool that automatically scrapes and organizes product data from the Mercadona website, enabling you to analyze and compare product prices and features in real-time.","homepage":"","language":"Python","license":"","stargazers_count":7,"topics":["beautifulsoup","chromedriver","mercadona","mercadona-scraper","mercadona-scraping","python-scraping","selenium"]}
 ,
-"victormonedero3-hue/cendoj-mcp-server": {"default_branch":"main","description":"MCP Server for Cendoj API - Claude Integration","homepage":"https://cendoj-mcp-server.vercel.app","language":"JavaScript","license":"","stargazers_count":0,"topics":[]}
-,
 "victorvicpal/COVID19_es": {"default_branch":"master","description":"COVID19 Spain data","homepage":"","language":"Jupyter Notebook","license":"Apache-2.0","stargazers_count":34,"topics":["covid-19-spain","covid19-data"]}
 ,
 "vrruiz/calima": {"default_branch":"master","description":"Calima - La memoria del clima. Web/API para la serie histórica de datos meteorológicos de AEMET.","homepage":"http://calima.linotipo.es/","language":"JavaScript","license":"NOASSERTION","stargazers_count":9,"topics":[]}
