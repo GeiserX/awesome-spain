@@ -38,6 +38,7 @@ Proyectos que estuvieron en la lista pero fueron retirados por alguna de las raz
 
 - `yagoangelim/mercadona-mcp` - Servidor MCP para Mercadona. Repo eliminado.
 - `javiersorucol/renfe_mcp_server` - Servidor MCP para Renfe. Repo eliminado.
+- `victormonedero3-hue/cendoj-mcp-server` - Servidor MCP para CENDOJ. Repo eliminado.
 - `AyuntamientoMadrid/decide` - Renombrado a `AyuntamientoMadrid/consul`. Sucesor ya incluido como `consuldemocracy/consuldemocracy`.
 
 ## Abandonados (confirmado por el autor)

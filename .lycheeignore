@@ -1,0 +1,9 @@
+# LICENSE file links — repos without a LICENSE file at the expected path
+# The shields.io license badge still works via GitHub API
+https://github.com/.*/blob/.*/LICENSE.*
+
+# External sites that block automated link checkers or are intermittently down
+https://www.infojobs.net/
+https://www.tdt.es/
+https://sigpac.mapama.gob.es/
+https://play.google.com/
