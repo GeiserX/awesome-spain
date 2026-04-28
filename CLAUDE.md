@@ -1,4 +1,4 @@
-# AGENTS.md — awesome-spain
+# CLAUDE.md — awesome-spain
 
 ## Objetivo
 
