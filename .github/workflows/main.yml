@@ -9,7 +9,7 @@ jobs:
     runs-on: [self-hosted, Linux, X64]
     steps:
       - uses: actions/checkout@v4
-      - uses: GeiserX/awesome-lint-extra@main
+      - uses: GeiserX/awesome-lint-extra@v1.1.0
         with:
           require_badges: 'true'
           badge_types: '["stars", "last-commit", "language", "license"]'
