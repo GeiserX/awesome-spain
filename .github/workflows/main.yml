@@ -6,11 +6,7 @@ on:
     branches: [main]
 jobs:
   lint:
-    runs-on: [self-hosted, Linux, X64]
-    # Do not run untrusted fork PR code on the self-hosted runner.
-    if: >-
-      github.event_name != 'pull_request' ||
-      github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
       - uses: GeiserX/awesome-lint-extra@v1.1.0
@@ -19,11 +15,7 @@ jobs:
           badge_types: '["stars", "last-commit", "language", "license"]'
           check_alphabetical: 'true'
   links:
-    runs-on: [self-hosted, Linux, X64]
-    # Do not run untrusted fork PR code on the self-hosted runner.
-    if: >-
-      github.event_name != 'pull_request' ||
-      github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
     continue-on-error: true
     steps:
       - uses: actions/checkout@v6
