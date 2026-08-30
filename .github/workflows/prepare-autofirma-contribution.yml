@@ -13,7 +13,7 @@ jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           ref: add-autofirma-ecosystem
 
@@ -52,10 +52,15 @@ jobs:
           path.write_text("\n".join(lines) + "\n", encoding="utf-8")
           PY
 
-      - name: Validate contribution
-        run: |
-          git diff --check
-          python3 lint.py --strict
+      - name: Check whitespace
+        run: git diff --check
+
+      - name: Run awesome-spain linter
+        uses: GeiserX/awesome-lint-extra@v1.1.0
+        with:
+          require_badges: 'true'
+          badge_types: '["stars", "last-commit", "language", "license"]'
+          check_alphabetical: 'true'
 
       - name: Commit README update
         run: |
