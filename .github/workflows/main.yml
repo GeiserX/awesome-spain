@@ -16,7 +16,6 @@ jobs:
           check_alphabetical: 'true'
   links:
     runs-on: ubuntu-latest
-    continue-on-error: true
     steps:
       - uses: actions/checkout@v7
       - uses: lycheeverse/lychee-action@v2
