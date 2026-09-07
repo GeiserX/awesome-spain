@@ -23,8 +23,6 @@
 ,
 "AnnaPS/dni_nie_validator": {"default_branch":"master","description":"","homepage":"","language":"Dart","license":"MIT","stargazers_count":6,"topics":[]}
 ,
-"Ansvar-Systems/spanish-law-mcp": {"default_branch":"main","description":"Spanish law database covering data protection (LOPDGDD), national security framework (ENS), cybercrime (Codigo Penal), e-commerce (LSSI), company law, and NIS2 transposition with Spanish full-text sea","homepage":"https://spanish-law-mcp.vercel.app","language":"TypeScript","license":"NOASSERTION","stargazers_count":2,"topics":[]}
-,
 "Barnetik/tbai-php-lib": {"default_branch":"main","description":"Generate, sign and send TicketBAI compatible invoices","homepage":"","language":"PHP","license":"GPL-3.0","stargazers_count":41,"topics":["php","tbai","ticketbai"]}
 ,
 "BquantFinance/licitaciones-espana": {"default_branch":"main","description":"","homepage":"","language":"Python","license":"","stargazers_count":216,"topics":[]}
@@ -143,8 +141,6 @@
 ,
 "LaQuay/TDTChannels": {"default_branch":"master","description":"Listado de Canales de TV (TDT) en abierto, 100% legal, 100% gratuito // Spanish TV Channels, 100% legal, 100% free","homepage":"https://www.tdtchannels.com/","language":"Python","license":"Apache-2.0","stargazers_count":1660,"topics":[]}
 ,
-"LaQuay/TDTChannels-APP": {"default_branch":"master","description":"Aplicación Android Open Source para la reproducción de TDTChannels","homepage":"","language":"Java","license":"MIT","stargazers_count":187,"topics":[]}
-,
 "LopCuns/wallapop_scraper": {"default_branch":"master","description":"","homepage":"","language":"Python","license":"","stargazers_count":6,"topics":[]}
 ,
 "LuisPalacios/tvhstar": {"default_branch":"master","description":"Descarga periódica del EPG desde Movistar TV para ser consumido por Tvheadend","homepage":"","language":"JavaScript","license":"","stargazers_count":25,"topics":[]}
@@ -176,8 +172,6 @@
 "NemonInvocash/verifactu-php": {"default_branch":"main","description":"Cliente PHP para la API de Verifactu y TicketBAI (TBAI): emisión y validación de facturas electrónicas conforme a la normativa de la AEAT. Sin dependencias, instalable con Composer.","homepage":"https://verifactuapi.es","language":"PHP","license":"MIT","stargazers_count":9,"topics":["aeat","api-client","invocash","invoicing","php","spain","tbai","ticketbai","veri-factu","verifactu"]}
 ,
 "NeoRazorX/facturascripts": {"default_branch":"master","description":"Open source ERP software. Built on modern PHP and bootstrap. Easy and powerful.","homepage":"https://facturascripts.com","language":"PHP","license":"LGPL-3.0","stargazers_count":493,"topics":["contabilidad","crm","erp","facturacion","php"]}
-,
-"NeoRazorX/facturascripts_2015": {"default_branch":"master","description":"Facturación y contabilidad fácil, libre y con actualizaciones constantes","homepage":"https://facturascripts.com/2017","language":"PHP","license":"LGPL-3.0","stargazers_count":88,"topics":["contabilidad","facturacion","libre","php"]}
 ,
 "Neufal777/wallapop-go": {"default_branch":"main","description":"Wallapop API client in Golang","homepage":"","language":"Go","license":"MIT","stargazers_count":10,"topics":[]}
 ,
@@ -399,8 +393,6 @@
 ,
 "decidim/decidim": {"default_branch":"develop","description":"The participatory democracy framework. A generator and multiple gems made with Ruby on Rails","homepage":"https://decidim.org/","language":"Ruby","license":"AGPL-3.0","stargazers_count":1811,"topics":["citizen-participation","civic-tech","civictech","collective-intelligence","community","decidim","democracy","digital-public-goods","digital-public-infrastructure","dpg","government","govtech","ideation","participation","stakeholder-engagement"]}
 ,
-"dgomes/ha_prosegur": {"default_branch":"main","description":"Home Assistant Integration for Prosegur Alarms","homepage":"","language":"Python","license":"MIT","stargazers_count":3,"topics":["alarm-control-panel","alarm-system","home-assistant","home-assistant-component"]}
-,
 "dgomes/pyprosegur": {"default_branch":"master","description":"Smart Prosegur Library","homepage":"","language":"Python","license":"MIT","stargazers_count":7,"topics":[]}
 ,
 "didacrios/municipios-provincias-comunidades-INE-spain": {"default_branch":"master","description":"Bolcat SQL i relació entre Municipis, provincies i comunitats espanyoles","homepage":"","language":"PHP","license":"","stargazers_count":9,"topics":[]}
@@ -442,8 +434,6 @@
 "fawno/AEAT": {"default_branch":"master","description":"Clases para los servicios web de la AEAT http://www.agenciatributaria.es","homepage":"","language":"PHP","license":"MIT","stargazers_count":8,"topics":["aeat","php"]}
 ,
 "fermartv/emt_madrid": {"default_branch":"master","description":"Custom sensor to have the arrival time of the EMT Madrid buses in Home Assistant","homepage":"","language":"Python","license":"MIT","stargazers_count":22,"topics":["bus-madrid","emt-api","emt-madrid","homeassistant","homeassistant-sensor","madrid"]}
-,
-"ferranpm/renfe": {"default_branch":"master","description":"","homepage":"","language":"Ruby","license":"","stargazers_count":16,"topics":[]}
 ,
 "fervillarce/your-renfe-tickets-are-available": {"default_branch":"master","description":"","homepage":"","language":"Python","license":"","stargazers_count":7,"topics":[]}
 ,
