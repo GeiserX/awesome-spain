@@ -40,6 +40,9 @@ Proyectos que estuvieron en la lista pero fueron retirados por alguna de las raz
 - `javiersorucol/renfe_mcp_server` - Servidor MCP para Renfe. Repo eliminado.
 - `victormonedero3-hue/cendoj-mcp-server` - Servidor MCP para CENDOJ. Repo eliminado.
 - `AyuntamientoMadrid/decide` - Renombrado a `AyuntamientoMadrid/consul`. Sucesor ya incluido como `consuldemocracy/consuldemocracy`.
+- `myTselection/Carbu_com` - Integración HACS con los precios reales de combustible (gasolina, diésel, GLP) en España. Repo eliminado junto con toda la cuenta del usuario.
+- `DvzZDev/AcuaNet` - Plataforma con los niveles de los embalses españoles y meteorología en tiempo real con datos del MITECO. Repo eliminado; acuanet.es sigue en línea, así que se cerró el código, no el producto.
+- `ctt-gob-es/clave` - Cl@ve, plataforma oficial de identificación del sector público. Repositorio vacío: creado en 2018, sin ningún commit ni rama, así que el enlace no lleva a ningún software.
 
 ## Abandonados (confirmado por el autor)
 
