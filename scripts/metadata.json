@@ -47,8 +47,6 @@
 ,
 "DevopensourceTeam/Devopensource_Redsys": {"default_branch":"master","description":"Método de pago para Redsys para Magento compatible con SHA-256 y parche SUPEE-6788","homepage":"https://devopensource.com/blog/devopensource-y-redsys","language":"PHP","license":"","stargazers_count":26,"topics":["redsys","tpv"]}
 ,
-"DvzZDev/AcuaNet": {"error": true}
-,
 "ESJavadex/ree-mcp": {"default_branch":"main","description":"MCP para la API de Red Electrica Española","homepage":"https://www.skool.com/la-escuela-de-ia-9955","language":"Python","license":"MIT","stargazers_count":11,"topics":["apagon","api","data","electrica","espana","espanola","ia","mcp","red","ree","spain"]}
 ,
 "EdgarVaguencia/node-ivoox": {"default_branch":"master","description":"Unofficial iVoox API for node","homepage":"","language":"JavaScript","license":"MIT","stargazers_count":18,"topics":["api","ivoox","node","npm","yarn"]}
@@ -65,7 +63,7 @@
 ,
 "ElJere/aCompas": {"default_branch":"master","description":"A flamenco metronome for the Web","homepage":"","language":"JavaScript","license":"GPL-3.0","stargazers_count":9,"topics":[]}
 ,
-"Enchufa2/irpf": {"error": true}
+"Enchufa2/irpf": {"default_branch":"master","description":"Calculadora del IRPF","homepage":"https://enchufa2.shinyapps.io/irpf","language":"","license":"","stargazers_count":8,"topics":[]}
 ,
 "Eseperio/verifactu-php": {"default_branch":"master","description":"Library for connecting with Verifactu, a spanish legal service for invoice control","homepage":"","language":"PHP","license":"","stargazers_count":52,"topics":[]}
 ,
@@ -188,10 +186,6 @@
 "OCA/l10n-spain": {"default_branch":"19.0","description":"Odoo Spain Localization","homepage":"https://www.aeodoo.org/estado-localizacion","language":"Python","license":"AGPL-3.0","stargazers_count":557,"topics":["erp","hacktoberfest","odoo"]}
 ,
 "OSM-es/CatAtom2Osm": {"default_branch":"master","description":"Tool to convert INSPIRE data sets from the Spanish Cadastre ATOM Services to OSM files.","homepage":"","language":"Python","license":"BSD-2-Clause","stargazers_count":15,"topics":["conversion","osm","python","qgis","spanish-cadastre"]}
-,
-"OpenHacienda/llave": {"default_branch":"main","description":"Open-source Rust implementation of Spain's Cl@ve PIN / Cl@ve Movil authentication system. CLI and Flutter clients sharing a single core.","homepage":"","language":"Dart","license":"MIT","stargazers_count":0,"topics":["aeat","authentication","clave-pin","flutter","rust","spain"]}
-,
-"OpenHacienda/puntoBOE": {"default_branch":"main","description":"Validador de ficheros BOE de la AEAT que funciona 100% en el navegador, sin envío de datos a ningún servidor.","homepage":"https://openhacienda.github.io/puntoBOE","language":"Rust","license":"","stargazers_count":1,"topics":[]}
 ,
 "Paco8/plugin.video.movistarplus": {"default_branch":"main","description":"Movistarplus for Kodi","homepage":"","language":"Python","license":"GPL-2.0","stargazers_count":85,"topics":[]}
 ,
@@ -345,8 +339,6 @@
 ,
 "ctt-gob-es/SIGM-Community": {"default_branch":"SIGM5.0-QUIJOTE","description":"SIGM (SIGM), es una aplicación puesta a disposición de cualquier organización que fue puesta de forma gratuita por el Ministerio de Industria, Energía y Turismo para proporcionar a las administraciones un sistema que permita reunir en formato electrónico toda la documentación de un expediente, integrando los tradicionales subsistemas de Registro, Motor de Expedientes (Flujos de procedimientos) y Archivo","homepage":"","language":"Java","license":"NOASSERTION","stargazers_count":22,"topics":[]}
 ,
-"ctt-gob-es/clave": {"default_branch":"master","description":"Cl@ve Plataforma de identificación del Sector Público","homepage":"","language":"","license":"","stargazers_count":2,"topics":[]}
-,
 "ctt-gob-es/clienteafirma": {"default_branch":"master","description":"Cliente @firma","homepage":"http://administracionelectronica.gob.es/ctt/clienteafirma","language":"Java","license":"","stargazers_count":332,"topics":[]}
 ,
 "ctt-gob-es/datos.gob.es": {"default_branch":"master","description":"Mirror | Este repositorio contiene el código fuente de las extensiones de la plataforma del Catálogo Nacional datos.gob.es, implementada sobre el gestor de catálogos CKAN y el gestor de contenido DRUPAL.  https://administracionelectronica.gob.es/ctt/datosgob","homepage":"https://github.com/datosgobes/datos.gob.es","language":"","license":"","stargazers_count":31,"topics":["ckan","ckanext","datos-abiertos","dcat","dcat-ap","dcat-ap-es","drupal","drupal-7","drupal-module","drupal-theme","nti-risp","open-data"]}
@@ -465,6 +457,10 @@
 ,
 "franciscojuan1974/codigos_postales_spain": {"default_branch":"master","description":"Base de Datos de más de 11.000 Códigos Postales de más de 6000 localidades España en formato SQL con su correspondiente lista descriptiva del lugar y coordenadas del área que lo forma para ser usada en ficheros kml","homepage":"","language":"","license":"GPL-3.0","stargazers_count":6,"topics":[]}
 ,
+"gabela-io/llave": {"default_branch":"main","description":"Open-source Rust implementation of Spain's Cl@ve PIN / Cl@ve Movil authentication system. CLI and Flutter clients sharing a single core.","homepage":"","language":"Dart","license":"MIT","stargazers_count":0,"topics":["aeat","authentication","clave-pin","flutter","rust","spain"]}
+,
+"gabela-io/puntoBOE": {"default_branch":"main","description":"Validador de ficheros BOE de la AEAT que funciona 100% en el navegador, sin envío de datos a ningún servidor.","homepage":"https://openhacienda.github.io/puntoBOE","language":"Rust","license":"","stargazers_count":1,"topics":[]}
+,
 "garacil/verifactu": {"default_branch":"main","description":"Verifactu para Dolibarr","homepage":"","language":"PHP","license":"GPL-3.0","stargazers_count":18,"topics":[]}
 ,
 "gcaguilar/biciradar": {"default_branch":"main","description":"Android, WearOS, iOS, AppleWatch app using Kotlin Multiplatform \u0026 Multiplatform Compose ","homepage":"https://biciradar.es","language":"Kotlin","license":"GPL-3.0","stargazers_count":4,"topics":["android","apple","applewatch","bike-sharing","compose","compose-desktop","compose-multiplatform","compose-multiplatform-sample","gbfs","ios","kmp-sample","kotlin","kotlin-multiplatform","kotlin-multiplatform-sample","ktor","mobile","swift","wearos","wearoscompose"]}
@@ -533,9 +529,9 @@
 ,
 "invopop/gobl": {"default_branch":"main","description":"Go Business Language","homepage":"","language":"Go","license":"Apache-2.0","stargazers_count":306,"topics":["gobl"]}
 ,
-"invopop/gobl.facturae": {"default_branch":"main","description":"Convert GOBL documents into the Spanish FacturaE format","homepage":"","language":"Go","license":"Apache-2.0","stargazers_count":7,"topics":[]}
+"invopop/gobl.es.ticketbai": {"default_branch":"main","description":"Convert GOBL into TicketBAI documents","homepage":"","language":"Go","license":"AGPL-3.0","stargazers_count":7,"topics":[]}
 ,
-"invopop/gobl.ticketbai": {"default_branch":"main","description":"Convert GOBL into TicketBAI documents","homepage":"","language":"Go","license":"AGPL-3.0","stargazers_count":7,"topics":[]}
+"invopop/gobl.facturae": {"default_branch":"main","description":"Convert GOBL documents into the Spanish FacturaE format","homepage":"","language":"Go","license":"Apache-2.0","stargazers_count":7,"topics":[]}
 ,
 "invopop/gobl.verifactu": {"default_branch":"main","description":"Convert GOBL into VeriFactu documents and send to the AEAT","homepage":"","language":"Go","license":"AGPL-3.0","stargazers_count":15,"topics":[]}
 ,
@@ -664,8 +660,6 @@
 "mpuig/rentagpt": {"default_branch":"main","description":"Using GPT-3 to query AEAT documentation about Renta 2022","homepage":"https://rentagpt.com","language":"HTML","license":"","stargazers_count":8,"topics":["chatbot","gpt-3","langchain","llm","python","question-answering"]}
 ,
 "mv12star/lista-telefonos-spam": {"default_branch":"main","description":"Lista de teléfonos spam de España, obtenidos de varias fuentes web. Actualizado cada 24h 18:00","homepage":"https://codeberg.org/mv12star/lista-telefonos-spam","language":"Python","license":"Unlicense","stargazers_count":30,"topics":["block-numbers","bloquear-numeros","bloquear-spam","call-block","call-blocker","espana","phone-call","phone-number","spain","spam","spam-blocker","spam-blocking","spam-filter"]}
-,
-"myTselection/Carbu_com": {"error": true}
 ,
 "mybooking-es/aeat-validador-nif": {"default_branch":"master","description":"Validador de NIF usando el servicio web de la AEAT VNifV2","homepage":"","language":"Ruby","license":"","stargazers_count":5,"topics":[]}
 ,
