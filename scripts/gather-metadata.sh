@@ -15,8 +15,10 @@ FIRST=true
 grep -oE 'https://github\.com/[^/)]+/[^/)]+' README.md | sort -u | while read -r url; do
   owner_repo="${url#https://github.com/}"
 
-  # Query GitHub API
-  result=$(gh api "repos/$owner_repo" --jq '{
+  # Query GitHub API. En un 404 gh escribe el cuerpo del error en stdout y sale
+  # con codigo != 0, asi que hay que descartar esa salida en vez de encadenarla:
+  # concatenar los dos objetos JSON dejaba metadata.json invalido.
+  if ! result=$(gh api "repos/$owner_repo" --jq '{
     language: (.language // ""),
     license: (.license.spdx_id // ""),
     homepage: (.homepage // ""),
@@ -24,7 +26,9 @@ grep -oE 'https://github\.com/[^/)]+/[^/)]+' README.md | sort -u | while read -r
     description: (.description // ""),
     stargazers_count: .stargazers_count,
     default_branch: (.default_branch // "main")
-  }' 2>/dev/null || echo '{"error": true}')
+  }' 2>/dev/null); then
+    result='{"error": true}'
+  fi
 
   if [ "$FIRST" = true ]; then
     FIRST=false
