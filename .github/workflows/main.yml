@@ -4,11 +4,18 @@ on:
     branches: [main]
   pull_request:
     branches: [main]
+
+# Ninguno de los dos trabajos escribe nada: solo leen el repositorio.
+permissions:
+  contents: read
+
 jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
       - uses: GeiserX/awesome-lint-extra@v1.1.1
         with:
           require_badges: 'true'
@@ -24,6 +31,8 @@ jobs:
     continue-on-error: true
     steps:
       - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
       - uses: lycheeverse/lychee-action@v2
         with:
           args: --no-progress --insecure --accept 200..=403 --timeout 30 --max-retries 3 --exclude img.shields.io README.md

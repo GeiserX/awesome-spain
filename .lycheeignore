@@ -18,7 +18,7 @@ https://fantasy.relevo.com/
 https://www.fgv.es/
 
 # Bucles de redireccion o proteccion antibot: los cuatro responden 200 en un
-# navegador real, pero lychee los da por rotos. Comprobados a mano el 2026-09-08.
+# navegador real, pero lychee los da por rotos. Comprobados a mano uno a uno.
 https://firmaelectronica.gob.es/
 https://www.correos.es/
 https://www.ivoox.com/
