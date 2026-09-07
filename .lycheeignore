@@ -2,6 +2,11 @@
 # The shields.io license badge still works via GitHub API
 https://github.com/.*/blob/.*/LICENSE.*
 
+# Enlaces de la insignia de estrellas: /stargazers devuelve 404 a los clientes
+# anonimos, asi que fallaban las ~410 entradas en cada ejecucion y tapaban
+# cualquier enlace roto de verdad. La URL base del repo si se comprueba.
+https://github.com/.*/stargazers
+
 # External sites that block automated link checkers or are intermittently down
 https://www.infojobs.net/
 https://www.tdt.es/
@@ -11,3 +16,10 @@ https://calculators.dslab.fyi/
 https://facturascripts.com/
 https://fantasy.relevo.com/
 https://www.fgv.es/
+
+# Bucles de redireccion o proteccion antibot: los cuatro responden 200 en un
+# navegador real, pero lychee los da por rotos. Comprobados a mano uno a uno.
+https://firmaelectronica.gob.es/
+https://www.correos.es/
+https://www.ivoox.com/
+https://www.policia.es/

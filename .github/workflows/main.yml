@@ -4,22 +4,36 @@ on:
     branches: [main]
   pull_request:
     branches: [main]
+
+# Ninguno de los dos trabajos escribe nada: solo leen el repositorio.
+permissions:
+  contents: read
+
 jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-      - uses: GeiserX/awesome-lint-extra@v1.1.0
+        with:
+          persist-credentials: false
+      - uses: GeiserX/awesome-lint-extra@v1.1.1
         with:
           require_badges: 'true'
           badge_types: '["stars", "last-commit", "language", "license"]'
           check_alphabetical: 'true'
   links:
     runs-on: ubuntu-latest
+    # Informativo, no bloquea: las webs de instituciones espanolas agotan el
+    # plazo de forma intermitente desde los runners de GitHub y el conjunto que
+    # falla cambia en cada ejecucion. Lo que si se arreglo es el ruido de fondo:
+    # antes fallaban ~410 enlaces /stargazers en todas las ejecuciones y tapaban
+    # cualquier rotura real. Ahora la lista roja es corta y merece un vistazo.
     continue-on-error: true
     steps:
       - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
       - uses: lycheeverse/lychee-action@v2
         with:
-          args: --no-progress --insecure --accept 200..=403 --exclude img.shields.io README.md
+          args: --no-progress --insecure --accept 200..=403 --timeout 30 --max-retries 3 --exclude img.shields.io README.md
           fail: true
