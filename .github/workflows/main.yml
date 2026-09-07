@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-      - uses: GeiserX/awesome-lint-extra@v1.1.0
+      - uses: GeiserX/awesome-lint-extra@v1.1.1
         with:
           require_badges: 'true'
           badge_types: '["stars", "last-commit", "language", "license"]'
