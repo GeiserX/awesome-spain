@@ -65,7 +65,7 @@
 ,
 "ElJere/aCompas": {"default_branch":"master","description":"A flamenco metronome for the Web","homepage":"","language":"JavaScript","license":"GPL-3.0","stargazers_count":9,"topics":[]}
 ,
-"Enchufa2/irpf": {"default_branch":"master","description":"Calculadora del IRPF","homepage":"https://enchufa2.shinyapps.io/irpf","language":"","license":"","stargazers_count":8,"topics":[]}
+"Enchufa2/irpf": {"error": true}
 ,
 "Eseperio/verifactu-php": {"default_branch":"master","description":"Library for connecting with Verifactu, a spanish legal service for invoice control","homepage":"","language":"PHP","license":"","stargazers_count":52,"topics":[]}
 ,
@@ -481,6 +481,10 @@
 ,
 "getmanfred/mac": {"default_branch":"main","description":"Manfred Awesomic CV","homepage":"","language":"TypeScript","license":"CC-BY-SA-4.0","stargazers_count":591,"topics":["cv","json"]}
 ,
+"ggonmar/playas-cruzroja": {"default_branch":"main","description":"Integracion HACS para Home Assistant con el estado de las banderas de las playas espanolas vigiladas por Cruz Roja","homepage":"","language":"Python","license":"MIT","stargazers_count":0,"topics":["beach","cruz-roja","hacs","hacs-integration","home-assistant","home-assistant-custom-component","homeassistant","playas","spain"]}
+,
+"ggonmar/playas-espana": {"default_branch":"main","description":"Integracion HACS de condiciones de Playas de Espana","homepage":"","language":"Python","license":"MIT","stargazers_count":0,"topics":["beach","hacs","hacs-integration","home-assistant","home-assistant-custom-component","homeassistant","playas","spain","weather"]}
+,
 "ginopalazzo/dedomeno": {"default_branch":"develop","description":"Dedomeno: A Spanish real estate (Idealista) python scraper","homepage":"","language":"Python","license":"MIT","stargazers_count":45,"topics":[]}
 ,
 "ginopalazzo/spain-open-data": {"default_branch":"master","description":"A list of Spanish open data resources","homepage":"","language":"","license":"","stargazers_count":10,"topics":["open-data"]}
@@ -650,6 +654,10 @@
 "mgp25/RAE-API": {"default_branch":"master","description":"Diccionario RAE API","homepage":"","language":"PHP","license":"MIT","stargazers_count":45,"topics":["academia","api","rae","real"]}
 ,
 "midudev/infojobs-hackathon": {"default_branch":"main","description":"Proyecto de prueba con OpenAI y Infojobs API para la Hackathon","homepage":"","language":"TypeScript","license":"","stargazers_count":49,"topics":[]}
+,
+"mindset-code/calendario-fiscal-es": {"default_branch":"main","description":"Plazos de presentación de los modelos tributarios españoles (AEAT) en Python puro, sin dependencias: traslado a día hábil y fecha límite de domiciliación.","homepage":"https://mindset-code.com","language":"Python","license":"MIT","stargazers_count":0,"topics":["aeat","calendario","fiscal","impuestos","modelo-303","plazos-procesales","python","spain"]}
+,
+"mindset-code/pyverifactu-huella": {"default_branch":"main","description":"Huella y encadenamiento de registros de facturación VERI*FACTU (AEAT) en Python puro, sin dependencias. Validado contra el vector oficial de la Agencia Tributaria.","homepage":"https://mindset-code.com","language":"Python","license":"MIT","stargazers_count":0,"topics":["aeat","facturacion-electronica","hash-chain","python","sha256","spain","verifactu"]}
 ,
 "mjgmario/spanish-public-info-radar-mcp": {"default_branch":"main","description":"Model Context Protocol server for Spanish government open data: grants (BDNS), legislation (BOE/BORME), statistics (INE), and national open data catalog (datos.gob.es)","homepage":"","language":"Python","license":"NOASSERTION","stargazers_count":5,"topics":[]}
 ,
