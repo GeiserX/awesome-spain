@@ -33,16 +33,23 @@ Proyectos que estuvieron en la lista pero fueron retirados por alguna de las raz
 - [quienmanda](https://github.com/civio/quienmanda) - Mapa de relaciones de poder en España de la Fundación Civio.
 - [subvenciones](https://github.com/JaimeObregon/subvenciones) - Volcado de la Base de Datos Nacional de Subvenciones (BDNS).
 - [libreborme](https://github.com/PabloCastellano/libreborme) - Plataforma web para consulta y análisis del BORME.
+- [TDTChannels-APP](https://github.com/LaQuay/TDTChannels-APP) - Aplicación Android para reproducir los canales de TDTChannels. Archivada en 2020; el proyecto vivo es [TDTChannels](https://github.com/LaQuay/TDTChannels), ya en la lista.
+- [FacturaScripts 2015](https://github.com/NeoRazorX/facturascripts_2015) - Rama congelada de 2015 del ERP de facturación y contabilidad. Sustituida por [FacturaScripts](https://github.com/NeoRazorX/facturascripts), ya en la lista.
+- [ha_prosegur](https://github.com/dgomes/ha_prosegur) - Integración Home Assistant para alarmas Prosegur. Archivada tras el cambio de API de Prosegur; el autor mantiene [pyprosegur](https://github.com/dgomes/pyprosegur), ya en la lista.
+- [renfe](https://github.com/ferranpm/renfe) - CLI para consultar horarios de Renfe sobre su web de venta. Archivada en noviembre de 2024; la web ha cambiado desde entonces.
+- [spanish-law-mcp](https://github.com/Ansvar-Systems/spanish-law-mcp) - Servidor MCP con legislación española: LOPDGDD, ENS, LSSI y NIS2. Archivada en julio de 2026, dos meses después de crearse.
 
 ## Repos inexistentes o renombrados
+
+Estas entradas van con `owner/repo` entre comillas invertidas y no como enlace, porque al otro lado ya no hay nada que enlazar: el repositorio se ha borrado, se ha renombrado o está vacío.
 
 - `yagoangelim/mercadona-mcp` - Servidor MCP para Mercadona. Repo eliminado.
 - `javiersorucol/renfe_mcp_server` - Servidor MCP para Renfe. Repo eliminado.
 - `victormonedero3-hue/cendoj-mcp-server` - Servidor MCP para CENDOJ. Repo eliminado.
 - `AyuntamientoMadrid/decide` - Renombrado a `AyuntamientoMadrid/consul`. Sucesor ya incluido como `consuldemocracy/consuldemocracy`.
-- `myTselection/Carbu_com` - Integración HACS con los precios reales de combustible (gasolina, diésel, GLP) en España. Repo eliminado junto con toda la cuenta del usuario.
-- `DvzZDev/AcuaNet` - Plataforma con los niveles de los embalses españoles y meteorología en tiempo real con datos del MITECO. Repo eliminado; acuanet.es sigue en línea, así que se cerró el código, no el producto.
 - `ctt-gob-es/clave` - Cl@ve, plataforma oficial de identificación del sector público. Repositorio vacío: creado en 2018, sin ningún commit ni rama, así que el enlace no lleva a ningún software.
+- `DvzZDev/AcuaNet` - Plataforma con los niveles de los embalses españoles y meteorología en tiempo real con datos del MITECO. Repo eliminado; acuanet.es sigue en línea, así que se cerró el código, no el producto.
+- `myTselection/Carbu_com` - Integración HACS con los precios reales de combustible (gasolina, diésel, GLP) en España. Repo eliminado junto con toda la cuenta del usuario.
 
 ## Abandonados (confirmado por el autor)
 
