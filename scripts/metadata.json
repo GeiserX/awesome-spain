@@ -1,6 +1,4 @@
 {
-"64robots/nova-dni-field": {"default_branch":"master","description":"Spanish DNI / NIF / CIF Field for Laravel Nova","homepage":"","language":"PHP","license":"","stargazers_count":8,"topics":[]}
-,
 "AFFT-520/NIEBot": {"default_branch":"main","description":"A tool to help Barcelonian people get various immigration-related appointments via the Cita previa process","homepage":"","language":"Java","license":"GPL-3.0","stargazers_count":61,"topics":[]}
 ,
 "ALArvi019/moderntides": {"default_branch":"main","description":"Modern Home Assistant integration for real-time tide information from Spanish maritime stations","homepage":"","language":"Python","license":"MIT","stargazers_count":6,"topics":["camera","custom-component","hacs","home-assistant","integration","sensor","tide"]}
@@ -43,8 +41,6 @@
 ,
 "Desarrollos-IDEE/API-IDEE": {"default_branch":"develop","description":"","homepage":"","language":"JavaScript","license":"EUPL-1.2","stargazers_count":9,"topics":[]}
 ,
-"DevopensourceTeam/Devopensource_Redsys": {"default_branch":"master","description":"Método de pago para Redsys para Magento compatible con SHA-256 y parche SUPEE-6788","homepage":"https://devopensource.com/blog/devopensource-y-redsys","language":"PHP","license":"","stargazers_count":26,"topics":["redsys","tpv"]}
-,
 "ESJavadex/ree-mcp": {"default_branch":"main","description":"MCP para la API de Red Electrica Española","homepage":"https://www.skool.com/la-escuela-de-ia-9955","language":"Python","license":"MIT","stargazers_count":11,"topics":["apagon","api","data","electrica","espana","espanola","ia","mcp","red","ree","spain"]}
 ,
 "EdgarVaguencia/node-ivoox": {"default_branch":"master","description":"Unofficial iVoox API for node","homepage":"","language":"JavaScript","license":"MIT","stargazers_count":18,"topics":["api","ivoox","node","npm","yarn"]}
@@ -60,8 +56,6 @@
 "ElEd0/EMTValencia-API": {"default_branch":"master","description":"Python module to retrieve bus times and stops for EMT valencia","homepage":"","language":"Python","license":"GPL-3.0","stargazers_count":15,"topics":[]}
 ,
 "ElJere/aCompas": {"default_branch":"master","description":"A flamenco metronome for the Web","homepage":"","language":"JavaScript","license":"GPL-3.0","stargazers_count":9,"topics":[]}
-,
-"Enchufa2/irpf": {"default_branch":"master","description":"Calculadora del IRPF","homepage":"https://enchufa2.shinyapps.io/irpf","language":"","license":"","stargazers_count":8,"topics":[]}
 ,
 "Eseperio/verifactu-php": {"default_branch":"master","description":"Library for connecting with Verifactu, a spanish legal service for invoice control","homepage":"","language":"PHP","license":"","stargazers_count":52,"topics":[]}
 ,
@@ -119,8 +113,6 @@
 ,
 "IGN-CNIG/API-CNIG": {"default_branch":"master","description":"","homepage":"","language":"JavaScript","license":"EUPL-1.2","stargazers_count":3,"topics":[]}
 ,
-"InnocenceAllen/AENA_Info_Vuelos": {"default_branch":"master","description":"","homepage":"","language":"HTML","license":"MIT","stargazers_count":8,"topics":[]}
-,
 "IvanitiX/ESCatastroLib": {"default_branch":"master","description":"Una librería de Python para consultar los datos del Catastro COMO OBJETOS. Incluye información geográfica.","homepage":"https://pypi.org/project/ESCatastroLib/","language":"Python","license":"Apache-2.0","stargazers_count":13,"topics":["catastro","espana","gis","hacktoberfest"]}
 ,
 "JaimeObregon/contractacio.cat": {"default_branch":"main","description":"Propuestas de mejora a la ergonomía de los portales de transparencia de la contratación pública en Cataluña.","homepage":"","language":"HTML","license":"AGPL-3.0","stargazers_count":12,"topics":[]}
@@ -143,8 +135,6 @@
 ,
 "LopCuns/wallapop_scraper": {"default_branch":"master","description":"","homepage":"","language":"Python","license":"","stargazers_count":6,"topics":[]}
 ,
-"LuisPalacios/tvhstar": {"default_branch":"master","description":"Descarga periódica del EPG desde Movistar TV para ser consumido por Tvheadend","homepage":"","language":"JavaScript","license":"","stargazers_count":25,"topics":[]}
-,
 "M4RC0Sx/esiosapy": {"default_branch":"master","description":"Unofficial ESIOS API Python library. Up to date and fully equipped.","homepage":"https://m4rc0sx.github.io/esiosapy/","language":"Python","license":"GPL-3.0","stargazers_count":4,"topics":["electrcidad","energia","energy-markets","esios","esios-api","mercados-electricos","python","ree"]}
 ,
 "MPAndrew/EpgGratis": {"default_branch":"master","description":"EPG y grabber XMLTV para Movistar+","homepage":"","language":"Shell","license":"GPL-3.0","stargazers_count":25,"topics":[]}
@@ -162,8 +152,6 @@
 "MovistarTV/tv_grab_es_movistartv": {"default_branch":"master","description":"Grabber XMLTV para Movistar TV","homepage":"","language":"Python","license":"GPL-3.0","stargazers_count":48,"topics":[]}
 ,
 "MrMarble/datadis": {"default_branch":"master","description":"Datadis python api client","homepage":"","language":"Python","license":"MIT","stargazers_count":7,"topics":["api-client","datadis","electricity","python","spain"]}
-,
-"Mun0n/MADBike": {"default_branch":"master","description":"This is the public repository of the MADBike app for Android. Public bike rental service for BiciMAD.","homepage":"","language":"Java","license":"GPL-3.0","stargazers_count":11,"topics":[]}
 ,
 "NadineKroher/PyCante": {"default_branch":"master","description":"CANTE: Automatic transcription of flamenco singing.","homepage":"","language":"Python","license":"NOASSERTION","stargazers_count":14,"topics":[]}
 ,
@@ -186,8 +174,6 @@
 "Paco8/plugin.video.orange.spain": {"default_branch":"main","description":"Orange TV Spain for Kodi","homepage":"","language":"Python","license":"GPL-2.0","stargazers_count":20,"topics":[]}
 ,
 "Pakillo/ANECAtools": {"default_branch":"master","description":"Paquete de R con herramientas para facilitar el proceso de acreditación en la ANECA","homepage":"https://pakillo.github.io/ANECAtools/","language":"R","license":"GPL-3.0","stargazers_count":22,"topics":[]}
-,
-"PyLadiesMadrid/pycartociudad": {"default_branch":"main","description":"Python package to query cartociudad API","homepage":"","language":"Python","license":"GPL-3.0","stargazers_count":4,"topics":["hacktoberfest"]}
 ,
 "RadarCOVID/radar-covid-android": {"default_branch":"develop","description":"Native Android app using DP^3T Android sdk to handle Exposure Notifications API from Google","homepage":"","language":"Kotlin","license":"MPL-2.0","stargazers_count":376,"topics":["android","android-studio","kotlin"]}
 ,
@@ -215,15 +201,11 @@
 ,
 "WhizzoCode/ivooxhunter": {"default_branch":"main","description":"ivoox downloader for terminal","homepage":"","language":"JavaScript","license":"MIT","stargazers_count":7,"topics":[]}
 ,
-"aabilio/PyDownTV2": {"default_branch":"master","description":"Versión 2 (ahora \"spaintvs\") de la librería para obtener los enlaces de descarga de los vídeos de las webs de TVs españolas (PyDownTV). Y Script para ejemplo de uso. Además en desarrollo nueva web y versiones de Escritorio y Android","homepage":"","language":"Python","license":"","stargazers_count":52,"topics":[]}
-,
 "aariste/AEMET-Python": {"default_branch":"master","description":"Librería en python para consultar los datos de la AEMET","homepage":"","language":"Python","license":"MIT","stargazers_count":9,"topics":[]}
 ,
 "account0123/RAE-API": {"default_branch":"main","description":"RAE API i modified from https://github.com/mgp25/RAE-API to nodejs","homepage":"","language":"JavaScript","license":"MIT","stargazers_count":26,"topics":[]}
 ,
 "acruzgarcia/OMIEData": {"default_branch":"dev","description":"Python package to import data from OMIE (Iberian Peninsula's Electricity Market Operator): https://www.omie.es/","homepage":"https://pypi.org/project/OMIEData/","language":"Python","license":"MIT","stargazers_count":38,"topics":["electricity-market","electricity-price-forecasting","electricity-prices","omie"]}
-,
-"ajorquera/DGT-appointment": {"default_branch":"master","description":"Making life easier for traffic appointments","homepage":"","language":"JavaScript","license":"","stargazers_count":5,"topics":["cron","gcloud","serverless"]}
 ,
 "ajostergaard/django-payments-redsys": {"default_branch":"master","description":"A Redsys backend for django-payments.","homepage":"","language":"Python","license":"","stargazers_count":18,"topics":["django-payments","redsys","saleor"]}
 ,
@@ -243,8 +225,6 @@
 ,
 "alexladerman/valnif": {"default_branch":"master","description":"Programa de Validación del NIF en Javascript (basado en la librería Java oficial de la AEAT)","homepage":"","language":"JavaScript","license":"","stargazers_count":8,"topics":[]}
 ,
-"alexruperez/MADBike": {"default_branch":"master","description":"This is the public repository of the MADBike app for iOS. Public bike rental service for BiciMAD.","homepage":"https://madbike.app.link/lxuaEi3VVv","language":"Objective-C","license":"GPL-3.0","stargazers_count":23,"topics":["app","application","apps","appstore","bike","bike-share","bike-share-station","bike-sharing","bikes","bikeshare","bikesharing","bikeways","ios","ios-app","ios-swift","open-data","open-source","opensource-apps","xcode","xcode9"]}
-,
 "almax-es/luzfija.es": {"default_branch":"main","description":"Comparador de tarifas de luz independiente, gratuito y sin publicidad. Optimizado para la normativa de 2026.","homepage":"","language":"JavaScript","license":"NOASSERTION","stargazers_count":6,"topics":[]}
 ,
 "alvarogonzalezferrer/kronognuguitarra": {"default_branch":"master","description":"For string instruments, find chords, scales, tunings. Supports +4000 scales, +60 chord types, +60 string instrument types : Guitar, bass, Balalaika, bandola, banjo, Bozouki, Cavaquinho, Charango, four, dulcimer, Portuguese guitar, guitarron, hawayana, flamenco, jarana, laud, mandla, mandolin, sitar, timple, three, ukulele, vihuela, etc","homepage":"","language":"C","license":"GPL-3.0","stargazers_count":11,"topics":["bass","chord-diagram","chord-sheet","chord-visualization","chords","console","guitar","guitar-chords","guitar-scales","linux","msdos","retrocomputing","scales"]}
@@ -263,11 +243,7 @@
 ,
 "astrojuanlu/python-idealista": {"default_branch":"main","description":"Python 3 library for Idealista API (invitation only)","homepage":"https://python-idealista.readthedocs.io/","language":"Python","license":"AGPL-3.0","stargazers_count":9,"topics":[]}
 ,
-"atabel/renfe-api": {"default_branch":"master","description":"A simple nodejs scraper and server of renfe cercanias services ","homepage":"","language":"JavaScript","license":"MIT","stargazers_count":6,"topics":[]}
-,
 "azogue/aiopvpc": {"default_branch":"master","description":"Simple aio library to download Spanish electricity hourly prices (PVPC) from esios.ree.es","homepage":"","language":"Python","license":"MIT","stargazers_count":47,"topics":["electricity-prices","home-assistant","spain"]}
-,
-"azogue/autograph": {"default_branch":"master","description":"Shell script y acción de carpeta para macOS para la firma electrónica de documentos en batch mediante el CLI de AutoFirma v1.5, usando la firma digital de la FNMT.","homepage":"","language":"Shell","license":"MIT","stargazers_count":3,"topics":[]}
 ,
 "azogue/ha-pvpc-custom": {"default_branch":"main","description":"HomeAssistant custom integration for Spain electricity hourly pricing (PVPC)","homepage":"","language":"Python","license":"MIT","stargazers_count":36,"topics":["hacs-integration","home-assistant","pvpc"]}
 ,
@@ -281,13 +257,9 @@
 ,
 "carlosGalisteo/catastro_mcp_server": {"default_branch":"main","description":"Servidor MCP que implementa herramientas de los servicios web libres de la Sede Electrónica del Catastro de España","homepage":"","language":"Python","license":"","stargazers_count":5,"topics":[]}
 ,
-"carlosramosa/api-filmaffinity": {"default_branch":"master","description":"API REST no oficial de Filmaffinity en castellano","homepage":"","language":"JavaScript","license":"","stargazers_count":29,"topics":[]}
-,
 "chapulincatastral/generador-gml": {"default_branch":"master","description":"Script AutoCad AutoLISP para la generación de ficheros Catastro GML INSPIRE de parcela catastral y de edificio. Etiquetas: gml, parcela catastral, sec, inspire, autolisp, autocad, catastro, cadastre, notarías, notarios, registros, registradores, dxf, exportar, coordinación, cartografía","homepage":"","language":"Common Lisp","license":"GPL-3.0","stargazers_count":18,"topics":[]}
 ,
 "ciberado/dirtyrss": {"default_branch":"main","description":"Genera feeds RSS para programas de iVoox o Twitch.","homepage":"","language":"TypeScript","license":"Apache-2.0","stargazers_count":12,"topics":["ivoox","rss","twitch"]}
-,
-"cicloon/bicimad-api": {"default_branch":"master","description":"bicimad unnoficial api","homepage":"","language":"JavaScript","license":"","stargazers_count":15,"topics":[]}
 ,
 "citiususc/SimpleNLG-GL": {"default_branch":"master","description":"SimpleNLG-GL is a Java API for Natural Language Generation in Galician language. It is a trilingual English/Spanish/Galician adaptation of the SimpleNLG v4.4.8 library, following the structure used in SimpleNLG-EnFr.","homepage":"","language":"Java","license":"NOASSERTION","stargazers_count":4,"topics":[]}
 ,
@@ -336,8 +308,6 @@
 "ctt-gob-es/clienteafirma": {"default_branch":"master","description":"Cliente @firma","homepage":"http://administracionelectronica.gob.es/ctt/clienteafirma","language":"Java","license":"","stargazers_count":332,"topics":[]}
 ,
 "ctt-gob-es/datos.gob.es": {"default_branch":"master","description":"Mirror | Este repositorio contiene el código fuente de las extensiones de la plataforma del Catálogo Nacional datos.gob.es, implementada sobre el gestor de catálogos CKAN y el gestor de contenido DRUPAL.  https://administracionelectronica.gob.es/ctt/datosgob","homepage":"https://github.com/datosgobes/datos.gob.es","language":"","license":"","stargazers_count":31,"topics":["ckan","ckanext","datos-abiertos","dcat","dcat-ap","dcat-ap-es","drupal","drupal-7","drupal-module","drupal-theme","nti-risp","open-data"]}
-,
-"ctt-gob-es/eVisor": {"default_branch":"master","description":"Aplicación de generación de informes de firma electrónica","homepage":"https://administracionelectronica.gob.es/ctt/evisor","language":"Java","license":"","stargazers_count":5,"topics":[]}
 ,
 "ctt-gob-es/fire": {"default_branch":"master","description":"Sistema de firma integral FIRe","homepage":"https://administracionelectronica.gob.es/ctt/fire","language":"Java","license":"","stargazers_count":30,"topics":[]}
 ,
@@ -435,11 +405,7 @@
 ,
 "fermartv/emt_madrid": {"default_branch":"master","description":"Custom sensor to have the arrival time of the EMT Madrid buses in Home Assistant","homepage":"","language":"Python","license":"MIT","stargazers_count":22,"topics":["bus-madrid","emt-api","emt-madrid","homeassistant","homeassistant-sensor","madrid"]}
 ,
-"fervillarce/your-renfe-tickets-are-available": {"default_branch":"master","description":"","homepage":"","language":"Python","license":"","stargazers_count":7,"topics":[]}
-,
 "fewlaps/Picoleto": {"default_branch":"master","description":"A simple library to verify Spanish identity documents like NIF and NIE","homepage":"","language":"Java","license":"MIT","stargazers_count":11,"topics":[]}
-,
-"fitomad/CoreEMT": {"default_branch":"master","description":"CoreEMT swift package para el API de la Empresa Municipal de Madrid (EMT+BiciMAD+Parking)","homepage":"","language":"Swift","license":"","stargazers_count":6,"topics":["bicimad-data","emt-madrid","emt-madrid-api","swift","swift-package-manager"]}
 ,
 "footballcsv/espana": {"default_branch":"master","description":"Football data for España (Spain) incl. Primera División (La Liga), Segunda División etc.  ","homepage":"","language":"","license":"CC0-1.0","stargazers_count":25,"topics":["csv","espana","football","futbol","laliga","opendata","primeradivision","segundadivision","spain"]}
 ,
@@ -471,8 +437,6 @@
 ,
 "ggonmar/playas-espana": {"default_branch":"main","description":"Integracion HACS de condiciones de Playas de Espana","homepage":"","language":"Python","license":"MIT","stargazers_count":0,"topics":["beach","hacs","hacs-integration","home-assistant","home-assistant-custom-component","homeassistant","playas","spain","weather"]}
 ,
-"ginopalazzo/dedomeno": {"default_branch":"develop","description":"Dedomeno: A Spanish real estate (Idealista) python scraper","homepage":"","language":"Python","license":"MIT","stargazers_count":45,"topics":[]}
-,
 "ginopalazzo/spain-open-data": {"default_branch":"master","description":"A list of Spanish open data resources","homepage":"","language":"","license":"","stargazers_count":10,"topics":["open-data"]}
 ,
 "gisce/libCNMC": {"default_branch":"master","description":"Llibreria per generar tots els informes de la CNMC pel sector elèctric a través de GISCE-ERP","homepage":"","language":"Python","license":"","stargazers_count":5,"topics":["cnmc","hacktoberfest","pyhton"]}
@@ -482,8 +446,6 @@
 "gisce/sii": {"default_branch":"master","description":"AEAT Servicio Información Immediata","homepage":"","language":"Python","license":"MIT","stargazers_count":16,"topics":["aeat","facturas","hacktoberfest","iva","liquidacion","python","sii","soap","tax"]}
 ,
 "gism/filmaffinity2CSV": {"default_branch":"master","description":"Get filmaffinity voted movies, save them to CSV and post them on IMDB","homepage":"","language":"Python","license":"AGPL-3.0","stargazers_count":20,"topics":[]}
-,
-"grcanosa/renfe-notifier-bot": {"default_branch":"master","description":"Checking renfe availability for trains","homepage":"","language":"Python","license":"MIT","stargazers_count":10,"topics":[]}
 ,
 "guerrerotook/securitas-direct-new-api": {"default_branch":"main","description":"This repository contains the new securitas direct API that can be integrated in Home Assistant","homepage":"","language":"Python","license":"Apache-2.0","stargazers_count":138,"topics":["home-assistant","home-automation","homeassistant"]}
 ,
@@ -499,8 +461,6 @@
 ,
 "hitz-zentroa/latxa": {"default_branch":"main","description":"Latxa: An Open Language Model and Evaluation Suite for Basque","homepage":"","language":"Shell","license":"MIT","stargazers_count":36,"topics":["basque","evaluation","gpt-neox","huggingface","language-model","latxa","llm","lm-evaluation"]}
 ,
-"hmeleiro/idealisto": {"default_branch":"master","description":"Scraper for the spanish real estate website Idealista.com.","homepage":"","language":"R","license":"MIT","stargazers_count":15,"topics":[]}
-,
 "hmeleiro/opencis": {"default_branch":"main","description":"R package to import data from spanish Sociological Research Center (CIS)","homepage":"https://opencis.spainelectoralproject.com/","language":"R","license":"GPL-3.0","stargazers_count":4,"topics":["abiertos","api","centro","cis","data","datos","estudios","open","r","sociologicos"]}
 ,
 "hpalacio/leyes": {"default_branch":"master","description":"La Constitución Española en git","homepage":"","language":"","license":"CC-BY-SA-4.0","stargazers_count":84,"topics":["constitucion","espana","leyes"]}
@@ -512,8 +472,6 @@
 "imartinezl/bicing-deckgl": {"default_branch":"master","description":"Bike trips visualization. React + Webpack + Deck.gl 🚲🌇","homepage":"https://barcelona-bicing.firebaseapp.com/","language":"JavaScript","license":"MIT","stargazers_count":11,"topics":["bicycle","data-visualization","deck-gl","firebase","react","trips","webpack","webpack4"]}
 ,
 "inigoflores/ds-codigos-postales-ine-es": {"default_branch":"master","description":"","homepage":"","language":"PHP","license":"","stargazers_count":163,"topics":[]}
-,
-"initios/aeat-web-services": {"default_branch":"master","description":"Spanish Tax Agency Electronic Office (AEAT) Integration","homepage":"","language":"Python","license":"MIT","stargazers_count":12,"topics":["aduanet","aeat"]}
 ,
 "intelligenia/django-virtual-pos": {"default_branch":"master","description":"Django module that abstracts the flow of several virtual points of sale including PayPal","homepage":"","language":"Python","license":"MIT","stargazers_count":23,"topics":["bank","ceca","django","payment","payment-methods","paypal","redsys","sales","tpv"]}
 ,
@@ -529,11 +487,7 @@
 ,
 "jabellcu/DGT_cita_previa": {"default_branch":"master","description":"Un script rápido para ayudarte a reservar cita en la DGT (España).","homepage":"","language":"Jupyter Notebook","license":"","stargazers_count":17,"topics":[]}
 ,
-"javaguirre/NacexBundle": {"default_branch":"master","description":"A PHP bundle implementing Nacex SOAP API http://nacex.es","homepage":"","language":"PHP","license":"","stargazers_count":2,"topics":[]}
-,
 "javichur/Alexa-Skill-Test-Autoescuela": {"default_branch":"master","description":"Test Autoescuela, una Skill para Amazon Alexa, publicada en https://www.amazon.es/Javier-Campos-Test-autoescuela/dp/B07L8JGTG7","homepage":"","language":"JavaScript","license":"Apache-2.0","stargazers_count":5,"topics":["alexa","amazon","autoescuela","dgt","lambda","preguntas","skill","test","voicefirst"]}
-,
-"javichur/merca-api": {"default_branch":"master","description":"Aplicación para leer las categorías y productos de API pública de supermercado.","homepage":"","language":"C#","license":"MIT","stargazers_count":13,"topics":["api","mercadona","online","tienda"]}
 ,
 "javierarce/bicimap": {"default_branch":"main","description":"Unofficial map of BiciMAD and Bicing stations.","homepage":"https://bicimap.javierarce.com","language":"CSS","license":"GPL-3.0","stargazers_count":8,"topics":["bicimad","bicing","bike-sharing","bikes","map"]}
 ,
@@ -551,8 +505,6 @@
 ,
 "jofemodo/cuadernos-AEB": {"default_branch":"master","description":"Implementacion en PHP de algunos cuadernos (19 y 43) de la Asociación de la Banca Española (AEB)","homepage":"","language":"","license":"","stargazers_count":6,"topics":[]}
 ,
-"jonseg/cercanias-renfe-android": {"default_branch":"master","description":"","homepage":"http://jonsegador.com/","language":"Java","license":"NOASSERTION","stargazers_count":21,"topics":[]}
-,
 "josantonius/php-mercadona-importer": {"default_branch":"main","description":"PHP command line interface (CLI) application to import products from Mercadona using their API","homepage":"https://josantonius.dev","language":"PHP","license":"MIT","stargazers_count":14,"topics":["cli","mercadona","mercadona-api","mercadona-importer","php"]}
 ,
 "josejuanmartinez/libreCatastro": {"default_branch":"develop","description":"OpenSource platform for downloading and querying Spanish Official Cadaster Registry (Catastro)","homepage":"","language":"Python","license":"MIT","stargazers_count":14,"topics":["catastral","catastro","docker","elasticsearch","elk","opendata","opensource","python","registro","scrapping","spanish-cadaster","visualization"]}
@@ -563,11 +515,7 @@
 ,
 "josemmo/Verifactu-PHP": {"default_branch":"main","description":"Librería para la implementación del sistema VERI*FACTU de la AEAT española","homepage":"https://josemmo.github.io/Verifactu-PHP/","language":"PHP","license":"MIT","stargazers_count":108,"topics":["aeat","verifactu"]}
 ,
-"joseska/MitraStar_GPT-2541GNAC_HA": {"default_branch":"master","description":"MitraStar GPT-2541GNAC (Movistar Spain  Router) Component(Device Tracker) for Home Assistant","homepage":"","language":"Python","license":"GPL-3.0","stargazers_count":14,"topics":[]}
-,
 "joyner-perez/SpainNotebook64": {"default_branch":"main","description":"Kotlin library to read barcodes on financial documents in Spain","homepage":"","language":"Kotlin","license":"MIT","stargazers_count":1,"topics":[]}
-,
-"jsampedro77/sermepa-omnipay": {"default_branch":"master","description":"sermepa (redsys) omnipay gateway","homepage":"","language":"PHP","license":"","stargazers_count":21,"topics":[]}
 ,
 "jsrl/aemet-elt": {"default_branch":"main","description":"ELT for AEMET weather data.","homepage":"","language":"Python","license":"","stargazers_count":16,"topics":["dbt","dlthub","docker","gcp","kestra","terraform","zoomcamp"]}
 ,
@@ -579,23 +527,13 @@
 ,
 "jvalhondo/spanish-names-surnames": {"default_branch":"master","description":"Data set with Spanish names and surnames","homepage":"","language":"","license":"NOASSERTION","stargazers_count":35,"topics":["dataset","demographics","names","spain","surnames"]}
 ,
-"kbsali/gasolineras-espana": {"default_branch":"master","description":"Retrieve, parse and transform full list of Spanish petrol stations' prices","homepage":"","language":"Python","license":"","stargazers_count":7,"topics":[]}
-,
-"klareNNNs/php-correosexpress-api": {"default_branch":"master","description":"A PHP library for dealing with CorreosExpress API ","homepage":"","language":"PHP","license":"","stargazers_count":3,"topics":["api","correos","correosexpress","php"]}
-,
 "kpliuta/cita-previa-extranjeria-monitor": {"default_branch":"main","description":"A web scraper that automates the soul-crushing process of checking for appointments (cita previa) at the Spanish immigration office (extranjería).","homepage":"","language":"Python","license":"MIT","stargazers_count":20,"topics":["android","appointment","cita","extranjeria","immigration","monitoring","python","selenium","termux","web-scraping"]}
 ,
 "ldotlopez/ha-ideenergy": {"default_branch":"main","description":"ideenergy integration for home-assistant","homepage":"","language":"Python","license":"GPL-3.0","stargazers_count":100,"topics":["automation","energy","energy-consumption","home-assistant","home-assistant-component","spain"]}
 ,
 "ldotlopez/ha-pepephone": {"default_branch":"main","description":"Home Assistant integration for Pepephone","homepage":"","language":"Python","license":"","stargazers_count":1,"topics":[]}
 ,
-"lechatquidanse/bicing-api": {"default_branch":"master","description":"Get statistics and locations of bicycle stations through REST API","homepage":"","language":"PHP","license":"","stargazers_count":162,"topics":["api","api-platform","bdd","behat","bicing","continuous-integration","cqrs","cqrs-pattern","database","ddd","docker","gherkin","hydra-api","message-bus","php","php7","symfony","symfony4","timescale","timescaledb"]}
-,
-"lechatquidanse/bicing-prediction-api": {"default_branch":"master","description":"Predict bikes' availability for Barcelona public bicycle sharing system.","homepage":"","language":"Python","license":"","stargazers_count":10,"topics":["bicing","continuous-integration","ddd","docker","docker-compose","flask-restful","machine-learning","makefile","prediction","pylint","python3","rest-api","swagger","testing","xgboost"]}
-,
 "legalize-dev/legalize-es": {"default_branch":"main","description":"Legislación de España en Markdown, versionada como git. Cada ley es un archivo, cada reforma un commit.","homepage":"https://legalize.dev/es","language":"","license":"NOASSERTION","stargazers_count":1879,"topics":["legalize-country"]}
-,
-"leifermendez/laravel-policia-hotel": {"default_branch":"master","description":"Registro de viajeros en el sistema Webpol  o E-Hotel de la Policía","homepage":"","language":"PHP","license":"MIT","stargazers_count":9,"topics":["checkin","checkinn-platform","espana","hotel","hotel-reservation","laravel","parte","partee","php","webpolice"]}
 ,
 "lfern/dnieprov": {"default_branch":"master","description":"JAVA DNIe Driver and JCA Provider library","homepage":"http://puttydnie.es/puttydnie/dnie-provider","language":"Java","license":"NOASSERTION","stargazers_count":22,"topics":[]}
 ,
@@ -611,10 +549,6 @@
 ,
 "maguayo/python-correos-express": {"default_branch":"master","description":"Python library to ship items using Correos Express","homepage":"","language":"Python","license":"GPL-3.0","stargazers_count":7,"topics":[]}
 ,
-"majulvez/easyredsys": {"default_branch":"master","description":"Librería que facilita la integración con la pasarela de pago Redsys para aplicaciones Java","homepage":"https://www.miguelangeljulvez.com/es/servicios/desarrollo-software/easyredsys","language":"Java","license":"GPL-3.0","stargazers_count":15,"topics":["banco","compra","java","pagos"]}
-,
-"manuelrn/Tvheadend_Movistar-Spain": {"default_branch":"master","description":"Tvheadend y Movistar+","homepage":"","language":"Shell","license":"","stargazers_count":22,"topics":[]}
-,
 "martgnz/bcn-geodata": {"default_branch":"master","description":"The official shapefiles of Barcelona, converted to GeoJSON and TopoJSON","homepage":"","language":"Shell","license":"MIT","stargazers_count":70,"topics":[]}
 ,
 "martgnz/es-atlas": {"default_branch":"master","description":"Pre-built TopoJSON from the Spanish National Geographic Institute.","homepage":"","language":"Shell","license":"MIT","stargazers_count":67,"topics":["d3-geo","d3js","spain","topojson"]}
@@ -629,8 +563,6 @@
 ,
 "mdiago/Batuz": {"default_branch":"main","description":"Batuz Bizkaia","homepage":"","language":"C#","license":"AGPL-3.0","stargazers_count":3,"topics":[]}
 ,
-"mdiago/EasySII.Watcher": {"default_branch":"master","description":"EasySII Monitor","homepage":"","language":"C#","license":"MIT","stargazers_count":4,"topics":[]}
-,
 "mdiago/FACe": {"default_branch":"main","description":"Creación y firma de facturas electrónicas y envío a FACe","homepage":"https://www.irenesolutions.com","language":"C#","license":"AGPL-3.0","stargazers_count":14,"topics":["access","csharp","dotnet","electronic-invoicing","excel","face","factura-electronica","facturae","firma-digital","open-source","public-procurement","rest-api","xades"]}
 ,
 "mdiago/N43": {"default_branch":"main","description":"Lectura de archivos de movimientos bancarios según las especificaciones de la AEB en las serie normas y procedimientos bancarios 43.","homepage":"","language":"JavaScript","license":"AGPL-3.0","stargazers_count":3,"topics":[]}
@@ -640,6 +572,8 @@
 "mgp25/RAE-API": {"default_branch":"master","description":"Diccionario RAE API","homepage":"","language":"PHP","license":"MIT","stargazers_count":45,"topics":["academia","api","rae","real"]}
 ,
 "midudev/infojobs-hackathon": {"default_branch":"main","description":"Proyecto de prueba con OpenAI y Infojobs API para la Hackathon","homepage":"","language":"TypeScript","license":"","stargazers_count":49,"topics":[]}
+,
+"miguelangel-nubla/homeassistant_canal_isabel_II": {"default_branch":"main","description":"Integración de Home Assistant para Canal de Isabel Segunda (Contadores agua en Madrid).","homepage":"","language":"Python","license":"MIT","stargazers_count":12,"topics":[]}
 ,
 "mindset-code/calendario-fiscal-es": {"default_branch":"main","description":"Plazos de presentación de los modelos tributarios españoles (AEAT) en Python puro, sin dependencias: traslado a día hábil y fecha límite de domiciliación.","homepage":"https://mindset-code.com","language":"Python","license":"MIT","stargazers_count":0,"topics":["aeat","calendario","fiscal","impuestos","modelo-303","plazos-procesales","python","spain"]}
 ,
@@ -657,17 +591,11 @@
 ,
 "nebojsa-prodana/spanish-long-term-visa-docker": {"default_branch":"main","description":"Containerized setup to make it easy to apply for long term spanish residence cards","homepage":"","language":"Python","license":"NOASSERTION","stargazers_count":9,"topics":["autofirma","digital-id","digital-signature","spain","visa"]}
 ,
-"nicolaspascual/mercadona-scrapper": {"default_branch":"master","description":"Scrapper for the web page of mercadona. It downloads all current products into a csv file","homepage":"","language":"Python","license":"","stargazers_count":49,"topics":["mercadona","python3","scrapper","selenium"]}
-,
 "nix-community/autofirma-nix": {"default_branch":"main","description":"Nix modules for interacting with Spanish public administration services [maintainers=@nilp0inter @panchoh @CesarGallego]","homepage":"https://nix-community.github.io/autofirma-nix/","language":"Nix","license":"MIT","stargazers_count":55,"topics":["autofirma","bureucracy","certificate-management","digital-government","digital-id","digital-signature","dni-electronico","document-signing","e-government","fnmt-rcm","home-manager","nfc","nix","nixos","open-source","spanish-administration","spanish-public-services"]}
 ,
 "nyanja/cita-previa-checker": {"default_branch":"main","description":"Appointment availability checker for Spanish immigration services (cita previa extranjería)","homepage":"","language":"Python","license":"","stargazers_count":3,"topics":[]}
 ,
-"onticsoluciones/iuris": {"default_branch":"master","description":"Web audit tool for verification of compliance with legislation such as the GDPR, LOPD and LSSI autonomously, without relying on third parties, and complemented by a guide of tips to comply with them.","homepage":"","language":"JavaScript","license":"AGPL-3.0","stargazers_count":7,"topics":["gprd","iso","privacy","rgpd"]}
-,
 "openfootball/espana": {"default_branch":"master","description":"Free open public domain football data (football.db) for España (Spain) / Europe - Primera División / La Liga, etc.","homepage":"http://openfootball.github.io/espana/","language":"","license":"CC0-1.0","stargazers_count":78,"topics":["barca","espana","fcbarcelona","football","laliga","opendata","primeradivision","realmadrid","spain","sqlite"]}
-,
-"oratioandco/Generative-Flamenco": {"default_branch":"master","description":"An experiment in generative music creation (Processing, Ableton Live)","homepage":"","language":"Processing","license":"","stargazers_count":6,"topics":[]}
 ,
 "ormeno/combustible_bot": {"default_branch":"main","description":"Bot de Telegram que informa del precio del combustible en las gasolineras más próximas a tu ubicación","homepage":"","language":"Java","license":"","stargazers_count":7,"topics":[]}
 ,
@@ -709,8 +637,6 @@
 ,
 "psincraian/precios-tur-homeassistant": {"default_branch":"main","description":"The Precios TUR integration for Home Assistant allows you to track the current gas prices from the Spanish TUR","homepage":"","language":"Python","license":"MIT","stargazers_count":6,"topics":["hacs","hacs-integration","home-assistant","homeassistant"]}
 ,
-"ptz0n/homebridge-securitas-direct": {"default_branch":"master","description":"","homepage":"https://www.npmjs.com/package/homebridge-securitas-direct","language":"JavaScript","license":"MIT","stargazers_count":7,"topics":[]}
-,
 "rOpenSpain/BOE": {"default_branch":"master","description":"A package to retrieve and interact with https://boe.es","homepage":"https://rOpenSpain.github.io/BOE","language":"R","license":"NOASSERTION","stargazers_count":10,"topics":["boe","xml"]}
 ,
 "rOpenSpain/CatastRo": {"default_branch":"main","description":"Access Spanish Cadastre spatial data and web services in R.","homepage":"http://ropenspain.github.io/CatastRo/","language":"R","license":"GPL-2.0","stargazers_count":31,"topics":["catastro","cran","cran-r","gis","maps","r","r-package","ropenspain","rstats","spain","spatial","static-tiles"]}
@@ -720,8 +646,6 @@
 "rOpenSpain/INEbaseR": {"default_branch":"master","description":"R Package for obtaining and analyzing open data from INE (Instituto Nacional de Estadística)","homepage":"https://inebaser.wordpress.com/","language":"R","license":"GPL-3.0","stargazers_count":23,"topics":[]}
 ,
 "rOpenSpain/MicroDatosEs": {"default_branch":"master","description":"R package providing utilities for reading and processing microdata from Spanish official statistics","homepage":"","language":"R","license":"","stargazers_count":14,"topics":[]}
-,
-"rOpenSpain/Siane": {"default_branch":"master","description":"R package to represent statistical data on official Spanish maps at several administrative levels","homepage":"","language":"R","license":"NOASSERTION","stargazers_count":10,"topics":["choropleth","choropleth-map","ign","ine","maps","spain"]}
 ,
 "rOpenSpain/airqualityES": {"default_branch":"master","description":"Air Quality Measurements in Spain from 2001 to 2018","homepage":"","language":"R","license":"","stargazers_count":4,"topics":[]}
 ,
@@ -747,15 +671,9 @@
 ,
 "rae-api-com/rae-tui": {"default_branch":"main","description":"Command utility to interact with rae-api.com API from the terminal","homepage":"https://rae-api.com","language":"Go","license":"","stargazers_count":4,"topics":["rae","terminal","tui"]}
 ,
-"rameerez/bicimad-data-analysis": {"default_branch":"master","description":"🚲 BiciMAD - Data analysis + ML usage predictions of Madrid's public bike system data","homepage":"https://madrides.in","language":"Jupyter Notebook","license":"MIT","stargazers_count":16,"topics":["artificial-intelligence","bicimad","bicimad-data","bike","city","data-analysis","emt-opendata","ipython-notebook","machine-learning","madrid","neural-network","python"]}
-,
 "remote-es/remotes": {"default_branch":"master","description":"This is a repository listing companies which offer full-time remote jobs with Spanish contracts","homepage":"","language":"","license":"","stargazers_count":2834,"topics":[]}
 ,
-"riera90/CapitanRenfe": {"default_branch":"master","description":"El bot que informa si un tren se ha retrasado!","homepage":"https://twitter.com/capitanrenfe","language":"Python","license":"","stargazers_count":5,"topics":[]}
-,
 "rikman122/homeassistant-correos_spain": {"default_branch":"master","description":"Home Assistant integration to track packages from Correos Spain","homepage":"","language":"Python","license":"Apache-2.0","stargazers_count":2,"topics":["correos-spain","home-automation","homeassistant"]}
-,
-"rmed/pyemtmad": {"default_branch":"master","description":"(Kind of) sane wrapper for the EMT Madrid API","homepage":"","language":"Python","license":"GPL-2.0","stargazers_count":5,"topics":[]}
 ,
 "rmonvfer/wallapop_secret": {"default_branch":"master","description":"Wallapop's API X-Signature Generator","homepage":"","language":"","license":"","stargazers_count":15,"topics":[]}
 ,
@@ -763,15 +681,11 @@
 ,
 "rubenleon/rpttai": {"default_branch":"gh-pages","description":"Relación de Puestos de Trabajo (RPT) de Informática en la AGE (Administración General del Estado)","homepage":"https://rpt.ovh/","language":"","license":"","stargazers_count":17,"topics":["age","rpttai","spain"]}
 ,
-"rubnvp/idealista-scraper": {"default_branch":"master","description":"Scraper for idealista.com places, just for demo purposes","homepage":"","language":"JavaScript","license":"","stargazers_count":5,"topics":[]}
-,
 "ruvelro/TV-Online-TDT-Spain": {"default_branch":"master","description":"Lista de URLs de canales TDT de España","homepage":"","language":"Python","license":"","stargazers_count":181,"topics":[]}
 ,
 "santiperez/node-redsys-api": {"default_branch":"master","description":"Redsys nodejs api implementation with new the key-hashed message autentication code (HMAC) SH256.","homepage":"","language":"JavaScript","license":"MIT","stargazers_count":48,"topics":[]}
 ,
 "seccion31/verifactu-delphi-demo": {"default_branch":"main","description":"verifactu demo alta-anulacion de factura","homepage":"","language":"Pascal","license":"","stargazers_count":12,"topics":["verifactu"]}
-,
-"segalion/securitasdirect": {"default_branch":"master","description":"Home Assistant integration with Securitas Direct (AKA Verisure EU) and command line tool to interact with.","homepage":"","language":"Python","license":"","stargazers_count":46,"topics":["securitas-direct","verisure"]}
 ,
 "segura2010/LiveboxFibraExtractor": {"default_branch":"master","description":"Tool to extract the SIP info from your Livebox Fibra (Orange Spain and Jazztel Spain) and change the API password","homepage":"","language":"Java","license":"GPL-2.0","stargazers_count":15,"topics":[]}
 ,
@@ -813,8 +727,6 @@
 ,
 "systemallica/ValenBisi": {"default_branch":"main","description":"An Android app for ValenBisi.","homepage":"https://play.google.com/store/apps/details?id=com.systemallica.valenbisi","language":"Kotlin","license":"GPL-3.0","stargazers_count":7,"topics":["android","app","bike","kotlin","maps","material-design","valenbisi","valencia"]}
 ,
-"toniprada/wallapopy": {"default_branch":"master","description":"A Python client for Wallapop","homepage":"","language":"Python","license":"","stargazers_count":25,"topics":["api","client","scraper","wallapop"]}
-,
 "trocotronic/edistribucion": {"default_branch":"master","description":"API para e-distribución (Endesa distribución)","homepage":"","language":"Python","license":"GPL-3.0","stargazers_count":32,"topics":[]}
 ,
 "uvejota/homeassistant-edata": {"default_branch":"dev","description":"Home Assistant integration for spanish energy data providers (e.g., datadis)","homepage":"","language":"Python","license":"GPL-3.0","stargazers_count":337,"topics":["energy-monitor","home-assistant"]}
@@ -830,8 +742,6 @@
 "vgvr0/supermarket-mercadona-scraper": {"default_branch":"main","description":"Supermarket-Mercadona-Scraper is an efficient and user-friendly tool that automatically scrapes and organizes product data from the Mercadona website, enabling you to analyze and compare product prices and features in real-time.","homepage":"","language":"Python","license":"","stargazers_count":7,"topics":["beautifulsoup","chromedriver","mercadona","mercadona-scraper","mercadona-scraping","python-scraping","selenium"]}
 ,
 "victorvicpal/COVID19_es": {"default_branch":"master","description":"COVID19 Spain data","homepage":"","language":"Jupyter Notebook","license":"Apache-2.0","stargazers_count":34,"topics":["covid-19-spain","covid19-data"]}
-,
-"vrruiz/calima": {"default_branch":"master","description":"Calima - La memoria del clima. Web/API para la serie histórica de datos meteorológicos de AEMET.","homepage":"http://calima.linotipo.es/","language":"JavaScript","license":"NOASSERTION","stargazers_count":9,"topics":[]}
 ,
 "vulturno/vulturno": {"default_branch":"master","description":"🆘 La evolución de las temperaturas en 45 estaciones de la AEMET en España.","homepage":"https://vulturno.co","language":"JavaScript","license":"CC-BY-SA-4.0","stargazers_count":13,"topics":["aemet","calentamiento-global","cambioclimatico","climate-change","d3js","global-warming","spain","visualization","visualize-data"]}
 ,
@@ -850,8 +760,6 @@
 "yinyang17/pvpc_energy": {"default_branch":"main","description":"Importa en el panel de energía el consumo y coste de electricidad desde ufd.es y ree.es. Calcula las facturas desde cnmc.gob.es.","homepage":"","language":"Python","license":"","stargazers_count":15,"topics":["billing","electricity-consumption","energy-dashboard","pvpc"]}
 ,
 "z0r3f/wallbot": {"default_branch":"main","description":"wallapop search bot","homepage":"","language":"Python","license":"GPL-3.0","stargazers_count":43,"topics":[]}
-,
-"zoilomora/iberdrola": {"default_branch":"master","description":"Integration with Iberdrola API","homepage":"https://packagist.org/packages/zoilomora/iberdrola","language":"PHP","license":"MIT","stargazers_count":16,"topics":["api","automatic","electricity","iberdrola","icp","reading"]}
 ,
 "zry98/movistar-home-hacks": {"default_branch":"main","description":"Reutilización de Movistar Home como un panel de dashboard de Home Assistant. / Repurposing Movistar Home as a Home Assistant dashboard panel.","homepage":"https://t.me/movistar_home_hacking","language":"Shell","license":"GPL-3.0","stargazers_count":46,"topics":["hardware-hacking","hass","hassio","home-assistant","iot-device","iot-hacking","movistar","telefonica"]}
 }

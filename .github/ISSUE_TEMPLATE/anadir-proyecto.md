@@ -23,4 +23,4 @@ labels: sugerencia
 
 - [ ] El proyecto es open source con repositorio público.
 - [ ] Da soporte específico a España, sus CCAA o provincias.
-- [ ] Está mantenido activamente (no archivado).
+- [ ] Sigue funcionando contra el servicio español al que da soporte y no está archivado.
