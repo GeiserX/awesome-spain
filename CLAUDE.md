@@ -57,7 +57,9 @@ Antes de incluir un repositorio, comprobar:
 
 - **Existe y es público**: el enlace GitHub funciona y el repo no es privado.
 - **No está archivado ni en solo lectura**: si está archivado, va a `DELETED.md` (sección "Archivados").
-- **Actividad razonable**: al menos un commit en los últimos 3 años, salvo proyectos estables/completos que no necesitan actualizaciones.
+- **Sigue haciendo su trabajo**: este es el criterio que decide. Si el proyecto **consume un servicio** (una API, una sede electrónica, una web que raspa), sigue haciéndolo hoy. Si **no consume ninguno** (un validador de NIF, un lector de cuadernos AEB, una librería XAdES, un dataset), basta con que su lógica siga siendo correcta: un formato o un algoritmo que no cambia no se rompe solo. Un proyecto estable y completo se queda aunque lleve años sin commits; uno que ya no funciona se retira aunque tenga commits de esta semana.
+- **La carga de la prueba es del que retira**: hay que enseñar el fallo, ejecutando el proyecto o comprobando que el servicio que consume ya no responde como espera. La falta de releases, de estrellas o de actividad no es un fallo. Si no se puede demostrar que está roto, se queda.
+- **La fecha del último commit es un aviso, no una sentencia**: más de 3 años sin actividad obliga a mirar el proyecto, nunca a retirarlo de forma automática. Y mirar el último commit de la rama por defecto, no `pushed_at`: las ramas de bots lo rejuvenecen sin que nadie mantenga nada.
 - **No es un duplicado**: cruzar con `README.md` y `DELETED.md` para evitar repeticiones.
 - **Calidad mínima**: tiene documentación básica (README) y no es un repositorio vacío o de pruebas.
 
