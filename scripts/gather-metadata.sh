@@ -57,7 +57,17 @@ grep -oE 'https://github\.com/[^/)]+/[^/)]+' README.md | sort -u | while read -r
       lic_status=$(printf '%s' "$lic_out" | jq -r '.status // "200"' 2>/dev/null || printf 'desconocido')
       case "$lic_status" in
         200) lic_path=$(printf '%s' "$lic_out" | jq -r '.path // ""'); lic_ok=true; break ;;
-        404) lic_path=""; lic_ok=true; break ;;
+        404)
+          # GitHub devuelve 404 cuando no RECONOCE la licencia, no solo cuando
+          # no hay ninguna: los repos que siguen REUSE guardan un directorio
+          # LICENSES/ y quedaban marcados como si no tuvieran licencia. Se mira
+          # la raiz del repo antes de darlo por perdido.
+          root_out=$(gh api "repos/$owner_repo/contents" 2>/dev/null) || true
+          lic_path=$(printf '%s' "$root_out" | jq -r '
+            if type=="array" then
+              [.[] | select(.name | test("^(LICEN[CS]E|COPYING)"; "i")) | .path] | first // ""
+            else "" end' 2>/dev/null || printf '')
+          lic_ok=true; break ;;
         *)   sleep $((attempt * 2)) ;;
       esac
     done
