@@ -1,0 +1,3 @@
+# Temporal de scripts/gather-metadata.sh. El script lo borra al salir, pero si
+# lo matan a lo bruto podria quedarse y colarse en un commit.
+scripts/.metadata.json.*
