@@ -594,6 +594,25 @@ def get_default_branch(owner_repo):
     return meta.get("default_branch", "main")
 
 
+def get_license_url(owner_repo, branch):
+    """Destino de la insignia de licencia.
+
+    Suponer "LICENSE" rompia el enlace en los repos que usan LICENSE.txt o
+    LICENSE.md, y en los que no tienen licencia. La ruta real la trae
+    gather-metadata.sh desde el endpoint /license.
+    """
+    meta = metadata.get(owner_repo, {})
+    if "license_path" not in meta:
+        # metadata.json anterior a que se recogiera la ruta: comportamiento previo.
+        return f"https://github.com/{owner_repo}/blob/{branch}/LICENSE"
+    path = meta.get("license_path") or ""
+    if not path:
+        # El repo no tiene fichero de licencia. Se apunta al repo para no dejar
+        # un enlace roto; la insignia sigue estando porque el linter la exige.
+        return f"https://github.com/{owner_repo}"
+    return f"https://github.com/{owner_repo}/blob/{branch}/{path}"
+
+
 def get_demo_url(owner_repo):
     return DEMO_URLS.get(owner_repo)
 
@@ -629,7 +648,7 @@ def transform_entry(line, current_section):
     star_badge = f"[![Stars](https://img.shields.io/github/stars/{owner_repo}?style=flat-square&label=%E2%AD%90)](https://github.com/{owner_repo}/stargazers)"
     commit_badge = f"[![Last Commit](https://img.shields.io/github/last-commit/{owner_repo}?style=flat-square)](https://github.com/{owner_repo}/commits/{branch})"
     lang_badge = f"[![Language](https://img.shields.io/github/languages/top/{owner_repo}?style=flat-square)](https://github.com/{owner_repo})"
-    license_badge = f"[![License](https://img.shields.io/github/license/{owner_repo}?style=flat-square)](https://github.com/{owner_repo}/blob/{branch}/LICENSE)"
+    license_badge = f"[![License](https://img.shields.io/github/license/{owner_repo}?style=flat-square)]({get_license_url(owner_repo, branch)})"
 
     # Institution/service tags as clickable Spain red badges (#c60b1e)
     spain_tags = get_spain_tags(current_section, name, raw_desc)
