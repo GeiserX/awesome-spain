@@ -1,7 +1,3 @@
-# LICENSE file links — repos without a LICENSE file at the expected path
-# The shields.io license badge still works via GitHub API
-https://github.com/.*/blob/.*/LICENSE.*
-
 # Enlaces de la insignia de estrellas: /stargazers devuelve 404 a los clientes
 # anonimos, asi que fallaban las ~410 entradas en cada ejecucion y tapaban
 # cualquier enlace roto de verdad. La URL base del repo si se comprueba.
