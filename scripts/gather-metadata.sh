@@ -10,8 +10,11 @@ unset GITHUB_TOKEN GH_TOKEN 2>/dev/null || true
 OUTFILE="scripts/metadata.json"
 # Se escribe en un temporal y solo se sustituye el bueno al final. Si la
 # ejecucion se corta a medias (limite de peticiones, red), metadata.json se
-# queda como estaba en vez de quedar a medias o mal.
-TMPFILE="$(mktemp)"
+# queda como estaba en vez de quedar a medias o mal. El temporal va en el mismo
+# directorio a proposito: asi el mv final es un renombrado dentro del mismo
+# sistema de ficheros, que es atomico. Con cp habria un instante en el que el
+# fichero bueno esta truncado.
+TMPFILE="$(mktemp "scripts/.metadata.json.XXXXXX")"
 trap 'rm -f "$TMPFILE"' EXIT
 
 echo "{" > "$TMPFILE"
@@ -89,5 +92,5 @@ if ! jq empty "$TMPFILE" 2>/dev/null; then
   exit 1
 fi
 
-cp "$TMPFILE" "$OUTFILE"
+mv "$TMPFILE" "$OUTFILE"
 echo "Done! Saved to $OUTFILE"

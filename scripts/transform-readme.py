@@ -3,6 +3,7 @@
 
 import json
 import re
+from urllib.parse import quote
 import sys
 
 # Load metadata
@@ -610,7 +611,12 @@ def get_license_url(owner_repo, branch):
         # El repo no tiene fichero de licencia. Se apunta al repo para no dejar
         # un enlace roto; la insignia sigue estando porque el linter la exige.
         return f"https://github.com/{owner_repo}"
-    return f"https://github.com/{owner_repo}/blob/{branch}/{path}"
+    # La ruta viene de la API, pero acaba dentro de un enlace Markdown: un ")"
+    # lo cortaria y un "#", un "%" o un espacio apuntarian a otro sitio. Y si
+    # no es una ruta relativa dentro del repo, no se enlaza el fichero.
+    if path.startswith("/") or ".." in path.split("/"):
+        return f"https://github.com/{owner_repo}"
+    return f"https://github.com/{owner_repo}/blob/{branch}/{quote(path)}"
 
 
 def get_demo_url(owner_repo):
