@@ -326,7 +326,6 @@ KEYWORD_TAGS = {
     "quiniela": "LaLiga",
     # Spanish maps/geodata
     "TopoJSON": "CNIG",
-    "comunidades autónomas": "INE",
     "provincias": "INE",
     "CCAA": "INE",
     # Galicia transport

@@ -4432,6 +4432,26 @@
   "license_path": ""
 }
 ,
+"luisdues/plazos-extranjeria-es": {
+  "default_branch": "main",
+  "description": "Días inhábiles 2026 del Estado, las 17 comunidades autónomas y Ceuta y Melilla (BOE), y plazo de resolución y silencio de 32 trámites de extranjería en España, en JSON/CSV, con librería JS de cómputo según la Ley 39/2015.",
+  "homepage": "https://esextranjeria.es/calculadora-plazos",
+  "language": "JavaScript",
+  "license": "MIT",
+  "stargazers_count": 0,
+  "topics": [
+    "boe",
+    "dias-inhabiles",
+    "extranjeria",
+    "immigration",
+    "ley-39-2015",
+    "open-data",
+    "plazos",
+    "spain"
+  ],
+  "license_path": "LICENSE"
+}
+,
 "luuuis/hass_omie": {
   "default_branch": "main",
   "description": "OMIE Home Assistant Integration",
