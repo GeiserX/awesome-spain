@@ -7,7 +7,6 @@ Gracias por tu interés en contribuir. Esta selección crece gracias a la comuni
 ### Añadir un proyecto
 
 - Asegúrate de que el proyecto es **open source** y tiene un repositorio público.
-- Si lo mantiene una empresa, el producto o servicio al que da soporte también tiene que ser open source. No aceptamos el motor, cliente o SDK de un producto cerrado ni la versión gratuita de algo que se vende en versión de pago. Las integraciones de terceros con servicios de empresas españolas sí caben.
 - El proyecto debe **dar soporte específico a España** o incluir funcionalidades relevantes para usuarios en España.
 - El proyecto debe **seguir haciendo su trabajo** y no estar archivado. Si consume un servicio español, que siga funcionando contra él; si no consume ninguno (un validador de DNI, un lector de cuadernos AEB, un dataset), basta con que su lógica siga siendo correcta. No exigimos commits recientes: lo que se retira es lo que ya no funciona, aunque su último commit sea de ayer, y para retirarlo hay que poder enseñar el fallo.
 - Cada entrada debe seguir el formato: `- [Nombre](URL) - Descripción breve que empieza en mayúscula y termina con punto.`

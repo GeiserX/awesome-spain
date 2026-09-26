@@ -25,7 +25,6 @@ Selección de software open source que da **soporte específico a España, sus c
 - APIs de empresas **nacidas en España pero globalizadas** cuya API es idéntica en todos los países (p.ej. Glovo Business API).
 - Productos SaaS españoles cuya librería open source es para uso internacional sin funcionalidad específica española (p.ej. Quaderno.js para tax compliance global).
 - Herramientas IoT genéricas que simplemente se crearon en un FabLab español (Smart Citizen Kit).
-- Proyectos open source que son el **motor, cliente o SDK de un producto o servicio cerrado** de quien los mantiene (p.ej. un CLI que una empresa publica y usa por dentro en su SaaS privativo, o la versión gratuita de algo que vende en versión de pago). Si el producto al que sirve no es open source, el proyecto no tiene cabida aunque su código sea libre y completo. Esto no afecta a las integraciones de terceros con servicios de empresas españolas (Securitas Direct, Mercadona, etc.): la regla mira a quién mantiene el proyecto, no al servicio que consume.
 - Frameworks o librerías genéricas de desarrollo creadas por gobiernos autonómicos si no tienen funcionalidad específica regional (p.ej. un generador de aplicaciones genérico, un framework Java/JS estándar).
 
 ### Zona gris — preguntar al usuario
