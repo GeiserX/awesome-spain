@@ -1,25 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 200" width="900" height="200">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#e74c3c"/>
-      <stop offset="100%" stop-color="#f39c12"/>
+    <clipPath id="b-round"><rect width="800" height="200" rx="16" ry="16"/></clipPath>
+    <linearGradient id="b-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a0a10"/>
+      <stop offset="0.42" stop-color="#11162c"/>
+      <stop offset="0.7" stop-color="#22335a"/>
+      <stop offset="0.86" stop-color="#4f6b92"/>
     </linearGradient>
+    <radialGradient id="b-glow" cx="430" cy="172" r="260" gradientUnits="userSpaceOnUse" gradientTransform="translate(430 172) scale(1.7 0.34) translate(-430 -172)">
+      <stop offset="0" stop-color="#ffe0b8" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#c9b6a0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="b-dusk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a0a10" stop-opacity="0"/>
+      <stop offset="1" stop-color="#0a0a10" stop-opacity="0.6"/>
+    </linearGradient>
+    <linearGradient id="b-wall" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b9bcc8"/>
+      <stop offset="0.5" stop-color="#f7f5f0"/>
+      <stop offset="1" stop-color="#e6d9c4"/>
+    </linearGradient>
+    <linearGradient id="b-ridge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1f1f2c"/>
+      <stop offset="1" stop-color="#0c0c13"/>
+    </linearGradient>
+    <pattern id="b-lattice" patternUnits="userSpaceOnUse" width="4.5" height="3.25">
+      <path d="M0,0 V3.25 M0,0 H4.5" stroke="#7a6a5c" stroke-width="0.55" fill="none"/>
+    </pattern>
   </defs>
-  <rect width="900" height="200" rx="12" fill="url(#bg)"/>
-  <g stroke="#ffffff" stroke-opacity="0.04" stroke-width="1">
-    <line x1="0" y1="50" x2="900" y2="50"/>
-    <line x1="0" y1="100" x2="900" y2="100"/>
-    <line x1="0" y1="150" x2="900" y2="150"/>
-    <line x1="150" y1="0" x2="150" y2="200"/>
-    <line x1="300" y1="0" x2="300" y2="200"/>
-    <line x1="450" y1="0" x2="450" y2="200"/>
-    <line x1="600" y1="0" x2="600" y2="200"/>
-    <line x1="750" y1="0" x2="750" y2="200"/>
+  <g clip-path="url(#b-round)">
+    <rect width="800" height="200" fill="url(#b-sky)"/>
+    <rect width="800" height="200" fill="url(#b-glow)"/>
+    <g fill="#e9eef8" opacity="0.6"><circle cx="70" cy="22" r="0.8"/><circle cx="168" cy="48" r="0.6"/><circle cx="232" cy="16" r="0.7"/><circle cx="306" cy="34" r="0.5"/><circle cx="548" cy="18" r="0.6"/><circle cx="626" cy="40" r="0.8"/><circle cx="690" cy="24" r="0.6"/><circle cx="738" cy="56" r="0.7"/><circle cx="470" cy="24" r="0.5"/><circle cx="774" cy="30" r="0.5"/></g>
+    <circle cx="116" cy="40" r="9" fill="#f3efe4"/>
+    <circle cx="116" cy="40" r="9" fill="none" stroke="#f3efe4" stroke-width="6" opacity="0.08"/>
+    <rect x="-10" y="172.0" width="820" height="1.5" fill="#8a6a44"/><rect x="-10" y="173.2" width="820" height="1.9" fill="#55583a"/><rect x="-10" y="174.8" width="820" height="2.4" fill="#7a4e3a"/><rect x="-10" y="176.9" width="820" height="3.1" fill="#95804e"/><rect x="-10" y="179.6" width="820" height="3.9" fill="#4a4a34"/><rect x="-10" y="183.3" width="820" height="5.1" fill="#835c40"/><rect x="-10" y="188.1" width="820" height="6.6" fill="#605a3c"/><rect x="-10" y="194.4" width="820" height="8.7" fill="#8a6a44"/>
+    <rect x="0" y="172" width="800" height="28" fill="url(#b-dusk)"/>
+    <rect x="0" y="171.4" width="800" height="1" fill="#ffe6c4" opacity="0.5"/>
+    <path d="M-10,201 L-10,171.7 L0,169.8 L10,167.9 L20,166.0 L30,164.0 L40,162.1 L50,160.2 L60,158.3 L70,156.6 L80,155.2 L90,154.1 L100,153.5 L110,153.4 L120,154.0 L130,155.3 L140,157.2 L150,159.6 L160,162.6 L170,166.0 L180,169.6 L190,173.2 L200,176.8 L210,180.1 L220,183.0 L230,185.5 L240,187.5 L250,189.0 L260,190.1 L270,190.8 L280,191.3 L290,191.7 L300,192.1 L310,192.5 L320,193.0 L330,193.7 L340,194.6 L350,195.6 L360,196.6 L370,197.6 L380,198.5 L390,199.1 L400,199.5 L410,199.5 L420,199.2 L430,198.4 L440,197.4 L450,196.1 L460,194.7 L470,193.2 L480,191.7 L490,190.2 L500,188.8 L510,187.6 L520,186.4 L530,185.3 L540,184.1 L550,182.8 L560,181.2 L570,179.4 L580,177.1 L590,174.5 L600,171.5 L610,168.2 L620,164.6 L630,160.9 L640,157.3 L650,153.9 L660,150.8 L670,148.2 L680,146.3 L690,145.0 L700,144.4 L710,144.5 L720,145.3 L730,146.6 L740,148.4 L750,150.4 L760,152.7 L770,155.0 L780,157.4 L790,159.6 L800,161.9 L810,164.0 L810,201 Z" fill="url(#b-ridge)"/>
+    <g transform="translate(52.0 160.8) scale(1.25)"><path d="M-11,3 L-8.5,-34 L8.5,-34 L11,3 Z" fill="url(#b-wall)"/><path d="M-2.6,3 V-5 A2.6,2.6 0 0 1 2.6,-5 V3 Z" fill="#23222c"/><rect x="-5" y="-27" width="2.2" height="3.2" fill="#23222c"/><rect x="2.8" y="-19" width="2.2" height="3.2" fill="#23222c"/><path d="M-10.2,-33.6 Q-8.7,-40 0,-45.5 Q8.7,-40 10.2,-33.6 Z" fill="#262733"/><rect x="-10.2" y="-34.6" width="20.4" height="1.6" fill="#181820"/><g transform="translate(-1.5 -39.5)"><g transform="rotate(38)"><rect x="0" y="-0.6" width="34" height="1.2" fill="#7a6a5c"/><rect x="7" y="0" width="27" height="6.5" fill="url(#b-lattice)" stroke="#7a6a5c" stroke-width="0.8"/></g><g transform="rotate(128)"><rect x="0" y="-0.6" width="34" height="1.2" fill="#7a6a5c"/><rect x="7" y="0" width="27" height="6.5" fill="url(#b-lattice)" stroke="#7a6a5c" stroke-width="0.8"/></g><g transform="rotate(218)"><rect x="0" y="-0.6" width="34" height="1.2" fill="#7a6a5c"/><rect x="7" y="0" width="27" height="6.5" fill="url(#b-lattice)" stroke="#7a6a5c" stroke-width="0.8"/></g><g transform="rotate(308)"><rect x="0" y="-0.6" width="34" height="1.2" fill="#7a6a5c"/><rect x="7" y="0" width="27" height="6.5" fill="url(#b-lattice)" stroke="#7a6a5c" stroke-width="0.8"/></g><circle r="1.7" fill="#181820"/></g></g><g transform="translate(142.0 158.6) scale(1.05)"><path d="M-11,3 L-8.5,-34 L8.5,-34 L11,3 Z" fill="url(#b-wall)"/><path d="M-2.6,3 V-5 A2.6,2.6 0 0 1 2.6,-5 V3 Z" fill="#23222c"/><rect x="-5" y="-27" width="2.2" height="3.2" fill="#23222c"/><rect x="2.8" y="-19" width="2.2" height="3.2" fill="#23222c"/><path d="M-10.2,-33.6 Q-8.7,-40 0,-45.5 Q8.7,-40 10.2,-33.6 Z" fill="#262733"/><rect x="-10.2" y="-34.6" width="20.4" height="1.6" fill="#181820"/><g transform="translate(-1.5 -39.5)"><g transform="rotate(58)"><rect x="0" y="-0.6" width="34" height="1.2" fill="#7a6a5c"/><rect x="7" y="0" width="27" height="6.5" fill="url(#b-lattice)" stroke="#7a6a5c" stroke-width="0.8"/></g><g transform="rotate(148)"><rect x="0" y="-0.6" width="34" height="1.2" fill="#7a6a5c"/><rect x="7" y="0" width="27" height="6.5" fill="url(#b-lattice)" stroke="#7a6a5c" stroke-width="0.8"/></g><g transform="rotate(238)"><rect x="0" y="-0.6" width="34" height="1.2" fill="#7a6a5c"/><rect x="7" y="0" width="27" height="6.5" fill="url(#b-lattice)" stroke="#7a6a5c" stroke-width="0.8"/></g><g transform="rotate(328)"><rect x="0" y="-0.6" width="34" height="1.2" fill="#7a6a5c"/><rect x="7" y="0" width="27" height="6.5" fill="url(#b-lattice)" stroke="#7a6a5c" stroke-width="0.8"/></g><circle r="1.7" fill="#181820"/></g></g><g transform="translate(658.0 152.4) scale(1.15)"><path d="M-11,3 L-8.5,-34 L8.5,-34 L11,3 Z" fill="url(#b-wall)"/><path d="M-2.6,3 V-5 A2.6,2.6 0 0 1 2.6,-5 V3 Z" fill="#23222c"/><rect x="-5" y="-27" width="2.2" height="3.2" fill="#23222c"/><rect x="2.8" y="-19" width="2.2" height="3.2" fill="#23222c"/><path d="M-10.2,-33.6 Q-8.7,-40 0,-45.5 Q8.7,-40 10.2,-33.6 Z" fill="#262733"/><rect x="-10.2" y="-34.6" width="20.4" height="1.6" fill="#181820"/><g transform="translate(-1.5 -39.5)"><g transform="rotate(40)"><rect x="0" y="-0.6" width="34" height="1.2" fill="#7a6a5c"/><rect x="7" y="0" width="27" height="6.5" fill="url(#b-lattice)" stroke="#7a6a5c" stroke-width="0.8"/></g><g transform="rotate(130)"><rect x="0" y="-0.6" width="34" height="1.2" fill="#7a6a5c"/><rect x="7" y="0" width="27" height="6.5" fill="url(#b-lattice)" stroke="#7a6a5c" stroke-width="0.8"/></g><g transform="rotate(220)"><rect x="0" y="-0.6" width="34" height="1.2" fill="#7a6a5c"/><rect x="7" y="0" width="27" height="6.5" fill="url(#b-lattice)" stroke="#7a6a5c" stroke-width="0.8"/></g><g transform="rotate(310)"><rect x="0" y="-0.6" width="34" height="1.2" fill="#7a6a5c"/><rect x="7" y="0" width="27" height="6.5" fill="url(#b-lattice)" stroke="#7a6a5c" stroke-width="0.8"/></g><circle r="1.7" fill="#181820"/></g></g><g transform="translate(752.0 151.9) scale(1.4)"><path d="M-11,3 L-8.5,-34 L8.5,-34 L11,3 Z" fill="url(#b-wall)"/><path d="M-2.6,3 V-5 A2.6,2.6 0 0 1 2.6,-5 V3 Z" fill="#23222c"/><rect x="-5" y="-27" width="2.2" height="3.2" fill="#23222c"/><rect x="2.8" y="-19" width="2.2" height="3.2" fill="#23222c"/><path d="M-10.2,-33.6 Q-8.7,-40 0,-45.5 Q8.7,-40 10.2,-33.6 Z" fill="#262733"/><rect x="-10.2" y="-34.6" width="20.4" height="1.6" fill="#181820"/><g transform="translate(-1.5 -39.5)"><g transform="rotate(22)"><rect x="0" y="-0.6" width="34" height="1.2" fill="#7a6a5c"/><rect x="7" y="0" width="27" height="6.5" fill="url(#b-lattice)" stroke="#7a6a5c" stroke-width="0.8"/></g><g transform="rotate(112)"><rect x="0" y="-0.6" width="34" height="1.2" fill="#7a6a5c"/><rect x="7" y="0" width="27" height="6.5" fill="url(#b-lattice)" stroke="#7a6a5c" stroke-width="0.8"/></g><g transform="rotate(202)"><rect x="0" y="-0.6" width="34" height="1.2" fill="#7a6a5c"/><rect x="7" y="0" width="27" height="6.5" fill="url(#b-lattice)" stroke="#7a6a5c" stroke-width="0.8"/></g><g transform="rotate(292)"><rect x="0" y="-0.6" width="34" height="1.2" fill="#7a6a5c"/><rect x="7" y="0" width="27" height="6.5" fill="url(#b-lattice)" stroke="#7a6a5c" stroke-width="0.8"/></g><circle r="1.7" fill="#181820"/></g></g>
+    <text x="400" y="80" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="52" font-weight="700" fill="#ffffff" letter-spacing="1.5">awesome-spain</text>
+    <text x="400" y="110" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#e6e4dc" fill-opacity="0.8" letter-spacing="3.5">SOFTWARE OPEN SOURCE PARA ESPAÑA</text>
   </g>
-  <g transform="translate(60, 55)">
-    <circle cx="30" cy="30" r="28" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.3"/>
-    <text x="30" y="38" text-anchor="middle" font-family="monospace" font-size="24" fill="#ffffff" opacity="0.8">★</text>
-  </g>
-  <text x="130" y="95" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="44" font-weight="700" fill="#ffffff" letter-spacing="-1">Awesome Spain</text>
-  <text x="132" y="130" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#ffffff" opacity="0.65" letter-spacing="0.3">Curated resources about Spain</text>
 </svg>
