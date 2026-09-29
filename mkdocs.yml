@@ -1,0 +1,104 @@
+# One-page site: docs/index.md includes README.md word for word, so the list
+# stays the single source that awesome-lint-extra governs. Never copy it.
+site_name: Awesome Spain
+site_url: https://geiserx.github.io/awesome-spain/
+site_description: Una selección de software open source que da soporte específico a España, sus administraciones, instituciones y servicios públicos.
+repo_url: https://github.com/GeiserX/awesome-spain
+repo_name: GeiserX/awesome-spain
+
+# A warning is a broken link, a missing page or a page nobody can reach. All of
+# them fail the build, locally and in CI, so nobody has to remember --strict.
+strict: true
+
+theme:
+  name: material
+  language: es
+  # Dark first: the first palette entry is the default, and the banner is dark.
+  palette:
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: Cambiar a modo claro
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-7
+        name: Cambiar a modo oscuro
+  # One page: no tabs, no sections. No edit button either, because the page
+  # file is a one-line include; entries are edited in README.md.
+  features:
+    - navigation.top
+    - content.code.copy
+    - search.highlight
+    - search.suggest
+  icon:
+    repo: fontawesome/brands/github
+
+# MkDocs reports most link problems as `info`, which --strict ignores. Every
+# line here promotes one of them to a warning so the build fails on it. For
+# this site the one that matters is links.anchors: every entry of the
+# Contenido list must land on a real section heading.
+validation:
+  nav:
+    omitted_files: warn
+    not_found: warn
+    absolute_links: warn
+  links:
+    not_found: warn
+    anchors: warn
+    absolute_links: warn
+    unrecognized_links: warn
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  # docs/index.md is `--8<-- "README.md"`. base_path includes the repository
+  # root; check_paths makes a renamed or missing README fail the build instead
+  # of rendering an empty page.
+  - pymdownx.snippets:
+      base_path:
+        - .
+        - docs
+      check_paths: true
+  - attr_list
+  # Renders the README's <div align="center"> header block.
+  - md_in_html
+  - tables
+  # GitHub-style anchors keep accents (#cartografía-y-catastro). The default
+  # slugify strips them and every accented Contenido link would miss.
+  - toc:
+      permalink: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/GeiserX/awesome-spain
+
+extra_css:
+  - stylesheets/theme.css
+
+# Files under docs/ that are not pages. MkDocs publishes every file in docs/,
+# so anything that is not part of the site must be listed here.
+exclude_docs: |
+  [A-Z]*.md
+  design/
+  research/
+  notes/
+  requirements-docs.txt
+  limpieza-2026-09.tsv
+
+nav:
+  - Inicio: index.md

@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="docs/images/banner.svg" alt="Awesome Spain">
+  <img src="https://raw.githubusercontent.com/GeiserX/awesome-spain/main/docs/images/banner.svg" alt="Awesome Spain">
   <br><br>
   <a href="https://awesome.re"><img src="https://awesome.re/badge-flat.svg" alt="Awesome"></a>
   <br><br>
@@ -725,7 +725,7 @@ For the badge (grande):
 
 ## Contribuir
 
-Las contribuciones son bienvenidas. Lee las [directrices de contribución](contributing.md) antes de enviar un pull request.
+Las contribuciones son bienvenidas. Lee las [directrices de contribución](https://github.com/GeiserX/awesome-spain/blob/main/contributing.md) antes de enviar un pull request.
 
 
 ## Nota
