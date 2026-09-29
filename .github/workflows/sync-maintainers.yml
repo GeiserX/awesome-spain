@@ -69,14 +69,14 @@ jobs:
 
               # Build Maintainers section
               lines = '\n'.join(f'- [@{m}](https://github.com/{m})' for m in sorted_m)
-              section = (f'## Maintainers\n\n'
+              section = (f'## Mantenedores\n\n'
                          f'<!--lint disable awesome-list-item-->\n\n'
                          f'{lines}\n\n'
                          f'<!--lint enable awesome-list-item-->')
 
-              if '## Maintainers' in readme:
+              if '## Mantenedores' in readme:
                   readme = re.sub(
-                      r'## Maintainers\n.*?(?=\n## |\Z)',
+                      r'## Mantenedores\n.*?(?=\n## |\Z)',
                       section + '\n',
                       readme, flags=re.DOTALL)
               else:
@@ -93,8 +93,8 @@ jobs:
               if os.path.exists('CODEOWNERS'):
                   os.remove('CODEOWNERS')
                   changed = True
-              if '## Maintainers' in readme:
-                  readme = re.sub(r'\n+## Maintainers\n.*?(?=\n## |\Z)', '', readme, flags=re.DOTALL)
+              if '## Mantenedores' in readme:
+                  readme = re.sub(r'\n+## Mantenedores\n.*?(?=\n## |\Z)', '', readme, flags=re.DOTALL)
                   with open('README.md', 'w') as f:
                       f.write(readme)
                   changed = True

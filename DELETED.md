@@ -50,6 +50,8 @@ Estas entradas van con `owner/repo` entre comillas invertidas y no como enlace, 
 - `ctt-gob-es/clave` - Cl@ve, plataforma oficial de identificación del sector público. Repositorio vacío: creado en 2018, sin ningún commit ni rama, así que el enlace no lleva a ningún software.
 - `DvzZDev/AcuaNet` - Plataforma con los niveles de los embalses españoles y meteorología en tiempo real con datos del MITECO. Repo eliminado; acuanet.es sigue en línea, así que se cerró el código, no el producto.
 - `myTselection/Carbu_com` - Integración HACS con los precios reales de combustible (gasolina, diésel, GLP) en España. Repo eliminado junto con toda la cuenta del usuario.
+- `d3stroya/virgulayapp-curriculos` - Currículos LOMLOE de todas las CCAA en formato JSON (Infantil, Primaria, ESO, Bachillerato). Repo eliminado o privado (GitHub devuelve 404).
+- `AjuntamentdeBarcelona/bustia-etica-bcn` - Buzón ético digital del Ajuntament de Barcelona. Repo eliminado o privado (GitHub devuelve 404).
 
 ## Abandonados (confirmado por el autor)
 
