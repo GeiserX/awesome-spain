@@ -1,0 +1,31 @@
+/* docs/stylesheets/theme.css: the site takes its two colours from the banner
+ * (windmills at dusk): the night sky and the glow on the horizon.
+ *
+ * mkdocs.yml sets `primary: custom` and `accent: custom`, which means Material
+ * paints nothing until these variables exist.
+ */
+:root {
+  --md-primary-fg-color:        #11162C;  /* banner background */
+  --md-primary-fg-color--light: #22335A;
+  --md-primary-fg-color--dark:  #0A0A10;
+  --md-primary-bg-color:        #F7F5F0;  /* text on the header */
+  --md-primary-bg-color--light: #C9B6A0;
+
+  --md-accent-fg-color:         #FFE0B8;  /* banner accent */
+  --md-accent-fg-color--transparent: #FFE0B81A;
+}
+
+/* Dark scheme: the page body uses the banner background too, so the header
+   and the page read as one surface. */
+[data-md-color-scheme="slate"] {
+  --md-default-bg-color:        #11162C;
+  --md-code-bg-color:           #22335A;
+  --md-typeset-a-color:         #FFE0B8;
+}
+
+/* Light scheme: the glow on white is far too faint for body links. #8A6A44 is
+   the banner's own warm brown and passes 4.5:1 on white (about 5.0:1). */
+[data-md-color-scheme="default"] {
+  --md-typeset-a-color:         #8A6A44;
+  --md-accent-fg-color:         #8A6A44;
+}

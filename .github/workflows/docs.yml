@@ -1,0 +1,93 @@
+name: Docs
+
+# Copy to .github/workflows/docs.yml. Before the first run, set the repository's
+# Pages source to "GitHub Actions": Settings -> Pages -> Source, or
+# `gh api -X POST repos/GeiserX/<repo>/pages -f build_type=workflow` for a repo
+# with no Pages yet. For a repo already publishing from a branch the API is a
+# PUT, and its docs list `source.branch` and `source.path` as required, so the
+# bare `-f build_type=workflow` PUT may 422: try it on CashPilot first and
+# record which form worked. A deploy while the source is still a branch is
+# expected to fail; that is the test that the switch happened.
+#
+# Never for a repo whose gh-pages branch holds a Helm chart index (index.yaml,
+# artifacthub-repo.yml): Pumperly, LynxPrompt, genieacs-container,
+# duplicacy-container. Those use docs-pages-helm.yml instead.
+#
+# Pull requests that touch the docs run the strict build, so a broken link, a
+# missing page or an unreachable page fails the check instead of reaching the
+# site. A push to main deploys, and only after the same build has passed.
+#
+# The site is published as a Pages artifact, never with `mkdocs gh-deploy`:
+# no gh-pages branch, no `contents: write`, and one artifact is the whole site.
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'docs/**'
+      - 'mkdocs.yml'
+      - '.github/workflows/docs.yml'
+      # docs/index.md includes README.md: every merged entry rebuilds the site.
+      - 'README.md'
+      # Add every file a page includes with pymdownx.snippets (for example
+      # docker-compose.yml, .env.example): a change to it must rebuild the
+      # site, and a rename must fail the build.
+  # No paths filter on pull requests, on purpose: a check skipped by a path
+  # filter stays Pending and blocks the merge once it is a required check
+  # (repos.md step 5 makes green checks required). The build takes seconds.
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: build (strict)
+    # Public repo: GitHub-hosted runners are free and unlimited here, and the
+    # job runs on pull requests, so it must never touch a self-hosted runner.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: '3.13'
+          cache: pip
+          cache-dependency-path: docs/requirements-docs.txt
+
+      - name: Install dependencies
+        run: pip install -r docs/requirements-docs.txt
+
+      # mkdocs.yml sets `strict: true`; the flag here keeps the build strict
+      # even if someone removes that line.
+      - name: Build
+        run: mkdocs build --strict
+
+      - name: Upload the site
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+        with:
+          path: site
+
+  deploy:
+    # Runs on push to main only, after the build job has passed.
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    # Two deploys at once leave the site at whichever finished last. Queue
+    # them; never cancel, a cancelled deploy can leave a half-published site.
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+    steps:
+      - uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
+
+      - id: deployment
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1
