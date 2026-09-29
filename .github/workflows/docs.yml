@@ -38,6 +38,13 @@ on:
   pull_request:
   workflow_dispatch:
 
+# One run at a time per ref, in push order, never cancelled. Locking only the
+# deploy job is not enough: an older push whose build finishes later would
+# deploy last and publish a stale site. Pull requests get their own group.
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: false
+
 permissions:
   contents: read
 
@@ -84,11 +91,6 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    # Two deploys at once leave the site at whichever finished last. Queue
-    # them; never cancel, a cancelled deploy can leave a half-published site.
-    concurrency:
-      group: pages
-      cancel-in-progress: false
     steps:
       - uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
 
