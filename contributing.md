@@ -8,7 +8,7 @@ Gracias por tu interés en contribuir. Esta selección crece gracias a la comuni
 
 - Asegúrate de que el proyecto es **open source** y tiene un repositorio público.
 - El proyecto debe **dar soporte específico a España** o incluir funcionalidades relevantes para usuarios en España.
-- El proyecto debe **seguir haciendo su trabajo** y no estar archivado. Si consume un servicio español, que siga funcionando contra él; si no consume ninguno (un validador de DNI, un lector de cuadernos AEB, un dataset), basta con que su lógica siga siendo correcta. No exigimos commits recientes: lo que se retira es lo que ya no funciona, aunque su último commit sea de ayer, y para retirarlo hay que poder enseñar el fallo.
+- El proyecto debe **seguir haciendo su trabajo** y no estar archivado. Si consume un servicio español, que siga funcionando contra él; si no consume ninguno (un validador de DNI, un lector de cuadernos AEB, un dataset), basta con que su lógica siga siendo correcta. No exigimos commits recientes: un proyecto archivado se retira sin más; uno que no lo está se retira solo cuando ya no funciona, aunque su último commit sea de ayer, y para retirarlo hay que poder enseñar el fallo.
 - Cada entrada debe seguir el formato: `- [Nombre](URL) - Descripción breve que empieza en mayúscula y termina con punto.`
 - Añade la entrada en **orden alfabético** dentro de la categoría correspondiente.
 - Comprueba que no hay **duplicados** ni errores tipográficos.
