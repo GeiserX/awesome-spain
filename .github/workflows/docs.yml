@@ -29,6 +29,8 @@ on:
       - '.github/workflows/docs.yml'
       # docs/index.md includes README.md: every merged entry rebuilds the site.
       - 'README.md'
+      # The hook counts DELETED.md for the home page: a retirement rebuilds it.
+      - 'DELETED.md'
       # Add every file a page includes with pymdownx.snippets (for example
       # docker-compose.yml, .env.example): a change to it must rebuild the
       # site, and a rename must fail the build.
