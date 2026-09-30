@@ -17,6 +17,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 ENTRY = re.compile(r"^- \[[^\]]+\]\(https?://", re.MULTILINE)
+# DELETED.md also lists repos that no longer exist, with no link to give:
+# "- `owner/repo` - reason". They are retired entries too.
+RETIRED = re.compile(r"^- (?:\[[^\]]+\]\(https?://|`[^`]+` - )")
 H2 = re.compile(r"^## (.+)$", re.MULTILINE)
 NOT_CATEGORIES = {"Contenido", "Insignia", "Contribuir", "Nota", "Descargo de responsabilidad"}
 IMG = re.compile(r"<img\b[^>]*>")
@@ -29,7 +32,7 @@ def _counts():
     return {
         "proyectos": len(ENTRY.findall(readme)),
         "categorias": sum(1 for h in H2.findall(readme) if h not in NOT_CATEGORIES),
-        "retirados": len(ENTRY.findall(deleted)),
+        "retirados": sum(1 for line in deleted.splitlines() if RETIRED.match(line)),
     }
 
 
