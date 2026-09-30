@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-40 -78 80 84" width="80" height="84" role="img" aria-label="Awesome Spain">
+  <!--
+    Header logo: the windmill from banner.svg, one of the four La Mancha
+    windmills at dusk. Same tower, door, windows and cap paths as the banner;
+    the sails are solid bars in the banner's glow colour so they stay readable
+    at 1.6rem on the #11162C header. No plate: it sits on the header bar.
+  -->
+  <defs>
+    <linearGradient id="as-wall" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b9bcc8"/>
+      <stop offset="0.5" stop-color="#f7f5f0"/>
+      <stop offset="1" stop-color="#e6d9c4"/>
+    </linearGradient>
+  </defs>
+  <path d="M-11,3 L-8.5,-34 L8.5,-34 L11,3 Z" fill="url(#as-wall)"/>
+  <path d="M-2.6,3 V-5 A2.6,2.6 0 0 1 2.6,-5 V3 Z" fill="#23222c"/>
+  <rect x="-5" y="-27" width="2.2" height="3.2" fill="#23222c"/>
+  <rect x="2.8" y="-19" width="2.2" height="3.2" fill="#23222c"/>
+  <path d="M-10.2,-33.6 Q-8.7,-40 0,-45.5 Q8.7,-40 10.2,-33.6 Z" fill="#c9b6a0"/>
+  <rect x="-10.2" y="-34.6" width="20.4" height="1.6" fill="#8a6a44"/>
+  <g transform="translate(-1.5 -39.5)">
+    <g transform="rotate(38)"><rect x="0" y="-1.5" width="34" height="3" fill="#e6d9c4"/><rect x="7" y="0" width="27" height="7" fill="#ffe0b8"/></g>
+    <g transform="rotate(128)"><rect x="0" y="-1.5" width="34" height="3" fill="#e6d9c4"/><rect x="7" y="0" width="27" height="7" fill="#ffe0b8"/></g>
+    <g transform="rotate(218)"><rect x="0" y="-1.5" width="34" height="3" fill="#e6d9c4"/><rect x="7" y="0" width="27" height="7" fill="#ffe0b8"/></g>
+    <g transform="rotate(308)"><rect x="0" y="-1.5" width="34" height="3" fill="#e6d9c4"/><rect x="7" y="0" width="27" height="7" fill="#ffe0b8"/></g>
+    <circle r="2.4" fill="#8a6a44"/>
+  </g>
+</svg>

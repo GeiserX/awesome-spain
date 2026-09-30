@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360" width="256" height="256" role="img" aria-label="Awesome Spain">
+  <!--
+    Favicon: the windmill from logo.svg on the banner's rounded night-sky
+    plate, with the banner's horizon glow behind it so the tab icon reads as
+    the banner at 16px. The plate keeps the mark visible on a light tab bar.
+  -->
+  <defs>
+    <linearGradient id="as-wall" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b9bcc8"/>
+      <stop offset="0.5" stop-color="#f7f5f0"/>
+      <stop offset="1" stop-color="#e6d9c4"/>
+    </linearGradient>
+    <radialGradient id="as-glow" cx="180" cy="330" r="220" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffe0b8" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#c9b6a0" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="as-plate"><rect width="360" height="360" rx="72"/></clipPath>
+  </defs>
+  <g clip-path="url(#as-plate)">
+    <rect width="360" height="360" fill="#11162c"/>
+    <rect width="360" height="360" fill="url(#as-glow)"/>
+  </g>
+  <g transform="translate(184 300) scale(3.1)">
+    <path d="M-11,3 L-8.5,-34 L8.5,-34 L11,3 Z" fill="url(#as-wall)"/>
+    <path d="M-2.6,3 V-5 A2.6,2.6 0 0 1 2.6,-5 V3 Z" fill="#23222c"/>
+    <rect x="-5" y="-27" width="2.2" height="3.2" fill="#23222c"/>
+    <rect x="2.8" y="-19" width="2.2" height="3.2" fill="#23222c"/>
+    <path d="M-10.2,-33.6 Q-8.7,-40 0,-45.5 Q8.7,-40 10.2,-33.6 Z" fill="#c9b6a0"/>
+    <rect x="-10.2" y="-34.6" width="20.4" height="1.6" fill="#8a6a44"/>
+    <g transform="translate(-1.5 -39.5)">
+      <g transform="rotate(38)"><rect x="0" y="-1.5" width="34" height="3" fill="#e6d9c4"/><rect x="7" y="0" width="27" height="7" fill="#ffe0b8"/></g>
+      <g transform="rotate(128)"><rect x="0" y="-1.5" width="34" height="3" fill="#e6d9c4"/><rect x="7" y="0" width="27" height="7" fill="#ffe0b8"/></g>
+      <g transform="rotate(218)"><rect x="0" y="-1.5" width="34" height="3" fill="#e6d9c4"/><rect x="7" y="0" width="27" height="7" fill="#ffe0b8"/></g>
+      <g transform="rotate(308)"><rect x="0" y="-1.5" width="34" height="3" fill="#e6d9c4"/><rect x="7" y="0" width="27" height="7" fill="#ffe0b8"/></g>
+      <circle r="2.4" fill="#8a6a44"/>
+    </g>
+  </g>
+</svg>
