@@ -20,6 +20,7 @@ ENTRY = re.compile(r"^- \[[^\]]+\]\(https?://", re.MULTILINE)
 H2 = re.compile(r"^## (.+)$", re.MULTILINE)
 NOT_CATEGORIES = {"Contenido", "Insignia", "Contribuir", "Nota", "Descargo de responsabilidad"}
 IMG = re.compile(r"<img\b[^>]*>")
+LISTED = re.compile(r"<li>\s*<a href=\"https?://")
 
 
 def _counts():
@@ -45,9 +46,11 @@ def on_page_markdown(markdown, page, config, files):
 def on_page_content(html, page, config, files):
     if page.file.src_uri != "index.md":
         return html
-    if 'id="contenido"' not in html or 'id="insignia"' not in html:
+    listed = len(LISTED.findall(html))
+    expected = _counts()["proyectos"]
+    if 'id="contenido"' not in html or 'id="insignia"' not in html or listed < expected:
         raise RuntimeError(
-            "docs/index.md did not include the README list: "
+            f"docs/index.md shows {listed} of the README's {expected} projects: "
             "check the `--8<-- [start:lista]` and `[end:lista]` markers in README.md"
         )
 

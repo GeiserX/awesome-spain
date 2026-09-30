@@ -713,7 +713,8 @@ def main():
     skip = {"Contenido", "Insignia", "Contribuir", "Nota", "Descargo de responsabilidad"}
     categories = sum(1 for h in re.findall(r"^## (.+)$", text, re.M) if h not in skip)
     text, n = re.subn(r"\d+ proyectos en \d+ categorías", f"{entries} proyectos en {categories} categorías", text, count=1)
-    assert n == 1, "count line missing from the README header"
+    if n != 1:
+        raise SystemExit("count line missing from the README header")
     output = [text]
 
     with open("README.md", "w") as f:
