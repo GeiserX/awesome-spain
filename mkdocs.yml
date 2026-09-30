@@ -1,5 +1,6 @@
-# One-page site: docs/index.md includes README.md word for word, so the list
-# stays the single source that awesome-lint-extra governs. Never copy it.
+# One-page site: docs/index.md holds a short home block and then includes the
+# list from README.md (section marker `lista`), so the list stays the single
+# source that awesome-lint-extra governs. Never copy the list into docs/.
 site_name: Awesome Spain
 site_url: https://geiserx.github.io/awesome-spain/
 site_description: Una selección de software open source que da soporte específico a España, sus administraciones, instituciones y servicios públicos.
@@ -13,6 +14,11 @@ strict: true
 theme:
   name: material
   language: es
+  # Both drawn from the banner's windmill, see docs/images/logo.svg and icon.svg.
+  logo: images/logo.svg
+  favicon: images/icon.svg
+  # overrides/main.html adds the Open Graph tags (social preview image).
+  custom_dir: overrides
   # Dark first: the first palette entry is the default, and the banner is dark.
   palette:
     - scheme: slate
@@ -28,19 +34,25 @@ theme:
         icon: material/brightness-7
         name: Cambiar a modo oscuro
   # One page: no tabs, no sections. No edit button either, because the page
-  # file is a one-line include; entries are edited in README.md.
+  # file is a home block plus an include; entries are edited in README.md.
+  # toc.follow keeps the right-hand index on the category being read on a
+  # 379-entry page; navigation.tracking puts that category in the URL so a
+  # visitor can share a link to it.
   features:
     - navigation.top
+    - navigation.tracking
+    - toc.follow
     - content.code.copy
     - search.highlight
     - search.suggest
+    - search.share
   icon:
     repo: fontawesome/brands/github
 
 # MkDocs reports most link problems as `info`, which --strict ignores. Every
 # line here promotes one of them to a warning so the build fails on it. For
 # this site the one that matters is links.anchors: every entry of the
-# Contenido list must land on a real section heading.
+# Contenido list and every card must land on a real section heading.
 validation:
   nav:
     omitted_files: warn
@@ -53,7 +65,13 @@ validation:
     unrecognized_links: warn
 
 plugins:
-  - search
+  - search:
+      lang: es
+
+# Build-time counts for the home page, lazy loading for the 2,100 badge
+# images, and a check that the list really came through the include.
+hooks:
+  - docs/hooks/site.py
 
 markdown_extensions:
   - admonition
@@ -62,22 +80,34 @@ markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
-  # docs/index.md is `--8<-- "README.md"`. base_path includes the repository
-  # root; check_paths makes a renamed or missing README fail the build instead
-  # of rendering an empty page.
+  # docs/index.md includes README.md from the `lista` section marker. base_path
+  # includes the repository root; check_paths makes a renamed or missing README
+  # fail the build, and also a missing section marker (SnippetMissingError,
+  # "Snippet section lista could not be located"). The hook above is a second
+  # guard: it fails the build if the markers exist but enclose the wrong lines.
   - pymdownx.snippets:
       base_path:
         - .
         - docs
       check_paths: true
+  # Material icons in the home page cards (:material-magnify: and friends).
+  # README.md has no :shortcode: text today; `grep -oE ':[a-z_]+:' README.md`
+  # must stay empty or an entry description could turn into an emoji.
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - attr_list
-  # Renders the README's <div align="center"> header block.
+  # Renders the home page's grid cards and the README's HTML blocks.
   - md_in_html
   - tables
   # GitHub-style anchors keep accents (#cartografía-y-catastro). The default
   # slugify strips them and every accented Contenido link would miss.
+  # toc_depth 2: the right-hand index lists the 36 categories only. With the
+  # H3s (17 comunidades autónomas among them) it ran to 80 lines and the
+  # categories fell off the first screen.
   - toc:
       permalink: true
+      toc_depth: 2
       slugify: !!python/object/apply:pymdownx.slugs.slugify
         kwds:
           case: lower
@@ -97,8 +127,9 @@ exclude_docs: |
   design/
   research/
   notes/
+  hooks/
   requirements-docs.txt
   limpieza-2026-09.tsv
 
 nav:
-  - Inicio: index.md
+  - Awesome Spain: index.md

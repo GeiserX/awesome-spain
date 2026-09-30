@@ -4,13 +4,16 @@
   <a href="https://awesome.re"><img src="https://awesome.re/badge-flat.svg" alt="Awesome"></a>
   <br><br>
   <p>Una selección de software open source que da soporte específico a España, sus administraciones, instituciones y servicios públicos.</p>
+  <p>379 proyectos en 36 categorías. Se retiran los proyectos archivados, borrados, abandonados, sustituidos, fuera de criterio o que han dejado de funcionar; cada uno queda en <a href="https://github.com/GeiserX/awesome-spain/blob/main/DELETED.md">DELETED.md</a> con su motivo. Búscalos en <a href="https://geiserx.github.io/awesome-spain/">geiserx.github.io/awesome-spain</a>.</p>
 </div>
 
+<!-- --8<-- [start:lista] -->
 ## Contenido
 
 <!--lint disable awesome-list-item-->
 
 - [Agricultura](#agricultura)
+- [Agua](#agua)
 - [Alarmas y Seguridad del Hogar](#alarmas-y-seguridad-del-hogar)
 - [Blockchain e Identidad Digital](#blockchain-e-identidad-digital)
 - [Cartografía y Catastro](#cartografía-y-catastro)
@@ -55,6 +58,12 @@
 - [qgis-sigpac](https://github.com/geomatico/qgis-sigpac) [![Stars](https://img.shields.io/github/stars/geomatico/qgis-sigpac?style=flat-square&label=%E2%AD%90)](https://github.com/geomatico/qgis-sigpac/stargazers) [![Last Commit](https://img.shields.io/github/last-commit/geomatico/qgis-sigpac?style=flat-square)](https://github.com/geomatico/qgis-sigpac/commits/main) [![Language](https://img.shields.io/github/languages/top/geomatico/qgis-sigpac?style=flat-square)](https://github.com/geomatico/qgis-sigpac) [![License](https://img.shields.io/github/license/geomatico/qgis-sigpac?style=flat-square)](https://github.com/geomatico/qgis-sigpac/blob/main/LICENSE) [![SIGPAC](https://img.shields.io/badge/SIGPAC-c60b1e?style=flat-square)](https://sigpac.mapama.gob.es/) - Plugin QGIS para descargar parcelas del SIGPAC.
 - [sigpac-client](https://github.com/dan96ct/sigpac-client) [![Stars](https://img.shields.io/github/stars/dan96ct/sigpac-client?style=flat-square&label=%E2%AD%90)](https://github.com/dan96ct/sigpac-client/stargazers) [![Last Commit](https://img.shields.io/github/last-commit/dan96ct/sigpac-client?style=flat-square)](https://github.com/dan96ct/sigpac-client/commits/main) [![Language](https://img.shields.io/github/languages/top/dan96ct/sigpac-client?style=flat-square)](https://github.com/dan96ct/sigpac-client) [![License](https://img.shields.io/github/license/dan96ct/sigpac-client?style=flat-square)](https://github.com/dan96ct/sigpac-client) [![SIGPAC](https://img.shields.io/badge/SIGPAC-c60b1e?style=flat-square)](https://sigpac.mapama.gob.es/) - Librería JavaScript para la API del SIGPAC (Sistema de Información Geográfica de Parcelas Agrícolas).
 - [sigpac-tools](https://github.com/KhaosResearch/sigpac-tools) [![Stars](https://img.shields.io/github/stars/KhaosResearch/sigpac-tools?style=flat-square&label=%E2%AD%90)](https://github.com/KhaosResearch/sigpac-tools/stargazers) [![Last Commit](https://img.shields.io/github/last-commit/KhaosResearch/sigpac-tools?style=flat-square)](https://github.com/KhaosResearch/sigpac-tools/commits/main) [![Language](https://img.shields.io/github/languages/top/KhaosResearch/sigpac-tools?style=flat-square)](https://github.com/KhaosResearch/sigpac-tools) [![License](https://img.shields.io/github/license/KhaosResearch/sigpac-tools?style=flat-square)](https://github.com/KhaosResearch/sigpac-tools/blob/main/LICENSE) [![SIGPAC](https://img.shields.io/badge/SIGPAC-c60b1e?style=flat-square)](https://sigpac.mapama.gob.es/) - Librería Python para acceder a datos de la API del SIGPAC.
+
+
+## Agua
+
+- [hass-aigues-barcelona](https://github.com/duhow/hass-aigues-barcelona) [![Stars](https://img.shields.io/github/stars/duhow/hass-aigues-barcelona?style=flat-square&label=%E2%AD%90)](https://github.com/duhow/hass-aigues-barcelona/stargazers) [![Last Commit](https://img.shields.io/github/last-commit/duhow/hass-aigues-barcelona?style=flat-square)](https://github.com/duhow/hass-aigues-barcelona/commits/master) [![Language](https://img.shields.io/github/languages/top/duhow/hass-aigues-barcelona?style=flat-square)](https://github.com/duhow/hass-aigues-barcelona) [![License](https://img.shields.io/github/license/duhow/hass-aigues-barcelona?style=flat-square)](https://github.com/duhow/hass-aigues-barcelona/blob/master/LICENSE) [![Aigües BCN](https://img.shields.io/badge/Aigües%20BCN-c60b1e?style=flat-square)](https://www.aiguesdebarcelona.cat/) [![Barcelona](https://img.shields.io/badge/Barcelona-c60b1e?style=flat-square)](https://www.barcelona.cat/) [![Home Assistant](https://img.shields.io/badge/Home%20Assistant-c60b1e?style=flat-square)](https://www.home-assistant.io/) - Integración de Aigües de Barcelona para Home Assistant: lectura de contadores de agua.
+- [homeassistant_canal_isabel_II](https://github.com/miguelangel-nubla/homeassistant_canal_isabel_II) [![Stars](https://img.shields.io/github/stars/miguelangel-nubla/homeassistant_canal_isabel_II?style=flat-square&label=%E2%AD%90)](https://github.com/miguelangel-nubla/homeassistant_canal_isabel_II/stargazers) [![Last Commit](https://img.shields.io/github/last-commit/miguelangel-nubla/homeassistant_canal_isabel_II?style=flat-square)](https://github.com/miguelangel-nubla/homeassistant_canal_isabel_II/commits/main) [![Language](https://img.shields.io/github/languages/top/miguelangel-nubla/homeassistant_canal_isabel_II?style=flat-square)](https://github.com/miguelangel-nubla/homeassistant_canal_isabel_II) [![License](https://img.shields.io/github/license/miguelangel-nubla/homeassistant_canal_isabel_II?style=flat-square)](https://github.com/miguelangel-nubla/homeassistant_canal_isabel_II/blob/main/LICENSE) [![Home Assistant](https://img.shields.io/badge/Home%20Assistant-c60b1e?style=flat-square)](https://www.home-assistant.io/) [![Madrid](https://img.shields.io/badge/Madrid-c60b1e?style=flat-square)](https://www.madrid.es/) - Integración Home Assistant para el consumo de agua de Canal de Isabel II en la Comunidad de Madrid.
 
 
 ## Alarmas y Seguridad del Hogar
@@ -587,11 +596,6 @@ Servidores Model Context Protocol para datos y servicios españoles.
 - [router-movistar](https://github.com/Eitol/router-movistar) [![Stars](https://img.shields.io/github/stars/Eitol/router-movistar?style=flat-square&label=%E2%AD%90)](https://github.com/Eitol/router-movistar/stargazers) [![Last Commit](https://img.shields.io/github/last-commit/Eitol/router-movistar?style=flat-square)](https://github.com/Eitol/router-movistar/commits/main) [![Language](https://img.shields.io/github/languages/top/Eitol/router-movistar?style=flat-square)](https://github.com/Eitol/router-movistar) [![License](https://img.shields.io/github/license/Eitol/router-movistar?style=flat-square)](https://github.com/Eitol/router-movistar) [![Movistar](https://img.shields.io/badge/Movistar-c60b1e?style=flat-square)](https://www.movistar.es/) [![Telecomunicaciones](https://img.shields.io/badge/Telecomunicaciones-c60b1e?style=flat-square)](https://www.cnmc.es/) - Librería Python para gestionar el router de Movistar.
 - [search-by-surname](https://github.com/GeiserX/search-by-surname) [![Stars](https://img.shields.io/github/stars/GeiserX/search-by-surname?style=flat-square&label=%E2%AD%90)](https://github.com/GeiserX/search-by-surname/stargazers) [![Last Commit](https://img.shields.io/github/last-commit/GeiserX/search-by-surname?style=flat-square)](https://github.com/GeiserX/search-by-surname/commits/main) [![Language](https://img.shields.io/github/languages/top/GeiserX/search-by-surname?style=flat-square)](https://github.com/GeiserX/search-by-surname) [![License](https://img.shields.io/github/license/GeiserX/search-by-surname?style=flat-square)](https://github.com/GeiserX/search-by-surname/blob/main/LICENSE) [![INE](https://img.shields.io/badge/INE-c60b1e?style=flat-square)](https://www.ine.es/) [![Telecomunicaciones](https://img.shields.io/badge/Telecomunicaciones-c60b1e?style=flat-square)](https://www.cnmc.es/) - Script R para búsqueda masiva de apellidos en directorios telefónicos españoles (Infobel, Páginas Blancas).
 
-### Agua
-
-- [hass-aigues-barcelona](https://github.com/duhow/hass-aigues-barcelona) [![Stars](https://img.shields.io/github/stars/duhow/hass-aigues-barcelona?style=flat-square&label=%E2%AD%90)](https://github.com/duhow/hass-aigues-barcelona/stargazers) [![Last Commit](https://img.shields.io/github/last-commit/duhow/hass-aigues-barcelona?style=flat-square)](https://github.com/duhow/hass-aigues-barcelona/commits/master) [![Language](https://img.shields.io/github/languages/top/duhow/hass-aigues-barcelona?style=flat-square)](https://github.com/duhow/hass-aigues-barcelona) [![License](https://img.shields.io/github/license/duhow/hass-aigues-barcelona?style=flat-square)](https://github.com/duhow/hass-aigues-barcelona/blob/master/LICENSE) [![Aigües BCN](https://img.shields.io/badge/Aigües%20BCN-c60b1e?style=flat-square)](https://www.aiguesdebarcelona.cat/) [![Barcelona](https://img.shields.io/badge/Barcelona-c60b1e?style=flat-square)](https://www.barcelona.cat/) [![Home Assistant](https://img.shields.io/badge/Home%20Assistant-c60b1e?style=flat-square)](https://www.home-assistant.io/) - Integración de Aigües de Barcelona para Home Assistant: lectura de contadores de agua.
-- [homeassistant_canal_isabel_II](https://github.com/miguelangel-nubla/homeassistant_canal_isabel_II) [![Stars](https://img.shields.io/github/stars/miguelangel-nubla/homeassistant_canal_isabel_II?style=flat-square&label=%E2%AD%90)](https://github.com/miguelangel-nubla/homeassistant_canal_isabel_II/stargazers) [![Last Commit](https://img.shields.io/github/last-commit/miguelangel-nubla/homeassistant_canal_isabel_II?style=flat-square)](https://github.com/miguelangel-nubla/homeassistant_canal_isabel_II/commits/main) [![Language](https://img.shields.io/github/languages/top/miguelangel-nubla/homeassistant_canal_isabel_II?style=flat-square)](https://github.com/miguelangel-nubla/homeassistant_canal_isabel_II) [![License](https://img.shields.io/github/license/miguelangel-nubla/homeassistant_canal_isabel_II?style=flat-square)](https://github.com/miguelangel-nubla/homeassistant_canal_isabel_II/blob/main/LICENSE) [![Home Assistant](https://img.shields.io/badge/Home%20Assistant-c60b1e?style=flat-square)](https://www.home-assistant.io/) [![Madrid](https://img.shields.io/badge/Madrid-c60b1e?style=flat-square)](https://www.madrid.es/) - Integración Home Assistant para el consumo de agua de Canal de Isabel II en la Comunidad de Madrid.
-
 
 ## Televisión, Radio y Podcasts
 
@@ -696,36 +700,22 @@ Validadores de documentos de identidad españoles (DNI, NIE, NIF, CIF).
 
 ## Insignia
 
-Si tu proyecto aparece en esta lista, puedes añadir una de estas insignias a tu README para que la gente lo sepa.
+Si tu proyecto aparece en esta lista, puedes añadir esta insignia a tu README para que la gente lo sepa.
 
 <!--lint disable double-link-->
 
-![listed on awesome-spain](https://img.shields.io/badge/listed%20on-awesome--spain-c60b1e?style=flat&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDIwIDE0Ij48cmVjdCB3aWR0aD0iMjAiIGhlaWdodD0iMTQiIGZpbGw9IiNjNjBiMWUiLz48cmVjdCB5PSIzLjUiIHdpZHRoPSIyMCIgaGVpZ2h0PSI3IiBmaWxsPSIjZmZjNDAwIi8+PC9zdmc+&labelColor=ffc400) ![listed on awesome-spain](https://img.shields.io/badge/listed%20on-awesome--spain-c60b1e?style=flat-square&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDIwIDE0Ij48cmVjdCB3aWR0aD0iMjAiIGhlaWdodD0iMTQiIGZpbGw9IiNjNjBiMWUiLz48cmVjdCB5PSIzLjUiIHdpZHRoPSIyMCIgaGVpZ2h0PSI3IiBmaWxsPSIjZmZjNDAwIi8+PC9zdmc+&labelColor=ffc400) ![listed on awesome-spain](https://img.shields.io/badge/listed%20on-awesome--spain-c60b1e?style=plastic&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDIwIDE0Ij48cmVjdCB3aWR0aD0iMjAiIGhlaWdodD0iMTQiIGZpbGw9IiNjNjBiMWUiLz48cmVjdCB5PSIzLjUiIHdpZHRoPSIyMCIgaGVpZ2h0PSI3IiBmaWxsPSIjZmZjNDAwIi8+PC9zdmc+&labelColor=ffc400) ![listed on awesome-spain](https://img.shields.io/badge/listed%20on-awesome--spain-c60b1e?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDIwIDE0Ij48cmVjdCB3aWR0aD0iMjAiIGhlaWdodD0iMTQiIGZpbGw9IiNjNjBiMWUiLz48cmVjdCB5PSIzLjUiIHdpZHRoPSIyMCIgaGVpZ2h0PSI3IiBmaWxsPSIjZmZjNDAwIi8+PC9zdmc+&labelColor=ffc400)
+![listed on awesome-spain](https://img.shields.io/badge/listed%20on-awesome--spain-c60b1e?style=flat&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDIwIDE0Ij48cmVjdCB3aWR0aD0iMjAiIGhlaWdodD0iMTQiIGZpbGw9IiNjNjBiMWUiLz48cmVjdCB5PSIzLjUiIHdpZHRoPSIyMCIgaGVpZ2h0PSI3IiBmaWxsPSIjZmZjNDAwIi8+PC9zdmc+&labelColor=ffc400)
 
-Flat (por defecto):
 ```markdown
 [![listed on awesome-spain](https://img.shields.io/badge/listed%20on-awesome--spain-c60b1e?style=flat&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDIwIDE0Ij48cmVjdCB3aWR0aD0iMjAiIGhlaWdodD0iMTQiIGZpbGw9IiNjNjBiMWUiLz48cmVjdCB5PSIzLjUiIHdpZHRoPSIyMCIgaGVpZ2h0PSI3IiBmaWxsPSIjZmZjNDAwIi8+PC9zdmc+&labelColor=ffc400)](https://github.com/GeiserX/awesome-spain#readme)
 ```
 
-Flat square:
-```markdown
-[![listed on awesome-spain](https://img.shields.io/badge/listed%20on-awesome--spain-c60b1e?style=flat-square&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDIwIDE0Ij48cmVjdCB3aWR0aD0iMjAiIGhlaWdodD0iMTQiIGZpbGw9IiNjNjBiMWUiLz48cmVjdCB5PSIzLjUiIHdpZHRoPSIyMCIgaGVpZ2h0PSI3IiBmaWxsPSIjZmZjNDAwIi8+PC9zdmc+&labelColor=ffc400)](https://github.com/GeiserX/awesome-spain#readme)
-```
-
-Plastic:
-```markdown
-[![listed on awesome-spain](https://img.shields.io/badge/listed%20on-awesome--spain-c60b1e?style=plastic&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDIwIDE0Ij48cmVjdCB3aWR0aD0iMjAiIGhlaWdodD0iMTQiIGZpbGw9IiNjNjBiMWUiLz48cmVjdCB5PSIzLjUiIHdpZHRoPSIyMCIgaGVpZ2h0PSI3IiBmaWxsPSIjZmZjNDAwIi8+PC9zdmc+&labelColor=ffc400)](https://github.com/GeiserX/awesome-spain#readme)
-```
-
-For the badge (grande):
-```markdown
-[![listed on awesome-spain](https://img.shields.io/badge/listed%20on-awesome--spain-c60b1e?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDIwIDE0Ij48cmVjdCB3aWR0aD0iMjAiIGhlaWdodD0iMTQiIGZpbGw9IiNjNjBiMWUiLz48cmVjdCB5PSIzLjUiIHdpZHRoPSIyMCIgaGVpZ2h0PSI3IiBmaWxsPSIjZmZjNDAwIi8+PC9zdmc+&labelColor=ffc400)](https://github.com/GeiserX/awesome-spain#readme)
-```
+Los estilos `flat-square`, `plastic` y `for-the-badge` están en [contributing.md](https://github.com/GeiserX/awesome-spain/blob/main/contributing.md#insignia).
 
 
 ## Contribuir
 
-Las contribuciones son bienvenidas. Lee las [directrices de contribución](https://github.com/GeiserX/awesome-spain/blob/main/contributing.md) antes de enviar un pull request.
+Las contribuciones son bienvenidas. Lee las [directrices de contribución](https://github.com/GeiserX/awesome-spain/blob/main/contributing.md) antes de enviar un pull request, o [sugiere un proyecto en un issue](https://github.com/GeiserX/awesome-spain/issues/new?template=anadir-proyecto.md). Los proyectos retirados y su motivo están en [DELETED.md](https://github.com/GeiserX/awesome-spain/blob/main/DELETED.md); la guía de los mantenedores, en [MAINTENANCE.md](https://github.com/GeiserX/awesome-spain/blob/main/MAINTENANCE.md).
 
 
 ## Nota
@@ -736,3 +726,4 @@ Esta lista se centra en software open source que da **soporte específico a Espa
 ## Descargo de responsabilidad
 
 No se aceptan proyectos relacionados con pornografía, contenido NSFW, loterías o apuestas, religión, política partidista ni cualquier otro tema controvertido. Esta lista pretende ser un recurso técnico neutral y útil para la comunidad de desarrolladores.
+<!-- --8<-- [end:lista] -->

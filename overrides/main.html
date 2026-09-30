@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{#
+  Open Graph tags, so a shared link shows the social preview instead of a
+  blank card. Material's social plugin would need cairo on the build runner;
+  five static tags do the same job for a one-page site.
+#}
+{% block extrahead %}
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ config.site_name }}">
+  <meta property="og:description" content="{{ config.site_description }}">
+  <meta property="og:url" content="{{ config.site_url }}">
+  <meta property="og:image" content="{{ config.site_url }}images/social-preview.png">
+  <meta property="og:image:width" content="1280">
+  <meta property="og:image:height" content="640">
+  <meta name="twitter:card" content="summary_large_image">
+{% endblock %}

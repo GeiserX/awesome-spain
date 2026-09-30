@@ -29,3 +29,115 @@
   --md-typeset-a-color:         #8A6A44;
   --md-accent-fg-color:         #8A6A44;
 }
+
+/* Give the header logo a fixed size so it does not crowd the site name. */
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  height: 1.6rem;
+  width: 1.6rem;
+}
+
+/* The site name, set the way banner.svg sets its wordmark: weight 700, white,
+   letter-spacing 1.5 on 52px, which is 0.03em.
+ *
+ * Only the first topic is styled. Material puts the site name in one
+ * .md-header__topic and the page title in a second one, and swaps them on
+ * scroll. Styling both would change the page title too.
+ */
+.md-header__topic:first-child .md-ellipsis {
+  color: #FFFFFF;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+/* Keep the mark and the name close, so they read as one unit. */
+.md-header__button.md-logo {
+  padding-right: 0.2rem;
+}
+
+.md-header__title {
+  margin-left: 0.2rem;
+}
+
+/* Buttons.
+ *
+ * Material paints .md-button in --md-primary-fg-color, the header colour. On
+ * the dark page that is also the page background, so a button would show as
+ * plain text. Outline buttons take the link colour instead. */
+.md-typeset .md-button {
+  color: var(--md-typeset-a-color);
+  border-color: var(--md-typeset-a-color);
+  border-radius: 0.5rem;
+}
+
+.md-typeset .md-button:focus,
+.md-typeset .md-button:hover {
+  background-color: var(--md-typeset-a-color);
+  border-color: var(--md-typeset-a-color);
+  color: #11162C;
+}
+
+/* Grid cards: the border picks up the accent on hover, so the cards match
+   the buttons and links. */
+.md-typeset .grid.cards > ul > li,
+.md-typeset .grid > .card {
+  border-radius: 0.5rem;
+}
+
+.md-typeset .grid.cards > ul > li:focus-within,
+.md-typeset .grid.cards > ul > li:hover,
+.md-typeset .grid > .card:focus-within,
+.md-typeset .grid > .card:hover {
+  border-color: var(--md-typeset-a-color);
+}
+
+/* The home page keeps an H1 for search, screen readers and the browser tab.
+   The banner under it already shows the name, so the H1 is hidden visually.
+   Use it as: # Awesome Spain { .as-visually-hidden } */
+.md-typeset h1.as-visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* The per-entry shields.io badges are inline images inside list items. Keep
+   them on the text baseline and stop a wrapped line from opening a gap. */
+.md-typeset li > a > img,
+.md-typeset li > img {
+  vertical-align: middle;
+}
+
+/* Gallery class from the kit, kept for parity with the other sites: a row of
+   figures with captions, four across on a wide screen, two on a narrow one.
+   Unused today (a list has no screenshots). */
+.md-typeset .as-gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.8rem;
+  margin: 1em 0;
+}
+
+.md-typeset .as-gallery figure {
+  margin: 0;
+}
+
+.md-typeset .as-gallery img {
+  border-radius: 0.4rem;
+}
+
+.md-typeset .as-gallery figcaption {
+  margin-top: 0.3rem;
+  font-size: 0.7rem;
+}
+
+@media screen and (max-width: 44.9375em) {
+  .md-typeset .as-gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
