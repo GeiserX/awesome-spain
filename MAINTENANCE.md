@@ -39,6 +39,7 @@ Ver `AGENTS.md` para los criterios detallados, zonas grises y temas prohibidos.
    bash scripts/gather-metadata.sh
    python3 scripts/transform-readme.py
    ```
+   El pipeline también actualiza el recuento de proyectos y categorías de la cabecera del README.
 3. Commit y push. Verificar que CI queda verde.
 4. Si el propietario del proyecto no ha sido notificado, abrir un issue de cortesía en su repo:
    - Título: `Incluido en awesome-spain`
