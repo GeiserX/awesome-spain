@@ -1102,6 +1102,38 @@
   "license_path": ""
 }
 ,
+"GeiserX/radares-anunciados": {
+  "language": "Python",
+  "license": "GPL-3.0",
+  "homepage": "",
+  "topics": [
+    "companion-app",
+    "datex2",
+    "datos-abiertos",
+    "dgt",
+    "driving",
+    "geofencing",
+    "geojson",
+    "gps",
+    "home-assistant",
+    "homelab",
+    "murcia",
+    "openstreetmap",
+    "overpass-api",
+    "poi",
+    "road-safety",
+    "self-hosted",
+    "spain",
+    "speed-cameras",
+    "traffic",
+    "traffic-enforcement"
+  ],
+  "description": "Speed radars announced in Spain (police weekly lists, DGT, OpenStreetMap) as an open feed, with Home Assistant alerts when you drive near one.",
+  "stargazers_count": 2,
+  "default_branch": "main",
+  "license_path": "LICENSE"
+}
+,
 "GeiserX/search-by-surname": {
   "default_branch": "main",
   "description": "R-based batch search tool for Spanish telephone directories by surname",
