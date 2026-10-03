@@ -1,0 +1,32 @@
+#!/usr/bin/env sh
+# Every commit in this repository has one author. Clones that point
+# core.hooksPath at .beads/hooks skip the machine-wide git hooks, so this
+# hook does the one job those had here: it removes Co-Authored-By trailer
+# lines from the commit message. A mention inside a sentence is kept.
+#
+# A message without such a line is never touched. Otherwise the cleaned
+# text goes to a fresh file from mktemp, is compared with a second run,
+# and is renamed over the message only when every step worked; on any
+# failure the message stays as it was and the commit stops.
+msg="$1"
+[ -f "$msg" ] || exit 0
+case $msg in -*) msg="./$msg" ;; esac
+found=0
+LC_ALL=C grep -q -i '^[[:space:]]*co-authored-by:' "$msg" || found=$?
+case $found in
+  0) ;;
+  1) exit 0 ;;
+  *) echo "commit-msg: cannot read $msg" >&2; exit 1 ;;
+esac
+clean() {
+  LC_ALL=C awk 'tolower($0) !~ /^[ \t\r\f\v]*co-authored-by:/ { line[++n] = $0 }
+       END { while (n > 0 && line[n] ~ /^[ \t\r\f\v]*$/) n--
+             for (i = 1; i <= n; i++) print line[i] }' < "$msg"
+}
+tmp=$(mktemp "$msg.XXXXXX") || { echo "commit-msg: cannot create a temporary file beside $msg" >&2; exit 1; }
+trap 'rm -f "$tmp"' EXIT
+trap 'exit 1' HUP INT TERM
+clean > "$tmp" && clean | cmp -s - "$tmp" || { echo "commit-msg: cannot rewrite $msg" >&2; exit 1; }
+trap '' HUP INT TERM
+mv -f "$tmp" "$msg" || { echo "commit-msg: cannot replace $msg" >&2; exit 1; }
+exit 0
