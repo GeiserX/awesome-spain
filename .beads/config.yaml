@@ -65,7 +65,7 @@
 # - linear.api_key  → use LINEAR_API_KEY env var instead
 # - github.token    → use GITHUB_TOKEN env var instead
 
-# Public repo: the tracker syncs only to this private Gitea repo, never to GitHub.
-sync.remote: "git+ssh://git@gitea.geiser.cloud:2222/giteaer/awesome-spain-beads.git"
+# Public repo: the tracker syncs only to this private remote, never to GitHub.
+sync.remote: "git+ssh://git@beads-tracker/giteaer/awesome-spain-beads.git"
 # Every bd write is a Dolt commit, so a push always carries it.
 dolt.auto-commit: "on"
