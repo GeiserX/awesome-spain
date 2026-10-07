@@ -68,7 +68,7 @@ Si el repo aún no tiene `DELETED.md`, crearlo con las secciones anteriores la p
 
 ## Mantenimiento periódico
 
-- **Semanal:** `links-weekly` comprueba cada lunes todos los enlaces del README y mantiene abierta una sola issue «Dead links» con los que siguen fallando en una segunda pasada cinco minutos después. Corregir o eliminar esos enlaces; la issue se cierra sola en la siguiente ejecución limpia.
+- **Semanal:** una comprobación compartida por todas las listas revisa cada lunes todos los enlaces del README desde España (muchas webs oficiales no responden a los runners de GitHub) y mantiene abierta una sola issue «Dead links» con los que siguen fallando en una segunda pasada cinco minutos después. Corregir o eliminar esos enlaces; la issue se cierra sola en la siguiente ejecución limpia.
 - **Trimestral:** Refrescar insignias (`gather-metadata.sh` + `transform-readme.py`). Comprobar si hay repos recién archivados:
   ```bash
   grep -oE 'https://github\.com/[^/)]+/[^/)]+' README.md | sort -u | while read url; do
@@ -84,7 +84,7 @@ Si el repo aún no tiene `DELETED.md`, crearlo con las secciones anteriores la p
 - **awesome-lint-extra** — Linter propio. Valida formato, orden alfabético, insignias y descripciones. Se ejecuta como GitHub Action (`GeiserX/awesome-lint-extra@main`) y como script standalone (`python3 lint.py`). Configuración en `.awesomerc.json`.
 - **transform-readme.py** — Genera insignias de shields.io y etiquetas de institución/servicio a partir de `scripts/metadata.json`.
 - **gather-metadata.sh** — Obtiene metadatos (estrellas, lenguaje, licencia, rama) de la API de GitHub para cada repo listado.
-- **lychee** — Comprobador de enlaces, en dos workflows. `links-changed.yml` revisa en cada PR solo las líneas del README que añade o cambia, y sí bloquea el merge: 403 y 429 cuentan como válidos (bloqueos de bots); cualquier otro error o timeout falla si se repite en una segunda pasada un minuto después. `links-weekly.yml` revisa el README entero cada semana, nunca falla por un enlace roto y abre o actualiza la issue «Dead links». Los hosts que siempre bloquean al comprobador van en `.lycheeignore`.
+- **lychee** — Comprobador de enlaces. `links-changed.yml` revisa en cada PR solo las líneas del README que añade o cambia, con la acción `links-changed` de awesome-lint-extra, y sí bloquea el merge: 403 y 429 cuentan como válidos (bloqueos de bots); cualquier otro error o timeout falla si se repite en una segunda pasada un minuto después. La revisión semanal del README entero corre fuera de este repositorio, nunca falla por un enlace roto y abre o actualiza la issue «Dead links». Los hosts que siempre bloquean al comprobador van en `.lycheeignore`.
 
 ## Reglas de formato
 
