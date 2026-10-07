@@ -19,3 +19,7 @@ https://firmaelectronica.gob.es/
 https://www.correos.es/
 https://www.ivoox.com/
 https://www.policia.es/
+
+# Movidos aquí desde los --exclude del antiguo trabajo links de main.yml, para
+# que las dos comprobaciones de enlaces se salten los mismos hosts.
+img\.shields\.io

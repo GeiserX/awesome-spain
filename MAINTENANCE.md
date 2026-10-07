@@ -20,7 +20,7 @@ Ver `AGENTS.md` para los criterios detallados, zonas grises y temas prohibidos.
 1. Comprobar que el proyecto **da soporte específico a España** (no simplemente que el autor es español).
 2. Verificar que la PR incluye la **URL del servicio o institución de España** que el proyecto soporta.
 3. Comprobar formato: entrada simple, orden alfabético, descripción en español que empieza en mayúscula y termina con punto.
-4. **CI debe estar verde** antes de mergear: awesome-lint-extra (formato y orden) + lychee (enlaces).
+4. **CI debe estar verde** antes de mergear: awesome-lint-extra (formato y orden) + `links-changed` (lychee sobre los enlaces que el PR añade o cambia).
 5. Las insignias se generan automáticamente. Los contribuidores solo envían:
    ```markdown
    - [Nombre](https://github.com/owner/repo) - Descripción breve que empieza en mayúscula y termina con punto.
@@ -68,7 +68,7 @@ Si el repo aún no tiene `DELETED.md`, crearlo con las secciones anteriores la p
 
 ## Mantenimiento periódico
 
-- **Mensual:** Revisar la salida de lychee en GitHub Actions. Corregir o eliminar enlaces rotos.
+- **Semanal:** `links-weekly` comprueba cada lunes todos los enlaces del README y mantiene abierta una sola issue «Dead links» con los que siguen fallando en una segunda pasada cinco minutos después. Corregir o eliminar esos enlaces; la issue se cierra sola en la siguiente ejecución limpia.
 - **Trimestral:** Refrescar insignias (`gather-metadata.sh` + `transform-readme.py`). Comprobar si hay repos recién archivados:
   ```bash
   grep -oE 'https://github\.com/[^/)]+/[^/)]+' README.md | sort -u | while read url; do
@@ -84,7 +84,7 @@ Si el repo aún no tiene `DELETED.md`, crearlo con las secciones anteriores la p
 - **awesome-lint-extra** — Linter propio. Valida formato, orden alfabético, insignias y descripciones. Se ejecuta como GitHub Action (`GeiserX/awesome-lint-extra@main`) y como script standalone (`python3 lint.py`). Configuración en `.awesomerc.json`.
 - **transform-readme.py** — Genera insignias de shields.io y etiquetas de institución/servicio a partir de `scripts/metadata.json`.
 - **gather-metadata.sh** — Obtiene metadatos (estrellas, lenguaje, licencia, rama) de la API de GitHub para cada repo listado.
-- **lychee** — Comprobador de enlaces. Se ejecuta en CI como `lycheeverse/lychee-action@v2`. No bloquea merges (`continue-on-error: true`), pero sus resultados deben revisarse periódicamente.
+- **lychee** — Comprobador de enlaces, en dos workflows. `links-changed.yml` revisa en cada PR solo las líneas del README que añade o cambia, y sí bloquea el merge: 403 y 429 cuentan como válidos (bloqueos de bots); cualquier otro error o timeout falla si se repite en una segunda pasada un minuto después. `links-weekly.yml` revisa el README entero cada semana, nunca falla por un enlace roto y abre o actualiza la issue «Dead links». Los hosts que siempre bloquean al comprobador van en `.lycheeignore`.
 
 ## Reglas de formato
 

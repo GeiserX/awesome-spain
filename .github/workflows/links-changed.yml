@@ -1,0 +1,62 @@
+name: links-changed
+
+# A pull request may only add links that work. This checks just the lines the
+# PR adds or changes in README.md, so a site that is down for a moment
+# somewhere else in the list never blocks an unrelated PR. The rest of the
+# list is checked once a week by links-weekly.yml.
+on:
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  links-changed:
+    runs-on: ubuntu-latest
+    env:
+      # 403 and 429 are bot blocks and rate limits, not dead pages. Any other
+      # 4xx, any 5xx, any refused connection and any timeout fails.
+      # .lycheeignore lists the hosts that always block the checker. The
+      # list's own site is published on merge, so a PR cannot check it.
+      LYCHEE_ARGS: >-
+        --no-progress --insecure --timeout 30
+        --max-retries 3 --retry-wait-time 5
+        --accept '200..=299,403,429'
+        --cache --max-cache-age 1d
+        --exclude '^https://geiserx\.github\.io/${{ github.event.repository.name }}/'
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Collect the README lines this PR adds or changes
+        env:
+          BASE_REF: ${{ github.base_ref }}
+        # A line the PR removes and adds back unchanged is a move (an
+        # alphabetical reorder), not a new link, so it is not checked again.
+        run: |
+          git diff --unified=0 --no-color "origin/${BASE_REF}...HEAD" -- README.md > readme.diff
+          LC_ALL=C comm -13 \
+            <(sed -n '/^--- /d; s/^-//p' readme.diff | LC_ALL=C sort -u) \
+            <(sed -n '/^+++ /d; s/^+//p' readme.diff | LC_ALL=C sort -u) \
+            > links-changed.md
+          echo "Added or changed lines: $(wc -l < links-changed.md)"
+          cat links-changed.md
+      - id: first
+        uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8 # v2.9.0
+        with:
+          args: ${{ env.LYCHEE_ARGS }} links-changed.md
+          failIfEmpty: false
+          fail: false
+      # lychee retries timeouts and 429s on its own but not a 5xx or a refused
+      # connection. So a failing link gets a second pass a minute later; the
+      # cache skips every link that already passed.
+      - if: steps.first.outputs.exit_code != '0'
+        run: sleep 60
+      - if: steps.first.outputs.exit_code != '0'
+        uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8 # v2.9.0
+        with:
+          args: ${{ env.LYCHEE_ARGS }} links-changed.md
+          failIfEmpty: false
+          fail: true
