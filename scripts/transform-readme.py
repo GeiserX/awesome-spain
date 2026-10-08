@@ -752,7 +752,6 @@ DEMO_URLS.update({
     "xBaank/MadridTransporte": "https://www.madridtransporte.com",
     "datania/hub": "https://datania.cc",
     "Naritsumi/EstudiaTAI-app": "https://estudiatai.es",
-    "mpuig/rentagpt": "https://rentagpt.com",
     "AjuntamentdeBarcelona/decidim-barcelona": "https://www.decidim.barcelona",
     "AyuntamientoMadrid/transparencia": "https://transparencia.madrid.es",
     "ConsorciAOC/signador": "https://signador.aoc.cat/signador/init",

@@ -4804,24 +4804,6 @@
   "license_path": "LICENSE"
 }
 ,
-"mpuig/rentagpt": {
-  "default_branch": "main",
-  "description": "Using GPT-3 to query AEAT documentation about Renta 2022",
-  "homepage": "https://rentagpt.com",
-  "language": "HTML",
-  "license": "",
-  "stargazers_count": 8,
-  "topics": [
-    "chatbot",
-    "gpt-3",
-    "langchain",
-    "llm",
-    "python",
-    "question-answering"
-  ],
-  "license_path": ""
-}
-,
 "mv12star/lista-telefonos-spam": {
   "default_branch": "main",
   "description": "Lista de teléfonos spam de España, obtenidos de varias fuentes web. Actualizado cada 24h 18:00",
