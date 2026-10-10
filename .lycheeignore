@@ -20,6 +20,10 @@ https://www.correos.es/
 https://www.ivoox.com/
 https://www.policia.es/
 
+# Vercel corta el HTTP/2 de lychee («HTTP/2 protocol error»); curl y un
+# navegador reciben 200. Comprobado a mano el 2026-10-10.
+https://www.holded.com/
+
 # Movidos aquí desde los --exclude del antiguo trabajo links de main.yml, para
 # que las dos comprobaciones de enlaces se salten los mismos hosts.
 img\.shields\.io
