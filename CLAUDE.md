@@ -70,6 +70,20 @@ Antes de incluir un repositorio, comprobar:
 - Hay issue templates para sugerir proyectos (`anadir-proyecto.md`) y para solicitar retirada (`retirar-proyecto.md`).
 - Si un repo está archivado o ya no existe, eliminarlo de la lista.
 
+## Respuesta a quien abre una PR
+
+Quien añade su proyecto a la lista quiere que se vea. Cuantas más estrellas tiene awesome-spain, más arriba sale en GitHub y más gente llega a cada entrada, así que darle una estrella también beneficia a quien contribuye. Toda respuesta a una PR de otra persona lo aprovecha:
+
+- **Antes de responder, comprueba si ya le ha dado una estrella:**
+  ```bash
+  gh api --paginate repos/GeiserX/awesome-spain/stargazers --jq '.[].login' | grep -qix '<login>' && echo "ya tiene estrella"
+  ```
+  Si no sale nada (o `gh` falla), usa la frase condicional «si no le has dado ya una estrella».
+- **PR fusionada:** da las gracias e invita a dar la estrella explicando qué gana con ello. Si ya la tiene, agradécela en vez de pedirla.
+  > ¡Gracias, ya está en la lista! Si no le has dado ya una estrella ⭐ a awesome-spain, te animo a hacerlo: cuantas más estrellas tiene la lista, más arriba sale en GitHub y más gente descubre tu proyecto.
+- **PR cerrada sin fusionar:** no se pide estrella por defecto, porque es pedir algo a cambio de un no. Solo se pide cuando le beneficia de verdad: la entrada pasa a otra de nuestras listas, o le invitas a volver cuando el proyecto cumpla los criterios.
+- Responde en el idioma en que escribió el autor (castellano por defecto), tuteando y en pocas líneas.
+
 ## Estructura
 
 - Secciones con `##`, subsecciones con `###`.
