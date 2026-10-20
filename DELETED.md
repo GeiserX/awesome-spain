@@ -38,6 +38,8 @@ Proyectos que estuvieron en la lista pero fueron retirados por alguna de las raz
 - [ha_prosegur](https://github.com/dgomes/ha_prosegur) - Integración Home Assistant para alarmas Prosegur. Archivada tras el cambio de API de Prosegur; el autor mantiene [pyprosegur](https://github.com/dgomes/pyprosegur), ya en la lista.
 - [renfe](https://github.com/ferranpm/renfe) - CLI para consultar horarios de Renfe sobre su web de venta. Archivada en noviembre de 2024; la web ha cambiado desde entonces.
 - [spanish-law-mcp](https://github.com/Ansvar-Systems/spanish-law-mcp) - Servidor MCP con legislación española: LOPDGDD, ENS, LSSI y NIS2. Archivada en julio de 2026, dos meses después de crearse.
+- [hass-aigues-barcelona](https://github.com/duhow/hass-aigues-barcelona) - Integración de Aigües de Barcelona para Home Assistant: lectura de contadores de agua. Archivada por su autor; su último commit es de noviembre de 2024.
+- [infojobs-hackathon](https://github.com/midudev/infojobs-hackathon) - Proyecto con OpenAI y la API de InfoJobs para búsqueda de empleo asistida por IA. Archivada por su autor; era el proyecto de una hackathon de 2023 y su último commit es de mayo de ese año.
 
 ## Repos inexistentes o renombrados
 
