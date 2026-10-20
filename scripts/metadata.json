@@ -1,1841 +1,4 @@
 {
-"AFFT-520/NIEBot": {
-  "default_branch": "main",
-  "description": "A tool to help Barcelonian people get various immigration-related appointments via the Cita previa process",
-  "homepage": "",
-  "language": "Java",
-  "license": "GPL-3.0",
-  "stargazers_count": 61,
-  "topics": [],
-  "license_path": "LICENSE"
-}
-,
-"ALArvi019/moderntides": {
-  "default_branch": "main",
-  "description": "Modern Home Assistant integration for real-time tide information from Spanish maritime stations",
-  "homepage": "",
-  "language": "Python",
-  "license": "MIT",
-  "stargazers_count": 6,
-  "topics": [
-    "camera",
-    "custom-component",
-    "hacs",
-    "home-assistant",
-    "integration",
-    "sensor",
-    "tide"
-  ],
-  "license_path": "LICENSE"
-}
-,
-"APSL/sepakit": {
-  "default_branch": "master",
-  "description": "Converts AEB 19.14 Direct Debit TXT file to SEPA XML (Core scheme)",
-  "homepage": "",
-  "language": "Go",
-  "license": "MIT",
-  "stargazers_count": 3,
-  "topics": [],
-  "license_path": "LICENSE.txt"
-}
-,
-"Admindatosgobes/Laboratorio-de-Datos": {
-  "default_branch": "main",
-  "description": "Este repositorio incluye una serie de recursos y ejercicios prácticos orientados a divulgar diferentes formas de reutilización de datos abiertos.",
-  "homepage": "https://datos.gob.es/es/catalogo",
-  "language": "Jupyter Notebook",
-  "license": "",
-  "stargazers_count": 68,
-  "topics": [],
-  "license_path": ""
-}
-,
-"AjuntamentdeBarcelona/bustia-etica-bcn": {
-  "default_branch": "master",
-  "description": "",
-  "homepage": "",
-  "language": "JavaScript",
-  "license": "NOASSERTION",
-  "stargazers_count": 14,
-  "topics": [],
-  "license_path": "LICENSE"
-}
-,
-"AjuntamentdeBarcelona/decidim-barcelona": {
-  "default_branch": "master",
-  "description": "Decidim Barcelona - Direct and participatory democracy web platform based on Decidim framework",
-  "homepage": "https://www.decidim.barcelona",
-  "language": "HTML",
-  "license": "AGPL-3.0",
-  "stargazers_count": 85,
-  "topics": [
-    "agplv3",
-    "barcelona",
-    "decidim",
-    "decidim-barcelona",
-    "democracy",
-    "government"
-  ],
-  "license_path": "LICENSE-AGPLv3.txt"
-}
-,
-"AlbertoUAH/datos-gob-es-mcp": {
-  "default_branch": "main",
-  "description": "",
-  "homepage": "",
-  "language": "Python",
-  "license": "MIT",
-  "stargazers_count": 20,
-  "topics": [],
-  "license_path": "LICENSE"
-}
-,
-"AnCode666/aemet-mcp": {
-  "default_branch": "main",
-  "description": "MCP server for check Spanish climate data using AEMET web API",
-  "homepage": "",
-  "language": "Python",
-  "license": "MIT",
-  "stargazers_count": 5,
-  "topics": [
-    "climate-data",
-    "mcp-server",
-    "spain"
-  ],
-  "license_path": "LICENSE"
-}
-,
-"AnCode666/boe-mcp": {
-  "default_branch": "master",
-  "description": "MCP server for check Spanish Laws using BOE API (Official State Gazette of Spain)",
-  "homepage": "",
-  "language": "Python",
-  "license": "MIT",
-  "stargazers_count": 6,
-  "topics": [
-    "law",
-    "mcp-server"
-  ],
-  "license_path": "LICENSE"
-}
-,
-"AnCode666/ine-mcp": {
-  "default_branch": "master",
-  "description": "MCP server for check Spanish National Institute of Statistics data using INE API",
-  "homepage": "",
-  "language": "Python",
-  "license": "MIT",
-  "stargazers_count": 2,
-  "topics": [],
-  "license_path": "LICENSE"
-}
-,
-"AnnaPS/dni_nie_validator": {
-  "default_branch": "master",
-  "description": "",
-  "homepage": "",
-  "language": "Dart",
-  "license": "MIT",
-  "stargazers_count": 6,
-  "topics": [],
-  "license_path": "LICENSE"
-}
-,
-"Barnetik/tbai-php-lib": {
-  "default_branch": "main",
-  "description": "Generate, sign and send TicketBAI compatible invoices",
-  "homepage": "",
-  "language": "PHP",
-  "license": "GPL-3.0",
-  "stargazers_count": 41,
-  "topics": [
-    "php",
-    "tbai",
-    "ticketbai"
-  ],
-  "license_path": "LICENSE"
-}
-,
-"BquantFinance/licitaciones-espana": {
-  "default_branch": "main",
-  "description": "",
-  "homepage": "",
-  "language": "Python",
-  "license": "",
-  "stargazers_count": 216,
-  "topics": [],
-  "license_path": ""
-}
-,
-"ByMykel/spanish-cities": {
-  "default_branch": "main",
-  "description": "A library that provides data on Spain's autonomies, provinces, and cities, including their codes, names, flags, and coats of arms for seamless integration into your applications.",
-  "homepage": "https://bymykel.github.io/spanish-cities/",
-  "language": "TypeScript",
-  "license": "MIT",
-  "stargazers_count": 5,
-  "topics": [
-    "autonomy",
-    "city",
-    "coat-of-arms",
-    "flags",
-    "hacktoberfest",
-    "province",
-    "spain"
-  ],
-  "license_path": "LICENSE"
-}
-,
-"CommerceRedsys/sermepa": {
-  "default_branch": "master",
-  "description": "Payment gateway class for spanish banks that use Sermepa/Redsys systems.",
-  "homepage": "",
-  "language": "PHP",
-  "license": "MIT",
-  "stargazers_count": 11,
-  "topics": [],
-  "license_path": "LICENSE"
-}
-,
-"ComputingVictor/MCP-BOE": {
-  "default_branch": "main",
-  "description": "MCP server para el BOE 🇪🇸 — Acceso a legislación consolidada, sumarios diarios y tablas oficiales del Boletín Oficial del Estado mediante Model Context Protocol y API REST.",
-  "homepage": "",
-  "language": "Python",
-  "license": "MIT",
-  "stargazers_count": 48,
-  "topics": [
-    "api",
-    "boe",
-    "government",
-    "legal",
-    "mcp",
-    "model-context-protocol",
-    "open-data",
-    "python"
-  ],
-  "license_path": "LICENSE"
-}
-,
-"ConsorciAOC/signador": {
-  "default_branch": "master",
-  "description": "Documentació del servei Signador",
-  "homepage": "https://signador.aoc.cat/signador/init",
-  "language": "JavaScript",
-  "license": "MIT",
-  "stargazers_count": 16,
-  "topics": [],
-  "license_path": "LICENSE.MD"
-}
-,
-"CuB1z/Wallapop-Scrapper": {
-  "default_branch": "main",
-  "description": "Simple wallapop scraping integration with a telegram bot.",
-  "homepage": "",
-  "language": "Python",
-  "license": "CC0-1.0",
-  "stargazers_count": 8,
-  "topics": [
-    "automation",
-    "python",
-    "scraper",
-    "telegram-bot",
-    "wallapop"
-  ],
-  "license_path": "LICENSE.txt"
-}
-,
-"D4vidDf/PillPal": {
-  "default_branch": "master",
-  "description": "PillPal is an application that helps tracking and setting alarms. It uses CIMA Api getting official medication data to keep better track of medication use",
-  "homepage": "",
-  "language": "Kotlin",
-  "license": "MIT",
-  "stargazers_count": 9,
-  "topics": [],
-  "license_path": "LICENSE"
-}
-,
-"Danieldiazi/homeassistant-meteogalicia": {
-  "default_branch": "main",
-  "description": "A Home Assistant integration that gives you weather info from MeteoGalicia, the meteorological agency for Galicia, Spain",
-  "homepage": "",
-  "language": "Python",
-  "license": "GPL-3.0",
-  "stargazers_count": 19,
-  "topics": [
-    "custom-components",
-    "hacs",
-    "hacs-integration",
-    "home-assistant",
-    "meteogalicia",
-    "weather",
-    "weather-forecast",
-    "weather-station"
-  ],
-  "license_path": "LICENSE"
-}
-,
-"Desarrollos-IDEE/API-IDEE": {
-  "default_branch": "develop",
-  "description": "",
-  "homepage": "",
-  "language": "JavaScript",
-  "license": "EUPL-1.2",
-  "stargazers_count": 9,
-  "topics": [],
-  "license_path": "LICENSE"
-}
-,
-"ESJavadex/ree-mcp": {
-  "default_branch": "main",
-  "description": "MCP para la API de Red Electrica Española",
-  "homepage": "https://www.skool.com/la-escuela-de-ia-9955",
-  "language": "Python",
-  "license": "MIT",
-  "stargazers_count": 11,
-  "topics": [
-    "apagon",
-    "api",
-    "data",
-    "electrica",
-    "espana",
-    "espanola",
-    "ia",
-    "mcp",
-    "red",
-    "ree",
-    "spain"
-  ],
-  "license_path": "LICENSE"
-}
-,
-"EdgarVaguencia/node-ivoox": {
-  "default_branch": "master",
-  "description": "Unofficial iVoox API for node",
-  "homepage": "",
-  "language": "JavaScript",
-  "license": "MIT",
-  "stargazers_count": 18,
-  "topics": [
-    "api",
-    "ivoox",
-    "node",
-    "npm",
-    "yarn"
-  ],
-  "license_path": "LICENSE"
-}
-,
-"EduardoRuizM/verifactu-api-nodejs": {
-  "default_branch": "main",
-  "description": "Sistema de facturas VeriFactu con envío a la AEAT",
-  "homepage": "",
-  "language": "JavaScript",
-  "license": "",
-  "stargazers_count": 15,
-  "topics": [],
-  "license_path": ""
-}
-,
-"EduardoRuizM/verifactu-api-php": {
-  "default_branch": "main",
-  "description": "Sistema de facturas VeriFactu con envío a la AEAT",
-  "homepage": "",
-  "language": "PHP",
-  "license": "",
-  "stargazers_count": 15,
-  "topics": [],
-  "license_path": ""
-}
-,
-"EduardoRuizM/verifactu-api-python": {
-  "default_branch": "main",
-  "description": "Sistema de facturas VeriFactu con envío a la AEAT",
-  "homepage": "",
-  "language": "Python",
-  "license": "",
-  "stargazers_count": 22,
-  "topics": [],
-  "license_path": ""
-}
-,
-"Eitol/router-movistar": {
-  "default_branch": "main",
-  "description": "library to manage the movistar router via python",
-  "homepage": "",
-  "language": "Python",
-  "license": "",
-  "stargazers_count": 6,
-  "topics": [
-    "askey",
-    "movistar",
-    "rft3505vw",
-    "router"
-  ],
-  "license_path": ""
-}
-,
-"ElEd0/EMTValencia-API": {
-  "default_branch": "master",
-  "description": "Python module to retrieve bus times and stops for EMT valencia",
-  "homepage": "",
-  "language": "Python",
-  "license": "GPL-3.0",
-  "stargazers_count": 15,
-  "topics": [],
-  "license_path": "LICENSE"
-}
-,
-"ElJere/aCompas": {
-  "default_branch": "master",
-  "description": "A flamenco metronome for the Web",
-  "homepage": "",
-  "language": "JavaScript",
-  "license": "GPL-3.0",
-  "stargazers_count": 9,
-  "topics": [],
-  "license_path": "LICENSE"
-}
-,
-"Eseperio/verifactu-php": {
-  "default_branch": "master",
-  "description": "Library for connecting with Verifactu, a spanish legal service for invoice control",
-  "homepage": "",
-  "language": "PHP",
-  "license": "",
-  "stargazers_count": 52,
-  "topics": [],
-  "license_path": ""
-}
-,
-"FacturaScripts/docker-facturascripts": {
-  "default_branch": "master",
-  "description": "FacturaScripts official Docker image.",
-  "homepage": "https://facturascripts.com/descargar/docker",
-  "language": "Shell",
-  "license": "LGPL-3.0",
-  "stargazers_count": 27,
-  "topics": [
-    "docker-image",
-    "facturascripts"
-  ],
-  "license_path": "LICENSE"
-}
-,
-"Flerex/spain-gas": {
-  "default_branch": "main",
-  "description": "A PHP client to get information about Spain's gas stations and fuel prices, directly from the Spanish government's Geoportal Gasolineras.",
-  "homepage": "",
-  "language": "PHP",
-  "license": "MIT",
-  "stargazers_count": 6,
-  "topics": [
-    "api",
-    "gas",
-    "gasoline",
-    "gasoline-prices",
-    "gasolineras",
-    "geoportal",
-    "php",
-    "precios",
-    "spain"
-  ],
-  "license_path": "LICENSE"
-}
-,
-"Gasparms9/Project5-Cendoj-Scrapping-API": {
-  "default_branch": "master",
-  "description": "Cendoj Scrapping / API.",
-  "homepage": "",
-  "language": "Python",
-  "license": "",
-  "stargazers_count": 16,
-  "topics": [
-    "api",
-    "cendoj",
-    "legal",
-    "python",
-    "scrapping"
-  ],
-  "license_path": ""
-}
-,
-"GeiserX/DeclaRenta": {
-  "default_branch": "main",
-  "description": "Convierte informes de brokers extranjeros en declaraciones fiscales españolas: Modelo 100 (Renta), Modelo 720, Modelo 721 (cripto) y D-6. 100% gratuito, privado y self-hosted.",
-  "homepage": "https://declarenta.com",
-  "language": "TypeScript",
-  "license": "GPL-3.0",
-  "stargazers_count": 47,
-  "topics": [
-    "aeat",
-    "browser",
-    "capital-gains",
-    "degiro",
-    "dividends",
-    "fifo",
-    "hacienda",
-    "ibkr",
-    "interactive-brokers",
-    "irpf",
-    "modelo-100",
-    "modelo-720",
-    "open-source",
-    "privacy",
-    "renta",
-    "self-hosted",
-    "spain",
-    "tax",
-    "trade-republic",
-    "typescript"
-  ],
-  "license_path": "LICENSE"
-}
-,
-"GeiserX/awesome-andalucia": {
-  "default_branch": "main",
-  "description": "Una selección de software open source que da soporte específico a Andalucía",
-  "homepage": "",
-  "language": "",
-  "license": "GPL-3.0",
-  "stargazers_count": 5,
-  "topics": [
-    "almeria",
-    "andalucia",
-    "andalusia",
-    "awesome",
-    "awesome-andalucia",
-    "awesome-list",
-    "cadiz",
-    "community",
-    "cordoba",
-    "curated-list",
-    "espana",
-    "granada",
-    "huelva",
-    "jaen",
-    "junta-de-andalucia",
-    "malaga",
-    "open-source",
-    "opensource",
-    "sevilla",
-    "spain"
-  ],
-  "license_path": "LICENSE"
-}
-,
-"GeiserX/awesome-aragon": {
-  "default_branch": "main",
-  "description": "Una selección de software open source para Aragón",
-  "homepage": "",
-  "language": "",
-  "license": "GPL-3.0",
-  "stargazers_count": 4,
-  "topics": [
-    "administracion-electronica",
-    "aragon",
-    "aragonopendata",
-    "aragopedia",
-    "awesome",
-    "awesome-aragon",
-    "awesome-list",
-    "comunidad",
-    "datos-abiertos",
-    "espana",
-    "gobierno-abierto",
-    "huesca",
-    "open-data",
-    "open-source",
-    "software-libre",
-    "spain",
-    "teruel",
-    "transporte",
-    "unizar",
-    "zaragoza"
-  ],
-  "license_path": "LICENSE"
-}
-,
-"GeiserX/awesome-asturies": {
-  "default_branch": "main",
-  "description": "Una selección de software open source para el Principado de Asturias",
-  "homepage": "",
-  "language": "",
-  "license": "GPL-3.0",
-  "stargazers_count": 4,
-  "topics": [
-    "asturianu",
-    "asturias",
-    "asturies",
-    "aviles",
-    "awesome",
-    "awesome-asturies",
-    "awesome-list",
-    "comunidad",
-    "ctic",
-    "datos-abiertos",
-    "espana",
-    "gijon",
-    "gobierno-abierto",
-    "open-data",
-    "open-source",
-    "oviedo",
-    "principado",
-    "software-libre",
-    "spain",
-    "uniovi"
-  ],
-  "license_path": "LICENSE"
-}
-,
-"GeiserX/awesome-canarias": {
-  "default_branch": "main",
-  "description": "Una selección de software open source para las Islas Canarias",
-  "homepage": "",
-  "language": "",
-  "license": "GPL-3.0",
-  "stargazers_count": 3,
-  "topics": [
-    "astrofisica",
-    "awesome",
-    "awesome-canarias",
-    "awesome-list",
-    "canarias",
-    "datos-abiertos",
-    "espana",
-    "gobierno-abierto",
-    "gran-canaria",
-    "iac",
-    "islas-canarias",
-    "istac",
-    "open-data",
-    "open-source",
-    "software-libre",
-    "spain",
-    "tenerife",
-    "transporte",
-    "ull",
-    "ulpgc"
-  ],
-  "license_path": "LICENSE"
-}
-,
-"GeiserX/awesome-cantabria": {
-  "default_branch": "main",
-  "description": "Una selección de software open source para Cantabria",
-  "homepage": "",
-  "language": "",
-  "license": "GPL-3.0",
-  "stargazers_count": 2,
-  "topics": [
-    "awesome",
-    "awesome-cantabria",
-    "awesome-list",
-    "cantabria",
-    "comunidad",
-    "datos-abiertos",
-    "espana",
-    "estadistica",
-    "gobierno-abierto",
-    "icane",
-    "iot",
-    "open-data",
-    "open-source",
-    "santander",
-    "smart-city",
-    "software-libre",
-    "spain",
-    "torrelavega",
-    "transporte",
-    "universidad-cantabria"
-  ],
-  "license_path": "LICENSE"
-}
-,
-"GeiserX/awesome-castilla-la-mancha": {
-  "default_branch": "main",
-  "description": "Una selección de software open source para Castilla-La Mancha",
-  "homepage": "",
-  "language": "Python",
-  "license": "GPL-3.0",
-  "stargazers_count": 3,
-  "topics": [
-    "administracion-electronica",
-    "albacete",
-    "awesome",
-    "awesome-castilla-la-mancha",
-    "awesome-list",
-    "castilla-la-mancha",
-    "ciudad-real",
-    "comunidad",
-    "cuenca",
-    "datos-abiertos",
-    "espana",
-    "gobierno-abierto",
-    "guadalajara",
-    "jccm",
-    "open-data",
-    "open-source",
-    "software-libre",
-    "spain",
-    "toledo",
-    "uclm"
-  ],
-  "license_path": "LICENSE"
-}
-,
-"GeiserX/awesome-castilla-y-leon": {
-  "default_branch": "main",
-  "description": "Una selección de software open source para Castilla y León",
-  "homepage": "",
-  "language": "",
-  "license": "GPL-3.0",
-  "stargazers_count": 3,
-  "topics": [
-    "awesome",
-    "awesome-castilla-y-leon",
-    "awesome-list",
-    "burgos",
-    "castilla-y-leon",
-    "comunidad",
-    "datos-abiertos",
-    "espana",
-    "gobierno-abierto",
-    "jcyl",
-    "leon",
-    "open-data",
-    "open-source",
-    "salamanca",
-    "segovia",
-    "software-libre",
-    "spain",
-    "transporte",
-    "universidad",
-    "valladolid"
-  ],
-  "license_path": "LICENSE"
-}
-,
-"GeiserX/awesome-catalunya": {
-  "default_branch": "main",
-  "description": "Una selección de software open source que da soporte específico a Catalunya",
-  "homepage": "",
-  "language": "",
-  "license": "GPL-3.0",
-  "stargazers_count": 11,
-  "topics": [
-    "awesome",
-    "awesome-catalunya",
-    "awesome-list",
-    "barcelona",
-    "catalan",
-    "catalonia",
-    "cataluna",
-    "catalunya",
-    "community",
-    "curated-list",
-    "espana",
-    "gencat",
-    "generalitat",
-    "girona",
-    "lleida",
-    "open-source",
-    "opensource",
-    "software",
-    "spain",
-    "tarragona"
-  ],
-  "license_path": "LICENSE"
-}
-,
-"GeiserX/awesome-ceuta-y-melilla": {
-  "default_branch": "main",
-  "description": "Una selección de software open source para las ciudades autónomas de Ceuta y Melilla",
-  "homepage": "",
-  "language": "Python",
-  "license": "GPL-3.0",
-  "stargazers_count": 1,
-  "topics": [
-    "africa",
-    "awesome",
-    "awesome-ceuta-y-melilla",
-    "awesome-list",
-    "ceuta",
-    "ciudades-autonomas",
-    "comunidad",
-    "datos-abiertos",
-    "espana",
-    "frontera",
-    "gobierno-abierto",
-    "mediterraneo",
-    "melilla",
-    "north-africa",
-    "open-data",
-    "open-source",
-    "puerto",
-    "software-libre",
-    "spain",
-    "transporte"
-  ],
-  "license_path": "LICENSE"
-}
-,
-"GeiserX/awesome-comunidad-de-madrid": {
-  "default_branch": "main",
-  "description": "Una selección de software open source que da soporte específico a la Comunidad de Madrid",
-  "homepage": "https://github.com/GeiserX/awesome-comunidad-de-madrid#readme",
-  "language": "",
-  "license": "GPL-3.0",
-  "stargazers_count": 5,
-  "topics": [
-    "awesome",
-    "awesome-comunidad-de-madrid",
-    "awesome-list",
-    "ayuntamiento-madrid",
-    "community",
-    "comunidad-de-madrid",
-    "curated-list",
-    "datos-abiertos",
-    "espana",
-    "madrid",
-    "metro-madrid",
-    "open-source",
-    "opensource",
-    "smart-city",
-    "software",
-    "spain",
-    "transport",
-    "uam",
-    "ucm",
-    "upm"
-  ],
-  "license_path": "LICENSE"
-}
-,
-"GeiserX/awesome-comunitat-valenciana": {
-  "default_branch": "main",
-  "description": "Una selección de software open source para la Comunitat Valenciana",
-  "homepage": "",
-  "language": "",
-  "license": "GPL-3.0",
-  "stargazers_count": 4,
-  "topics": [
-    "alicante",
-    "awesome",
-    "awesome-comunitat-valenciana",
-    "awesome-list",
-    "castellon",
-    "comunitat-valenciana",
-    "datos-abiertos",
-    "educacion",
-    "espana",
-    "gobierno-abierto",
-    "gva",
-    "lliurex",
-    "open-data",
-    "open-source",
-    "software-libre",
-    "spain",
-    "transporte",
-    "upv",
-    "uv",
-    "valencia"
-  ],
-  "license_path": "LICENSE"
-}
-,
-"GeiserX/awesome-euskadi": {
-  "default_branch": "main",
-  "description": "Una selección de software open source para Euskadi",
-  "homepage": "",
-  "language": "",
-  "license": "GPL-3.0",
-  "stargazers_count": 5,
-  "topics": [
-    "administracion-electronica",
-    "awesome",
-    "awesome-euskadi",
-    "awesome-list",
-    "basque-country",
-    "bilbao",
-    "datos-abiertos",
-    "donostia",
-    "espana",
-    "euskadi",
-    "euskera",
-    "eustat",
-    "gobierno-abierto",
-    "open-data",
-    "open-source",
-    "pais-vasco",
-    "software-libre",
-    "spain",
-    "upv-ehu",
-    "vitoria-gasteiz"
-  ],
-  "license_path": "LICENSE"
-}
-,
-"GeiserX/awesome-extremadura": {
-  "default_branch": "main",
-  "description": "Una selección de software open source para Extremadura",
-  "homepage": "",
-  "language": "",
-  "license": "GPL-3.0",
-  "stargazers_count": 1,
-  "topics": [
-    "awesome",
-    "awesome-extremadura",
-    "awesome-list",
-    "badajoz",
-    "caceres",
-    "cenatic",
-    "comunidad",
-    "datos-abiertos",
-    "espana",
-    "extremadura",
-    "gnulinex",
-    "gobierno-abierto",
-    "juntaex",
-    "linux",
-    "merida",
-    "open-data",
-    "open-source",
-    "software-libre",
-    "spain",
-    "uex"
-  ],
-  "license_path": "LICENSE"
-}
-,
-"GeiserX/awesome-galicia": {
-  "default_branch": "main",
-  "description": "Una selección de software open source para Galicia",
-  "homepage": "",
-  "language": "",
-  "license": "GPL-3.0",
-  "stargazers_count": 7,
-  "topics": [
-    "administracion-electronica",
-    "awesome",
-    "awesome-galicia",
-    "awesome-list",
-    "community",
-    "coruna",
-    "datos-abiertos",
-    "espana",
-    "galego",
-    "galicia",
-    "gobierno-abierto",
-    "nlp",
-    "open-data",
-    "open-source",
-    "santiago-de-compostela",
-    "software-libre",
-    "spain",
-    "transporte",
-    "vigo",
-    "xunta"
-  ],
-  "license_path": "LICENSE"
-}
-,
-"GeiserX/awesome-illes-balears": {
-  "default_branch": "main",
-  "description": "Una selección de software open source que da soporte específico a les Illes Balears",
-  "homepage": "",
-  "language": "",
-  "license": "GPL-3.0",
-  "stargazers_count": 2,
-  "topics": [
-    "awesome",
-    "awesome-illes-balears",
-    "awesome-list",
-    "balearic-islands",
-    "caib",
-    "catalan",
-    "community",
-    "curated-list",
-    "eivissa",
-    "espana",
-    "formentera",
-    "ibiza",
-    "illes-balears",
-    "islas-baleares",
-    "mallorca",
-    "menorca",
-    "open-source",
-    "opensource",
-    "palma",
-    "spain"
-  ],
-  "license_path": "LICENSE"
-}
-,
-"GeiserX/awesome-la-rioja": {
-  "default_branch": "main",
-  "description": "Una selección de software open source para La Rioja",
-  "homepage": "",
-  "language": "",
-  "license": "GPL-3.0",
-  "stargazers_count": 2,
-  "topics": [
-    "administracion-electronica",
-    "awesome",
-    "awesome-la-rioja",
-    "awesome-list",
-    "cartografia",
-    "comunidad",
-    "datos-abiertos",
-    "espana",
-    "geojson",
-    "gis",
-    "gobierno-abierto",
-    "iderioja",
-    "la-rioja",
-    "logrono",
-    "open-data",
-    "open-source",
-    "rioja",
-    "software-libre",
-    "spain",
-    "vino"
-  ],
-  "license_path": "LICENSE"
-}
-,
-"GeiserX/awesome-nafarroa": {
-  "default_branch": "main",
-  "description": "Una selección de software open source para Navarra",
-  "homepage": "",
-  "language": "Python",
-  "license": "GPL-3.0",
-  "stargazers_count": 2,
-  "topics": [
-    "awesome",
-    "awesome-list",
-    "awesome-nafarroa",
-    "comunidad",
-    "datos-abiertos",
-    "espana",
-    "euskera",
-    "gobierno-abierto",
-    "irunea",
-    "nafarroa",
-    "navarra",
-    "open-data",
-    "open-source",
-    "pamplona",
-    "software-libre",
-    "spain",
-    "tracasa",
-    "tudela",
-    "unav",
-    "upna"
-  ],
-  "license_path": "LICENSE"
-}
-,
-"GeiserX/awesome-region-de-murcia": {
-  "default_branch": "main",
-  "description": "Selección de software open source para la Región de Murcia",
-  "homepage": "",
-  "language": "Python",
-  "license": "CC0-1.0",
-  "stargazers_count": 8,
-  "topics": [
-    "awesome",
-    "awesome-list",
-    "awesome-lists",
-    "carm",
-    "cartagena",
-    "comunidad-autonoma",
-    "curated-list",
-    "datos-abiertos",
-    "espana",
-    "lorca",
-    "mar-menor",
-    "murcia",
-    "open-data",
-    "open-source",
-    "region-de-murcia",
-    "smart-city",
-    "software-libre",
-    "spain",
-    "universidad-de-murcia",
-    "upct"
-  ],
-  "license_path": "LICENSE"
-}
-,
-"GeiserX/awesome-spain#readme": {
-  "default_branch": "main",
-  "description": "Una selección de software open source que da soporte específico a España",
-  "homepage": "",
-  "language": "Python",
-  "license": "CC0-1.0",
-  "stargazers_count": 337,
-  "topics": [
-    "administracion-electronica",
-    "aeat",
-    "autofirma",
-    "awesome",
-    "awesome-list",
-    "awesome-lists",
-    "awesome-spain",
-    "catastro",
-    "country-specific",
-    "curated-list",
-    "datos-abiertos",
-    "espana",
-    "facturacion",
-    "open-data",
-    "open-source",
-    "redsys",
-    "software-libre",
-    "spain",
-    "spanish",
-    "tdt"
-  ],
-  "license_path": ""
-}
-,
-"GeiserX/radares-anunciados": {
-  "language": "Python",
-  "license": "GPL-3.0",
-  "homepage": "",
-  "topics": [
-    "companion-app",
-    "datex2",
-    "datos-abiertos",
-    "dgt",
-    "driving",
-    "geofencing",
-    "geojson",
-    "gps",
-    "home-assistant",
-    "homelab",
-    "murcia",
-    "openstreetmap",
-    "overpass-api",
-    "poi",
-    "road-safety",
-    "self-hosted",
-    "spain",
-    "speed-cameras",
-    "traffic",
-    "traffic-enforcement"
-  ],
-  "description": "Speed radars announced in Spain (police weekly lists, DGT, OpenStreetMap) as an open feed, with Home Assistant alerts when you drive near one.",
-  "stargazers_count": 2,
-  "default_branch": "main",
-  "license_path": "LICENSE"
-}
-,
-"GeiserX/search-by-surname": {
-  "default_branch": "main",
-  "description": "R-based batch search tool for Spanish telephone directories by surname",
-  "homepage": "",
-  "language": "R",
-  "license": "GPL-3.0",
-  "stargazers_count": 1,
-  "topics": [
-    "automation",
-    "data-analysis",
-    "data-extraction",
-    "directory-search",
-    "infobel",
-    "open-data",
-    "osint",
-    "phone-directory",
-    "phone-lookup",
-    "r",
-    "reconnaissance",
-    "reverse-lookup",
-    "rlang",
-    "scraper",
-    "search-tool",
-    "spain",
-    "spanish",
-    "surnames",
-    "telephone",
-    "web-scraping"
-  ],
-  "license_path": "LICENSE"
-}
-,
-"GeiserX/secciones-nacionalidades": {
-  "default_branch": "main",
-  "description": "Foreign Insight - WebApp providing insights about nationalities in Spain (Source: Instituto Nacional de Estadística)",
-  "homepage": "",
-  "language": "R",
-  "license": "GPL-3.0",
-  "stargazers_count": 2,
-  "topics": [
-    "census-data",
-    "dashboard",
-    "data-analysis",
-    "data-visualization",
-    "demographics",
-    "geospatial",
-    "government-data",
-    "immigration",
-    "ine",
-    "nationalities",
-    "open-data",
-    "population",
-    "r",
-    "self-hosted",
-    "shiny",
-    "shinydashboard",
-    "spain",
-    "spanish",
-    "statistics",
-    "webapp"
-  ],
-  "license_path": "LICENSE"
-}
-,
-"IDEESpain/Cartociudad": {
-  "default_branch": "main",
-  "description": "Servicio REST: Geocoder del proyecto Cartociudad",
-  "homepage": "",
-  "language": "JavaScript",
-  "license": "EUPL-1.2",
-  "stargazers_count": 5,
-  "topics": [],
-  "license_path": "LICENSE"
-}
-,
-"IGN-CNIG/API-CNIG": {
-  "default_branch": "master",
-  "description": "",
-  "homepage": "",
-  "language": "JavaScript",
-  "license": "EUPL-1.2",
-  "stargazers_count": 3,
-  "topics": [],
-  "license_path": "LICENSE"
-}
-,
-"IvanitiX/ESCatastroLib": {
-  "default_branch": "master",
-  "description": "Una librería de Python para consultar los datos del Catastro COMO OBJETOS. Incluye información geográfica.",
-  "homepage": "https://pypi.org/project/ESCatastroLib/",
-  "language": "Python",
-  "license": "Apache-2.0",
-  "stargazers_count": 13,
-  "topics": [
-    "catastro",
-    "espana",
-    "gis",
-    "hacktoberfest"
-  ],
-  "license_path": "LICENSE"
-}
-,
-"JaimeObregon/contractacio.cat": {
-  "default_branch": "main",
-  "description": "Propuestas de mejora a la ergonomía de los portales de transparencia de la contratación pública en Cataluña.",
-  "homepage": "",
-  "language": "HTML",
-  "license": "AGPL-3.0",
-  "stargazers_count": 12,
-  "topics": [],
-  "license_path": "LICENSE"
-}
-,
-"JaimeObregon/gobiernovasco.marketing": {
-  "default_branch": "main",
-  "description": "Explora cómo se reparte el dinero público a los medios de comunicación en el País Vasco.",
-  "homepage": "",
-  "language": "HTML",
-  "license": "AGPL-3.0",
-  "stargazers_count": 47,
-  "topics": [],
-  "license_path": "LICENSE"
-}
-,
-"JaimeObregon/infoelectoral": {
-  "default_branch": "main",
-  "description": "Intérprete de microdatos electorales del Ministerio del Interior español.",
-  "homepage": "",
-  "language": "PHP",
-  "license": "AGPL-3.0",
-  "stargazers_count": 154,
-  "topics": [
-    "chanchullopedia",
-    "elecciones",
-    "electoral",
-    "espana",
-    "microdatos",
-    "ministerio",
-    "politica"
-  ],
-  "license_path": "LICENSE"
-}
-,
-"JaimeObregon/ladonacion.es": {
-  "default_branch": "main",
-  "description": "In 2012 the King of Spain, Juan Carlos I, transferred 65 million euros to a friend from a secret account in Switzerland. What lies actually behind this rare donation? This repository contains the full source code of the website ladonacion.es.",
-  "homepage": "https://ladonacion.es",
-  "language": "JavaScript",
-  "license": "AGPL-3.0",
-  "stargazers_count": 194,
-  "topics": [
-    "datajournalism",
-    "datavisualization",
-    "dataviz",
-    "investigative-journalism",
-    "journalism",
-    "leaks",
-    "spain",
-    "transparency"
-  ],
-  "license_path": "LICENSE"
-}
-,
-"JaimeObregon/observatoriospublicos.es": {
-  "default_branch": "main",
-  "description": "Observatorio de los observatorios públicos de España",
-  "homepage": "https://observatoriospublicos.es",
-  "language": "HTML",
-  "license": "AGPL-3.0",
-  "stargazers_count": 131,
-  "topics": [],
-  "license_path": "LICENSE"
-}
-,
-"JaimeObregon/retrosantander": {
-  "default_branch": "main",
-  "description": "Un experimento personal con el portal del Centro de Documentación de la Imagen de Santander (CDIS).",
-  "homepage": "https://retrosantander.com",
-  "language": "JavaScript",
-  "license": "AGPL-3.0",
-  "stargazers_count": 94,
-  "topics": [
-    "cdis",
-    "santander"
-  ],
-  "license_path": "LICENSE"
-}
-,
-"JavierMonton/renfe-tracker": {
-  "default_branch": "main",
-  "description": "Self-hosted application to track renfe trains and prices.",
-  "homepage": "https://javiermonton.github.io/renfe-tracker/",
-  "language": "Python",
-  "license": "AGPL-3.0",
-  "stargazers_count": 16,
-  "topics": [
-    "renfe",
-    "self-hosted",
-    "tracker",
-    "trains"
-  ],
-  "license_path": "LICENSE.txt"
-}
-,
-"KhaosResearch/sigpac-tools": {
-  "default_branch": "main",
-  "description": "SIGPAC-Tools is a custom Python library that provides the user a comfortable client to retrieve data from SIGPAC api, saving the user from downloading and storing heavy files.",
-  "homepage": "",
-  "language": "Python",
-  "license": "MIT",
-  "stargazers_count": 2,
-  "topics": [],
-  "license_path": "LICENSE"
-}
-,
-"LaQuay/TDTChannels": {
-  "default_branch": "master",
-  "description": "Listado de Canales de TV (TDT) en abierto, 100% legal, 100% gratuito // Spanish TV Channels, 100% legal, 100% free",
-  "homepage": "https://www.tdtchannels.com/",
-  "language": "Python",
-  "license": "Apache-2.0",
-  "stargazers_count": 1660,
-  "topics": [],
-  "license_path": "LICENSE"
-}
-,
-"LopCuns/wallapop_scraper": {
-  "default_branch": "master",
-  "description": "",
-  "homepage": "",
-  "language": "Python",
-  "license": "",
-  "stargazers_count": 6,
-  "topics": [],
-  "license_path": ""
-}
-,
-"M4RC0Sx/esiosapy": {
-  "default_branch": "master",
-  "description": "Unofficial ESIOS API Python library. Up to date and fully equipped.",
-  "homepage": "https://m4rc0sx.github.io/esiosapy/",
-  "language": "Python",
-  "license": "GPL-3.0",
-  "stargazers_count": 4,
-  "topics": [
-    "electrcidad",
-    "energia",
-    "energy-markets",
-    "esios",
-    "esios-api",
-    "mercados-electricos",
-    "python",
-    "ree"
-  ],
-  "license_path": "LICENSE"
-}
-,
-"MPAndrew/EpgGratis": {
-  "default_branch": "master",
-  "description": "EPG y grabber XMLTV para Movistar+",
-  "homepage": "",
-  "language": "Shell",
-  "license": "GPL-3.0",
-  "stargazers_count": 25,
-  "topics": [],
-  "license_path": "LICENSE"
-}
-,
-"ManuelCebreiro/spanish-cities-info": {
-  "default_branch": "main",
-  "description": "8,132 municipios de España verificados contra el INE. Búsqueda por nombre, provincia, comunidad o radio (km). TypeScript, imports modulares.",
-  "homepage": "npmjs.com/package/spanish-cities-info",
-  "language": "TypeScript",
-  "license": "ISC",
-  "stargazers_count": 5,
-  "topics": [],
-  "license_path": "LICENSE"
-}
-,
-"MiguelAngelLV/ha-balance-neto": {
-  "default_branch": "main",
-  "description": "Componente para Home Assistant que calcula el Balance Neto Horario para instalaciones fotovoltáicas.",
-  "homepage": "",
-  "language": "Python",
-  "license": "",
-  "stargazers_count": 66,
-  "topics": [
-    "fotovoltaica",
-    "home-assistant",
-    "homeassistant"
-  ],
-  "license_path": ""
-}
-,
-"MiguelAngelLV/ha-gas-station-spain": {
-  "default_branch": "main",
-  "description": "Home Assistant Component for Gas Stations of Spain",
-  "homepage": "",
-  "language": "Python",
-  "license": "MIT",
-  "stargazers_count": 59,
-  "topics": [
-    "gasstations",
-    "homassistant",
-    "homeassistant-integration",
-    "spain"
-  ],
-  "license_path": "LICENSE"
-}
-,
-"MiguelAngelLV/ha-octopus-spain": {
-  "default_branch": "main",
-  "description": "Componente para Home Assistant que obtiene la última factura y la Solar Wallet de Octopus Energy Spain.",
-  "homepage": "",
-  "language": "Python",
-  "license": "",
-  "stargazers_count": 60,
-  "topics": [
-    "homeassistant-custom-component",
-    "octopus-energy",
-    "spain"
-  ],
-  "license_path": ""
-}
-,
-"MiguelAngelLV/ha-tarifa-20td": {
-  "default_branch": "main",
-  "description": "Componente para Home Assisant para usuarios con tarifa 2.0 TD",
-  "homepage": "",
-  "language": "Python",
-  "license": "MIT",
-  "stargazers_count": 47,
-  "topics": [
-    "energy-monitor",
-    "homeassistant",
-    "tarifa"
-  ],
-  "license_path": "LICENSE"
-}
-,
-"MovistarTV/tv_grab_es_movistartv": {
-  "default_branch": "master",
-  "description": "Grabber XMLTV para Movistar TV",
-  "homepage": "",
-  "language": "Python",
-  "license": "GPL-3.0",
-  "stargazers_count": 48,
-  "topics": [],
-  "license_path": "LICENSE"
-}
-,
-"MrMarble/datadis": {
-  "default_branch": "master",
-  "description": "Datadis python api client",
-  "homepage": "",
-  "language": "Python",
-  "license": "MIT",
-  "stargazers_count": 7,
-  "topics": [
-    "api-client",
-    "datadis",
-    "electricity",
-    "python",
-    "spain"
-  ],
-  "license_path": "LICENSE"
-}
-,
-"NadineKroher/PyCante": {
-  "default_branch": "master",
-  "description": "CANTE: Automatic transcription of flamenco singing.",
-  "homepage": "",
-  "language": "Python",
-  "license": "NOASSERTION",
-  "stargazers_count": 14,
-  "topics": [],
-  "license_path": "LICENSE.md"
-}
-,
-"Naritsumi/EstudiaTAI-app": {
-  "default_branch": "main",
-  "description": "Aplicación android por y para TAIs.",
-  "homepage": "https://estudiatai.es/",
-  "language": "HTML",
-  "license": "MIT",
-  "stargazers_count": 10,
-  "topics": [
-    "age",
-    "estudios",
-    "kotlin",
-    "oposiciones"
-  ],
-  "license_path": "LICENSE"
-}
-,
-"NemonInvocash/verifactu-php": {
-  "default_branch": "main",
-  "description": "Cliente PHP para la API de Verifactu y TicketBAI (TBAI): emisión y validación de facturas electrónicas conforme a la normativa de la AEAT. Sin dependencias, instalable con Composer.",
-  "homepage": "https://verifactuapi.es",
-  "language": "PHP",
-  "license": "MIT",
-  "stargazers_count": 9,
-  "topics": [
-    "aeat",
-    "api-client",
-    "invocash",
-    "invoicing",
-    "php",
-    "spain",
-    "tbai",
-    "ticketbai",
-    "veri-factu",
-    "verifactu"
-  ],
-  "license_path": "LICENSE"
-}
-,
-"NeoRazorX/facturascripts": {
-  "default_branch": "master",
-  "description": "Open source ERP software. Built on modern PHP and bootstrap. Easy and powerful.",
-  "homepage": "https://facturascripts.com",
-  "language": "PHP",
-  "license": "LGPL-3.0",
-  "stargazers_count": 493,
-  "topics": [
-    "contabilidad",
-    "crm",
-    "erp",
-    "facturacion",
-    "php"
-  ],
-  "license_path": "COPYING"
-}
-,
-"Neufal777/wallapop-go": {
-  "default_branch": "main",
-  "description": "Wallapop API client in Golang",
-  "homepage": "",
-  "language": "Go",
-  "license": "MIT",
-  "stargazers_count": 10,
-  "topics": [],
-  "license_path": "LICENSE"
-}
-,
-"Noltari/AEMET-OpenData": {
-  "default_branch": "master",
-  "description": "Python client for AEMET OpenData Rest API",
-  "homepage": "",
-  "language": "Python",
-  "license": "GPL-2.0",
-  "stargazers_count": 8,
-  "topics": [],
-  "license_path": "LICENSE.md"
-}
-,
-"OCA/l10n-spain": {
-  "default_branch": "19.0",
-  "description": "Odoo Spain Localization",
-  "homepage": "https://www.aeodoo.org/estado-localizacion",
-  "language": "Python",
-  "license": "AGPL-3.0",
-  "stargazers_count": 557,
-  "topics": [
-    "erp",
-    "hacktoberfest",
-    "odoo"
-  ],
-  "license_path": "LICENSE"
-}
-,
-"OSM-es/CatAtom2Osm": {
-  "default_branch": "master",
-  "description": "Tool to convert INSPIRE data sets from the Spanish Cadastre ATOM Services to OSM files.",
-  "homepage": "",
-  "language": "Python",
-  "license": "BSD-2-Clause",
-  "stargazers_count": 15,
-  "topics": [
-    "conversion",
-    "osm",
-    "python",
-    "qgis",
-    "spanish-cadastre"
-  ],
-  "license_path": "LICENSE"
-}
-,
-"Paco8/plugin.video.movistarplus": {
-  "default_branch": "main",
-  "description": "Movistarplus for Kodi",
-  "homepage": "",
-  "language": "Python",
-  "license": "GPL-2.0",
-  "stargazers_count": 85,
-  "topics": [],
-  "license_path": "LICENSE"
-}
-,
-"Paco8/plugin.video.orange.spain": {
-  "default_branch": "main",
-  "description": "Orange TV Spain for Kodi",
-  "homepage": "",
-  "language": "Python",
-  "license": "GPL-2.0",
-  "stargazers_count": 20,
-  "topics": [],
-  "license_path": "LICENSE"
-}
-,
-"Pakillo/ANECAtools": {
-  "default_branch": "master",
-  "description": "Paquete de R con herramientas para facilitar el proceso de acreditación en la ANECA",
-  "homepage": "https://pakillo.github.io/ANECAtools/",
-  "language": "R",
-  "license": "GPL-3.0",
-  "stargazers_count": 22,
-  "topics": [],
-  "license_path": "LICENSE.md"
-}
-,
-"PyLadiesMadrid/pycartociudad": {
-  "default_branch": "main",
-  "description": "Python package to query cartociudad API",
-  "homepage": "",
-  "language": "Python",
-  "license": "GPL-3.0",
-  "stargazers_count": 4,
-  "topics": [
-    "hacktoberfest"
-  ],
-  "license_path": "LICENSE"
-}
-,
-"RadarCOVID/radar-covid-android": {
-  "default_branch": "develop",
-  "description": "Native Android app using DP^3T Android sdk to handle Exposure Notifications API from Google",
-  "homepage": "",
-  "language": "Kotlin",
-  "license": "MPL-2.0",
-  "stargazers_count": 376,
-  "topics": [
-    "android",
-    "android-studio",
-    "kotlin"
-  ],
-  "license_path": "LICENSE"
-}
-,
-"RadarCOVID/radar-covid-backend-verification-server": {
-  "default_branch": "develop",
-  "description": "Radar COVID Verification Service",
-  "homepage": "",
-  "language": "Java",
-  "license": "MPL-2.0",
-  "stargazers_count": 92,
-  "topics": [
-    "java",
-    "maven",
-    "spring-boot"
-  ],
-  "license_path": "LICENSE"
-}
-,
-"RadarCOVID/radar-covid-ios": {
-  "default_branch": "develop",
-  "description": "Native iOS app using DP^3T iOS sdk to handle Exposure Notification framework from Apple",
-  "homepage": "",
-  "language": "Swift",
-  "license": "MPL-2.0",
-  "stargazers_count": 143,
-  "topics": [
-    "ios",
-    "swift",
-    "xcode"
-  ],
-  "license_path": "LICENSE"
-}
-,
-"RicardoMoya/FootballMatchesDataSet": {
-  "default_branch": "master",
-  "description": "El objetivo de publicar este DataSet es el de abrir una nueva área de investigación dentro del Machine Learning para la predicción de resultados en partidos de fútbol; a priori, arrojando un resultado en formato quiniela (1X2), aunque podría ser extensible a la predicción del resultado final.",
-  "homepage": "http://jarroba.com/dataset-resultados-partidos-futbol-prediccion-machine-learning/",
-  "language": "Python",
-  "license": "",
-  "stargazers_count": 37,
-  "topics": [],
-  "license_path": ""
-}
-,
-"Sloy/sevibus-android": {
-  "default_branch": "master",
-  "description": "Independent application for public transportation in Sevilla",
-  "homepage": "http://twitter.com/sevibus",
-  "language": "Kotlin",
-  "license": "MPL-2.0",
-  "stargazers_count": 20,
-  "topics": [
-    "android",
-    "bus",
-    "compose",
-    "kotlin",
-    "sevilla"
-  ],
-  "license_path": "LICENSE"
-}
-,
-"Softcatala/Catalanitzador": {
-  "default_branch": "main",
-  "description": "A  Microsoft Windows & Mac OS program that makes your system Catalan language friendly ",
-  "homepage": "https://www.softcatala.org/projectes/catalanitzador-de-softcatala/",
-  "language": "C++",
-  "license": "",
-  "stargazers_count": 29,
-  "topics": [],
-  "license_path": ""
-}
-,
-"Softcatala/catalan-dict-tools": {
-  "default_branch": "master",
-  "description": "Tools for managing Catalan dictionaries",
-  "homepage": "",
-  "language": "Perl",
-  "license": "NOASSERTION",
-  "stargazers_count": 65,
-  "topics": [],
-  "license_path": "LICENSE"
-}
-,
-"Softcatala/nmt-softcatala": {
-  "default_branch": "master",
-  "description": "This repository contains Neural Machine Translation tools built at Softcatalà ",
-  "homepage": "",
-  "language": "Python",
-  "license": "NOASSERTION",
-  "stargazers_count": 45,
-  "topics": [],
-  "license_path": "LICENSE.md"
-}
-,
-"Softcatala/translation-memory-tools": {
-  "default_branch": "main",
-  "description": "A set of tools to build, maintain and use translation memories",
-  "homepage": "https://www.softcatala.org/recursos/memories/",
-  "language": "Python",
-  "license": "",
-  "stargazers_count": 31,
-  "topics": [],
-  "license_path": ""
-}
-,
-"Tatuck/wallapop-scraper": {
-  "default_branch": "master",
-  "description": "A Python application that uses the Wallapop API and Google's Gemini 2.0-pro LLM to analyze products listed on Wallapop and find undervalued items that can be purchased and resold for a higher profit.",
-  "homepage": "",
-  "language": "Python",
-  "license": "",
-  "stargazers_count": 9,
-  "topics": [],
-  "license_path": ""
-}
-,
-"TiagoCortinhal/cita-checker": {
-  "default_branch": "main",
-  "description": "Automation to check for appointments (cita previa)",
-  "homepage": "",
-  "language": "Python",
-  "license": "MIT",
-  "stargazers_count": 30,
-  "topics": [
-    "automation",
-    "cita",
-    "cita-previa",
-    "citaprevia",
-    "emigration",
-    "selenium"
-  ],
-  "license_path": "LICENSE"
-}
-,
-"Webierta/open_luz": {
-  "default_branch": "main",
-  "description": "Detailed information on electricity prices in Spain (PVPC) for efficient electricity consumption management.",
-  "homepage": "",
-  "language": "Dart",
-  "license": "GPL-3.0",
-  "stargazers_count": 7,
-  "topics": [],
-  "license_path": "LICENSE"
-}
-,
-"WhizzoCode/ivooxhunter": {
-  "default_branch": "main",
-  "description": "ivoox downloader for terminal",
-  "homepage": "",
-  "language": "JavaScript",
-  "license": "MIT",
-  "stargazers_count": 7,
-  "topics": [],
-  "license_path": "LICENSE.md"
-}
-,
 "aariste/AEMET-Python": {
   "default_branch": "master",
   "description": "Librería en python para consultar los datos de la AEMET",
@@ -1874,6 +37,28 @@
   "license_path": "LICENSE"
 }
 ,
+"Admindatosgobes/Laboratorio-de-Datos": {
+  "default_branch": "main",
+  "description": "Este repositorio incluye una serie de recursos y ejercicios prácticos orientados a divulgar diferentes formas de reutilización de datos abiertos.",
+  "homepage": "https://datos.gob.es/es/catalogo",
+  "language": "Jupyter Notebook",
+  "license": "",
+  "stargazers_count": 69,
+  "topics": [],
+  "license_path": ""
+}
+,
+"AFFT-520/NIEBot": {
+  "default_branch": "main",
+  "description": "A tool to help Barcelonian people get various immigration-related appointments via the Cita previa process",
+  "homepage": "",
+  "language": "Java",
+  "license": "GPL-3.0",
+  "stargazers_count": 62,
+  "topics": [],
+  "license_path": "LICENSE"
+}
+,
 "ajostergaard/django-payments-redsys": {
   "default_branch": "master",
   "description": "A Redsys backend for django-payments.",
@@ -1889,6 +74,24 @@
   "license_path": ""
 }
 ,
+"AjuntamentdeBarcelona/decidim-barcelona": {
+  "default_branch": "master",
+  "description": "Decidim Barcelona - Direct and participatory democracy web platform based on Decidim framework",
+  "homepage": "https://www.decidim.barcelona",
+  "language": "HTML",
+  "license": "AGPL-3.0",
+  "stargazers_count": 85,
+  "topics": [
+    "agplv3",
+    "barcelona",
+    "decidim",
+    "decidim-barcelona",
+    "democracy",
+    "government"
+  ],
+  "license_path": "LICENSE-AGPLv3.txt"
+}
+,
 "akrck02/salary": {
   "default_branch": "main",
   "description": "Simple salary calculator website for basque country",
@@ -1899,6 +102,25 @@
   "topics": [
     "irpf",
     "tax-calculator"
+  ],
+  "license_path": "LICENSE"
+}
+,
+"ALArvi019/moderntides": {
+  "default_branch": "main",
+  "description": "Modern Home Assistant integration for real-time tide information from Spanish maritime stations",
+  "homepage": "",
+  "language": "Python",
+  "license": "MIT",
+  "stargazers_count": 6,
+  "topics": [
+    "camera",
+    "custom-component",
+    "hacs",
+    "home-assistant",
+    "integration",
+    "sensor",
+    "tide"
   ],
   "license_path": "LICENSE"
 }
@@ -1954,6 +176,17 @@
   "language": "Dart",
   "license": "GPL-3.0",
   "stargazers_count": 3,
+  "topics": [],
+  "license_path": "LICENSE"
+}
+,
+"AlbertoUAH/datos-gob-es-mcp": {
+  "default_branch": "main",
+  "description": "",
+  "homepage": "",
+  "language": "Python",
+  "license": "MIT",
+  "stargazers_count": 20,
   "topics": [],
   "license_path": "LICENSE"
 }
@@ -2014,7 +247,7 @@
   "homepage": "",
   "language": "JavaScript",
   "license": "NOASSERTION",
-  "stargazers_count": 6,
+  "stargazers_count": 10,
   "topics": [],
   "license_path": "LICENSE"
 }
@@ -2065,6 +298,46 @@
   "license_path": "LICENSE.md"
 }
 ,
+"AnCode666/aemet-mcp": {
+  "default_branch": "main",
+  "description": "MCP server for check Spanish climate data using AEMET web API",
+  "homepage": "",
+  "language": "Python",
+  "license": "MIT",
+  "stargazers_count": 5,
+  "topics": [
+    "climate-data",
+    "mcp-server",
+    "spain"
+  ],
+  "license_path": "LICENSE"
+}
+,
+"AnCode666/boe-mcp": {
+  "default_branch": "master",
+  "description": "MCP server for check Spanish Laws using BOE API (Official State Gazette of Spain)",
+  "homepage": "",
+  "language": "Python",
+  "license": "MIT",
+  "stargazers_count": 6,
+  "topics": [
+    "law",
+    "mcp-server"
+  ],
+  "license_path": "LICENSE"
+}
+,
+"AnCode666/ine-mcp": {
+  "default_branch": "master",
+  "description": "MCP server for check Spanish National Institute of Statistics data using INE API",
+  "homepage": "",
+  "language": "Python",
+  "license": "MIT",
+  "stargazers_count": 2,
+  "topics": [],
+  "license_path": "LICENSE"
+}
+,
 "angelbarrera92/ave-round-tripper": {
   "default_branch": "main",
   "description": "This project tries to solve a not-so-common problem:  Find the cheapest round trip between two cities on AVE (RENFE) line and get notifications when prices change.  People are not aware of price changes on AVE (RENFE) service. Furthermore, they used to think that the price were always the same.",
@@ -2079,6 +352,17 @@
     "scraper",
     "telegram"
   ],
+  "license_path": "LICENSE"
+}
+,
+"AnnaPS/dni_nie_validator": {
+  "default_branch": "master",
+  "description": "",
+  "homepage": "",
+  "language": "Dart",
+  "license": "MIT",
+  "stargazers_count": 6,
+  "topics": [],
   "license_path": "LICENSE"
 }
 ,
@@ -2112,13 +396,24 @@
   "license_path": ""
 }
 ,
+"APSL/sepakit": {
+  "default_branch": "master",
+  "description": "Converts AEB 19.14 Direct Debit TXT file to SEPA XML (Core scheme)",
+  "homepage": "",
+  "language": "Go",
+  "license": "MIT",
+  "stargazers_count": 3,
+  "topics": [],
+  "license_path": "LICENSE.txt"
+}
+,
 "arnabdeypolimi/your-ai-lawyer": {
   "default_branch": "main",
   "description": "Multi-country legal knowledge base: raw law submodules compiled into an Obsidian knowledge graph via Claude Code slash commands. Query with citations, no API key required.",
   "homepage": "",
   "language": "Python",
   "license": "NOASSERTION",
-  "stargazers_count": 4,
+  "stargazers_count": 6,
   "topics": [
     "chromadb",
     "claude-code",
@@ -2173,7 +468,7 @@
   "homepage": "",
   "language": "Python",
   "license": "MIT",
-  "stargazers_count": 47,
+  "stargazers_count": 46,
   "topics": [
     "electricity-prices",
     "home-assistant",
@@ -2199,7 +494,7 @@
   "homepage": "",
   "language": "Python",
   "license": "MIT",
-  "stargazers_count": 36,
+  "stargazers_count": 35,
   "topics": [
     "hacs-integration",
     "home-assistant",
@@ -2223,6 +518,21 @@
   "license_path": "LICENSE"
 }
 ,
+"Barnetik/tbai-php-lib": {
+  "default_branch": "main",
+  "description": "Generate, sign and send TicketBAI compatible invoices",
+  "homepage": "",
+  "language": "PHP",
+  "license": "GPL-3.0",
+  "stargazers_count": 42,
+  "topics": [
+    "php",
+    "tbai",
+    "ticketbai"
+  ],
+  "license_path": "LICENSE"
+}
+,
 "binovo/verifactu-xmlgen": {
   "default_branch": "develop",
   "description": "Aplicación de línea de coman para crear ficheros TicketBai y Verifactu.",
@@ -2234,18 +544,48 @@
   "license_path": "LICENSE"
 }
 ,
+"BquantFinance/licitaciones-espana": {
+  "default_branch": "main",
+  "description": "",
+  "homepage": "",
+  "language": "Python",
+  "license": "MIT",
+  "stargazers_count": 221,
+  "topics": [],
+  "license_path": "LICENSE"
+}
+,
 "bukosabino/justicio": {
   "default_branch": "main",
   "description": "Building an assistant for Boletin Oficial del Estado (BOE) using Retrieval Augmented Generation (RAG)",
   "homepage": "",
   "language": "HTML",
   "license": "MIT",
-  "stargazers_count": 148,
+  "stargazers_count": 149,
   "topics": [
     "legal",
     "legaltech",
     "nlp",
     "spanish"
+  ],
+  "license_path": "LICENSE"
+}
+,
+"ByMykel/spanish-cities": {
+  "default_branch": "main",
+  "description": "A library that provides data on Spain's autonomies, provinces, and cities, including their codes, names, flags, and coats of arms for seamless integration into your applications.",
+  "homepage": "https://bymykel.github.io/spanish-cities/",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stargazers_count": 5,
+  "topics": [
+    "autonomy",
+    "city",
+    "coat-of-arms",
+    "flags",
+    "hacktoberfest",
+    "province",
+    "spain"
   ],
   "license_path": "LICENSE"
 }
@@ -2276,6 +616,26 @@
   "stargazers_count": 5,
   "topics": [],
   "license_path": ""
+}
+,
+"caseroclaw/verifactu-qr": {
+  "default_branch": "main",
+  "description": "URL del codigo QR tributario de VeriFactu (AEAT) con validacion de NIF/NIE/CIF. 0 dependencias: CLI + servidor MCP. Por Plataforma IA.",
+  "homepage": "",
+  "language": "Python",
+  "license": "MIT",
+  "stargazers_count": 0,
+  "topics": [
+    "aeat",
+    "espana",
+    "facturacion-electronica",
+    "mcp",
+    "pymes",
+    "python",
+    "qr",
+    "verifactu"
+  ],
+  "license_path": "LICENSE"
 }
 ,
 "chapulincatastral/generador-gml": {
@@ -2420,13 +780,55 @@
   "license_path": ""
 }
 ,
+"CommerceRedsys/sermepa": {
+  "default_branch": "master",
+  "description": "Payment gateway class for spanish banks that use Sermepa/Redsys systems.",
+  "homepage": "",
+  "language": "PHP",
+  "license": "MIT",
+  "stargazers_count": 11,
+  "topics": [],
+  "license_path": "LICENSE"
+}
+,
+"ComputingVictor/MCP-BOE": {
+  "default_branch": "main",
+  "description": "MCP server para el BOE 🇪🇸 — Acceso a legislación consolidada, sumarios diarios y tablas oficiales del Boletín Oficial del Estado mediante Model Context Protocol y API REST.",
+  "homepage": "",
+  "language": "Python",
+  "license": "MIT",
+  "stargazers_count": 57,
+  "topics": [
+    "api",
+    "boe",
+    "government",
+    "legal",
+    "mcp",
+    "model-context-protocol",
+    "open-data",
+    "python"
+  ],
+  "license_path": "LICENSE"
+}
+,
+"ConsorciAOC/signador": {
+  "default_branch": "master",
+  "description": "Documentació del servei Signador",
+  "homepage": "https://signador.aoc.cat/signador/init",
+  "language": "JavaScript",
+  "license": "MIT",
+  "stargazers_count": 16,
+  "topics": [],
+  "license_path": "LICENSE.MD"
+}
+,
 "consuldemocracy/consuldemocracy": {
   "default_branch": "master",
   "description": "Consul Democracy - Open Government and E-Participation Web Software",
   "homepage": "https://consuldemocracy.org",
   "language": "Ruby",
   "license": "AGPL-3.0",
-  "stargazers_count": 1548,
+  "stargazers_count": 1554,
   "topics": [
     "agplv3",
     "consuldemocracy",
@@ -2505,6 +907,30 @@
   "license_path": "LICENSE.txt"
 }
 ,
+"cristianemek/go-verifactu": {
+  "default_branch": "main",
+  "description": "VERI*FACTU en Go: librería sin dependencias y servicio HTTP para registrar, encadenar y remitir facturas a la AEAT desde cualquier lenguaje.",
+  "homepage": "https://pkg.go.dev/github.com/cristianemek/go-verifactu",
+  "language": "Go",
+  "license": "MIT",
+  "stargazers_count": 1,
+  "topics": [
+    "aeat",
+    "e-invoicing",
+    "factura",
+    "factura-electronica",
+    "facturacion",
+    "facturacion-electronica",
+    "go",
+    "golang",
+    "hacienda",
+    "invoicing",
+    "spain",
+    "verifactu"
+  ],
+  "license_path": "LICENSE"
+}
+,
 "cristotodev/MCP-Facturascripts": {
   "default_branch": "main",
   "description": "",
@@ -2527,70 +953,15 @@
   "license_path": "LICENSE"
 }
 ,
-"ctt-gob-es/FirmaCadesNet": {
-  "default_branch": "master",
-  "description": "Librería desarrollada en C# para la generación de firmas CAdES",
-  "homepage": "",
-  "language": "C#",
-  "license": "",
-  "stargazers_count": 10,
-  "topics": [],
-  "license_path": ""
-}
-,
-"ctt-gob-es/FirmaXadesNet": {
-  "default_branch": "master",
-  "description": "Librería desarrollada en C# para la generación de firmas XAdES",
-  "homepage": "",
-  "language": "C#",
-  "license": "",
-  "stargazers_count": 28,
-  "topics": [],
-  "license_path": ""
-}
-,
-"ctt-gob-es/FirmaXadesNet45": {
-  "default_branch": "master",
-  "description": "Librería desarrollada en C# para la generación de firmas XAdES",
-  "homepage": "",
-  "language": "C#",
-  "license": "",
-  "stargazers_count": 38,
-  "topics": [],
-  "license_path": ""
-}
-,
-"ctt-gob-es/MinervaChatBot": {
-  "default_branch": "main",
-  "description": "Minerva. ChatBot Municipal de Código Abierto",
-  "homepage": "https://administracionelectronica.gob.es/ctt/minervachatbot",
-  "language": "PHP",
-  "license": "",
-  "stargazers_count": 3,
-  "topics": [],
-  "license_path": ""
-}
-,
-"ctt-gob-es/SIGM-Community": {
-  "default_branch": "SIGM5.0-QUIJOTE",
-  "description": "SIGM (SIGM), es una aplicación puesta a disposición de cualquier organización que fue puesta de forma gratuita por el Ministerio de Industria, Energía y Turismo para proporcionar a las administraciones un sistema que permita reunir en formato electrónico toda la documentación de un expediente, integrando los tradicionales subsistemas de Registro, Motor de Expedientes (Flujos de procedimientos) y Archivo",
-  "homepage": "",
-  "language": "Java",
-  "license": "NOASSERTION",
-  "stargazers_count": 22,
-  "topics": [],
-  "license_path": "LICENSE.md"
-}
-,
 "ctt-gob-es/clienteafirma": {
   "default_branch": "master",
   "description": "Cliente @firma",
   "homepage": "http://administracionelectronica.gob.es/ctt/clienteafirma",
   "language": "Java",
   "license": "",
-  "stargazers_count": 332,
+  "stargazers_count": 344,
   "topics": [],
-  "license_path": ""
+  "license_path": "license"
 }
 ,
 "ctt-gob-es/datos.gob.es": {
@@ -2599,7 +970,7 @@
   "homepage": "https://github.com/datosgobes/datos.gob.es",
   "language": "",
   "license": "",
-  "stargazers_count": 31,
+  "stargazers_count": 32,
   "topics": [
     "ckan",
     "ckanext",
@@ -2625,7 +996,7 @@
   "license": "",
   "stargazers_count": 30,
   "topics": [],
-  "license_path": ""
+  "license_path": "LICENSE"
 }
 ,
 "ctt-gob-es/firma-android": {
@@ -2650,6 +1021,39 @@
   "license_path": ""
 }
 ,
+"ctt-gob-es/FirmaCadesNet": {
+  "default_branch": "master",
+  "description": "Librería desarrollada en C# para la generación de firmas CAdES",
+  "homepage": "",
+  "language": "C#",
+  "license": "",
+  "stargazers_count": 10,
+  "topics": [],
+  "license_path": "License"
+}
+,
+"ctt-gob-es/FirmaXadesNet": {
+  "default_branch": "master",
+  "description": "Librería desarrollada en C# para la generación de firmas XAdES",
+  "homepage": "",
+  "language": "C#",
+  "license": "",
+  "stargazers_count": 28,
+  "topics": [],
+  "license_path": "License"
+}
+,
+"ctt-gob-es/FirmaXadesNet45": {
+  "default_branch": "master",
+  "description": "Librería desarrollada en C# para la generación de firmas XAdES",
+  "homepage": "",
+  "language": "C#",
+  "license": "",
+  "stargazers_count": 38,
+  "topics": [],
+  "license_path": "License"
+}
+,
 "ctt-gob-es/integra": {
   "default_branch": "master",
   "description": "Librerías Integr@ de firma e integración con @firma",
@@ -2672,13 +1076,24 @@
   "license_path": ""
 }
 ,
+"ctt-gob-es/MinervaChatBot": {
+  "default_branch": "main",
+  "description": "Minerva. ChatBot Municipal de Código Abierto",
+  "homepage": "https://administracionelectronica.gob.es/ctt/minervachatbot",
+  "language": "PHP",
+  "license": "",
+  "stargazers_count": 3,
+  "topics": [],
+  "license_path": ""
+}
+,
 "ctt-gob-es/oaw": {
   "default_branch": "main",
   "description": "Rastreador Observatorio de Accesibilidad Web",
   "homepage": "https://administracionelectronica.gob.es/ctt/oaw",
   "language": "Java",
   "license": "EUPL-1.2",
-  "stargazers_count": 26,
+  "stargazers_count": 27,
   "topics": [],
   "license_path": "LICENSE.md"
 }
@@ -2694,15 +1109,43 @@
   "license_path": ""
 }
 ,
-"d3stroya/virgulayapp-curriculos": {
-  "default_branch": "main",
-  "description": "Currículos LOMLOE en archivos json",
+"ctt-gob-es/SIGM-Community": {
+  "default_branch": "SIGM5.0-QUIJOTE",
+  "description": "SIGM (SIGM), es una aplicación puesta a disposición de cualquier organización que fue puesta de forma gratuita por el Ministerio de Industria, Energía y Turismo para proporcionar a las administraciones un sistema que permita reunir en formato electrónico toda la documentación de un expediente, integrando los tradicionales subsistemas de Registro, Motor de Expedientes (Flujos de procedimientos) y Archivo",
   "homepage": "",
-  "language": "JavaScript",
-  "license": "",
-  "stargazers_count": 2,
+  "language": "Java",
+  "license": "NOASSERTION",
+  "stargazers_count": 22,
   "topics": [],
-  "license_path": ""
+  "license_path": "LICENSE.md"
+}
+,
+"CuB1z/Wallapop-Scrapper": {
+  "default_branch": "main",
+  "description": "Simple wallapop scraping integration with a telegram bot.",
+  "homepage": "",
+  "language": "Python",
+  "license": "CC0-1.0",
+  "stargazers_count": 8,
+  "topics": [
+    "automation",
+    "python",
+    "scraper",
+    "telegram-bot",
+    "wallapop"
+  ],
+  "license_path": "LICENSE.txt"
+}
+,
+"D4vidDf/PillPal": {
+  "default_branch": "master",
+  "description": "PillPal is an application that helps tracking and setting alarms. It uses CIMA Api getting official medication data to keep better track of medication use",
+  "homepage": "",
+  "language": "Kotlin",
+  "license": "MIT",
+  "stargazers_count": 10,
+  "topics": [],
+  "license_path": "LICENSE"
 }
 ,
 "daaguirr/Ivoox-Downloader": {
@@ -2750,13 +1193,33 @@
   "license_path": ""
 }
 ,
+"Danieldiazi/homeassistant-meteogalicia": {
+  "default_branch": "main",
+  "description": "A Home Assistant integration that gives you weather info from MeteoGalicia, the meteorological agency for Galicia, Spain",
+  "homepage": "",
+  "language": "Python",
+  "license": "GPL-3.0",
+  "stargazers_count": 21,
+  "topics": [
+    "custom-components",
+    "hacs",
+    "hacs-integration",
+    "home-assistant",
+    "meteogalicia",
+    "weather",
+    "weather-forecast",
+    "weather-station"
+  ],
+  "license_path": "LICENSE"
+}
+,
 "danielhuici/Wallamonitor": {
   "default_branch": "main",
   "description": "Periodically checks Wallapop for new articles based on specified parameters and notify through Telegram channel.",
   "homepage": "",
   "language": "Python",
   "license": "",
-  "stargazers_count": 34,
+  "stargazers_count": 35,
   "topics": [],
   "license_path": ""
 }
@@ -2792,7 +1255,7 @@
   "homepage": "",
   "language": "",
   "license": "Apache-2.0",
-  "stargazers_count": 112,
+  "stargazers_count": 111,
   "topics": [
     "esios",
     "graphics",
@@ -2817,7 +1280,7 @@
   "homepage": "",
   "language": "HTML",
   "license": "AGPL-3.0",
-  "stargazers_count": 333,
+  "stargazers_count": 332,
   "topics": [],
   "license_path": "LICENSE"
 }
@@ -2839,7 +1302,7 @@
   "homepage": "https://huggingface.co/datasets/datania/boe/",
   "language": "Python",
   "license": "MIT",
-  "stargazers_count": 0,
+  "stargazers_count": 1,
   "topics": [],
   "license_path": "LICENSE"
 }
@@ -2894,7 +1357,7 @@
   "homepage": "https://huggingface.co/datasets/datania/ine-catalog",
   "language": "Python",
   "license": "MIT",
-  "stargazers_count": 3,
+  "stargazers_count": 5,
   "topics": [],
   "license_path": "LICENSE"
 }
@@ -2916,7 +1379,7 @@
   "homepage": "https://datania.github.io/mercadona-catalog/",
   "language": "HTML",
   "license": "MIT",
-  "stargazers_count": 9,
+  "stargazers_count": 14,
   "topics": [],
   "license_path": "LICENSE"
 }
@@ -2941,7 +1404,7 @@
   "description": "A simple, clean and less dependant client for handle payments through RedSys.",
   "homepage": "",
   "language": "Python",
-  "license": "MIT",
+  "license": "NOASSERTION",
   "stargazers_count": 16,
   "topics": [],
   "license_path": "LICENSE"
@@ -2953,7 +1416,7 @@
   "homepage": "https://decidim.org/",
   "language": "Ruby",
   "license": "AGPL-3.0",
-  "stargazers_count": 1812,
+  "stargazers_count": 1831,
   "topics": [
     "citizen-participation",
     "civic-tech",
@@ -2972,6 +1435,17 @@
     "stakeholder-engagement"
   ],
   "license_path": "LICENSE-AGPLv3.txt"
+}
+,
+"Desarrollos-IDEE/API-IDEE": {
+  "default_branch": "develop",
+  "description": "",
+  "homepage": "",
+  "language": "JavaScript",
+  "license": "EUPL-1.2",
+  "stargazers_count": 9,
+  "topics": [],
+  "license_path": "LICENSE"
 }
 ,
 "dgomes/pyprosegur": {
@@ -3042,7 +1516,7 @@
   "homepage": "",
   "language": "Python",
   "license": "GPL-3.0",
-  "stargazers_count": 39,
+  "stargazers_count": 38,
   "topics": [
     "anki",
     "anki-deck",
@@ -3080,10 +1554,10 @@
 "easybytehub/verifactu-lint": {
   "default_branch": "main",
   "description": "Comprueba en CI que los registros de facturación que genera tu SIF cumplen el RRSIF (RD 1007/2023 y Orden HAC/1177/2024). Solo lectura: no es un SIF.",
-  "homepage": "",
+  "homepage": "https://easybyte.es",
   "language": "Python",
   "license": "Apache-2.0",
-  "stargazers_count": 1,
+  "stargazers_count": 3,
   "topics": [
     "aeat",
     "compliance",
@@ -3111,6 +1585,23 @@
   "license_path": "LICENSE.txt"
 }
 ,
+"EdgarVaguencia/node-ivoox": {
+  "default_branch": "master",
+  "description": "Unofficial iVoox API for node",
+  "homepage": "",
+  "language": "JavaScript",
+  "license": "MIT",
+  "stargazers_count": 18,
+  "topics": [
+    "api",
+    "ivoox",
+    "node",
+    "npm",
+    "yarn"
+  ],
+  "license_path": "LICENSE"
+}
+,
 "eduaero/BOE": {
   "default_branch": "master",
   "description": "Data_scrapping_subastas_BOE",
@@ -3120,6 +1611,77 @@
   "stargazers_count": 12,
   "topics": [],
   "license_path": ""
+}
+,
+"EduardoRuizM/verifactu-api-nodejs": {
+  "default_branch": "main",
+  "description": "Sistema de facturas VeriFactu con envío a la AEAT",
+  "homepage": "",
+  "language": "JavaScript",
+  "license": "",
+  "stargazers_count": 15,
+  "topics": [],
+  "license_path": ""
+}
+,
+"EduardoRuizM/verifactu-api-php": {
+  "default_branch": "main",
+  "description": "Sistema de facturas VeriFactu con envío a la AEAT",
+  "homepage": "",
+  "language": "PHP",
+  "license": "",
+  "stargazers_count": 15,
+  "topics": [],
+  "license_path": ""
+}
+,
+"EduardoRuizM/verifactu-api-python": {
+  "default_branch": "main",
+  "description": "Sistema de facturas VeriFactu con envío a la AEAT",
+  "homepage": "",
+  "language": "Python",
+  "license": "",
+  "stargazers_count": 24,
+  "topics": [],
+  "license_path": ""
+}
+,
+"Eitol/router-movistar": {
+  "default_branch": "main",
+  "description": "library to manage the movistar router via python",
+  "homepage": "",
+  "language": "Python",
+  "license": "",
+  "stargazers_count": 6,
+  "topics": [
+    "askey",
+    "movistar",
+    "rft3505vw",
+    "router"
+  ],
+  "license_path": ""
+}
+,
+"ElEd0/EMTValencia-API": {
+  "default_branch": "master",
+  "description": "Python module to retrieve bus times and stops for EMT valencia",
+  "homepage": "",
+  "language": "Python",
+  "license": "GPL-3.0",
+  "stargazers_count": 15,
+  "topics": [],
+  "license_path": "LICENSE"
+}
+,
+"ElJere/aCompas": {
+  "default_branch": "master",
+  "description": "A flamenco metronome for the Web",
+  "homepage": "",
+  "language": "JavaScript",
+  "license": "GPL-3.0",
+  "stargazers_count": 9,
+  "topics": [],
+  "license_path": "LICENSE"
 }
 ,
 "emartinez-dev/renfe-bot": {
@@ -3230,6 +1792,40 @@
   "license_path": "LICENSE"
 }
 ,
+"Eseperio/verifactu-php": {
+  "default_branch": "master",
+  "description": "Library for connecting with Verifactu, a spanish legal service for invoice control",
+  "homepage": "",
+  "language": "PHP",
+  "license": "",
+  "stargazers_count": 52,
+  "topics": [],
+  "license_path": ""
+}
+,
+"ESJavadex/ree-mcp": {
+  "default_branch": "main",
+  "description": "MCP para la API de Red Electrica Española",
+  "homepage": "https://www.javadex.es",
+  "language": "Python",
+  "license": "MIT",
+  "stargazers_count": 11,
+  "topics": [
+    "apagon",
+    "api",
+    "data",
+    "electrica",
+    "espana",
+    "espanola",
+    "ia",
+    "mcp",
+    "red",
+    "ree",
+    "spain"
+  ],
+  "license_path": "LICENSE"
+}
+,
 "eusonlito/redsys-TPV": {
   "default_branch": "master",
   "description": "Controlador en PHP para pasarelas de pago (TPV) Redsys / Sermepa / Servired",
@@ -3244,6 +1840,20 @@
     "tpv"
   ],
   "license_path": ""
+}
+,
+"FacturaScripts/docker-facturascripts": {
+  "default_branch": "master",
+  "description": "FacturaScripts official Docker image.",
+  "homepage": "https://facturascripts.com/descargar/docker",
+  "language": "Shell",
+  "license": "LGPL-3.0",
+  "stargazers_count": 27,
+  "topics": [
+    "docker-image",
+    "facturascripts"
+  ],
+  "license_path": "LICENSE"
 }
 ,
 "fawno/AEAT": {
@@ -3266,7 +1876,7 @@
   "homepage": "",
   "language": "Python",
   "license": "MIT",
-  "stargazers_count": 22,
+  "stargazers_count": 23,
   "topics": [
     "bus-madrid",
     "emt-api",
@@ -3295,8 +1905,29 @@
   "homepage": "",
   "language": "Java",
   "license": "MIT",
-  "stargazers_count": 11,
+  "stargazers_count": 13,
   "topics": [],
+  "license_path": "LICENSE"
+}
+,
+"Flerex/spain-gas": {
+  "default_branch": "main",
+  "description": "A PHP client to get information about Spain's gas stations and fuel prices, directly from the Spanish government's Geoportal Gasolineras.",
+  "homepage": "",
+  "language": "PHP",
+  "license": "MIT",
+  "stargazers_count": 6,
+  "topics": [
+    "api",
+    "gas",
+    "gasoline",
+    "gasoline-prices",
+    "gasolineras",
+    "geoportal",
+    "php",
+    "precios",
+    "spain"
+  ],
   "license_path": "LICENSE"
 }
 ,
@@ -3343,6 +1974,27 @@
   "license_path": "LICENSE"
 }
 ,
+"francodesystems/n8n-nodes-holded": {
+  "default_branch": "main",
+  "description": "n8n community node for Holded - Spanish ERP / Invoicing. Contacts, invoices, products, documents. Maintained by Francodesystems.",
+  "homepage": "https://francodesystems.com/open-source/n8n-nodes-holded",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stargazers_count": 2,
+  "topics": [
+    "accounting",
+    "erp",
+    "holded",
+    "invoicing",
+    "n8n",
+    "n8n-community-node-package",
+    "spain",
+    "typescript",
+    "verifactu"
+  ],
+  "license_path": "LICENSE"
+}
+,
 "gabela-io/llave": {
   "default_branch": "main",
   "description": "Open-source Rust implementation of Spain's Cl@ve PIN / Cl@ve Movil authentication system. CLI and Flutter clients sharing a single core.",
@@ -3378,9 +2030,26 @@
   "homepage": "",
   "language": "PHP",
   "license": "GPL-3.0",
-  "stargazers_count": 18,
+  "stargazers_count": 20,
   "topics": [],
   "license_path": "COPYING"
+}
+,
+"Gasparms9/Project5-Cendoj-Scrapping-API": {
+  "default_branch": "master",
+  "description": "Cendoj Scrapping / API.",
+  "homepage": "",
+  "language": "Python",
+  "license": "",
+  "stargazers_count": 16,
+  "topics": [
+    "api",
+    "cendoj",
+    "legal",
+    "python",
+    "scrapping"
+  ],
+  "license_path": ""
 }
 ,
 "gcaguilar/biciradar": {
@@ -3410,6 +2079,774 @@
     "swift",
     "wearos",
     "wearoscompose"
+  ],
+  "license_path": "LICENSE"
+}
+,
+"GeiserX/awesome-andalucia": {
+  "default_branch": "main",
+  "description": "Una selección de software open source que da soporte específico a Andalucía",
+  "homepage": "https://geiserx.github.io/awesome-andalucia/",
+  "language": "Shell",
+  "license": "CC0-1.0",
+  "stargazers_count": 5,
+  "topics": [
+    "almeria",
+    "andalucia",
+    "andalusia",
+    "awesome-andalucia",
+    "awesome-list",
+    "cadiz",
+    "community",
+    "cordoba",
+    "curated-list",
+    "datos-abiertos",
+    "espana",
+    "granada",
+    "huelva",
+    "jaen",
+    "junta-de-andalucia",
+    "malaga",
+    "open-data",
+    "sevilla",
+    "software-libre",
+    "spain"
+  ],
+  "license_path": "LICENSE"
+}
+,
+"GeiserX/awesome-aragon": {
+  "default_branch": "main",
+  "description": "Una selección de software open source para Aragón",
+  "homepage": "https://geiserx.github.io/awesome-aragon/",
+  "language": "Shell",
+  "license": "CC0-1.0",
+  "stargazers_count": 4,
+  "topics": [
+    "administracion-electronica",
+    "aragon",
+    "aragones",
+    "aragonopendata",
+    "aragopedia",
+    "awesome-aragon",
+    "awesome-list",
+    "comunidad",
+    "curated-list",
+    "datos-abiertos",
+    "espana",
+    "gobierno-abierto",
+    "huesca",
+    "open-data",
+    "software-libre",
+    "spain",
+    "teruel",
+    "transporte",
+    "unizar",
+    "zaragoza"
+  ],
+  "license_path": "LICENSE"
+}
+,
+"GeiserX/awesome-asturies": {
+  "default_branch": "main",
+  "description": "Una selección de software open source para el Principado de Asturias",
+  "homepage": "https://geiserx.github.io/awesome-asturies/",
+  "language": "Shell",
+  "license": "CC0-1.0",
+  "stargazers_count": 4,
+  "topics": [
+    "asturianu",
+    "asturias",
+    "asturies",
+    "aviles",
+    "awesome-asturies",
+    "awesome-list",
+    "comunidad",
+    "ctic",
+    "curated-list",
+    "datos-abiertos",
+    "espana",
+    "gijon",
+    "gobierno-abierto",
+    "open-data",
+    "oviedo",
+    "principado",
+    "software-libre",
+    "spain",
+    "turismo",
+    "uniovi"
+  ],
+  "license_path": "LICENSE"
+}
+,
+"GeiserX/awesome-canarias": {
+  "default_branch": "main",
+  "description": "Una selección de software open source para las Islas Canarias",
+  "homepage": "https://geiserx.github.io/awesome-canarias/",
+  "language": "Shell",
+  "license": "CC0-1.0",
+  "stargazers_count": 3,
+  "topics": [
+    "astrofisica",
+    "awesome-canarias",
+    "awesome-list",
+    "canarias",
+    "canary-islands",
+    "curated-list",
+    "datos-abiertos",
+    "espana",
+    "gobierno-abierto",
+    "gran-canaria",
+    "iac",
+    "islas-canarias",
+    "istac",
+    "open-data",
+    "software-libre",
+    "spain",
+    "tenerife",
+    "transporte",
+    "ull",
+    "ulpgc"
+  ],
+  "license_path": "LICENSE"
+}
+,
+"GeiserX/awesome-cantabria": {
+  "default_branch": "main",
+  "description": "Una selección de software open source para Cantabria",
+  "homepage": "https://geiserx.github.io/awesome-cantabria/",
+  "language": "Shell",
+  "license": "CC0-1.0",
+  "stargazers_count": 2,
+  "topics": [
+    "awesome-cantabria",
+    "awesome-list",
+    "cantabria",
+    "comunidad",
+    "curated-list",
+    "datos-abiertos",
+    "espana",
+    "estadistica",
+    "gobierno-abierto",
+    "icane",
+    "iot",
+    "open-data",
+    "participacion-ciudadana",
+    "santander",
+    "smart-city",
+    "software-libre",
+    "spain",
+    "torrelavega",
+    "transporte",
+    "universidad-cantabria"
+  ],
+  "license_path": "LICENSE"
+}
+,
+"GeiserX/awesome-castilla-la-mancha": {
+  "default_branch": "main",
+  "description": "Una selección de software open source para Castilla-La Mancha",
+  "homepage": "https://geiserx.github.io/awesome-castilla-la-mancha/",
+  "language": "Shell",
+  "license": "CC0-1.0",
+  "stargazers_count": 3,
+  "topics": [
+    "administracion-electronica",
+    "albacete",
+    "awesome-castilla-la-mancha",
+    "awesome-list",
+    "castilla-la-mancha",
+    "ciudad-real",
+    "comunidad",
+    "cuenca",
+    "curated-list",
+    "datos-abiertos",
+    "espana",
+    "gobierno-abierto",
+    "guadalajara",
+    "jccm",
+    "open-data",
+    "software-libre",
+    "spain",
+    "toledo",
+    "transporte",
+    "uclm"
+  ],
+  "license_path": "LICENSE"
+}
+,
+"GeiserX/awesome-castilla-y-leon": {
+  "default_branch": "main",
+  "description": "Una selección de software open source para Castilla y León",
+  "homepage": "https://geiserx.github.io/awesome-castilla-y-leon/",
+  "language": "Shell",
+  "license": "CC0-1.0",
+  "stargazers_count": 3,
+  "topics": [
+    "awesome-castilla-y-leon",
+    "awesome-list",
+    "burgos",
+    "castilla-y-leon",
+    "comunidad",
+    "curated-list",
+    "datos-abiertos",
+    "espana",
+    "gobierno-abierto",
+    "jcyl",
+    "leon",
+    "open-data",
+    "participacion-ciudadana",
+    "salamanca",
+    "segovia",
+    "software-libre",
+    "spain",
+    "transporte",
+    "universidad",
+    "valladolid"
+  ],
+  "license_path": "LICENSE"
+}
+,
+"GeiserX/awesome-catalunya": {
+  "default_branch": "main",
+  "description": "Una selección de software open source que da soporte específico a Catalunya",
+  "homepage": "https://geiserx.github.io/awesome-catalunya/",
+  "language": "Shell",
+  "license": "CC0-1.0",
+  "stargazers_count": 11,
+  "topics": [
+    "awesome-catalunya",
+    "awesome-list",
+    "barcelona",
+    "catalan",
+    "catalonia",
+    "cataluna",
+    "catalunya",
+    "community",
+    "curated-list",
+    "datos-abiertos",
+    "espana",
+    "gencat",
+    "generalitat",
+    "girona",
+    "lleida",
+    "open-data",
+    "software",
+    "software-libre",
+    "spain",
+    "tarragona"
+  ],
+  "license_path": "LICENSE"
+}
+,
+"GeiserX/awesome-ceuta-y-melilla": {
+  "default_branch": "main",
+  "description": "Una selección de software open source para las ciudades autónomas de Ceuta y Melilla",
+  "homepage": "https://geiserx.github.io/awesome-ceuta-y-melilla/",
+  "language": "Shell",
+  "license": "CC0-1.0",
+  "stargazers_count": 1,
+  "topics": [
+    "administracion-electronica",
+    "africa",
+    "awesome-ceuta-y-melilla",
+    "awesome-list",
+    "ceuta",
+    "ciudades-autonomas",
+    "comunidad",
+    "curated-list",
+    "datos-abiertos",
+    "espana",
+    "frontera",
+    "gobierno-abierto",
+    "mediterraneo",
+    "melilla",
+    "north-africa",
+    "open-data",
+    "puerto",
+    "software-libre",
+    "spain",
+    "transporte"
+  ],
+  "license_path": "LICENSE"
+}
+,
+"GeiserX/awesome-comunidad-de-madrid": {
+  "default_branch": "main",
+  "description": "Una selección de software open source que da soporte específico a la Comunidad de Madrid",
+  "homepage": "https://geiserx.github.io/awesome-comunidad-de-madrid/",
+  "language": "Shell",
+  "license": "CC0-1.0",
+  "stargazers_count": 6,
+  "topics": [
+    "awesome-comunidad-de-madrid",
+    "awesome-list",
+    "ayuntamiento-madrid",
+    "community",
+    "comunidad-de-madrid",
+    "curated-list",
+    "datos-abiertos",
+    "espana",
+    "gobierno-abierto",
+    "madrid",
+    "metro-madrid",
+    "participacion-ciudadana",
+    "smart-city",
+    "software",
+    "software-libre",
+    "spain",
+    "transport",
+    "uam",
+    "ucm",
+    "upm"
+  ],
+  "license_path": "LICENSE"
+}
+,
+"GeiserX/awesome-comunitat-valenciana": {
+  "default_branch": "main",
+  "description": "Una selección de software open source para la Comunitat Valenciana",
+  "homepage": "https://geiserx.github.io/awesome-comunitat-valenciana/",
+  "language": "Shell",
+  "license": "CC0-1.0",
+  "stargazers_count": 5,
+  "topics": [
+    "alicante",
+    "awesome-comunitat-valenciana",
+    "awesome-list",
+    "castellon",
+    "comunitat-valenciana",
+    "curated-list",
+    "datos-abiertos",
+    "educacion",
+    "espana",
+    "gobierno-abierto",
+    "gva",
+    "lliurex",
+    "open-data",
+    "software-libre",
+    "spain",
+    "transporte",
+    "upv",
+    "uv",
+    "valencia",
+    "valenciano"
+  ],
+  "license_path": "LICENSE"
+}
+,
+"GeiserX/awesome-euskadi": {
+  "default_branch": "main",
+  "description": "Una selección de software open source para Euskadi",
+  "homepage": "https://geiserx.github.io/awesome-euskadi/",
+  "language": "Shell",
+  "license": "CC0-1.0",
+  "stargazers_count": 5,
+  "topics": [
+    "administracion-electronica",
+    "awesome-euskadi",
+    "awesome-list",
+    "basque-country",
+    "bilbao",
+    "curated-list",
+    "datos-abiertos",
+    "donostia",
+    "espana",
+    "euskadi",
+    "euskera",
+    "eustat",
+    "gobierno-abierto",
+    "open-data",
+    "pais-vasco",
+    "software-libre",
+    "spain",
+    "transporte",
+    "upv-ehu",
+    "vitoria-gasteiz"
+  ],
+  "license_path": "LICENSE"
+}
+,
+"GeiserX/awesome-extremadura": {
+  "default_branch": "main",
+  "description": "Una selección de software open source para Extremadura",
+  "homepage": "https://geiserx.github.io/awesome-extremadura/",
+  "language": "Shell",
+  "license": "CC0-1.0",
+  "stargazers_count": 2,
+  "topics": [
+    "awesome-extremadura",
+    "awesome-list",
+    "badajoz",
+    "caceres",
+    "cenatic",
+    "comunidad",
+    "curated-list",
+    "datos-abiertos",
+    "espana",
+    "extremadura",
+    "gnulinex",
+    "gobierno-abierto",
+    "juntaex",
+    "linux",
+    "merida",
+    "open-data",
+    "software-libre",
+    "spain",
+    "turismo",
+    "uex"
+  ],
+  "license_path": "LICENSE"
+}
+,
+"GeiserX/awesome-galicia": {
+  "default_branch": "main",
+  "description": "Una selección de software open source para Galicia",
+  "homepage": "https://geiserx.github.io/awesome-galicia/",
+  "language": "Shell",
+  "license": "CC0-1.0",
+  "stargazers_count": 8,
+  "topics": [
+    "administracion-electronica",
+    "awesome-galicia",
+    "awesome-list",
+    "community",
+    "coruna",
+    "curated-list",
+    "datos-abiertos",
+    "espana",
+    "galego",
+    "galicia",
+    "galician",
+    "gobierno-abierto",
+    "nlp",
+    "open-data",
+    "santiago-de-compostela",
+    "software-libre",
+    "spain",
+    "transporte",
+    "vigo",
+    "xunta"
+  ],
+  "license_path": "LICENSE"
+}
+,
+"GeiserX/awesome-illes-balears": {
+  "default_branch": "main",
+  "description": "Una selección de software open source que da soporte específico a les Illes Balears",
+  "homepage": "https://geiserx.github.io/awesome-illes-balears/",
+  "language": "Shell",
+  "license": "CC0-1.0",
+  "stargazers_count": 2,
+  "topics": [
+    "awesome-illes-balears",
+    "awesome-list",
+    "balearic-islands",
+    "caib",
+    "catalan",
+    "community",
+    "curated-list",
+    "datos-abiertos",
+    "eivissa",
+    "espana",
+    "formentera",
+    "ibiza",
+    "illes-balears",
+    "islas-baleares",
+    "mallorca",
+    "menorca",
+    "open-data",
+    "palma",
+    "software-libre",
+    "spain"
+  ],
+  "license_path": "LICENSE"
+}
+,
+"GeiserX/awesome-la-rioja": {
+  "default_branch": "main",
+  "description": "Una selección de software open source para La Rioja",
+  "homepage": "https://geiserx.github.io/awesome-la-rioja/",
+  "language": "Shell",
+  "license": "CC0-1.0",
+  "stargazers_count": 2,
+  "topics": [
+    "administracion-electronica",
+    "awesome-la-rioja",
+    "awesome-list",
+    "cartografia",
+    "comunidad",
+    "curated-list",
+    "datos-abiertos",
+    "espana",
+    "geojson",
+    "gis",
+    "gobierno-abierto",
+    "iderioja",
+    "la-rioja",
+    "logrono",
+    "open-data",
+    "rioja",
+    "software-libre",
+    "spain",
+    "turismo",
+    "vino"
+  ],
+  "license_path": "LICENSE"
+}
+,
+"GeiserX/awesome-nafarroa": {
+  "default_branch": "main",
+  "description": "Una selección de software open source para Navarra",
+  "homepage": "https://geiserx.github.io/awesome-nafarroa/",
+  "language": "Shell",
+  "license": "CC0-1.0",
+  "stargazers_count": 3,
+  "topics": [
+    "awesome-list",
+    "awesome-nafarroa",
+    "catastro",
+    "comunidad",
+    "curated-list",
+    "datos-abiertos",
+    "espana",
+    "euskera",
+    "gobierno-abierto",
+    "irunea",
+    "nafarroa",
+    "navarra",
+    "open-data",
+    "pamplona",
+    "software-libre",
+    "spain",
+    "tracasa",
+    "tudela",
+    "unav",
+    "upna"
+  ],
+  "license_path": "LICENSE"
+}
+,
+"GeiserX/awesome-region-de-murcia": {
+  "default_branch": "main",
+  "description": "Selección de software open source para la Región de Murcia",
+  "homepage": "https://geiserx.github.io/awesome-region-de-murcia/",
+  "language": "Shell",
+  "license": "CC0-1.0",
+  "stargazers_count": 8,
+  "topics": [
+    "administracion-electronica",
+    "awesome-list",
+    "carm",
+    "cartagena",
+    "comunidad-autonoma",
+    "curated-list",
+    "datos-abiertos",
+    "espana",
+    "gobierno-abierto",
+    "lorca",
+    "mar-menor",
+    "murcia",
+    "open-data",
+    "region-de-murcia",
+    "smart-city",
+    "software-libre",
+    "spain",
+    "transporte",
+    "universidad-de-murcia",
+    "upct"
+  ],
+  "license_path": "LICENSE"
+}
+,
+"GeiserX/awesome-spain": {
+  "default_branch": "main",
+  "description": "Una selección de software open source que da soporte específico a España",
+  "homepage": "https://geiserx.github.io/awesome-spain/",
+  "language": "Python",
+  "license": "CC0-1.0",
+  "stargazers_count": 359,
+  "topics": [
+    "administracion-electronica",
+    "aeat",
+    "autofirma",
+    "awesome-list",
+    "awesome-spain",
+    "catastro",
+    "country-specific",
+    "curated-list",
+    "datos-abiertos",
+    "dgt",
+    "espana",
+    "factura-electronica",
+    "facturacion",
+    "open-data",
+    "redsys",
+    "software-libre",
+    "spain",
+    "tdt",
+    "ticketbai",
+    "verifactu"
+  ],
+  "license_path": "LICENSE"
+}
+,
+"GeiserX/awesome-spain#readme": {
+  "default_branch": "main",
+  "description": "Una selección de software open source que da soporte específico a España",
+  "homepage": "https://geiserx.github.io/awesome-spain/",
+  "language": "Python",
+  "license": "CC0-1.0",
+  "stargazers_count": 359,
+  "topics": [
+    "administracion-electronica",
+    "aeat",
+    "autofirma",
+    "awesome-list",
+    "awesome-spain",
+    "catastro",
+    "country-specific",
+    "curated-list",
+    "datos-abiertos",
+    "dgt",
+    "espana",
+    "factura-electronica",
+    "facturacion",
+    "open-data",
+    "redsys",
+    "software-libre",
+    "spain",
+    "tdt",
+    "ticketbai",
+    "verifactu"
+  ],
+  "license_path": ""
+}
+,
+"GeiserX/DeclaRenta": {
+  "default_branch": "main",
+  "description": "Convierte informes de brokers extranjeros en declaraciones fiscales españolas: Modelo 100 (Renta), Modelo 720, Modelo 721 (cripto) y D-6. 100% gratuito, privado y self-hosted.",
+  "homepage": "https://declarenta.com/docs/",
+  "language": "TypeScript",
+  "license": "AGPL-3.0",
+  "stargazers_count": 48,
+  "topics": [
+    "aeat",
+    "browser",
+    "capital-gains",
+    "degiro",
+    "dividends",
+    "fifo",
+    "hacienda",
+    "ibkr",
+    "interactive-brokers",
+    "irpf",
+    "modelo-100",
+    "modelo-720",
+    "modelo-721",
+    "privacy",
+    "renta",
+    "self-hosted",
+    "spain",
+    "tax",
+    "tax-calculator",
+    "trade-republic"
+  ],
+  "license_path": "LICENSE"
+}
+,
+"GeiserX/radares-anunciados": {
+  "default_branch": "main",
+  "description": "Warns you on the road, before an announced speed radar in Spain. iPhone app on the open radar feed, CarPlay Live Activity, spoken alerts, no account, no server.",
+  "homepage": "",
+  "language": "Swift",
+  "license": "GPL-3.0",
+  "stargazers_count": 1,
+  "topics": [
+    "activitykit",
+    "carplay",
+    "corelocation",
+    "datos-abiertos",
+    "dgt",
+    "driver-assistance",
+    "driving",
+    "dynamic-island",
+    "geofencing",
+    "gps",
+    "live-activities",
+    "openstreetmap",
+    "poi",
+    "road-safety",
+    "spain",
+    "speed-cameras",
+    "speed-limit",
+    "traffic",
+    "traffic-enforcement",
+    "widgetkit"
+  ],
+  "license_path": "LICENSE"
+}
+,
+"GeiserX/search-by-surname": {
+  "default_branch": "main",
+  "description": "R-based batch search tool for Spanish telephone directories by surname",
+  "homepage": "",
+  "language": "R",
+  "license": "GPL-3.0",
+  "stargazers_count": 1,
+  "topics": [
+    "automation",
+    "data-analysis",
+    "data-extraction",
+    "directory-search",
+    "infobel",
+    "open-data",
+    "osint",
+    "people-search",
+    "phone-directory",
+    "phone-lookup",
+    "phonebook",
+    "reconnaissance",
+    "reverse-lookup",
+    "rstats",
+    "scraper",
+    "search-tool",
+    "spain",
+    "surnames",
+    "telephone",
+    "web-scraping"
+  ],
+  "license_path": "LICENSE"
+}
+,
+"GeiserX/secciones-nacionalidades": {
+  "default_branch": "main",
+  "description": "Foreign Insight - WebApp providing insights about nationalities in Spain (Source: Instituto Nacional de Estadística)",
+  "homepage": "",
+  "language": "R",
+  "license": "GPL-3.0",
+  "stargazers_count": 2,
+  "topics": [
+    "census-data",
+    "dashboard",
+    "data-analysis",
+    "data-visualization",
+    "demographics",
+    "extranjeria",
+    "geospatial",
+    "government-data",
+    "immigration",
+    "ine",
+    "inmigracion",
+    "nationalities",
+    "open-data",
+    "padron",
+    "population",
+    "rstats",
+    "shiny",
+    "shinydashboard",
+    "spain",
+    "statistics"
   ],
   "license_path": "LICENSE"
 }
@@ -3502,7 +2939,7 @@
   "homepage": "",
   "language": "TypeScript",
   "license": "CC-BY-SA-4.0",
-  "stargazers_count": 591,
+  "stargazers_count": 593,
   "topics": [
     "cv",
     "json"
@@ -3558,7 +2995,7 @@
   "homepage": "",
   "language": "",
   "license": "",
-  "stargazers_count": 10,
+  "stargazers_count": 11,
   "topics": [
     "open-data"
   ],
@@ -3602,7 +3039,7 @@
   "homepage": "",
   "language": "Python",
   "license": "MIT",
-  "stargazers_count": 16,
+  "stargazers_count": 17,
   "topics": [
     "aeat",
     "facturas",
@@ -3623,7 +3060,7 @@
   "homepage": "",
   "language": "Python",
   "license": "AGPL-3.0",
-  "stargazers_count": 20,
+  "stargazers_count": 19,
   "topics": [],
   "license_path": "LICENSE.txt"
 }
@@ -3645,7 +3082,7 @@
   "homepage": "",
   "language": "Python",
   "license": "Apache-2.0",
-  "stargazers_count": 138,
+  "stargazers_count": 137,
   "topics": [
     "home-assistant",
     "home-automation",
@@ -3660,7 +3097,7 @@
   "homepage": "",
   "language": "Rust",
   "license": "MIT",
-  "stargazers_count": 2,
+  "stargazers_count": 3,
   "topics": [],
   "license_path": "LICENSE"
 }
@@ -3764,7 +3201,7 @@
   "homepage": "https://opencis.spainelectoralproject.com/",
   "language": "R",
   "license": "GPL-3.0",
-  "stargazers_count": 4,
+  "stargazers_count": 5,
   "topics": [
     "abiertos",
     "api",
@@ -3795,13 +3232,24 @@
   "license_path": "LICENSE"
 }
 ,
-"iMark21/aeat-mcp": {
-  "default_branch": "develop",
-  "description": "Servidor MCP con datos fiscales españoles para agentes AI. IRPF, IVA, deducciones autonómicas, criptomonedas, doble imposición. Solo fuentes oficiales (AEAT, BOE).",
+"IDEESpain/Cartociudad": {
+  "default_branch": "main",
+  "description": "Servicio REST: Geocoder del proyecto Cartociudad",
   "homepage": "",
-  "language": "TypeScript",
-  "license": "MIT",
-  "stargazers_count": 13,
+  "language": "JavaScript",
+  "license": "EUPL-1.2",
+  "stargazers_count": 6,
+  "topics": [],
+  "license_path": "LICENSE"
+}
+,
+"IGN-CNIG/API-CNIG": {
+  "default_branch": "master",
+  "description": "",
+  "homepage": "",
+  "language": "JavaScript",
+  "license": "EUPL-1.2",
+  "stargazers_count": 4,
   "topics": [],
   "license_path": "LICENSE"
 }
@@ -3813,6 +3261,17 @@
   "language": "Java",
   "license": "GPL-3.0",
   "stargazers_count": 11,
+  "topics": [],
+  "license_path": "LICENSE"
+}
+,
+"iMark21/aeat-mcp": {
+  "default_branch": "develop",
+  "description": "Servidor MCP con datos fiscales españoles para agentes AI. IRPF, IVA, deducciones autonómicas, criptomonedas, doble imposición. Solo fuentes oficiales (AEAT, BOE).",
+  "homepage": "",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stargazers_count": 13,
   "topics": [],
   "license_path": "LICENSE"
 }
@@ -3889,7 +3348,7 @@
   "homepage": "",
   "language": "Go",
   "license": "Apache-2.0",
-  "stargazers_count": 306,
+  "stargazers_count": 314,
   "topics": [
     "gobl"
   ],
@@ -3929,13 +3388,29 @@
   "license_path": "LICENSE"
 }
 ,
+"IvanitiX/ESCatastroLib": {
+  "default_branch": "master",
+  "description": "Una librería de Python para consultar los datos del Catastro COMO OBJETOS. Incluye información geográfica.",
+  "homepage": "https://pypi.org/project/ESCatastroLib/",
+  "language": "Python",
+  "license": "Apache-2.0",
+  "stargazers_count": 13,
+  "topics": [
+    "catastro",
+    "espana",
+    "gis",
+    "hacktoberfest"
+  ],
+  "license_path": "LICENSE"
+}
+,
 "izanamador/mercadata": {
   "default_branch": "main",
   "description": "Analisis de datos de tickets mercadona",
   "homepage": "",
   "language": "Python",
   "license": "",
-  "stargazers_count": 40,
+  "stargazers_count": 39,
   "topics": [],
   "license_path": ""
 }
@@ -3949,6 +3424,92 @@
   "stargazers_count": 17,
   "topics": [],
   "license_path": ""
+}
+,
+"JaimeObregon/contractacio.cat": {
+  "default_branch": "main",
+  "description": "Propuestas de mejora a la ergonomía de los portales de transparencia de la contratación pública en Cataluña.",
+  "homepage": "",
+  "language": "HTML",
+  "license": "AGPL-3.0",
+  "stargazers_count": 12,
+  "topics": [],
+  "license_path": "LICENSE"
+}
+,
+"JaimeObregon/gobiernovasco.marketing": {
+  "default_branch": "main",
+  "description": "Explora cómo se reparte el dinero público a los medios de comunicación en el País Vasco.",
+  "homepage": "",
+  "language": "HTML",
+  "license": "AGPL-3.0",
+  "stargazers_count": 47,
+  "topics": [],
+  "license_path": "LICENSE"
+}
+,
+"JaimeObregon/infoelectoral": {
+  "default_branch": "main",
+  "description": "Intérprete de microdatos electorales del Ministerio del Interior español.",
+  "homepage": "",
+  "language": "PHP",
+  "license": "AGPL-3.0",
+  "stargazers_count": 155,
+  "topics": [
+    "chanchullopedia",
+    "elecciones",
+    "electoral",
+    "espana",
+    "microdatos",
+    "ministerio",
+    "politica"
+  ],
+  "license_path": "LICENSE"
+}
+,
+"JaimeObregon/ladonacion.es": {
+  "default_branch": "main",
+  "description": "In 2012 the King of Spain, Juan Carlos I, transferred 65 million euros to a friend from a secret account in Switzerland. What lies actually behind this rare donation? This repository contains the full source code of the website ladonacion.es.",
+  "homepage": "https://ladonacion.es",
+  "language": "JavaScript",
+  "license": "AGPL-3.0",
+  "stargazers_count": 195,
+  "topics": [
+    "datajournalism",
+    "datavisualization",
+    "dataviz",
+    "investigative-journalism",
+    "journalism",
+    "leaks",
+    "spain",
+    "transparency"
+  ],
+  "license_path": "LICENSE"
+}
+,
+"JaimeObregon/observatoriospublicos.es": {
+  "default_branch": "main",
+  "description": "Observatorio de los observatorios públicos de España",
+  "homepage": "https://observatoriospublicos.es",
+  "language": "HTML",
+  "license": "AGPL-3.0",
+  "stargazers_count": 131,
+  "topics": [],
+  "license_path": "LICENSE"
+}
+,
+"JaimeObregon/retrosantander": {
+  "default_branch": "main",
+  "description": "Un experimento personal con el portal del Centro de Documentación de la Imagen de Santander (CDIS).",
+  "homepage": "https://retrosantander.com",
+  "language": "JavaScript",
+  "license": "AGPL-3.0",
+  "stargazers_count": 94,
+  "topics": [
+    "cdis",
+    "santander"
+  ],
+  "license_path": "LICENSE"
 }
 ,
 "javaguirre/NacexBundle": {
@@ -4016,6 +3577,22 @@
   "license_path": "LICENSE"
 }
 ,
+"JavierMonton/renfe-tracker": {
+  "default_branch": "main",
+  "description": "Self-hosted application to track renfe trains and prices.",
+  "homepage": "https://javiermonton.github.io/renfe-tracker/",
+  "language": "Python",
+  "license": "AGPL-3.0",
+  "stargazers_count": 16,
+  "topics": [
+    "renfe",
+    "self-hosted",
+    "tracker",
+    "trains"
+  ],
+  "license_path": "LICENSE.txt"
+}
+,
 "javiertoledo/spanish_vat_validators": {
   "default_branch": "master",
   "description": "Provides validators for spanish VAT numbers (NIF, CIF and NIE)",
@@ -4073,7 +3650,7 @@
   "homepage": "",
   "language": "JavaScript",
   "license": "",
-  "stargazers_count": 8,
+  "stargazers_count": 9,
   "topics": [],
   "license_path": ""
 }
@@ -4084,7 +3661,7 @@
   "homepage": "",
   "language": "Python",
   "license": "GPL-2.0",
-  "stargazers_count": 113,
+  "stargazers_count": 117,
   "topics": [
     "android",
     "androidtv",
@@ -4190,7 +3767,7 @@
   "homepage": "https://josemmo.github.io/Facturae-PHP/",
   "language": "PHP",
   "license": "MIT",
-  "stargazers_count": 286,
+  "stargazers_count": 289,
   "topics": [
     "e-invoice",
     "face",
@@ -4208,7 +3785,7 @@
   "homepage": "https://josemmo.github.io/Verifactu-PHP/",
   "language": "PHP",
   "license": "MIT",
-  "stargazers_count": 108,
+  "stargazers_count": 112,
   "topics": [
     "aeat",
     "verifactu"
@@ -4248,7 +3825,7 @@
 ,
 "jtayped/mercapy": {
   "default_branch": "main",
-  "description": "a synchronous, typed python client for mercadona's public storefront apis",
+  "description": "🛒 a synchronous, typed python client for mercadona's public storefront apis",
   "homepage": "https://jtayped.github.io/mercapy/",
   "language": "Python",
   "license": "MIT",
@@ -4297,7 +3874,7 @@
   "homepage": "",
   "language": "",
   "license": "NOASSERTION",
-  "stargazers_count": 35,
+  "stargazers_count": 36,
   "topics": [
     "dataset",
     "demographics",
@@ -4308,13 +3885,24 @@
   "license_path": "LICENSE.md"
 }
 ,
+"KhaosResearch/sigpac-tools": {
+  "default_branch": "main",
+  "description": "SIGPAC-Tools is a custom Python library that provides the user a comfortable client to retrieve data from SIGPAC api, saving the user from downloading and storing heavy files.",
+  "homepage": "",
+  "language": "Python",
+  "license": "MIT",
+  "stargazers_count": 2,
+  "topics": [],
+  "license_path": "LICENSE"
+}
+,
 "kpliuta/cita-previa-extranjeria-monitor": {
   "default_branch": "main",
   "description": "A web scraper that automates the soul-crushing process of checking for appointments (cita previa) at the Spanish immigration office (extranjería).",
   "homepage": "",
   "language": "Python",
   "license": "MIT",
-  "stargazers_count": 20,
+  "stargazers_count": 23,
   "topics": [
     "android",
     "appointment",
@@ -4326,6 +3914,41 @@
     "selenium",
     "termux",
     "web-scraping"
+  ],
+  "license_path": "LICENSE"
+}
+,
+"LaQuay/TDTChannels": {
+  "default_branch": "master",
+  "description": "Listado de Canales de TV (TDT) en abierto, 100% legal, 100% gratuito // Spanish TV Channels, 100% legal, 100% free",
+  "homepage": "https://www.tdtchannels.com/",
+  "language": "Python",
+  "license": "Apache-2.0",
+  "stargazers_count": 1682,
+  "topics": [],
+  "license_path": "LICENSE"
+}
+,
+"ldiazcuadrado/verifactu-python": {
+  "default_branch": "main",
+  "description": "Librería Python para VERI*FACTU (AEAT): huella, XML validado con XSD oficial, código QR y envío SOAP. Incluye CLI y servidor MCP.",
+  "homepage": "",
+  "language": "Python",
+  "license": "MIT",
+  "stargazers_count": 0,
+  "topics": [
+    "aeat",
+    "agencia-tributaria",
+    "e-invoicing",
+    "factura-electronica",
+    "facturacion",
+    "invoice",
+    "mcp-server",
+    "python",
+    "qr-code",
+    "sif",
+    "spain",
+    "verifactu"
   ],
   "license_path": "LICENSE"
 }
@@ -4424,7 +4047,7 @@
   "homepage": "https://legalize.dev/es",
   "language": "",
   "license": "NOASSERTION",
-  "stargazers_count": 1879,
+  "stargazers_count": 1964,
   "topics": [
     "legalize-country"
   ],
@@ -4464,6 +4087,17 @@
   "license_path": ""
 }
 ,
+"LopCuns/wallapop_scraper": {
+  "default_branch": "master",
+  "description": "",
+  "homepage": "",
+  "language": "Python",
+  "license": "",
+  "stargazers_count": 6,
+  "topics": [],
+  "license_path": ""
+}
+,
 "luisdues/plazos-extranjeria-es": {
   "default_branch": "main",
   "description": "Días inhábiles 2026 del Estado, las 17 comunidades autónomas y Ceuta y Melilla (BOE), y plazo de resolución y silencio de 32 trámites de extranjería en España, en JSON/CSV, con librería JS de cómputo según la Ley 39/2015.",
@@ -4490,7 +4124,7 @@
   "homepage": "https://forum.cpha.pt/t/integracao-omie-precos-horarios-diarios-mecanismo-de-ajuste/11668",
   "language": "Python",
   "license": "Apache-2.0",
-  "stargazers_count": 81,
+  "stargazers_count": 82,
   "topics": [
     "electricity",
     "home-assistant",
@@ -4542,7 +4176,27 @@
     "spain",
     "supermarket"
   ],
-  "license_path": ""
+  "license_path": "LICENSE"
+}
+,
+"M4RC0Sx/esiosapy": {
+  "default_branch": "master",
+  "description": "Unofficial ESIOS API Python library. Up to date and fully equipped.",
+  "homepage": "https://m4rc0sx.github.io/esiosapy/",
+  "language": "Python",
+  "license": "GPL-3.0",
+  "stargazers_count": 4,
+  "topics": [
+    "electrcidad",
+    "energia",
+    "energy-markets",
+    "esios",
+    "esios-api",
+    "mercados-electricos",
+    "python",
+    "ree"
+  ],
+  "license_path": "LICENSE"
 }
 ,
 "maguayo/python-correos-express": {
@@ -4556,13 +4210,24 @@
   "license_path": "LICENSE"
 }
 ,
+"ManuelCebreiro/spanish-cities-info": {
+  "default_branch": "main",
+  "description": "8,132 municipios de España verificados contra el INE. Búsqueda por nombre, provincia, comunidad o radio (km). TypeScript, imports modulares.",
+  "homepage": "npmjs.com/package/spanish-cities-info",
+  "language": "TypeScript",
+  "license": "ISC",
+  "stargazers_count": 5,
+  "topics": [],
+  "license_path": "LICENSE"
+}
+,
 "martgnz/bcn-geodata": {
   "default_branch": "master",
   "description": "The official shapefiles of Barcelona, converted to GeoJSON and TopoJSON",
   "homepage": "",
   "language": "Shell",
   "license": "MIT",
-  "stargazers_count": 70,
+  "stargazers_count": 71,
   "topics": [],
   "license_path": "LICENSE"
 }
@@ -4700,7 +4365,7 @@
   "homepage": "https://facturae.irenesolutions.com/verifactu/go",
   "language": "C#",
   "license": "AGPL-3.0",
-  "stargazers_count": 337,
+  "stargazers_count": 338,
   "topics": [
     "access",
     "aeat",
@@ -4754,6 +4419,67 @@
   "license_path": "LICENSE"
 }
 ,
+"MiguelAngelLV/ha-balance-neto": {
+  "default_branch": "main",
+  "description": "Componente para Home Assistant que calcula el Balance Neto Horario para instalaciones fotovoltáicas.",
+  "homepage": "",
+  "language": "Python",
+  "license": "",
+  "stargazers_count": 66,
+  "topics": [
+    "fotovoltaica",
+    "home-assistant",
+    "homeassistant"
+  ],
+  "license_path": ""
+}
+,
+"MiguelAngelLV/ha-gas-station-spain": {
+  "default_branch": "main",
+  "description": "Home Assistant Component for Gas Stations of Spain",
+  "homepage": "",
+  "language": "Python",
+  "license": "MIT",
+  "stargazers_count": 60,
+  "topics": [
+    "gasstations",
+    "homassistant",
+    "homeassistant-integration",
+    "spain"
+  ],
+  "license_path": "LICENSE"
+}
+,
+"MiguelAngelLV/ha-octopus-spain": {
+  "default_branch": "main",
+  "description": "Componente para Home Assistant que obtiene la última factura y la Solar Wallet de Octopus Energy Spain.",
+  "homepage": "",
+  "language": "Python",
+  "license": "MIT",
+  "stargazers_count": 59,
+  "topics": [
+    "homeassistant-custom-component",
+    "octopus-energy",
+    "spain"
+  ],
+  "license_path": "LICENSE"
+}
+,
+"MiguelAngelLV/ha-tarifa-20td": {
+  "default_branch": "main",
+  "description": "Componente para Home Assisant para usuarios con tarifa 2.0 TD",
+  "homepage": "",
+  "language": "Python",
+  "license": "MIT",
+  "stargazers_count": 47,
+  "topics": [
+    "energy-monitor",
+    "homeassistant",
+    "tarifa"
+  ],
+  "license_path": "LICENSE"
+}
+,
 "mindset-code/calendario-fiscal-es": {
   "default_branch": "main",
   "description": "Plazos de presentación de los modelos tributarios españoles (AEAT) en Python puro, sin dependencias: traslado a día hábil y fecha límite de domiciliación.",
@@ -4804,27 +4530,41 @@
   "license_path": "LICENSE"
 }
 ,
-"mv12star/lista-telefonos-spam": {
-  "default_branch": "main",
-  "description": "Lista de teléfonos spam de España, obtenidos de varias fuentes web. Actualizado cada 24h 18:00",
-  "homepage": "https://codeberg.org/mv12star/lista-telefonos-spam",
+"MovistarTV/tv_grab_es_movistartv": {
+  "default_branch": "master",
+  "description": "Grabber XMLTV para Movistar TV",
+  "homepage": "",
   "language": "Python",
-  "license": "Unlicense",
-  "stargazers_count": 30,
+  "license": "GPL-3.0",
+  "stargazers_count": 48,
+  "topics": [],
+  "license_path": "LICENSE"
+}
+,
+"MPAndrew/EpgGratis": {
+  "default_branch": "master",
+  "description": "EPG y grabber XMLTV para Movistar+",
+  "homepage": "",
+  "language": "Shell",
+  "license": "GPL-3.0",
+  "stargazers_count": 25,
+  "topics": [],
+  "license_path": "LICENSE"
+}
+,
+"MrMarble/datadis": {
+  "default_branch": "master",
+  "description": "Datadis python api client",
+  "homepage": "",
+  "language": "Python",
+  "license": "MIT",
+  "stargazers_count": 7,
   "topics": [
-    "block-numbers",
-    "bloquear-numeros",
-    "bloquear-spam",
-    "call-block",
-    "call-blocker",
-    "espana",
-    "phone-call",
-    "phone-number",
-    "spain",
-    "spam",
-    "spam-blocker",
-    "spam-blocking",
-    "spam-filter"
+    "api-client",
+    "datadis",
+    "electricity",
+    "python",
+    "spain"
   ],
   "license_path": "LICENSE"
 }
@@ -4851,6 +4591,33 @@
   "license_path": "LICENSE.txt"
 }
 ,
+"NadineKroher/PyCante": {
+  "default_branch": "master",
+  "description": "CANTE: Automatic transcription of flamenco singing.",
+  "homepage": "",
+  "language": "Python",
+  "license": "NOASSERTION",
+  "stargazers_count": 14,
+  "topics": [],
+  "license_path": "LICENSE.md"
+}
+,
+"Naritsumi/EstudiaTAI-app": {
+  "default_branch": "main",
+  "description": "Aplicación android por y para TAIs.",
+  "homepage": "https://estudiatai.es/",
+  "language": "HTML",
+  "license": "MIT",
+  "stargazers_count": 10,
+  "topics": [
+    "age",
+    "estudios",
+    "kotlin",
+    "oposiciones"
+  ],
+  "license_path": "LICENSE"
+}
+,
 "nebojsa-prodana/spanish-long-term-visa-docker": {
   "default_branch": "main",
   "description": "Containerized setup to make it easy to apply for long term spanish residence cards",
@@ -4868,13 +4635,63 @@
   "license_path": "LICENSE"
 }
 ,
+"NemonInvocash/verifactu-php": {
+  "default_branch": "main",
+  "description": "Cliente PHP para la API de Verifactu y TicketBAI (TBAI): emisión y validación de facturas electrónicas conforme a la normativa de la AEAT. Sin dependencias, instalable con Composer.",
+  "homepage": "https://verifactuapi.es",
+  "language": "PHP",
+  "license": "MIT",
+  "stargazers_count": 9,
+  "topics": [
+    "aeat",
+    "api-client",
+    "invocash",
+    "invoicing",
+    "php",
+    "spain",
+    "tbai",
+    "ticketbai",
+    "veri-factu",
+    "verifactu"
+  ],
+  "license_path": "LICENSE"
+}
+,
+"NeoRazorX/facturascripts": {
+  "default_branch": "master",
+  "description": "Open source ERP software. Built on modern PHP and bootstrap. Easy and powerful.",
+  "homepage": "https://facturascripts.com",
+  "language": "PHP",
+  "license": "LGPL-3.0",
+  "stargazers_count": 499,
+  "topics": [
+    "contabilidad",
+    "crm",
+    "erp",
+    "facturacion",
+    "php"
+  ],
+  "license_path": "COPYING"
+}
+,
+"Neufal777/wallapop-go": {
+  "default_branch": "main",
+  "description": "Wallapop API client in Golang",
+  "homepage": "",
+  "language": "Go",
+  "license": "MIT",
+  "stargazers_count": 10,
+  "topics": [],
+  "license_path": "LICENSE"
+}
+,
 "nix-community/autofirma-nix": {
   "default_branch": "main",
   "description": "Nix modules for interacting with Spanish public administration services [maintainers=@nilp0inter @panchoh @CesarGallego]",
   "homepage": "https://nix-community.github.io/autofirma-nix/",
   "language": "Nix",
   "license": "MIT",
-  "stargazers_count": 55,
+  "stargazers_count": 59,
   "topics": [
     "autofirma",
     "bureucracy",
@@ -4897,6 +4714,17 @@
   "license_path": "LICENSE"
 }
 ,
+"Noltari/AEMET-OpenData": {
+  "default_branch": "master",
+  "description": "Python client for AEMET OpenData Rest API",
+  "homepage": "",
+  "language": "Python",
+  "license": "GPL-2.0",
+  "stargazers_count": 8,
+  "topics": [],
+  "license_path": "LICENSE.md"
+}
+,
 "nyanja/cita-previa-checker": {
   "default_branch": "main",
   "description": "Appointment availability checker for Spanish immigration services (cita previa extranjería)",
@@ -4906,6 +4734,21 @@
   "stargazers_count": 3,
   "topics": [],
   "license_path": ""
+}
+,
+"OCA/l10n-spain": {
+  "default_branch": "19.0",
+  "description": "Odoo Spain Localization",
+  "homepage": "https://www.aeodoo.org/estado-localizacion",
+  "language": "Python",
+  "license": "AGPL-3.0",
+  "stargazers_count": 582,
+  "topics": [
+    "erp",
+    "hacktoberfest",
+    "odoo"
+  ],
+  "license_path": "LICENSE"
 }
 ,
 "onticsoluciones/iuris": {
@@ -4963,7 +4806,7 @@
   "homepage": "",
   "language": "Java",
   "license": "",
-  "stargazers_count": 7,
+  "stargazers_count": 6,
   "topics": [],
   "license_path": ""
 }
@@ -5006,6 +4849,23 @@
   "license_path": "LICENSE"
 }
 ,
+"OSM-es/CatAtom2Osm": {
+  "default_branch": "master",
+  "description": "Tool to convert INSPIRE data sets from the Spanish Cadastre ATOM Services to OSM files.",
+  "homepage": "",
+  "language": "Python",
+  "license": "BSD-2-Clause",
+  "stargazers_count": 15,
+  "topics": [
+    "conversion",
+    "osm",
+    "python",
+    "qgis",
+    "spanish-cadastre"
+  ],
+  "license_path": "LICENSE"
+}
+,
 "pablo-moreno/python-aemet": {
   "default_branch": "master",
   "description": "Python library to get AEMET data",
@@ -5022,13 +4882,35 @@
   "license_path": "LICENSE"
 }
 ,
+"Paco8/plugin.video.movistarplus": {
+  "default_branch": "main",
+  "description": "Movistarplus for Kodi",
+  "homepage": "",
+  "language": "Python",
+  "license": "GPL-2.0",
+  "stargazers_count": 89,
+  "topics": [],
+  "license_path": "LICENSE"
+}
+,
+"Paco8/plugin.video.orange.spain": {
+  "default_branch": "main",
+  "description": "Orange TV Spain for Kodi",
+  "homepage": "",
+  "language": "Python",
+  "license": "GPL-2.0",
+  "stargazers_count": 20,
+  "topics": [],
+  "license_path": "LICENSE"
+}
+,
 "paezha/idealista18": {
   "default_branch": "master",
   "description": "Open data product with real estate listings from Idealista. The datasets are for three major cities in Spain and the year 2018. https://doi.org/10.1177/23998083241242844",
   "homepage": "https://paezha.github.io/idealista18/",
   "language": "TeX",
   "license": "ODbL-1.0",
-  "stargazers_count": 58,
+  "stargazers_count": 59,
   "topics": [
     "data",
     "open-data-products",
@@ -5038,6 +4920,17 @@
     "spain",
     "spatial"
   ],
+  "license_path": "LICENSE.md"
+}
+,
+"Pakillo/ANECAtools": {
+  "default_branch": "master",
+  "description": "Paquete de R con herramientas para facilitar el proceso de acreditación en la ANECA",
+  "homepage": "https://pakillo.github.io/ANECAtools/",
+  "language": "R",
+  "license": "GPL-3.0",
+  "stargazers_count": 22,
+  "topics": [],
   "license_path": "LICENSE.md"
 }
 ,
@@ -5065,7 +4958,7 @@
   "homepage": "https://www.larenta.es",
   "language": "Astro",
   "license": "MIT",
-  "stargazers_count": 99,
+  "stargazers_count": 100,
   "topics": [
     "astro",
     "deducciones",
@@ -5085,7 +4978,7 @@
   "homepage": "https://peprolinbot.github.io/bus.gal-api",
   "language": "Python",
   "license": "GPL-3.0",
-  "stargazers_count": 10,
+  "stargazers_count": 11,
   "topics": [
     "api",
     "bus",
@@ -5147,7 +5040,7 @@
   "homepage": "",
   "language": "Python",
   "license": "MIT",
-  "stargazers_count": 14,
+  "stargazers_count": 13,
   "topics": [],
   "license_path": "LICENSE"
 }
@@ -5169,7 +5062,7 @@
   "homepage": "http://agora.xtec.cat",
   "language": "PHP",
   "license": "GPL-3.0",
-  "stargazers_count": 43,
+  "stargazers_count": 44,
   "topics": [
     "buddypress",
     "education",
@@ -5190,7 +5083,7 @@
   "homepage": "",
   "language": "Java",
   "license": "GPL-2.0",
-  "stargazers_count": 30,
+  "stargazers_count": 32,
   "topics": [],
   "license_path": "LICENSE"
 }
@@ -5219,7 +5112,7 @@
   "homepage": "",
   "language": "",
   "license": "MIT",
-  "stargazers_count": 6,
+  "stargazers_count": 7,
   "topics": [],
   "license_path": "LICENSE"
 }
@@ -5240,248 +5133,62 @@
   "license_path": "LICENSE"
 }
 ,
-"rOpenSpain/BOE": {
-  "default_branch": "master",
-  "description": "A package to retrieve and interact with https://boe.es",
-  "homepage": "https://rOpenSpain.github.io/BOE",
-  "language": "R",
-  "license": "NOASSERTION",
-  "stargazers_count": 10,
-  "topics": [
-    "boe",
-    "xml"
-  ],
-  "license_path": "LICENSE"
-}
-,
-"rOpenSpain/CatastRo": {
+"PyLadiesMadrid/pycartociudad": {
   "default_branch": "main",
-  "description": "Access Spanish Cadastre spatial data and web services in R.",
-  "homepage": "http://ropenspain.github.io/CatastRo/",
-  "language": "R",
-  "license": "GPL-2.0",
-  "stargazers_count": 31,
-  "topics": [
-    "catastro",
-    "cran",
-    "cran-r",
-    "gis",
-    "maps",
-    "r",
-    "r-package",
-    "ropenspain",
-    "rstats",
-    "spain",
-    "spatial",
-    "static-tiles"
-  ],
-  "license_path": "LICENSE.md"
-}
-,
-"rOpenSpain/CatastRoNav": {
-  "default_branch": "main",
-  "description": "Access spatial data and web services from the Cadastre of Navarre in R.",
-  "homepage": "https://ropenspain.github.io/CatastRoNav/",
-  "language": "R",
-  "license": "GPL-2.0",
-  "stargazers_count": 2,
-  "topics": [
-    "catastro",
-    "maps",
-    "navarra",
-    "r",
-    "r-package",
-    "r-stats",
-    "ropenspain",
-    "spain"
-  ],
-  "license_path": "LICENSE.md"
-}
-,
-"rOpenSpain/INEbaseR": {
-  "default_branch": "master",
-  "description": "R Package for obtaining and analyzing open data from INE (Instituto Nacional de Estadística)",
-  "homepage": "https://inebaser.wordpress.com/",
-  "language": "R",
+  "description": "Python package to query cartociudad API",
+  "homepage": "",
+  "language": "Python",
   "license": "GPL-3.0",
-  "stargazers_count": 23,
-  "topics": [],
-  "license_path": "LICENSE"
-}
-,
-"rOpenSpain/MicroDatosEs": {
-  "default_branch": "master",
-  "description": "R package providing utilities for reading and processing microdata from Spanish official statistics",
-  "homepage": "",
-  "language": "R",
-  "license": "",
-  "stargazers_count": 14,
-  "topics": [],
-  "license_path": ""
-}
-,
-"rOpenSpain/airqualityES": {
-  "default_branch": "master",
-  "description": "Air Quality Measurements in Spain from 2001 to 2018",
-  "homepage": "",
-  "language": "R",
-  "license": "",
   "stargazers_count": 4,
-  "topics": [],
-  "license_path": ""
+  "topics": [
+    "hacktoberfest"
+  ],
+  "license_path": "LICENSE"
 }
 ,
-"rOpenSpain/caRtociudad": {
-  "default_branch": "master",
-  "description": "R package to query cartociudad API",
+"RadarCOVID/radar-covid-android": {
+  "default_branch": "develop",
+  "description": "Native Android app using DP^3T Android sdk to handle Exposure Notifications API from Google",
   "homepage": "",
-  "language": "R",
-  "license": "",
-  "stargazers_count": 25,
-  "topics": [],
-  "license_path": ""
-}
-,
-"rOpenSpain/climaemet": {
-  "default_branch": "main",
-  "description": "Access and visualize weather and climate data from AEMET OpenData in R.",
-  "homepage": "https://ropenspain.github.io/climaemet/",
-  "language": "R",
-  "license": "GPL-3.0",
-  "stargazers_count": 46,
+  "language": "Kotlin",
+  "license": "MPL-2.0",
+  "stargazers_count": 375,
   "topics": [
-    "aemet",
-    "climate",
-    "cran",
-    "data",
-    "forecast-api",
-    "r",
-    "r-package",
-    "ropenspain",
-    "rstats",
-    "science",
-    "spain",
-    "weather-api"
+    "android",
+    "android-studio",
+    "kotlin"
   ],
   "license_path": "LICENSE"
 }
 ,
-"rOpenSpain/infoelectoral": {
-  "default_branch": "master",
-  "description": "R package that helps retrieve and analize official electoral results for Spain from the Ministry of the Interior. It allows you to download the results of general, european and municipal elections of any year at the polling station and municipality level.",
-  "homepage": "https://infoelectoral.spainelectoralproject.com/",
-  "language": "R",
-  "license": "",
-  "stargazers_count": 32,
+"RadarCOVID/radar-covid-backend-verification-server": {
+  "default_branch": "develop",
+  "description": "Radar COVID Verification Service",
+  "homepage": "",
+  "language": "Java",
+  "license": "MPL-2.0",
+  "stargazers_count": 93,
   "topics": [
-    "data",
-    "elecciones",
-    "elections",
-    "electoral",
-    "infoelectoral",
-    "r",
-    "spain"
-  ],
-  "license_path": ""
-}
-,
-"rOpenSpain/mapSpain": {
-  "default_branch": "main",
-  "description": "Access official maps, administrative boundaries and geographical data of Spain in R.",
-  "homepage": "https://ropenspain.github.io/mapSpain/",
-  "language": "R",
-  "license": "GPL-3.0",
-  "stargazers_count": 49,
-  "topics": [
-    "administrative-boundaries",
-    "ccaa",
-    "cran",
-    "ggplot2",
-    "gis",
-    "gisco",
-    "ign",
-    "maps",
-    "municipalities",
-    "provinces",
-    "r",
-    "r-package",
-    "ropenspain",
-    "rstats",
-    "spain",
-    "spatial",
-    "static-tiles",
-    "tiles"
+    "java",
+    "maven",
+    "spring-boot"
   ],
   "license_path": "LICENSE"
 }
 ,
-"rOpenSpain/opendataes": {
-  "default_branch": "master",
-  "description": "R package to access data from datos.gob.es",
-  "homepage": "https://ropenspain.github.io/opendataes/",
-  "language": "R",
-  "license": "NOASSERTION",
-  "stargazers_count": 22,
-  "topics": [],
-  "license_path": "LICENSE"
-}
-,
-"rOpenSpain/spanishoddata": {
-  "default_branch": "main",
-  "description": "Access national high-quality and open-access datasets on movement patterns derived from mobile telephone datasets / Accede y usa datos nacionales abiertos sobre movimientos basados en teléfonos móviles.",
-  "homepage": "https://ropenspain.github.io/spanishoddata/",
-  "language": "R",
-  "license": "NOASSERTION",
-  "stargazers_count": 48,
+"RadarCOVID/radar-covid-ios": {
+  "default_branch": "develop",
+  "description": "Native iOS app using DP^3T iOS sdk to handle Exposure Notification framework from Apple",
+  "homepage": "",
+  "language": "Swift",
+  "license": "MPL-2.0",
+  "stargazers_count": 143,
   "topics": [
-    "cdr",
-    "data",
-    "data-package",
-    "mobile-telephone-data",
-    "mobility",
-    "origin-destination",
-    "rstats"
+    "ios",
+    "swift",
+    "xcode"
   ],
   "license_path": "LICENSE"
-}
-,
-"rOpenSpain/tidyBdE": {
-  "default_branch": "main",
-  "description": "Download, tidy and analyze Banco de España statistical data in R.",
-  "homepage": "https://ropenspain.github.io/tidyBdE/",
-  "language": "R",
-  "license": "GPL-3.0",
-  "stargazers_count": 12,
-  "topics": [
-    "api",
-    "bde",
-    "cran",
-    "ggplot2",
-    "macroeconomics",
-    "r",
-    "r-package",
-    "ropenspain",
-    "rstats",
-    "series-data",
-    "spain"
-  ],
-  "license_path": "LICENSE.md"
-}
-,
-"rOpenSpain/tidycenso": {
-  "default_branch": "main",
-  "description": "An R library for accesing the 2021 spanish census API.",
-  "homepage": "https://ropenspain.github.io/tidycenso/",
-  "language": "R",
-  "license": "GPL-3.0",
-  "stargazers_count": 2,
-  "topics": [
-    "api",
-    "census",
-    "r",
-    "spain"
-  ],
-  "license_path": "LICENSE.md"
 }
 ,
 "rae-api-com/go-rae": {
@@ -5541,7 +5248,18 @@
   "homepage": "",
   "language": "",
   "license": "",
-  "stargazers_count": 2834,
+  "stargazers_count": 2837,
+  "topics": [],
+  "license_path": ""
+}
+,
+"RicardoMoya/FootballMatchesDataSet": {
+  "default_branch": "master",
+  "description": "El objetivo de publicar este DataSet es el de abrir una nueva área de investigación dentro del Machine Learning para la predicción de resultados en partidos de fútbol; a priori, arrojando un resultado en formato quiniela (1X2), aunque podría ser extensible a la predicción del resultado final.",
+  "homepage": "http://jarroba.com/dataset-resultados-partidos-futbol-prediccion-machine-learning/",
+  "language": "Python",
+  "license": "",
+  "stargazers_count": 37,
   "topics": [],
   "license_path": ""
 }
@@ -5578,7 +5296,7 @@
   "homepage": "",
   "language": "",
   "license": "",
-  "stargazers_count": 15,
+  "stargazers_count": 16,
   "topics": [],
   "license_path": ""
 }
@@ -5592,6 +5310,250 @@
   "stargazers_count": 3,
   "topics": [],
   "license_path": ""
+}
+,
+"rOpenSpain/airqualityES": {
+  "default_branch": "master",
+  "description": "Air Quality Measurements in Spain from 2001 to 2018",
+  "homepage": "",
+  "language": "R",
+  "license": "",
+  "stargazers_count": 4,
+  "topics": [],
+  "license_path": ""
+}
+,
+"rOpenSpain/BOE": {
+  "default_branch": "master",
+  "description": "A package to retrieve and interact with https://boe.es",
+  "homepage": "https://rOpenSpain.github.io/BOE",
+  "language": "R",
+  "license": "NOASSERTION",
+  "stargazers_count": 12,
+  "topics": [
+    "boe",
+    "xml"
+  ],
+  "license_path": "LICENSE"
+}
+,
+"rOpenSpain/caRtociudad": {
+  "default_branch": "master",
+  "description": "R package to query cartociudad API",
+  "homepage": "",
+  "language": "R",
+  "license": "",
+  "stargazers_count": 25,
+  "topics": [],
+  "license_path": ""
+}
+,
+"rOpenSpain/CatastRo": {
+  "default_branch": "main",
+  "description": "Access Spanish Cadastre spatial data and web services in R.",
+  "homepage": "http://ropenspain.github.io/CatastRo/",
+  "language": "R",
+  "license": "GPL-2.0",
+  "stargazers_count": 31,
+  "topics": [
+    "catastro",
+    "cran",
+    "cran-r",
+    "gis",
+    "maps",
+    "r",
+    "r-package",
+    "ropenspain",
+    "rstats",
+    "spain",
+    "spatial",
+    "static-tiles"
+  ],
+  "license_path": "LICENSE.md"
+}
+,
+"rOpenSpain/CatastRoNav": {
+  "default_branch": "main",
+  "description": "Access spatial data and web services from the Cadastre of Navarre in R.",
+  "homepage": "https://ropenspain.github.io/CatastRoNav/",
+  "language": "R",
+  "license": "GPL-2.0",
+  "stargazers_count": 2,
+  "topics": [
+    "catastro",
+    "maps",
+    "navarra",
+    "r",
+    "r-package",
+    "r-stats",
+    "ropenspain",
+    "spain"
+  ],
+  "license_path": "LICENSE.md"
+}
+,
+"rOpenSpain/climaemet": {
+  "default_branch": "main",
+  "description": "Access and visualize weather and climate data from AEMET OpenData in R.",
+  "homepage": "https://ropenspain.github.io/climaemet/",
+  "language": "R",
+  "license": "GPL-3.0",
+  "stargazers_count": 46,
+  "topics": [
+    "aemet",
+    "climate",
+    "cran",
+    "data",
+    "forecast-api",
+    "r",
+    "r-package",
+    "ropenspain",
+    "rstats",
+    "science",
+    "spain",
+    "weather-api"
+  ],
+  "license_path": "LICENSE"
+}
+,
+"rOpenSpain/INEbaseR": {
+  "default_branch": "master",
+  "description": "R Package for obtaining and analyzing open data from INE (Instituto Nacional de Estadística)",
+  "homepage": "https://inebaser.wordpress.com/",
+  "language": "R",
+  "license": "GPL-3.0",
+  "stargazers_count": 23,
+  "topics": [],
+  "license_path": "LICENSE"
+}
+,
+"rOpenSpain/infoelectoral": {
+  "default_branch": "master",
+  "description": "R package that helps retrieve and analize official electoral results for Spain from the Ministry of the Interior. It allows you to download the results of general, european and municipal elections of any year at the polling station and municipality level.",
+  "homepage": "https://infoelectoral.spainelectoralproject.com/",
+  "language": "R",
+  "license": "",
+  "stargazers_count": 33,
+  "topics": [
+    "data",
+    "elecciones",
+    "elections",
+    "electoral",
+    "infoelectoral",
+    "r",
+    "spain"
+  ],
+  "license_path": ""
+}
+,
+"rOpenSpain/mapSpain": {
+  "default_branch": "main",
+  "description": "Access official maps, administrative boundaries and geographical data of Spain in R.",
+  "homepage": "https://ropenspain.github.io/mapSpain/",
+  "language": "R",
+  "license": "GPL-3.0",
+  "stargazers_count": 50,
+  "topics": [
+    "administrative-boundaries",
+    "ccaa",
+    "cran",
+    "ggplot2",
+    "gis",
+    "gisco",
+    "ign",
+    "maps",
+    "municipalities",
+    "provinces",
+    "r",
+    "r-package",
+    "ropenspain",
+    "rstats",
+    "spain",
+    "spatial",
+    "static-tiles",
+    "tiles"
+  ],
+  "license_path": "LICENSE"
+}
+,
+"rOpenSpain/MicroDatosEs": {
+  "default_branch": "master",
+  "description": "R package providing utilities for reading and processing microdata from Spanish official statistics",
+  "homepage": "",
+  "language": "R",
+  "license": "",
+  "stargazers_count": 14,
+  "topics": [],
+  "license_path": ""
+}
+,
+"rOpenSpain/opendataes": {
+  "default_branch": "master",
+  "description": "R package to access data from datos.gob.es",
+  "homepage": "https://ropenspain.github.io/opendataes/",
+  "language": "R",
+  "license": "NOASSERTION",
+  "stargazers_count": 22,
+  "topics": [],
+  "license_path": "LICENSE"
+}
+,
+"rOpenSpain/spanishoddata": {
+  "default_branch": "main",
+  "description": "Access national high-quality and open-access datasets on movement patterns derived from mobile telephone datasets / Accede y usa datos nacionales abiertos sobre movimientos basados en teléfonos móviles.",
+  "homepage": "https://ropenspain.github.io/spanishoddata/",
+  "language": "R",
+  "license": "NOASSERTION",
+  "stargazers_count": 48,
+  "topics": [
+    "cdr",
+    "data",
+    "data-package",
+    "mobile-telephone-data",
+    "mobility",
+    "origin-destination",
+    "rstats"
+  ],
+  "license_path": "LICENSE"
+}
+,
+"rOpenSpain/tidyBdE": {
+  "default_branch": "main",
+  "description": "Download, tidy and analyze Banco de España statistical data in R.",
+  "homepage": "https://ropenspain.github.io/tidyBdE/",
+  "language": "R",
+  "license": "GPL-3.0",
+  "stargazers_count": 13,
+  "topics": [
+    "api",
+    "bde",
+    "cran",
+    "ggplot2",
+    "macroeconomics",
+    "r",
+    "r-package",
+    "ropenspain",
+    "rstats",
+    "series-data",
+    "spain"
+  ],
+  "license_path": "LICENSE.md"
+}
+,
+"rOpenSpain/tidycenso": {
+  "default_branch": "main",
+  "description": "An R library for accesing the 2021 spanish census API.",
+  "homepage": "https://ropenspain.github.io/tidycenso/",
+  "language": "R",
+  "license": "GPL-3.0",
+  "stargazers_count": 2,
+  "topics": [
+    "api",
+    "census",
+    "r",
+    "spain"
+  ],
+  "license_path": "LICENSE.md"
 }
 ,
 "rubenleon/rpttai": {
@@ -5615,9 +5577,20 @@
   "homepage": "",
   "language": "Python",
   "license": "",
-  "stargazers_count": 181,
+  "stargazers_count": 182,
   "topics": [],
   "license_path": ""
+}
+,
+"saidcveltran/normawatch-boe": {
+  "default_branch": "main",
+  "description": "Herramienta gratuita (Actor de Apify) que lista las nuevas disposiciones generales del BOE",
+  "homepage": "",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stargazers_count": 0,
+  "topics": [],
+  "license_path": "LICENSE"
 }
 ,
 "santiperez/node-redsys-api": {
@@ -5661,7 +5634,7 @@
   "homepage": "",
   "language": "Java",
   "license": "NOASSERTION",
-  "stargazers_count": 173,
+  "stargazers_count": 174,
   "topics": [],
   "license_path": "LICENSE"
 }
@@ -5688,21 +5661,6 @@
   "license_path": "LICENSE"
 }
 ,
-"sigdeletras/Leaflet.Spain.WMS": {
-  "default_branch": "master",
-  "description": "Provides easy setup for several Web Map Services (WMS) layers for Spain (PNOA, IGN base, Catastro, etc), from Spanish mapping agencies.",
-  "homepage": "http://sigdeletras.github.io/Leaflet.Spain.WMS/examples/",
-  "language": "JavaScript",
-  "license": "NOASSERTION",
-  "stargazers_count": 36,
-  "topics": [
-    "javascript",
-    "leaflet",
-    "plugins"
-  ],
-  "license_path": "LICENSE"
-}
-,
 "sigdeletras/censosine21": {
   "default_branch": "master",
   "description": "Python library to interact with the API of the National Institute of Statistics (INE) of Spain that offers the data Dissemination System of the Population and Housing Censuses 2021 (SDC21)",
@@ -5718,13 +5676,28 @@
   "license_path": "LICENSE.md"
 }
 ,
+"sigdeletras/Leaflet.Spain.WMS": {
+  "default_branch": "master",
+  "description": "Provides easy setup for several Web Map Services (WMS) layers for Spain (PNOA, IGN base, Catastro, etc), from Spanish mapping agencies.",
+  "homepage": "http://sigdeletras.github.io/Leaflet.Spain.WMS/examples/",
+  "language": "JavaScript",
+  "license": "NOASSERTION",
+  "stargazers_count": 36,
+  "topics": [
+    "javascript",
+    "leaflet",
+    "plugins"
+  ],
+  "license_path": "LICENSE"
+}
+,
 "singuerinc/better-dni": {
   "default_branch": "main",
   "description": "The fastest Spanish DNI (NIE / NIF) validation out there.",
   "homepage": "https://better-dni.singuerinc.com/",
   "language": "TypeScript",
   "license": "MIT",
-  "stargazers_count": 33,
+  "stargazers_count": 34,
   "topics": [
     "dni",
     "javascript",
@@ -5784,7 +5757,7 @@
   "homepage": "",
   "language": "JavaScript",
   "license": "BSD-2-Clause",
-  "stargazers_count": 16,
+  "stargazers_count": 17,
   "topics": [],
   "license_path": "LICENSE.md"
 }
@@ -5800,13 +5773,74 @@
   "license_path": "LICENSE"
 }
 ,
+"Sloy/sevibus-android": {
+  "default_branch": "master",
+  "description": "Independent application for public transportation in Sevilla",
+  "homepage": "http://sevibus.sloydev.com/",
+  "language": "Kotlin",
+  "license": "MPL-2.0",
+  "stargazers_count": 20,
+  "topics": [
+    "android",
+    "bus",
+    "compose",
+    "kotlin",
+    "sevilla"
+  ],
+  "license_path": "LICENSE"
+}
+,
+"Softcatala/catalan-dict-tools": {
+  "default_branch": "master",
+  "description": "Tools for managing Catalan dictionaries",
+  "homepage": "",
+  "language": "Perl",
+  "license": "NOASSERTION",
+  "stargazers_count": 65,
+  "topics": [],
+  "license_path": "LICENSE"
+}
+,
+"Softcatala/Catalanitzador": {
+  "default_branch": "main",
+  "description": "A  Microsoft Windows & Mac OS program that makes your system Catalan language friendly ",
+  "homepage": "https://www.softcatala.org/projectes/catalanitzador-de-softcatala/",
+  "language": "C++",
+  "license": "",
+  "stargazers_count": 29,
+  "topics": [],
+  "license_path": ""
+}
+,
+"Softcatala/nmt-softcatala": {
+  "default_branch": "master",
+  "description": "This repository contains Neural Machine Translation tools built at Softcatalà ",
+  "homepage": "",
+  "language": "Python",
+  "license": "NOASSERTION",
+  "stargazers_count": 45,
+  "topics": [],
+  "license_path": "LICENSE.md"
+}
+,
+"Softcatala/translation-memory-tools": {
+  "default_branch": "main",
+  "description": "A set of tools to build, maintain and use translation memories",
+  "homepage": "https://www.softcatala.org/recursos/memories/",
+  "language": "Python",
+  "license": "",
+  "stargazers_count": 32,
+  "topics": [],
+  "license_path": ""
+}
+,
 "soker90/precio-gasolina": {
   "default_branch": "master",
   "description": "Envía a Telegram el precio de la gasolina de una gasolinera definida cada vez que cambia",
   "homepage": "https://soker90.github.io/precio-gasolina/",
   "language": "HTML",
   "license": "GPL-3.0",
-  "stargazers_count": 3,
+  "stargazers_count": 4,
   "topics": [
     "telegram",
     "telegram-bot"
@@ -5862,7 +5896,7 @@
   "homepage": "",
   "language": "PHP",
   "license": "MIT",
-  "stargazers_count": 101,
+  "stargazers_count": 100,
   "topics": [
     "laravel",
     "laravel-package",
@@ -5938,13 +5972,42 @@
   "license_path": "LICENSE"
 }
 ,
+"Tatuck/wallapop-scraper": {
+  "default_branch": "master",
+  "description": "A Python application that uses the Wallapop API and Google's Gemini 2.0-pro LLM to analyze products listed on Wallapop and find undervalued items that can be purchased and resold for a higher profit.",
+  "homepage": "",
+  "language": "Python",
+  "license": "",
+  "stargazers_count": 11,
+  "topics": [],
+  "license_path": ""
+}
+,
+"TiagoCortinhal/cita-checker": {
+  "default_branch": "main",
+  "description": "Automation to check for appointments (cita previa)",
+  "homepage": "",
+  "language": "Python",
+  "license": "MIT",
+  "stargazers_count": 33,
+  "topics": [
+    "automation",
+    "cita",
+    "cita-previa",
+    "citaprevia",
+    "emigration",
+    "selenium"
+  ],
+  "license_path": "LICENSE"
+}
+,
 "trocotronic/edistribucion": {
   "default_branch": "master",
   "description": "API para e-distribución (Endesa distribución)",
   "homepage": "",
   "language": "Python",
   "license": "GPL-3.0",
-  "stargazers_count": 32,
+  "stargazers_count": 33,
   "topics": [],
   "license_path": "LICENSE"
 }
@@ -5955,7 +6018,7 @@
   "homepage": "",
   "language": "Python",
   "license": "GPL-3.0",
-  "stargazers_count": 337,
+  "stargazers_count": 338,
   "topics": [
     "energy-monitor",
     "home-assistant"
@@ -5969,7 +6032,7 @@
   "homepage": "",
   "language": "Python",
   "license": "GPL-3.0",
-  "stargazers_count": 13,
+  "stargazers_count": 14,
   "topics": [],
   "license_path": "LICENSE"
 }
@@ -6028,7 +6091,7 @@
   "homepage": "",
   "language": "Python",
   "license": "",
-  "stargazers_count": 7,
+  "stargazers_count": 8,
   "topics": [
     "beautifulsoup",
     "chromedriver",
@@ -6085,6 +6148,28 @@
     "visualize-data"
   ],
   "license_path": "LICENSE"
+}
+,
+"Webierta/open_luz": {
+  "default_branch": "main",
+  "description": "Detailed information on electricity prices in Spain (PVPC) for efficient electricity consumption management.",
+  "homepage": "",
+  "language": "Dart",
+  "license": "GPL-3.0",
+  "stargazers_count": 7,
+  "topics": [],
+  "license_path": "LICENSE"
+}
+,
+"WhizzoCode/ivooxhunter": {
+  "default_branch": "main",
+  "description": "ivoox downloader for terminal",
+  "homepage": "",
+  "language": "JavaScript",
+  "license": "MIT",
+  "stargazers_count": 7,
+  "topics": [],
+  "license_path": "LICENSE.md"
 }
 ,
 "wonx/rodalies-tracker": {
@@ -6172,7 +6257,7 @@
   "homepage": "",
   "language": "Python",
   "license": "MIT",
-  "stargazers_count": 13,
+  "stargazers_count": 15,
   "topics": [
     "idealista",
     "idealista-api",
@@ -6203,7 +6288,7 @@
   "homepage": "",
   "language": "Python",
   "license": "GPL-3.0",
-  "stargazers_count": 43,
+  "stargazers_count": 46,
   "topics": [],
   "license_path": "LICENSE"
 }
@@ -6214,7 +6299,7 @@
   "homepage": "https://t.me/movistar_home_hacking",
   "language": "Shell",
   "license": "GPL-3.0",
-  "stargazers_count": 46,
+  "stargazers_count": 49,
   "topics": [
     "hardware-hacking",
     "hass",
