@@ -166,6 +166,7 @@ KEYWORD_TAGS = {
     "Renfe": "Renfe",
     "AVE": "Renfe",
     "Cercanías": "Renfe",
+    "Holded": "Holded",
     "Mercadona": "Mercadona",
     "Wallapop": "Wallapop",
     "Idealista": "Idealista",
@@ -404,6 +405,7 @@ TAG_URLS = {
     # Companies
     "Renfe": "https://www.renfe.com/",
     "Redsys": "https://www.redsys.es/",
+    "Holded": "https://www.holded.com/",
     "Mercadona": "https://www.mercadona.es/",
     "Wallapop": "https://es.wallapop.com/",
     "Idealista": "https://www.idealista.com/",
