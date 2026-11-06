@@ -4,7 +4,7 @@
   <a href="https://awesome.re"><img src="https://awesome.re/badge-flat.svg" alt="Awesome"></a>
   <br><br>
   <p>Una selección de software open source que da soporte específico a España, sus administraciones, instituciones y servicios públicos.</p>
-  <p>382 proyectos en 36 categorías. Se retiran los proyectos archivados, borrados, abandonados, sustituidos, fuera de criterio o que han dejado de funcionar; cada uno queda en <a href="https://github.com/GeiserX/awesome-spain/blob/main/DELETED.md">DELETED.md</a> con su motivo. Búscalos en <a href="https://geiserx.github.io/awesome-spain/">geiserx.github.io/awesome-spain</a>.</p>
+  <p>382 proyectos en 35 categorías. Se retiran los proyectos archivados, borrados, abandonados, sustituidos, fuera de criterio o que han dejado de funcionar; cada uno queda en <a href="https://github.com/GeiserX/awesome-spain/blob/main/DELETED.md">DELETED.md</a> con su motivo. Búscalos en <a href="https://geiserx.github.io/awesome-spain/">geiserx.github.io/awesome-spain</a>.</p>
 </div>
 
 <!-- --8<-- [start:lista] -->

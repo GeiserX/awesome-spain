@@ -32,6 +32,7 @@ from pathlib import Path
 from markdown import Extension
 from markdown.postprocessors import Postprocessor
 from markdown.preprocessors import Preprocessor
+from markdown.treeprocessors import Treeprocessor
 
 ROOT = Path.cwd()  # the repo root: zensical reads zensical.toml from here
 ENTRY = re.compile(r"^- \[[^\]]+\]\(https?://")
@@ -46,10 +47,11 @@ NOT_CATEGORIES = {
 # instead of staying an invisible comment where a count should be.
 TOKEN = re.compile(r"<!--\s*n:([^\s>]+?)\s*-->")
 IMG = re.compile(r"<img\b[^>]*>")
-LISTED = re.compile(r"<li>\s*<a href=\"https?://")
+LISTED = re.compile(r"<li>\s*(?:<p>\s*)?<a href=\"https?://")  # tight or loose list items
 
 
 def counts() -> dict[str, int]:
+    """Projects, categories with a project, and retired entries, from README.md and DELETED.md."""
     readme = (ROOT / "README.md").read_text(encoding="utf-8")
     deleted = (ROOT / "DELETED.md").read_text(encoding="utf-8") if (ROOT / "DELETED.md").exists() else ""
     section, cats, n = None, set(), 0
@@ -71,11 +73,15 @@ def counts() -> dict[str, int]:
 
 
 class Counts(Preprocessor):
+    """Marks the list page and fills in the count tokens."""
+
     def __init__(self, md, include):
+        """`include` matches the snippet line that pulls the list into a page."""
         super().__init__(md)
         self.include = include
 
     def run(self, lines):
+        """Fill every count token on the page; an unknown token fails the build."""
         text = "\n".join(lines)
         if self.include.search(text):
             self.md.awesome_list_page = True
@@ -88,16 +94,29 @@ class Counts(Preprocessor):
         return TOKEN.sub(lambda m: str(c[m.group(1)]), text).split("\n")
 
 
+class BodyReady(Treeprocessor):
+    """Runs last among the tree processors, after toc. toc runs the postprocessors over
+    every heading's text while it builds its entries; the next postprocessor run after this
+    marker is the page body, whatever the page holds (no <h1>, or "<h1" inside a heading)."""
+
+    def run(self, root):
+        """Mark that the next postprocessor run is the page body."""
+        self.md.awesome_body = True
+
+
 class Lazy(Postprocessor):
+    """Lazy-loads images and checks the list page once its body HTML is complete."""
+
     def __init__(self, md, ids):
+        """`ids` are the heading ids the list page must carry."""
         super().__init__(md)
         self.ids = ids
 
     def run(self, html):
-        # Python-Markdown also runs postprocessors over every heading's text (toc builds its
-        # entries that way): only the page body carries the page's <h1>.
-        if "<h1" not in html:
-            return html
+        """Check the list page, then lazy-load every image but the banner."""
+        if not getattr(self.md, "awesome_body", False):
+            return html  # a heading's text for the toc, not the page
+        self.md.awesome_body = False
         if getattr(self.md, "awesome_list_page", False):
             self.md.awesome_list_page = False
             listed, expected = len(LISTED.findall(html)), counts()["proyectos"]
@@ -110,6 +129,7 @@ class Lazy(Postprocessor):
                 )
 
         def lazy(m):
+            """One <img> tag, with loading and decoding attributes added."""
             tag = m.group(0)
             if "banner.svg" in tag or "loading=" in tag:
                 return tag
@@ -119,7 +139,10 @@ class Lazy(Postprocessor):
 
 
 class AwesomeSite(Extension):
+    """The extension Zensical loads from [project.markdown_extensions]."""
+
     def __init__(self, **kwargs):
+        """Options: `section` (README snippet section) and `ids` (required heading ids)."""
         self.config = {
             "section": ["lista", "README.md snippet section the list page includes"],
             "ids": [["contenido", "insignia"], "heading ids that must be present on the list page"],
@@ -127,11 +150,22 @@ class AwesomeSite(Extension):
         super().__init__(**kwargs)
 
     def extendMarkdown(self, md):
+        """Register the processors on this Markdown instance."""
+        self.md = md
         section = re.escape(self.getConfig("section"))
-        include = re.compile(r'--8<--\s+"README\.md:' + section + '"')
+        # Only a real include line counts, not one quoted in prose or code on another page.
+        include = re.compile(r'^[ \t]*--8<--[ \t]+"README\.md:' + section + '"[ \t]*$', re.MULTILINE)
         md.preprocessors.register(Counts(md, include), "awesome_counts", 33)  # before snippets (32)
+        md.treeprocessors.register(BodyReady(md), "awesome_body", -100)  # after toc (5) and every other
         md.postprocessors.register(Lazy(md, list(self.getConfig("ids"))), "awesome_lazy", 0)  # after raw HTML is restored
+        md.registerExtension(self)
+
+    def reset(self):
+        """Called by md.reset() between pages: a page that failed mid-conversion leaves no flag behind."""
+        self.md.awesome_body = False
+        self.md.awesome_list_page = False
 
 
 def makeExtension(**kwargs):
+    """Entry point Python-Markdown calls for a dotted extension name."""
     return AwesomeSite(**kwargs)
