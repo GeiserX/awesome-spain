@@ -47,7 +47,7 @@ NOT_CATEGORIES = {
 # instead of staying an invisible comment where a count should be.
 TOKEN = re.compile(r"<!--\s*n:([^\s>]+?)\s*-->")
 IMG = re.compile(r"<img\b[^>]*>")
-LISTED = re.compile(r"<li>\s*<a href=\"https?://")
+LISTED = re.compile(r"<li>\s*(?:<p>\s*)?<a href=\"https?://")  # tight or loose list items
 
 
 def counts() -> dict[str, int]:
@@ -153,7 +153,8 @@ class AwesomeSite(Extension):
         """Register the processors on this Markdown instance."""
         self.md = md
         section = re.escape(self.getConfig("section"))
-        include = re.compile(r'--8<--\s+"README\.md:' + section + '"')
+        # Only a real include line counts, not one quoted in prose or code on another page.
+        include = re.compile(r'^[ \t]*--8<--[ \t]+"README\.md:' + section + '"[ \t]*$', re.MULTILINE)
         md.preprocessors.register(Counts(md, include), "awesome_counts", 33)  # before snippets (32)
         md.treeprocessors.register(BodyReady(md), "awesome_body", -100)  # after toc (5) and every other
         md.postprocessors.register(Lazy(md, list(self.getConfig("ids"))), "awesome_lazy", 0)  # after raw HTML is restored
