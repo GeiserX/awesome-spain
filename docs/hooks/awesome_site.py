@@ -154,7 +154,7 @@ class AwesomeSite(Extension):
         self.md = md
         section = re.escape(self.getConfig("section"))
         # Only a real include line counts, not one quoted in prose or code on another page.
-        include = re.compile(r'^[ \t]*--8<--[ \t]+"README\.md:' + section + '"[ \t]*$', re.MULTILINE)
+        include = re.compile(r'^[ \t]*--8<--[ \t]+(["\'])README\.md:' + section + r'\1[ \t]*\r?$', re.MULTILINE)
         md.preprocessors.register(Counts(md, include), "awesome_counts", 33)  # before snippets (32)
         md.treeprocessors.register(BodyReady(md), "awesome_body", -100)  # after toc (5) and every other
         md.postprocessors.register(Lazy(md, list(self.getConfig("ids"))), "awesome_lazy", 0)  # after raw HTML is restored

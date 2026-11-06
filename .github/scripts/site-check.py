@@ -30,12 +30,16 @@ Exit 1 on any of these, each printed as one ERROR line:
   - an awesome list's count token left in a page (`<!-- n:proyectos -->`, `n:categorias`,
     `n:retirados`): the Markdown extension that fills them in did not run. Only those three
     names: CashPilot writes other `<!-- n:... -->` comments of its own in its pages;
-  - a raw <title>, or an unclosed <textarea>, <xmp>, <noembed>, <noframes>, or any
+  - a raw <title>, or an unclosed <textarea>, <xmp>, <noembed>, <noframes> (a self-closed
+    `<textarea/>` counts as unclosed: HTML ignores that slash), or any
     <plaintext>, in a page's article outside inline SVG and MathML: a browser's HTML parser
     treats everything after it as text, so the rest of the page disappears (Markdown passes
     `<title>` written in prose through as a real tag; Telegram-Archive shipped that way);
   - a "Copy as Markdown" button (data-md-copy-url) whose Markdown copy does not exist in the
     site: the llmstxt plugin writes the copies, and only for pages its `sections` globs match.
+  - a link that cannot be resolved to a file (a %00 in its path): an error, not a traceback;
+  - an index.html that is not a content page (no md-content block, or a redirect stub);
+  - a site_url, or the canonical link standing in for it, that is not an absolute http(s) URL.
 And, from zensical.toml (Zensical drops what it does not know without a word; under MkDocs
 strict an unknown plugin aborted the build):
   - a plugin name Zensical 0.1.0 does not know (`redirect` for `redirects`, `llmstxtt`): the
@@ -44,7 +48,8 @@ strict an unknown plugin aborted the build):
     templates and bundle test for; `search.suggest` and `search.share` are not in it);
   - `theme.variant` other than "modern" or "classic" (anything else is classic, silently),
     and a modern config (the default) whose index.html does not load the modern stylesheet;
-  - a `redirect_maps` entry whose stub was not written;
+  - a `redirect_maps` entry whose stub was not written, a `redirect_maps` that is not a
+    table, and `theme.features` that is not a list of strings;
   - an enabled llmstxt plugin with no site/llms.txt, or `content.action.copy` in the
     features with a page that carries no copy button.
 Plugins are read in every form Zensical accepts (a table, or a list of names and one-entry
@@ -62,8 +67,10 @@ from pathlib import Path
 from urllib.parse import unquote, urlparse
 
 SWALLOW = {"title", "textarea", "xmp", "plaintext", "noembed", "noframes"}
+# HTML ignores the slash in <x/> except on these and in SVG/MathML: <textarea/> opens a textarea.
+VOID = {"area", "base", "br", "col", "embed", "hr", "img", "input", "link", "meta", "param", "source", "track", "wbr"}
 TOKEN = re.compile(r"<!--\s*n:(?:proyectos|categorias|retirados)\s*-->")
-STUB = "<title>Redirecting...</title>"
+STUB = "Redirecting..."  # the <title> of a Zensical redirect stub
 
 # Keys of _PLUGIN_UNSUPPORTED_OPTIONS in zensical/config.py (0.1.0, same set as 0.0.74): every other name is
 # dropped by `_convert_plugins` without a message. `material/` prefixes and `social/<x>`,
@@ -107,7 +114,8 @@ class Page(HTMLParser):
         self.nav: list[str] = []
         self.styles: list[str] = []
         self.canonical: str | None = None
-        self.stub = STUB in text  # a redirect stub: its links are checked, it is not a page
+        self.title: str | None = None  # the <head> title text, once one opens
+        self.in_title = False
         self.content = False  # carries the theme's md-content block: a page, not a copied asset
         self.swallowed: list[str] = []  # raw tags that hide the rest of the page
         self.tokens: list[str] = []
@@ -119,20 +127,25 @@ class Page(HTMLParser):
         self.feed(text)
         self.close()
         self.swallowed += self.open
+        self.stub = (self.title or "").strip() == STUB  # a redirect stub: links checked, not a page
 
     def handle_starttag(self, tag, attrs):
         """Record ids, URLs, copy targets, nav links and the canonical link of one tag."""
         self.tag(tag, attrs, empty=False)
 
     def handle_startendtag(self, tag, attrs):
-        """A self-closed tag: recorded the same way, but it opens no element."""
-        self.tag(tag, attrs, empty=True)
+        """A self-closed tag: empty only for a void element or in SVG/MathML; HTML ignores
+        the slash elsewhere, so <textarea/> opens a textarea."""
+        foreign = self.context[-1] == "foreign" or tag in ("svg", "math")
+        self.tag(tag, attrs, empty=tag in VOID or foreign)
 
     def tag(self, tag, attrs, empty):
         """Shared work of the two start-tag callbacks."""
         a = {k: (v or "").strip() for k, v in attrs}
         if tag == "body":
             self.in_head = False
+        if tag == "title" and self.in_head and self.title is None and not empty:
+            self.title, self.in_title = "", True
         if not empty:
             if tag == "article":
                 self.article += 1
@@ -171,8 +184,15 @@ class Page(HTMLParser):
             elif not empty:
                 self.open.append(tag)
 
+    def handle_data(self, data):
+        """Collect the <head> title text."""
+        if self.in_title:
+            self.title += data
+
     def handle_endtag(self, tag):
         """Close what the matching start tag opened."""
+        if tag == "title":
+            self.in_title = False
         if tag == "article" and self.article:
             self.article -= 1
         elif tag == "template" and self.template:
@@ -279,6 +299,7 @@ def main(site_dir: str, config_path: str) -> int:
             parsed[path] = Page(path.read_text(encoding="utf-8", errors="replace"))
         return parsed[path]
 
+    from_canonical = not cfg.get("site_url")
     site_url = str(cfg.get("site_url") or parse(index).canonical or "")
     try:
         origin = urlparse(site_url)
@@ -286,8 +307,12 @@ def main(site_dir: str, config_path: str) -> int:
     except ValueError:
         errors.add(f"site_url {site_url!r} is not a valid URL")
         origin, origin_port, site_url = urlparse(""), None, ""
+    if site_url and (origin.scheme not in ("http", "https") or not origin.hostname):
+        errors.add(f"site_url {site_url!r} is not an absolute http(s) URL")
     host = (origin.hostname or "").lower()
     prefix = unquote(origin.path or "")
+    if from_canonical and prefix.endswith(".html"):  # canonical .../index.html: its directory
+        prefix = prefix.rsplit("/", 1)[0]
     if not site_url:
         errors.add("no site_url in zensical.toml and no canonical link in index.html: the "
                    "root-absolute link check has no prefix to check against")
@@ -317,15 +342,20 @@ def main(site_dir: str, config_path: str) -> int:
             path = unquote(u.path)
             if not path:
                 return page  # "", "#x", "?q#x": the page itself
+        if "\x00" in path:
+            return "BAD"
         if path.startswith("/"):
             if not path.startswith(prefix) and path + "/" != prefix:
                 return "ABS"
             target = site / path[len(prefix):]
         else:
             target = page.parent / path
-        if path.endswith("/") or target.is_dir():
-            target = target / "index.html"
-        return target.resolve()
+        try:
+            if path.endswith("/") or target.is_dir():
+                target = target / "index.html"
+            return target.resolve()
+        except (OSError, ValueError):
+            return "BAD"
 
     for p in site.rglob("*"):
         if p.suffix in (".py", ".pyc") or "__pycache__" in p.relative_to(site).parts:
@@ -333,7 +363,11 @@ def main(site_dir: str, config_path: str) -> int:
 
     nav_targets: set[Path] = set()
     pages: list[Path] = []
-    copy_on = "content.action.copy" in (theme.get("features") or [])
+    features = theme.get("features") or []
+    if not isinstance(features, list) or not all(isinstance(f, str) for f in features):
+        errors.add(f"zensical.toml: theme.features must be a list of strings, got {features!r}")
+        features = []
+    copy_on = "content.action.copy" in features
     for page in sorted(site.rglob("*.html")):
         rel = page.relative_to(site)
         doc = parse(page)
@@ -380,6 +414,8 @@ def main(site_dir: str, config_path: str) -> int:
             if isinstance(t, Path):
                 nav_targets.add(t)
 
+    if index not in pages:
+        errors.add("index.html is not a content page (no md-content block, or a redirect stub)")
     for page in pages:
         if page.resolve() not in nav_targets:
             errors.add(f"{page.relative_to(site)}: page is in no navigation entry (stray page)")
@@ -388,7 +424,7 @@ def main(site_dir: str, config_path: str) -> int:
         for name in plugins:
             if not isinstance(name, str) or canonical_plugin(name) not in KNOWN_PLUGINS:
                 errors.add(f"zensical.toml: plugin {name!r} is unknown to Zensical and silently ignored")
-        for f in theme.get("features") or []:
+        for f in features:
             if f not in KNOWN_FEATURES:
                 errors.add(f"zensical.toml: feature {f!r} is unknown to the Zensical UI and silently ignored")
         variant = theme.get("variant", "modern")  # Zensical's default (config.py, set_default)
@@ -398,7 +434,10 @@ def main(site_dir: str, config_path: str) -> int:
             errors.add("index.html does not load the modern stylesheet although theme.variant is modern")
         redirects = plugin_opts(plugins, "redirects") if plugin_on(plugins, "redirects") else {}
         maps = redirects.get("redirect_maps") or {}
-        for src in maps if isinstance(maps, dict) else []:
+        if not isinstance(maps, dict):
+            errors.add(f"zensical.toml: redirects redirect_maps must be a table, got {maps!r}")
+            maps = {}
+        for src in maps:
             s = str(src).lstrip("/").removesuffix(".md")
             # A README page is its folder's index: sub/README.md -> sub/index.html in every mode.
             if s == "README" or s.endswith("/README"):
