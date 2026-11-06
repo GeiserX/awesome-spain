@@ -2,34 +2,34 @@ name: Docs
 
 # Copy to .github/workflows/docs.yml. Before the first run, set the repository's
 # Pages source to "GitHub Actions": Settings -> Pages -> Source, or
-# `gh api -X POST repos/GeiserX/<repo>/pages -f build_type=workflow` for a repo
-# with no Pages yet. For a repo already publishing from a branch the API is a
-# PUT, and its docs list `source.branch` and `source.path` as required, so the
-# bare `-f build_type=workflow` PUT may 422: try it on CashPilot first and
-# record which form worked. A deploy while the source is still a branch is
-# expected to fail; that is the test that the switch happened.
+# `gh api -X PUT repos/GeiserX/<repo>/pages -f build_type=workflow` (HTTP 204;
+# the API keeps reporting the old source branch afterwards, which is cosmetic).
+# A repo with no Pages at all uses `-X POST` with the same field. A repo
+# already on the artifact flow needs no change.
 #
 # Never for a repo whose gh-pages branch holds a Helm chart index (index.yaml,
-# artifacthub-repo.yml): Pumperly, LynxPrompt, genieacs-container,
-# duplicacy-container. Those use docs-pages-helm.yml instead.
+# artifacthub-repo.yml): Pumperly, LynxPrompt, genieacs-container. Those use
+# docs-pages-helm.yml instead.
 #
-# Pull requests that touch the docs run the strict build, so a broken link, a
-# missing page or an unreachable page fails the check instead of reaching the
-# site. A push to main deploys, and only after the same build has passed.
+# Pull requests that touch the docs run the strict build and the site check,
+# so a broken link, a missing page or an unreachable page fails the check
+# instead of reaching the site. A push to main deploys, and only after the
+# same build has passed.
 #
-# The site is published as a Pages artifact, never with `mkdocs gh-deploy`:
-# no gh-pages branch, no `contents: write`, and one artifact is the whole site.
+# The site is published as a Pages artifact: no gh-pages branch, no
+# `contents: write`, and one artifact is the whole site.
 on:
   push:
     branches:
       - main
     paths:
       - 'docs/**'
-      - 'mkdocs.yml'
+      - 'zensical.toml'
       - '.github/workflows/docs.yml'
+      - '.github/scripts/site-check.py'
       # docs/index.md includes README.md: every merged entry rebuilds the site.
       - 'README.md'
-      # The hook counts DELETED.md for the home page: a retirement rebuilds it.
+      # docs/hooks/awesome_site.py counts DELETED.md at build time: a retirement rebuilds the site too.
       - 'DELETED.md'
       # Add every file a page includes with pymdownx.snippets (for example
       # docker-compose.yml, .env.example): a change to it must rebuild the
@@ -40,9 +40,11 @@ on:
   pull_request:
   workflow_dispatch:
 
-# One run at a time per ref, in push order, never cancelled. Locking only the
-# deploy job is not enough: an older push whose build finishes later would
-# deploy last and publish a stale site. Pull requests get their own group.
+# One run at a time per ref, never cancelled. GitHub keeps one running and one
+# pending run per group and a newer push replaces the pending one, so the last
+# deploy is the newest push; it does not promise strict push order beyond that.
+# Locking only the deploy job is not enough: an older push whose build finishes
+# later could deploy last and publish a stale site. Pull requests get their own group.
 concurrency:
   group: pages-${{ github.ref }}
   cancel-in-progress: false
@@ -59,32 +61,45 @@ jobs:
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
-          # This job never pushes; a persisted token is readable by pip and every MkDocs plugin.
+          # This job never pushes; a persisted token is readable by pip and by the build.
           persist-credentials: false
 
       - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
         with:
           python-version: '3.13'
+          # pip's download cache only. Zensical's own build cache (.cache/) is
+          # never kept between runs: its docs advise against it on CI, and
+          # --clean below starts from nothing anyway.
           cache: pip
           cache-dependency-path: docs/requirements-docs.txt
 
       - name: Install dependencies
         run: pip install -r docs/requirements-docs.txt
 
-      # mkdocs.yml sets `strict: true`; the flag here keeps the build strict
-      # even if someone removes that line.
+      # zensical.toml sets `strict = true`; the flag here keeps the build strict
+      # even if someone removes that line. `python -m zensical`, never the bare
+      # `zensical` command: it puts the repo root on sys.path, which the awesome
+      # lists' Markdown extension needs, and every repo builds the same way.
       - name: Build
-        run: mkdocs build --strict
+        run: python -m zensical build --clean --strict
 
+      # What the strict build does not check: a page in no nav entry, a nav
+      # entry for a missing file, a missing image, a /rooted link, a raw <title>
+      # in a page. Each one was proven to turn this step red (validate-zensical.sh).
+      - name: Check the built site
+        run: python -I .github/scripts/site-check.py site
+
+      # Push to main only: workflow_dispatch can be run on any branch, and the
+      # push filter above does not apply to it. Same line as docs-pages-helm.yml.
       - name: Upload the site
-        if: github.event_name != 'pull_request'
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
         uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
         with:
           path: site
 
   deploy:
     # Runs on push to main only, after the build job has passed.
-    if: github.event_name != 'pull_request'
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
     needs: build
     runs-on: ubuntu-latest
     permissions:
