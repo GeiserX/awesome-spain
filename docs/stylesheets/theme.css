@@ -1,7 +1,7 @@
 /* docs/stylesheets/theme.css: the site takes its two colours from the banner
  * (windmills at dusk): the night sky and the glow on the horizon.
  *
- * mkdocs.yml sets `primary: custom` and `accent: custom`, which means Material
+ * zensical.toml sets `primary: custom` and `accent: custom`, which means Material
  * paints nothing until these variables exist.
  */
 :root {
@@ -45,9 +45,15 @@
  * scroll. Styling both would change the page title too.
  */
 .md-header__topic:first-child .md-ellipsis {
-  color: #FFFFFF;
   font-weight: 700;
   letter-spacing: 0.03em;
+}
+
+/* That colour only on the dark scheme: Zensical's modern header takes the page
+   background, so on the light scheme it is white and a light name would vanish.
+   There the name keeps the default text colour. */
+[data-md-color-scheme="slate"] .md-header__topic:first-child .md-ellipsis {
+  color: #FFFFFF;
 }
 
 /* Keep the mark and the name close, so they read as one unit. */
