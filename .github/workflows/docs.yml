@@ -41,8 +41,9 @@ on:
   workflow_dispatch:
 
 # One run at a time per ref, never cancelled. GitHub keeps one running and one
-# pending run per group and a newer push replaces the pending one, so the last
-# deploy is the newest push; it does not promise strict push order beyond that.
+# pending run per group, and a newer run replaces the pending one. It orders runs
+# by when each started waiting on the group, not by push time, so it does not
+# promise that the last deploy is the newest push.
 # Locking only the deploy job is not enough: an older push whose build finishes
 # later could deploy last and publish a stale site. Pull requests get their own group.
 concurrency:

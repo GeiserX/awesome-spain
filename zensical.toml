@@ -1,5 +1,6 @@
-# Generated from mkdocs.yml by mkdocs-to-zensical.py; the why of every block is in
-# new-repo/templates/zensical.toml. Edit this file, not mkdocs.yml, which is gone.
+# One-page site: docs/index.md holds a short home block and then includes the
+# list from README.md (section marker `lista`), so the list stays the single
+# source that awesome-lint-extra governs. Never copy the list into docs/.
 
 [project]
 site_name = "Awesome Spain"
