@@ -389,7 +389,7 @@ TAG_URLS = {
     "CNIG": "https://www.ign.es/",
     "CENDOJ": "https://www.poderjudicial.es/search/",
     "Gobierno": "https://administracion.gob.es/",
-    "Extranjería": "https://sede.administracionespublicas.gob.es/",
+    "Extranjería": "https://mptmd.sede.gob.es/",
     "Policía": "https://www.policia.es/",
     # Standards/platforms
     "VeriFactu": "https://sede.agenciatributaria.gob.es/Sede/iva/sistemas-informaticos-facturacion-verifactu.html",
