@@ -82,16 +82,21 @@ Si pasa el mínimo, comprobar:
 
 ## Permanencia: qué se queda y qué se retira
 
-Solo se queda el software que funciona y que tiene reputación o no tiene sustituto. Nada se retira sin que Sergio lo apruebe.
+Se queda lo que funciona y no tiene un sustituto mantenido en la lista. La reputación decide quién tiene que demostrar qué. Nada se retira sin que Sergio lo apruebe.
 
-- **Roto**: se retira, tenga la edad que tenga. Hay que enseñar el fallo: ejecutar el proyecto, o comprobar que el servicio que consume ya no responde como espera. Va a «Retirados por inactividad».
-- **Viejo y sin reputación**: más de 3 años sin commits en la rama por defecto (no `pushed_at`, que las ramas de bots rejuvenecen) y sin reputación. Se retira, salvo que siga funcionando y ninguna entrada mantenida de la lista haga lo mismo. Va a «Retirados por inactividad».
-- **Viejo y con reputación**: se queda mientras funcione. Reputación es una de estas tres cosas:
-  - lo publica un organismo oficial;
-  - lo publica una organización conocida (rOpenSpain, Civio, Datadista, BSC/AINA, Alastria…);
-  - tiene uso real visible: estrellas, forks, o descargas o dependientes en su registro (PyPI, npm, Packagist, RubyGems, CRAN, NuGet, crates.io). No hay un número fijo: se juzga caso a caso.
-- **Sustituido**: si otra entrada mantenida hace lo mismo, la vieja va a «Reemplazados», con el enlace a la que la sustituye.
-- **Sirve a un sistema retirado** (Radar COVID, el parte de hospedajes anterior a SES.HOSPEDAJES, 3DS1…): se retira aunque sea oficial.
+- **Archivado**: se retira siempre.
+- **Roto**: se retira, tenga la edad que tenga. Hay que enseñar el fallo: ejecutar el proyecto, o comprobar que el servicio que consume ya no responde como espera.
+- **Sustituido**: si otra entrada mantenida de la lista hace lo mismo, la vieja se retira aunque tenga reputación. Va a `DELETED.md` con el enlace a la que la sustituye.
+- **Sirve a un sistema retirado**: se retira aunque sea oficial.
+- **Viejo**: más de 3 años sin commits en la rama por defecto (no `pushed_at`, que las ramas de bots rejuvenecen). Si no es ninguno de los casos anteriores:
+  - **con reputación**, se queda mientras no se demuestre que está roto;
+  - **sin reputación**, se queda solo si se comprueba que funciona hoy, ejecutándolo o cotejándolo con el servicio que consume. Si no se puede comprobar, se retira.
+
+Reputación es una de estas tres cosas:
+
+- lo publica un organismo oficial;
+- lo publica una organización conocida (rOpenSpain, Civio, Datadista, BSC/AINA…);
+- tiene uso real visible: estrellas, forks, o descargas o dependientes en su registro (PyPI, npm, Packagist, RubyGems, CRAN, NuGet, crates.io). No hay un número fijo: se juzga caso a caso.
 
 La revisión es trimestral. Lista las entradas con más de 3 años sin commits y revisa cada una con estos criterios; la tabla con la propuesta se le enseña a Sergio antes de mover nada a `DELETED.md`.
 

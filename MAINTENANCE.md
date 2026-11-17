@@ -70,7 +70,7 @@ Si el repo aún no tiene `DELETED.md`, crearlo con las secciones anteriores la p
 ## Mantenimiento periódico
 
 - **Semanal:** una comprobación compartida por todas las listas revisa cada lunes todos los enlaces del README desde España (muchas webs oficiales no responden a los runners de GitHub) y mantiene abierta una sola issue «Dead links» con los que siguen fallando en una segunda pasada cinco minutos después. Corregir o eliminar esos enlaces; la issue se cierra sola en la siguiente ejecución limpia.
-- **Trimestral:** Revisar las entradas con más de 3 años sin commits en la rama por defecto: se quedan las que funcionan y tienen reputación o no tienen sustituto en la lista (criterios en «Permanencia» de `CLAUDE.md`). La propuesta de retiradas se aprueba antes de tocar `DELETED.md`. Refrescar insignias (`gather-metadata.sh` + `transform-readme.py`). Comprobar si hay repos recién archivados:
+- **Trimestral:** Revisar las entradas con más de 3 años sin commits en la rama por defecto con los criterios de «Permanencia» de `CLAUDE.md`: las archivadas, rotas o sustituidas por una entrada mantenida se retiran; las demás se quedan si tienen reputación, o si no la tienen pero se comprueba que funcionan. La propuesta de retiradas se aprueba antes de tocar `DELETED.md`. Refrescar insignias (`gather-metadata.sh` + `transform-readme.py`). Comprobar si hay repos recién archivados:
   ```bash
   grep -oE 'https://github\.com/[^/)]+/[^/)]+' README.md | sort -u | while read url; do
     repo="${url#https://github.com/}"
