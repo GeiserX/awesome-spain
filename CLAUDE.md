@@ -63,11 +63,18 @@ La única excepción es el software publicado por un organismo oficial (un minis
 
 ```bash
 gh api repos/<owner>/<repo> --jq '{estrellas: .stargazers_count, creado: .created_at}'
+# Fecha del primer commit: la última página de commits, de uno en uno.
+n=$(gh api "repos/<owner>/<repo>/commits?per_page=1" -i | sed -n 's/.*[?&]page=\([0-9]*\)>; rel="last".*/\1/p')
+gh api "repos/<owner>/<repo>/commits?per_page=1&page=${n:-1}" --jq '.[0].commit.author.date'
 ```
 
 Respuesta al cerrar, en pocas líneas y sin pedir estrella:
 
 > Gracias por la propuesta. La cierro porque el repositorio todavía no llega al mínimo de la lista: 5 estrellas y 3 meses de historia. Cuando los tenga, vuelve a mandarlo y lo miro.
+
+Si el motivo es que es un volcado, dilo en su lugar:
+
+> Gracias por la propuesta. La cierro porque el repositorio es una copia de datos publicados en otro sitio, sin el código que los genera, y la lista solo recoge proyectos cuyo contenido se pueda comprobar o rehacer. Si publicas ese código, vuelve a mandarlo y lo miro.
 
 ## Verificación antes de añadir
 
