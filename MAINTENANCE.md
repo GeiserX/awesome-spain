@@ -17,15 +17,16 @@ Ver `AGENTS.md` para los criterios detallados, zonas grises y temas prohibidos.
 
 ## Revisar PRs
 
-1. Comprobar que el proyecto **da soporte específico a España** (no simplemente que el autor es español).
-2. Verificar que la PR incluye la **URL del servicio o institución de España** que el proyecto soporta.
-3. Comprobar formato: entrada simple, orden alfabético, descripción en español que empieza en mayúscula y termina con punto.
-4. **CI debe estar verde** antes de mergear: awesome-lint-extra (formato y orden) + `links-changed` (lychee sobre los enlaces que el PR añade o cambia).
-5. Las insignias se generan automáticamente. Los contribuidores solo envían:
+1. Comprobar el **mínimo para entrar**: 5 estrellas y 3 meses de historia, y que no sea un volcado. Si no llega, se cierra sin más revisión (ver `CLAUDE.md`). El software de organismos oficiales queda exento.
+2. Comprobar que el proyecto **da soporte específico a España** (no simplemente que el autor es español).
+3. Verificar que la PR incluye la **URL del servicio o institución de España** que el proyecto soporta.
+4. Comprobar formato: entrada simple, orden alfabético, descripción en español que empieza en mayúscula y termina con punto.
+5. **CI debe estar verde** antes de mergear: awesome-lint-extra (formato y orden) + `links-changed` (lychee sobre los enlaces que el PR añade o cambia).
+6. Las insignias se generan automáticamente. Los contribuidores solo envían:
    ```markdown
    - [Nombre](https://github.com/owner/repo) - Descripción breve que empieza en mayúscula y termina con punto.
    ```
-6. Tras mergear, ejecutar el pipeline de insignias y hacer push:
+7. Tras mergear, ejecutar el pipeline de insignias y hacer push:
    ```bash
    bash scripts/gather-metadata.sh
    python3 scripts/transform-readme.py
@@ -69,7 +70,7 @@ Si el repo aún no tiene `DELETED.md`, crearlo con las secciones anteriores la p
 ## Mantenimiento periódico
 
 - **Semanal:** una comprobación compartida por todas las listas revisa cada lunes todos los enlaces del README desde España (muchas webs oficiales no responden a los runners de GitHub) y mantiene abierta una sola issue «Dead links» con los que siguen fallando en una segunda pasada cinco minutos después. Corregir o eliminar esos enlaces; la issue se cierra sola en la siguiente ejecución limpia.
-- **Trimestral:** Refrescar insignias (`gather-metadata.sh` + `transform-readme.py`). Comprobar si hay repos recién archivados:
+- **Trimestral:** Revisar las entradas con más de 3 años sin commits en la rama por defecto: se quedan solo las que funcionan y tienen reputación (criterios en «Permanencia» de `CLAUDE.md`). La propuesta de retiradas se aprueba antes de tocar `DELETED.md`. Refrescar insignias (`gather-metadata.sh` + `transform-readme.py`). Comprobar si hay repos recién archivados:
   ```bash
   grep -oE 'https://github\.com/[^/)]+/[^/)]+' README.md | sort -u | while read url; do
     repo="${url#https://github.com/}"

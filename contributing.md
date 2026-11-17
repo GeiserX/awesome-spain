@@ -8,7 +8,9 @@ Gracias por tu interés en contribuir. Esta selección crece gracias a la comuni
 
 - Asegúrate de que el proyecto es **open source** y tiene un repositorio público.
 - El proyecto debe **dar soporte específico a España** o incluir funcionalidades relevantes para usuarios en España.
-- El proyecto debe **seguir haciendo su trabajo** y no estar archivado. Si consume un servicio español, que siga funcionando contra él; si no consume ninguno (un validador de DNI, un lector de cuadernos AEB, un dataset), basta con que su lógica siga siendo correcta. No exigimos commits recientes: un proyecto archivado se retira sin más; uno que no lo está se retira solo cuando ya no funciona, aunque su último commit sea de ayer, y para retirarlo hay que poder enseñar el fallo.
+- El repositorio debe tener **al menos 5 estrellas y 3 meses de historia**. Las PRs que proponen un repositorio por debajo de ese mínimo se cierran sin revisión; vuelve a proponerlo cuando lo alcance. Tampoco entran los volcados: uno o dos commits del mismo día, o una copia de los datos de otra web sin el código que los genera. El software de organismos oficiales queda exento.
+- El proyecto debe **funcionar hoy** y no estar archivado. Si consume un servicio español, que siga funcionando contra él; si no consume ninguno (un validador de DNI, un lector de cuadernos AEB, un dataset), que su lógica o sus datos sigan siendo correctos.
+- **Qué se retira**: lo que ya no funciona, tenga la edad que tenga, y lo que lleva más de 3 años sin commits sin tener reputación (un organismo oficial o una organización conocida detrás, 50 estrellas o más, o uso medible en su registro de paquetes). Lo sustituido por otra entrada mantenida pasa a `DELETED.md` con el enlace a su sucesora.
 - Cada entrada debe seguir el formato: `- [Nombre](URL) - Descripción breve que empieza en mayúscula y termina con punto.`
 - Añade la entrada en **orden alfabético** dentro de la categoría correspondiente.
 - Comprueba que no hay **duplicados** ni errores tipográficos.
