@@ -64,21 +64,27 @@ La única excepción es el software publicado por un organismo oficial (un minis
 ```bash
 gh api repos/<owner>/<repo> --jq '{estrellas: .stargazers_count, creado: .created_at}'
 # Fecha del primer commit: la última página de commits, de uno en uno.
-# Para con error si la primera llamada falla o si hay más páginas sin enlace a la última,
+# Las dos llamadas leen el mismo SHA, así un commit nuevo no mueve la última página.
+# Para con error si una llamada falla, si hay más páginas sin enlace a la última o si no sale una fecha,
 # en vez de leer la página 1, que tiene el commit más reciente.
+# Solo lee la rama por defecto de este repositorio, ordenada por fecha de commit.
+# Si el proyecto se movió, o su historia se reescribió o une varios repositorios, busca a mano el primer commit, en el original si lo hay.
 (
-  h=$(gh api "repos/<owner>/<repo>/commits?per_page=1" -i) || exit 1
+  h=$(gh api "repos/<owner>/<repo>/commits?per_page=1" -i --jq '.[0].sha') || exit 1
+  sha=$(printf '%s\n' "$h" | tail -n 1)
   n=$(printf '%s\n' "$h" | sed -n 's/.*[?&]page=\([0-9]*\)>; rel="last".*/\1/p')
   if [ -z "$n" ] && printf '%s\n' "$h" | grep -q 'rel="next"'; then
     echo "No hay enlace a la última página: no se puede saber el primer commit." >&2; exit 1
   fi
-  gh api "repos/<owner>/<repo>/commits?per_page=1&page=${n:-1}" --jq '.[0].commit.author.date'
+  d=$(gh api "repos/<owner>/<repo>/commits?sha=$sha&per_page=1&page=${n:-1}" --jq '.[0].commit.author.date // empty') || exit 1
+  [ -n "$d" ] || { echo "No sale ninguna fecha: no se puede saber el primer commit." >&2; exit 1; }
+  echo "$d"
 )
 ```
 
 Respuesta al cerrar, en pocas líneas y sin pedir estrella:
 
-> Gracias por la propuesta. La cierro porque el repositorio todavía no llega al mínimo de la lista: 5 estrellas y 3 meses de historia. Cuando los tenga, vuelve a mandarlo y lo miro.
+> Gracias por la propuesta. La cierro porque el repositorio todavía no llega al mínimo de la lista: 5 estrellas y 3 meses de historia. Lo que falta: <las estrellas, la historia o las dos cosas>. Hoy tiene <N> estrellas y su primer commit es del <fecha>. Cuando llegue al mínimo, vuelve a mandarlo y lo miro.
 
 Si el motivo es que copia los datos de otro sitio sin el código que los genera, dilo en su lugar:
 
@@ -103,8 +109,8 @@ Si pasa el mínimo, comprobar:
 
 Se queda lo que funciona y no tiene un sustituto mantenido en la lista. La reputación decide quién tiene que demostrar qué. Nada se retira sin que Sergio lo apruebe.
 
-- **Archivado**: se retira siempre.
-- **Roto**: se retira, tenga la edad que tenga. Hay que enseñar el fallo: ejecutar el proyecto, o comprobar que el servicio que consume ya no responde como espera.
+- **Archivado o en solo lectura**: se retira siempre.
+- **Roto**: se retira, tenga la edad que tenga. Hay que enseñar el fallo: ejecutar el proyecto, comprobar que el servicio que consume ya no responde como espera o, si es un dataset, cotejar sus datos con la fuente oficial y señalar dónde no coinciden.
 - **Sustituido**: si otra entrada mantenida de la lista hace lo mismo, la vieja se retira aunque tenga reputación. Va a `DELETED.md` con el enlace a la que la sustituye.
 - **Sirve a un sistema retirado**: se retira aunque sea oficial.
 - **Viejo**: más de 3 años sin commits en la rama por defecto (no `pushed_at`, que las ramas de bots rejuvenecen). Si no es ninguno de los casos anteriores:
@@ -117,7 +123,7 @@ Reputación es una de estas tres cosas:
 - lo publica una organización conocida (rOpenSpain, Civio, Datadista, BSC/AINA…);
 - tiene uso real visible: estrellas, forks, o descargas o dependientes en su registro (PyPI, npm, Packagist, RubyGems, CRAN, NuGet, crates.io). No hay un número fijo: se juzga caso a caso.
 
-La revisión es trimestral. Lista las entradas con más de 3 años sin commits y revisa cada una con estos criterios; la tabla con la propuesta se le enseña a Sergio antes de mover nada a `DELETED.md`.
+La revisión es trimestral. Lista las entradas archivadas y las que llevan más de 3 años sin commits, y revisa cada una con estos criterios; la tabla con la propuesta se le enseña a Sergio antes de mover nada a `DELETED.md`. Una entrada más reciente que resulta rota, ligada a un sistema retirado o sustituida por una entrada mantenida entra en una propuesta en cuanto se detecta. El filtro de 3 años solo marca cuándo se revisa la antigüedad.
 
 ## Pull requests y contribuciones
 
