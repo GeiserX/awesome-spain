@@ -63,18 +63,43 @@ La única excepción es el software publicado por un organismo oficial (un minis
 
 ```bash
 gh api repos/<owner>/<repo> --jq '{estrellas: .stargazers_count, creado: .created_at}'
+# Fecha del primer commit: la última página de commits, de uno en uno.
+# Las dos llamadas leen el mismo SHA, así un commit nuevo no mueve la última página.
+# Para con error si una llamada falla, si hay más páginas sin enlace a la última o si no sale una fecha,
+# en vez de leer la página 1, que tiene el commit más reciente.
+# Solo lee la rama por defecto de este repositorio, ordenada por fecha de commit.
+# Si el proyecto se movió, o su historia se reescribió o une varios repositorios, busca a mano el primer commit, en el original si lo hay.
+(
+  h=$(gh api "repos/<owner>/<repo>/commits?per_page=1" -i --jq '.[0].sha') || exit 1
+  sha=$(printf '%s\n' "$h" | tail -n 1)
+  n=$(printf '%s\n' "$h" | sed -n 's/.*[?&]page=\([0-9]*\)>; rel="last".*/\1/p')
+  if [ -z "$n" ] && printf '%s\n' "$h" | grep -q 'rel="next"'; then
+    echo "No hay enlace a la última página: no se puede saber el primer commit." >&2; exit 1
+  fi
+  d=$(gh api "repos/<owner>/<repo>/commits?sha=$sha&per_page=1&page=${n:-1}" --jq '.[0].commit.author.date // empty') || exit 1
+  [ -n "$d" ] || { echo "No sale ninguna fecha: no se puede saber el primer commit." >&2; exit 1; }
+  echo "$d"
+)
 ```
 
 Respuesta al cerrar, en pocas líneas y sin pedir estrella:
 
-> Gracias por la propuesta. La cierro porque el repositorio todavía no llega al mínimo de la lista: 5 estrellas y 3 meses de historia. Cuando los tenga, vuelve a mandarlo y lo miro.
+> Gracias por la propuesta. La cierro porque el repositorio todavía no llega al mínimo de la lista: 5 estrellas y 3 meses de historia. Lo que falta: <las estrellas, la historia o las dos cosas>. Hoy tiene <N> estrellas y su primer commit es del <fecha>. Cuando llegue al mínimo, vuelve a mandarlo y lo miro.
+
+Si el motivo es que copia los datos de otro sitio sin el código que los genera, dilo en su lugar:
+
+> Gracias por la propuesta. La cierro porque el repositorio es una copia de datos publicados en otro sitio, sin el código que los genera, y la lista no recoge copias de datos sin ese código. Si publicas ese código, vuelve a mandarlo y lo miro.
+
+Si el motivo es que toda su historia son uno o dos commits del mismo día:
+
+> Gracias por la propuesta. La cierro porque toda la historia del repositorio son uno o dos commits del mismo día, y la lista solo recoge proyectos con algo de recorrido. Cuando tenga más historia, vuelve a mandarlo y lo miro.
 
 ## Verificación antes de añadir
 
 Si pasa el mínimo, comprobar:
 
 - **Existe y es público**: el enlace GitHub funciona y el repo no es privado.
-- **No está archivado ni en solo lectura**: si está archivado, va a `DELETED.md` (sección "Archivados").
+- **No está archivado ni en solo lectura**: si lo está, la PR se cierra sin añadirlo a ningún sitio; `DELETED.md` solo recoge lo que estuvo en la lista.
 - **Funciona hoy**: si **consume un servicio** (una API, una sede electrónica, una web que raspa), sigue haciéndolo. Si **no consume ninguno** (un validador de NIF, un lector de cuadernos AEB, una librería XAdES, un dataset), su lógica o sus datos siguen siendo correctos. Antes de fusionar, se ejecuta o se coteja con la fuente oficial.
 - **No es un duplicado**: cruzar con `README.md` y `DELETED.md`. Si ya hay una entrada mantenida que hace lo mismo, la nueva tiene que aportar algo más.
 - **Calidad mínima**: tiene documentación básica (README) y no es un repositorio vacío o de pruebas.
@@ -82,25 +107,30 @@ Si pasa el mínimo, comprobar:
 
 ## Permanencia: qué se queda y qué se retira
 
-Solo se queda el software que funciona y que tiene reputación o no tiene sustituto. Nada se retira sin que Sergio lo apruebe.
+Se queda lo que funciona y no tiene un sustituto mantenido en la lista. La reputación decide quién tiene que demostrar qué. Nada se retira sin que Sergio lo apruebe.
 
-- **Roto**: se retira, tenga la edad que tenga. Hay que enseñar el fallo: ejecutar el proyecto, o comprobar que el servicio que consume ya no responde como espera. Va a «Retirados por inactividad».
-- **Viejo y sin reputación**: más de 3 años sin commits en la rama por defecto (no `pushed_at`, que las ramas de bots rejuvenecen) y sin reputación. Se retira, salvo que siga funcionando y ninguna entrada mantenida de la lista haga lo mismo. Va a «Retirados por inactividad».
-- **Viejo y con reputación**: se queda mientras funcione. Reputación es una de estas tres cosas:
-  - lo publica un organismo oficial;
-  - lo publica una organización conocida (rOpenSpain, Civio, Datadista, BSC/AINA, Alastria…);
-  - tiene uso real visible: estrellas, forks, o descargas o dependientes en su registro (PyPI, npm, Packagist, RubyGems, CRAN, NuGet, crates.io). No hay un número fijo: se juzga caso a caso.
-- **Sustituido**: si otra entrada mantenida hace lo mismo, la vieja va a «Reemplazados», con el enlace a la que la sustituye.
-- **Sirve a un sistema retirado** (Radar COVID, el parte de hospedajes anterior a SES.HOSPEDAJES, 3DS1…): se retira aunque sea oficial.
+- **Archivado o en solo lectura**: se retira siempre.
+- **Roto**: se retira, tenga la edad que tenga. Hay que enseñar el fallo: ejecutar el proyecto, comprobar que el servicio que consume ya no responde como espera o, si es un dataset, cotejar sus datos con la fuente oficial y señalar dónde no coinciden.
+- **Sustituido**: si otra entrada mantenida de la lista hace lo mismo, la vieja se retira aunque tenga reputación. Va a `DELETED.md` con el enlace a la que la sustituye.
+- **Sirve a un sistema retirado**: se retira aunque sea oficial.
+- **Viejo**: más de 3 años sin commits en la rama por defecto (no `pushed_at`, que las ramas de bots rejuvenecen). Si no es ninguno de los casos anteriores:
+  - **con reputación**, se queda mientras no se demuestre que está roto;
+  - **sin reputación**, se queda solo si se comprueba que funciona hoy, ejecutándolo, cotejándolo con el servicio que consume o, si es un dataset, cotejando sus datos con la fuente oficial. Si no se puede comprobar, se retira.
 
-La revisión es trimestral. Lista las entradas con más de 3 años sin commits y revisa cada una con estos criterios; la tabla con la propuesta se le enseña a Sergio antes de mover nada a `DELETED.md`.
+Reputación es una de estas tres cosas:
+
+- lo publica un organismo oficial;
+- lo publica una organización conocida (rOpenSpain, Civio, Datadista, BSC/AINA…);
+- tiene uso real visible: estrellas, forks, o descargas o dependientes en su registro (PyPI, npm, Packagist, RubyGems, CRAN, NuGet, crates.io). No hay un número fijo: se juzga caso a caso.
+
+La revisión es trimestral. Lista las entradas archivadas y las que llevan más de 3 años sin commits, y revisa cada una con estos criterios; la tabla con la propuesta se le enseña a Sergio antes de mover nada a `DELETED.md`. Una entrada más reciente que resulta rota, ligada a un sistema retirado o sustituida por una entrada mantenida entra en una propuesta en cuanto se detecta. El filtro de 3 años solo marca cuándo se revisa la antigüedad.
 
 ## Pull requests y contribuciones
 
 - Las PRs deben usar la plantilla en `.github/PULL_REQUEST_TEMPLATE.md`.
 - **Obligatorio**: incluir en la PR la **URL del servicio, API o institución española** a la que el software da soporte (p.ej. aeat.es, renfe.com, catastro.meh.es). Esto permite verificar que el proyecto es relevante.
 - Hay issue templates para sugerir proyectos (`anadir-proyecto.md`) y para solicitar retirada (`retirar-proyecto.md`).
-- Si un repo está archivado o ya no existe, eliminarlo de la lista.
+- Si un repo está archivado o ya no existe, se propone retirarlo y pasa a `DELETED.md` cuando Sergio lo aprueba (ver «Permanencia»).
 
 ## Respuesta a quien abre una PR
 
