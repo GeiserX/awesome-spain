@@ -82,14 +82,14 @@ Si pasa el mínimo, comprobar:
 
 ## Permanencia: qué se queda y qué se retira
 
-Solo se queda el software que funciona y que tiene reputación. Nada se retira sin que Sergio lo apruebe.
+Solo se queda el software que funciona y que tiene reputación o no tiene sustituto. Nada se retira sin que Sergio lo apruebe.
 
 - **Roto**: se retira, tenga la edad que tenga. Hay que enseñar el fallo: ejecutar el proyecto, o comprobar que el servicio que consume ya no responde como espera. Va a «Retirados por inactividad».
-- **Viejo y sin reputación**: más de 3 años sin commits en la rama por defecto (no `pushed_at`, que las ramas de bots rejuvenecen) y sin reputación. Se retira aunque funcione. Va a «Retirados por inactividad».
+- **Viejo y sin reputación**: más de 3 años sin commits en la rama por defecto (no `pushed_at`, que las ramas de bots rejuvenecen) y sin reputación. Se retira, salvo que siga funcionando y ninguna entrada mantenida de la lista haga lo mismo. Va a «Retirados por inactividad».
 - **Viejo y con reputación**: se queda mientras funcione. Reputación es una de estas tres cosas:
   - lo publica un organismo oficial;
   - lo publica una organización conocida (rOpenSpain, Civio, Datadista, BSC/AINA, Alastria…);
-  - tiene uso real: 50 estrellas o más, o descargas o dependientes que se puedan medir en su registro (PyPI, npm, Packagist, RubyGems, CRAN, NuGet, crates.io).
+  - tiene uso real visible: estrellas, forks, o descargas o dependientes en su registro (PyPI, npm, Packagist, RubyGems, CRAN, NuGet, crates.io). No hay un número fijo: se juzga caso a caso.
 - **Sustituido**: si otra entrada mantenida hace lo mismo, la vieja va a «Reemplazados», con el enlace a la que la sustituye.
 - **Sirve a un sistema retirado** (Radar COVID, el parte de hospedajes anterior a SES.HOSPEDAJES, 3DS1…): se retira aunque sea oficial.
 
