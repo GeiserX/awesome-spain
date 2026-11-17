@@ -90,7 +90,7 @@ Se queda lo que funciona y no tiene un sustituto mantenido en la lista. La reput
 - **Sirve a un sistema retirado**: se retira aunque sea oficial.
 - **Viejo**: más de 3 años sin commits en la rama por defecto (no `pushed_at`, que las ramas de bots rejuvenecen). Si no es ninguno de los casos anteriores:
   - **con reputación**, se queda mientras no se demuestre que está roto;
-  - **sin reputación**, se queda solo si se comprueba que funciona hoy, ejecutándolo o cotejándolo con el servicio que consume. Si no se puede comprobar, se retira.
+  - **sin reputación**, se queda solo si se comprueba que funciona hoy, ejecutándolo, cotejándolo con el servicio que consume o, si es un dataset, cotejando sus datos con la fuente oficial. Si no se puede comprobar, se retira.
 
 Reputación es una de estas tres cosas:
 
