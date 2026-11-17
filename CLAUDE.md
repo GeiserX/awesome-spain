@@ -51,17 +51,49 @@ Las insignias se generan automáticamente con `scripts/transform-readme.py`. Par
 - Validar con awesome-lint-extra: `python3 lint.py` o mediante el workflow de CI.
 - Evitar el anglicismo «curar/curado» (de *curated*). Según la FundéuRAE, las alternativas preferidas son «selección», «recopilación» o «responsable de contenidos». Ver: https://www.fundeu.es/recomendacion/responsable-de-contenidos-mejor-que-content-curator/
 
+## Mínimo para entrar: rechazo directo
+
+La lista recoge software con recorrido. Una PR que propone un repositorio sin estrellas ni historia se cierra sin más revisión. Se rechaza si, el día que se abre la PR, el repositorio cumple **cualquiera** de estas condiciones:
+
+- Tiene **menos de 5 estrellas**.
+- Tiene **menos de 3 meses**. Cuenta la fecha del primer commit; si el autor lo movió desde otro repositorio, cuenta la del original.
+- Es **un volcado**: uno o dos commits del mismo día, o una copia de los datos de otra web sin el código que los genera.
+
+La única excepción es el software publicado por un organismo oficial (un ministerio, una comunidad autónoma, un ayuntamiento, `ctt-gob-es`): entra aunque sea nuevo.
+
+```bash
+gh api repos/<owner>/<repo> --jq '{estrellas: .stargazers_count, creado: .created_at}'
+```
+
+Respuesta al cerrar, en pocas líneas y sin pedir estrella:
+
+> Gracias por la propuesta. La cierro porque el repositorio todavía no llega al mínimo de la lista: 5 estrellas y 3 meses de historia. Cuando los tenga, vuelve a mandarlo y lo miro.
+
 ## Verificación antes de añadir
 
-Antes de incluir un repositorio, comprobar:
+Si pasa el mínimo, comprobar:
 
 - **Existe y es público**: el enlace GitHub funciona y el repo no es privado.
 - **No está archivado ni en solo lectura**: si está archivado, va a `DELETED.md` (sección "Archivados").
-- **Sigue haciendo su trabajo**: este es el criterio que decide. Si el proyecto **consume un servicio** (una API, una sede electrónica, una web que raspa), sigue haciéndolo hoy. Si **no consume ninguno** (un validador de NIF, un lector de cuadernos AEB, una librería XAdES, un dataset), basta con que su lógica siga siendo correcta: un formato o un algoritmo que no cambia no se rompe solo. Un proyecto estable y completo se queda aunque lleve años sin commits; uno que ya no funciona se retira aunque tenga commits de esta semana.
-- **La carga de la prueba es del que retira**: hay que enseñar el fallo, ejecutando el proyecto o comprobando que el servicio que consume ya no responde como espera. La falta de releases, de estrellas o de actividad no es un fallo. Si no se puede demostrar que está roto, se queda.
-- **La fecha del último commit es un aviso, no una sentencia**: más de 3 años sin actividad obliga a mirar el proyecto, nunca a retirarlo de forma automática. Y mirar el último commit de la rama por defecto, no `pushed_at`: las ramas de bots lo rejuvenecen sin que nadie mantenga nada.
-- **No es un duplicado**: cruzar con `README.md` y `DELETED.md` para evitar repeticiones.
+- **Funciona hoy**: si **consume un servicio** (una API, una sede electrónica, una web que raspa), sigue haciéndolo. Si **no consume ninguno** (un validador de NIF, un lector de cuadernos AEB, una librería XAdES, un dataset), su lógica o sus datos siguen siendo correctos. Antes de fusionar, se ejecuta o se coteja con la fuente oficial.
+- **No es un duplicado**: cruzar con `README.md` y `DELETED.md`. Si ya hay una entrada mantenida que hace lo mismo, la nueva tiene que aportar algo más.
 - **Calidad mínima**: tiene documentación básica (README) y no es un repositorio vacío o de pruebas.
+- **La descripción es fiel**: el lenguaje, el alcance y las etiquetas de servicio coinciden con lo que hace el repositorio.
+
+## Permanencia: qué se queda y qué se retira
+
+Solo se queda el software que funciona y que tiene reputación. Nada se retira sin que Sergio lo apruebe.
+
+- **Roto**: se retira, tenga la edad que tenga. Hay que enseñar el fallo: ejecutar el proyecto, o comprobar que el servicio que consume ya no responde como espera. Va a «Retirados por inactividad».
+- **Viejo y sin reputación**: más de 3 años sin commits en la rama por defecto (no `pushed_at`, que las ramas de bots rejuvenecen) y sin reputación. Se retira aunque funcione. Va a «Retirados por inactividad».
+- **Viejo y con reputación**: se queda mientras funcione. Reputación es una de estas tres cosas:
+  - lo publica un organismo oficial;
+  - lo publica una organización conocida (rOpenSpain, Civio, Datadista, BSC/AINA, Alastria…);
+  - tiene uso real: 50 estrellas o más, o descargas o dependientes que se puedan medir en su registro (PyPI, npm, Packagist, RubyGems, CRAN, NuGet, crates.io).
+- **Sustituido**: si otra entrada mantenida hace lo mismo, la vieja va a «Reemplazados», con el enlace a la que la sustituye.
+- **Sirve a un sistema retirado** (Radar COVID, el parte de hospedajes anterior a SES.HOSPEDAJES, 3DS1…): se retira aunque sea oficial.
+
+La revisión es trimestral. Lista las entradas con más de 3 años sin commits y revisa cada una con estos criterios; la tabla con la propuesta se le enseña a Sergio antes de mover nada a `DELETED.md`.
 
 ## Pull requests y contribuciones
 
@@ -81,6 +113,7 @@ Quien añade su proyecto a la lista quiere que se vea. Cuantas más estrellas ti
   Si no sale nada (o `gh` falla), usa la frase condicional «si no le has dado ya una estrella».
 - **PR fusionada:** da las gracias e invita a dar la estrella explicando qué gana con ello. Si ya la tiene, agradécela en vez de pedirla.
   > ¡Gracias, ya está en la lista! Si no le has dado ya una estrella ⭐ a awesome-spain, te animo a hacerlo: cuantas más estrellas tiene la lista, más arriba sale en GitHub y más gente descubre tu proyecto.
+- **PR cerrada por no llegar al mínimo:** usa la respuesta de «Mínimo para entrar». No hace falta revisar el código ni los datos.
 - **PR cerrada sin fusionar:** no se pide estrella por defecto, porque es pedir algo a cambio de un no. Solo se pide cuando le beneficia de verdad: la entrada pasa a otra de nuestras listas, o le invitas a volver cuando el proyecto cumpla los criterios.
 - Responde en el idioma en que escribió el autor (castellano por defecto), tuteando y en pocas líneas.
 
