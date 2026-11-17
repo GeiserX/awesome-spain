@@ -60,26 +60,26 @@ Las entradas nunca se borran sin más del README. Se mueven a `DELETED.md` en la
 | Razón | Sección en DELETED.md |
 |-------|-----------------------|
 | Repo archivado/solo lectura | Archivados |
-| Repo eliminado o renombrado | Repos inexistentes o renombrados |
-| Autor confirmó abandono | Abandonados |
+| Repo eliminado (si solo se renombró, se queda y se actualiza el enlace) | Repos inexistentes o renombrados |
+| Autor confirmó abandono y ya no funciona | Abandonados |
 | No cumple criterios de inclusión | Eliminados por no ser específicos de España |
 | Sustituido por otro proyecto | Reemplazados (enlazar sucesor) |
-| Roto, viejo sin reputación que no se puede comprobar, o ligado a un sistema retirado | Retirados por inactividad (indicar cómo se comprobó) |
+| Roto, viejo sin reputación que no se puede comprobar, o ligado a un sistema retirado | Retirados en la revisión (indicar el motivo y cómo se comprobó) |
 
 Si el repo aún no tiene `DELETED.md`, crearlo con las secciones anteriores la primera vez que se retire un proyecto.
 
 ## Mantenimiento periódico
 
 - **Semanal:** una comprobación compartida por todas las listas revisa cada lunes todos los enlaces del README desde España (muchas webs oficiales no responden a los runners de GitHub) y mantiene abierta una sola issue «Dead links» con los que siguen fallando en una segunda pasada cinco minutos después. Corregir o eliminar esos enlaces; la issue se cierra sola en la siguiente ejecución limpia.
-- **Trimestral:** Revisar las entradas con más de 3 años sin commits en la rama por defecto con los criterios de «Permanencia» de `CLAUDE.md`: las archivadas, rotas, sustituidas por una entrada mantenida o ligadas a un sistema retirado se retiran; las demás se quedan si tienen reputación, o si no la tienen pero se comprueba que funcionan (ejecutándolas, o cotejando sus datos con la fuente oficial). La propuesta de retiradas se aprueba antes de tocar `DELETED.md`. Refrescar insignias (`gather-metadata.sh` + `transform-readme.py`). Comprobar si hay repos recién archivados:
+- **Trimestral:** Revisar las entradas con más de 3 años sin commits en la rama por defecto con los criterios de «Permanencia» de `CLAUDE.md`: las archivadas, rotas, sustituidas por una entrada mantenida o ligadas a un sistema retirado se retiran; las demás se quedan si tienen reputación, o si no la tienen pero se comprueba que funcionan (ejecutándolas, cotejándolas con el servicio que consumen o cotejando sus datos con la fuente oficial). La propuesta de retiradas se aprueba antes de tocar `DELETED.md`. Refrescar insignias (`gather-metadata.sh` + `transform-readme.py`). Comprobar si hay repos recién archivados:
   ```bash
   grep -oE 'https://github\.com/[^/)]+/[^/)]+' README.md | sort -u | while read url; do
     repo="${url#https://github.com/}"
-    archived=$(gh api "repos/$repo" --jq '.archived' 2>/dev/null)
+    archived=$(gh api "repos/$repo" --jq '.archived') || { echo "ERROR: no se pudo consultar $repo" >&2; continue; }
     [ "$archived" = "true" ] && echo "ARCHIVADO: $repo"
   done
   ```
-  Mover los archivados a `DELETED.md`.
+  Los archivados entran en esa misma propuesta y pasan a `DELETED.md` cuando se aprueba.
 
 ## Herramientas
 
