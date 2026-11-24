@@ -42,9 +42,9 @@ Exit 1 on any of these, each printed as one ERROR line:
   - a site_url, or the canonical link standing in for it, that is not an absolute http(s) URL.
 And, from zensical.toml (Zensical drops what it does not know without a word; under MkDocs
 strict an unknown plugin aborted the build):
-  - a plugin name Zensical 0.1.0 does not know (`redirect` for `redirects`, `llmstxtt`): the
+  - a plugin name Zensical 0.1.3 does not know (`redirect` for `redirects`, `llmstxtt`): the
     plugin's whole output silently vanishes otherwise;
-  - a theme feature name the Zensical UI 0.0.41 does not know (the list below is what its
+  - a theme feature name the Zensical UI 0.0.43 does not know (the list below is what its
     templates and bundle test for; `search.suggest` and `search.share` are not in it);
   - `theme.variant` other than "modern" or "classic" (anything else is classic, silently),
     and a modern config (the default) whose index.html does not load the modern stylesheet;
@@ -72,17 +72,18 @@ VOID = {"area", "base", "br", "col", "embed", "hr", "img", "input", "link", "met
 TOKEN = re.compile(r"<!--\s*n:(?:proyectos|categorias|retirados)\s*-->")
 STUB = "Redirecting..."  # the <title> of a Zensical redirect stub
 
-# Keys of _PLUGIN_UNSUPPORTED_OPTIONS in zensical/config.py (0.1.0, same set as 0.0.74): every other name is
+# Keys of _PLUGIN_UNSUPPORTED_OPTIONS in zensical/config.py (0.1.3): every other name is
 # dropped by `_convert_plugins` without a message. `material/` prefixes and `social/<x>`,
 # `privacy/<x>`, `optimize/<x>` instance names canonicalise the same way Zensical does.
 KNOWN_PLUGINS = {
     "api-autonav", "autorefs", "awesome-nav", "blog", "callouts", "exclude", "gh-admonitions",
-    "glightbox", "include-markdown", "literate-nav", "llmstxt", "macros", "markdown-exec",
-    "markdownextradata", "meta", "mike", "minify", "mkdocs-audio", "mkdocs-autoapi",
-    "mkdocs-nav-weight", "mkdocs-video", "mkdocstrings", "offline", "optimize", "privacy",
-    "redirects", "rss", "search", "social", "table-reader", "tags",
+    "git-revision-date-localized", "glightbox", "include-markdown", "literate-nav", "llmstxt",
+    "macros", "markdown-exec", "markdownextradata", "meta", "meta-descriptions", "mike",
+    "minify", "mkdocs-audio", "mkdocs-autoapi", "mkdocs-nav-weight", "mkdocs-video",
+    "mkdocstrings", "offline", "optimize", "privacy", "redirects", "rss", "search", "social",
+    "table-reader", "tags",
 }
-# Feature names the shipped UI tests for (zensical_ui 0.0.41, read from its templates and
+# Feature names the shipped UI tests for (zensical_ui 0.0.43, read from its templates and
 # bundle.*.min.js). Regenerate after a bump with:
 #   grep -rhoE '"[a-z]+(\.[a-z]+)+" in features' <site-packages>/zensical_ui/templates | sort -u
 #   grep -oE '"(navigation|content|search|toc|header|announce)\.[a-z.]+"' .../bundle.*.min.js | sort -u
